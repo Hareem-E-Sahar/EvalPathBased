@@ -1,0 +1,165 @@
+num tasks SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num tasks
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation SimpleName num tasks
+key a SimpleName MethodInvocation SimpleName num tasks
+job SimpleName VariableDeclarationFragment MethodInvocation SimpleName make job
+job SimpleName VariableDeclarationFragment MethodInvocation SimpleName key a
+job SimpleName VariableDeclarationFragment MethodInvocation SimpleName num tasks
+sanitized configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation SimpleName job
+create job SimpleName MethodInvocation SimpleName job
+assert task count SimpleName MethodInvocation SimpleName num tasks
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key a
+job scoped SimpleName MethodInvocation SimpleName key a
+storageutil QualifiedName MethodInvocation SimpleName consistent fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName query
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName job scoped
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName key a
+consistent fetch tasks SimpleName MethodInvocation SimpleName storage
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName job scoped
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName key a
+storage SimpleName MethodInvocation MethodInvocation SimpleName query
+storage SimpleName MethodInvocation MethodInvocation SimpleName job scoped
+storage SimpleName MethodInvocation MethodInvocation SimpleName key a
+tasks SimpleName VariableDeclarationFragment MethodInvocation QualifiedName storageutil
+tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName consistent fetch tasks
+tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName storage
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job scoped
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key a
+tasks SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName num tasks
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tasks
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+num tasks SimpleName MethodInvocation MethodInvocation SimpleName tasks
+num tasks SimpleName MethodInvocation MethodInvocation SimpleName size
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName state
+state SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation SimpleName pending
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName state
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+pending SimpleName MethodInvocation MethodInvocation SimpleName state
+pending SimpleName MethodInvocation MethodInvocation SimpleName get status
+state SimpleName MethodInvocation SimpleName get assigned task
+state SimpleName MethodInvocation MethodInvocation SimpleName is set task id
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName is set task id
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is set task id
+state SimpleName MethodInvocation SimpleName get assigned task
+state SimpleName MethodInvocation MethodInvocation SimpleName is set slave id
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName is set slave id
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+assert false SimpleName MethodInvocation MethodInvocation SimpleName is set slave id
+job SimpleName MethodInvocation SimpleName get job config
+validate and populate SimpleName MethodInvocation MethodInvocation SimpleName job
+validate and populate SimpleName MethodInvocation MethodInvocation SimpleName get job config
+validate and populate SimpleName MethodInvocation MethodInvocation SimpleName get task config
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task config
+get job config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task config
+state SimpleName MethodInvocation SimpleName get assigned task
+state SimpleName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName validate and populate
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get task config
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get task
+get task config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+i scheduled task SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName tasks
+state SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName tasks
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+range SimpleName MethodInvocation SimpleName closed open
+range SimpleName MethodInvocation NumberLiteral empty
+range SimpleName MethodInvocation SimpleName num tasks
+closed open SimpleName MethodInvocation NumberLiteral empty
+closed open SimpleName MethodInvocation SimpleName num tasks
+empty NumberLiteral MethodInvocation SimpleName num tasks
+discrete domain SimpleName MethodInvocation SimpleName integers
+contiguous set SimpleName MethodInvocation SimpleName create
+contiguous set SimpleName MethodInvocation MethodInvocation SimpleName range
+contiguous set SimpleName MethodInvocation MethodInvocation SimpleName closed open
+contiguous set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+contiguous set SimpleName MethodInvocation MethodInvocation SimpleName num tasks
+contiguous set SimpleName MethodInvocation MethodInvocation SimpleName discrete domain
+contiguous set SimpleName MethodInvocation MethodInvocation SimpleName integers
+create SimpleName MethodInvocation MethodInvocation SimpleName range
+create SimpleName MethodInvocation MethodInvocation SimpleName closed open
+create SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create SimpleName MethodInvocation MethodInvocation SimpleName num tasks
+create SimpleName MethodInvocation MethodInvocation SimpleName discrete domain
+create SimpleName MethodInvocation MethodInvocation SimpleName integers
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName discrete domain
+range SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integers
+closed open SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName discrete domain
+closed open SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integers
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName discrete domain
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName integers
+num tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName discrete domain
+num tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName integers
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName contiguous set
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName create
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName range
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName closed open
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName num tasks
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName discrete domain
+expected instance ids SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName integers
+fluent iterable SimpleName MethodInvocation SimpleName from
+fluent iterable SimpleName MethodInvocation SimpleName tasks
+from SimpleName MethodInvocation SimpleName tasks
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName transform
+from SimpleName MethodInvocation MethodInvocation SimpleName transform
+tasks SimpleName MethodInvocation MethodInvocation SimpleName transform
+fluent iterable SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to instance id
+from SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to instance id
+tasks SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to instance id
+transform SimpleName MethodInvocation QualifiedName tasksscheduled to instance id
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+transform SimpleName MethodInvocation MethodInvocation SimpleName to set
+tasksscheduled to instance id QualifiedName MethodInvocation MethodInvocation SimpleName to set
+assert equals SimpleName MethodInvocation SimpleName expected instance ids
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to instance id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to set
+expected instance ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+expected instance ids SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to instance id
+expected instance ids SimpleName MethodInvocation MethodInvocation SimpleName to set
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create job
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create job
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName tasks
+void PrimitiveType MethodDeclaration SimpleName test create job
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName tasks
+test create job SimpleName MethodDeclaration SimpleType SimpleName exception
+test create job SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test create job SimpleName MethodDeclaration Block EnhancedForStatement SimpleName tasks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

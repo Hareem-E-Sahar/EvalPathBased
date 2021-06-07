@@ -1,0 +1,67 @@
+request static injection SimpleName MethodInvocation TypeLiteral SimpleType SimpleName agent resource
+request static injection SimpleName MethodInvocation TypeLiteral SimpleType SimpleName certificate download
+request static injection SimpleName MethodInvocation TypeLiteral SimpleType SimpleName certificate sign
+request static injection SimpleName MethodInvocation TypeLiteral SimpleType SimpleName get resource
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clusters
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clusters impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName action db accessor
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName action db in memory impl
+names SimpleName MethodInvocation SimpleName named
+names SimpleName MethodInvocation StringLiteral scheduler sleeptime
+named SimpleName MethodInvocation StringLiteral scheduler sleeptime
+bind constant SimpleName MethodInvocation MethodInvocation SimpleName annotated with
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName names
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName named
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral scheduler sleeptime
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName names
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName named
+annotated with SimpleName MethodInvocation MethodInvocation StringLiteral scheduler sleeptime
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName to
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+named SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+scheduler sleeptime StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+annotated with SimpleName MethodInvocation MethodInvocation NumberLiteral l
+names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+named SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+scheduler sleeptime StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+to SimpleName MethodInvocation NumberLiteral l
+names SimpleName MethodInvocation SimpleName named
+names SimpleName MethodInvocation StringLiteral action timeout
+named SimpleName MethodInvocation StringLiteral action timeout
+bind constant SimpleName MethodInvocation MethodInvocation SimpleName annotated with
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName names
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName named
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral action timeout
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName names
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName named
+annotated with SimpleName MethodInvocation MethodInvocation StringLiteral action timeout
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName to
+names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+named SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+action timeout StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to
+bind constant SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+annotated with SimpleName MethodInvocation MethodInvocation NumberLiteral l
+names SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+named SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+action timeout StringLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+to SimpleName MethodInvocation NumberLiteral l
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

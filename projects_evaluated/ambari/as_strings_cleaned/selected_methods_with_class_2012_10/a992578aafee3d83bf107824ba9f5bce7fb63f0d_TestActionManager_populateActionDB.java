@@ -1,0 +1,91 @@
+action db accessor SimpleName SimpleType SingleVariableDeclaration SimpleName db
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+stage SimpleName SimpleType ClassInstanceCreation SimpleName request id
+stage SimpleName SimpleType ClassInstanceCreation StringLiteral ab
+stage SimpleName SimpleType ClassInstanceCreation StringLiteral cluster
+request id SimpleName ClassInstanceCreation StringLiteral ab
+request id SimpleName ClassInstanceCreation StringLiteral cluster
+ab StringLiteral ClassInstanceCreation StringLiteral cluster
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stage
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName request id
+s SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral ab
+s SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral cluster
+stage SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName set stage id
+s SimpleName MethodInvocation SimpleName stage id
+set stage id SimpleName MethodInvocation SimpleName stage id
+host action SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+ha SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host action
+ha SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hostname
+host action SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ha
+rolehbase master QualifiedName MethodInvocation SimpleName to string
+system SimpleName MethodInvocation SimpleName current time millis
+service component host start event SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName rolehbase master
+service component host start event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+service component host start event SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+service component host start event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+service component host start event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+rolehbase master QualifiedName MethodInvocation ClassInstanceCreation SimpleName hostname
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+rolehbase master QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+rolehbase master QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName system
+to string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName current time millis
+hostname SimpleName ClassInstanceCreation MethodInvocation SimpleName system
+hostname SimpleName ClassInstanceCreation MethodInvocation SimpleName current time millis
+host role command SimpleName SimpleType ClassInstanceCreation QualifiedName rolehbase master
+host role command SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName hostname
+rolehbase master QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName service component host start event
+rolehbase master QualifiedName ClassInstanceCreation ClassInstanceCreation MethodInvocation QualifiedName rolehbase master
+rolehbase master QualifiedName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName to string
+rolehbase master QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleName hostname
+rolehbase master QualifiedName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName system
+rolehbase master QualifiedName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName current time millis
+cmd SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host role command
+cmd SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName rolehbase master
+cmd SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName hostname
+host role command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+ha SimpleName MethodInvocation SimpleName add host role command
+ha SimpleName MethodInvocation SimpleName cmd
+add host role command SimpleName MethodInvocation SimpleName cmd
+s SimpleName MethodInvocation SimpleName add host action
+s SimpleName MethodInvocation SimpleName hostname
+s SimpleName MethodInvocation SimpleName ha
+add host action SimpleName MethodInvocation SimpleName hostname
+add host action SimpleName MethodInvocation SimpleName ha
+hostname SimpleName MethodInvocation SimpleName ha
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+stages SimpleName MethodInvocation SimpleName add
+stages SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+db SimpleName MethodInvocation SimpleName persist actions
+db SimpleName MethodInvocation SimpleName stages
+persist actions SimpleName MethodInvocation SimpleName stages
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName populate action db
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action db accessor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName db
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SimpleName populate action db
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action db accessor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName db
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+populate action db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action db accessor
+populate action db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName db
+populate action db SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+populate action db SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+db SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName populate action db
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName populate action db
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName db
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

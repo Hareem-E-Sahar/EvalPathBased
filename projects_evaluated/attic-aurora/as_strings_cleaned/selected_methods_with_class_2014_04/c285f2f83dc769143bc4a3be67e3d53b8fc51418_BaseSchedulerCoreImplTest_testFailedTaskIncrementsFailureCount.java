@@ -1,0 +1,180 @@
+max failures SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max failures
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+max failures SimpleName InfixExpression NumberLiteral empty
+expect task not throttled SimpleName MethodInvocation MethodInvocation SimpleName times
+expect task not throttled SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max failures
+expect task not throttled SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+times SimpleName MethodInvocation InfixExpression SimpleName max failures
+times SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cron job manager SimpleName MethodInvocation SimpleName has job
+cron job manager SimpleName MethodInvocation SimpleName key a
+has job SimpleName MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName has job
+expect SimpleName MethodInvocation MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+control SimpleName MethodInvocation SimpleName replay
+production task SimpleName MethodInvocation MethodInvocation SimpleName set max task failures
+production task SimpleName MethodInvocation MethodInvocation SimpleName max failures
+set max task failures SimpleName MethodInvocation SimpleName max failures
+task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName production task
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName set max task failures
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName max failures
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation SimpleName task
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation SimpleName task
+key a SimpleName MethodInvocation NumberLiteral empty
+task SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName task
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation SimpleName task
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert task count SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key a
+job scoped SimpleName MethodInvocation SimpleName key a
+get tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+get tasks SimpleName MethodInvocation MethodInvocation SimpleName job scoped
+get tasks SimpleName MethodInvocation MethodInvocation SimpleName key a
+get tasks SimpleName MethodInvocation MethodInvocation SimpleName size
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+job scoped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tasks
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get tasks
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max failures
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key a
+job scoped SimpleName MethodInvocation SimpleName key a
+query SimpleName MethodInvocation MethodInvocation SimpleName active
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName active
+key a SimpleName MethodInvocation MethodInvocation SimpleName active
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job scoped
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+get only task SimpleName MethodInvocation MethodInvocation SimpleName active
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+change status SimpleName MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName assigned
+change status SimpleName MethodInvocation SimpleName starting
+change status SimpleName MethodInvocation SimpleName running
+task id SimpleName MethodInvocation SimpleName assigned
+task id SimpleName MethodInvocation SimpleName starting
+task id SimpleName MethodInvocation SimpleName running
+assigned SimpleName MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation SimpleName running
+starting SimpleName MethodInvocation SimpleName running
+i SimpleName InfixExpression NumberLiteral empty
+get task SimpleName MethodInvocation SimpleName task id
+get task SimpleName MethodInvocation MethodInvocation SimpleName get failure count
+task id SimpleName MethodInvocation MethodInvocation SimpleName get failure count
+assert equals SimpleName MethodInvocation InfixExpression SimpleName i
+assert equals SimpleName MethodInvocation InfixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get failure count
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get failure count
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get failure count
+change status SimpleName MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName failed
+task id SimpleName MethodInvocation SimpleName failed
+i SimpleName InfixExpression SimpleName max failures
+i SimpleName InfixExpression NumberLiteral empty
+assert task count SimpleName MethodInvocation InfixExpression SimpleName i
+assert task count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+query SimpleName MethodInvocation SimpleName unscoped
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+get only task SimpleName MethodInvocation MethodInvocation SimpleName by status
+get only task SimpleName MethodInvocation MethodInvocation SimpleName pending
+rescheduled SimpleName VariableDeclarationFragment MethodInvocation SimpleName get only task
+rescheduled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName by status
+rescheduled SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName pending
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rescheduled
+rescheduled SimpleName MethodInvocation SimpleName get failure count
+assert equals SimpleName MethodInvocation SimpleName i
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName rescheduled
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get failure count
+i SimpleName MethodInvocation MethodInvocation SimpleName rescheduled
+i SimpleName MethodInvocation MethodInvocation SimpleName get failure count
+assert task count SimpleName MethodInvocation SimpleName max failures
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max failures
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max failures SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+get tasks by status SimpleName MethodInvocation SimpleName failed
+get tasks by status SimpleName MethodInvocation MethodInvocation SimpleName size
+failed SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation SimpleName max failures
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tasks by status
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName failed
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+max failures SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tasks by status
+max failures SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName failed
+max failures SimpleName MethodInvocation MethodInvocation SimpleName size
+get tasks by status SimpleName MethodInvocation SimpleName pending
+get tasks by status SimpleName MethodInvocation MethodInvocation SimpleName is empty
+pending SimpleName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tasks by status
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test failed task increments failure count
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test failed task increments failure count
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName test failed task increments failure count
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+test failed task increments failure count SimpleName MethodDeclaration SimpleType SimpleName exception
+test failed task increments failure count SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test failed task increments failure count
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test failed task increments failure count
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

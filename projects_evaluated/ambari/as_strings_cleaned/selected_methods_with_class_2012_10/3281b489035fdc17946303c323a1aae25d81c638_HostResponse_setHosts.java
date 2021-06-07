@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName per host response
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hosts
+per host response SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hosts
+hosts SimpleName FieldAccess Assignment SimpleName hosts
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set hosts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hosts
+void PrimitiveType MethodDeclaration SimpleName set hosts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hosts
+set hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hosts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set hosts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set hosts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hosts

@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+host components SimpleName FieldAccess MethodInvocation SimpleName get
+host components SimpleName FieldAccess MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation SimpleName hostname
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName service component host
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get service component host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration SimpleType SimpleName service component host
+public Modifier MethodDeclaration SimpleName get service component host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+service component host SimpleName SimpleType MethodDeclaration SimpleName get service component host
+service component host SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service component host
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service component host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service component host
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service component host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

@@ -1,0 +1,153 @@
+db SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName action db in memory impl
+action db accessor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+action manager SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+action manager SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+action manager SimpleName SimpleType ClassInstanceCreation SimpleName db
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName action queue
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName clusters impl
+empty NumberLiteral ClassInstanceCreation SimpleName db
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName action queue
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName clusters impl
+empty NumberLiteral ClassInstanceCreation SimpleName db
+action queue SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName db
+clusters impl SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName db
+am SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName action manager
+am SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+am SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+am SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName db
+action manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName am
+hostname SimpleName VariableDeclarationFragment StringLiteral host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral host
+populate action db SimpleName MethodInvocation SimpleName db
+populate action db SimpleName MethodInvocation SimpleName hostname
+db SimpleName MethodInvocation SimpleName hostname
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName command report
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName command report
+cr SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName command report
+command report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cr
+stage utils SimpleName MethodInvocation SimpleName get action id
+stage utils SimpleName MethodInvocation SimpleName request id
+stage utils SimpleName MethodInvocation SimpleName stage id
+get action id SimpleName MethodInvocation SimpleName request id
+get action id SimpleName MethodInvocation SimpleName stage id
+request id SimpleName MethodInvocation SimpleName stage id
+cr SimpleName MethodInvocation SimpleName set action id
+cr SimpleName MethodInvocation MethodInvocation SimpleName stage utils
+cr SimpleName MethodInvocation MethodInvocation SimpleName get action id
+cr SimpleName MethodInvocation MethodInvocation SimpleName request id
+cr SimpleName MethodInvocation MethodInvocation SimpleName stage id
+set action id SimpleName MethodInvocation MethodInvocation SimpleName stage utils
+set action id SimpleName MethodInvocation MethodInvocation SimpleName get action id
+set action id SimpleName MethodInvocation MethodInvocation SimpleName request id
+set action id SimpleName MethodInvocation MethodInvocation SimpleName stage id
+cr SimpleName MethodInvocation SimpleName set role
+cr SimpleName MethodInvocation StringLiteral hbase master
+set role SimpleName MethodInvocation StringLiteral hbase master
+cr SimpleName MethodInvocation SimpleName set status
+cr SimpleName MethodInvocation StringLiteral completed
+set status SimpleName MethodInvocation StringLiteral completed
+cr SimpleName MethodInvocation SimpleName set exit code
+cr SimpleName MethodInvocation NumberLiteral empty
+set exit code SimpleName MethodInvocation NumberLiteral empty
+reports SimpleName MethodInvocation SimpleName add
+reports SimpleName MethodInvocation SimpleName cr
+add SimpleName MethodInvocation SimpleName cr
+am SimpleName MethodInvocation SimpleName action response
+am SimpleName MethodInvocation SimpleName hostname
+am SimpleName MethodInvocation SimpleName reports
+action response SimpleName MethodInvocation SimpleName hostname
+action response SimpleName MethodInvocation SimpleName reports
+hostname SimpleName MethodInvocation SimpleName reports
+am SimpleName MethodInvocation SimpleName get action
+am SimpleName MethodInvocation SimpleName request id
+am SimpleName MethodInvocation SimpleName stage id
+get action SimpleName MethodInvocation SimpleName request id
+get action SimpleName MethodInvocation SimpleName stage id
+request id SimpleName MethodInvocation SimpleName stage id
+am SimpleName MethodInvocation MethodInvocation SimpleName get host action
+get action SimpleName MethodInvocation MethodInvocation SimpleName get host action
+request id SimpleName MethodInvocation MethodInvocation SimpleName get host action
+stage id SimpleName MethodInvocation MethodInvocation SimpleName get host action
+am SimpleName MethodInvocation MethodInvocation SimpleName hostname
+get action SimpleName MethodInvocation MethodInvocation SimpleName hostname
+request id SimpleName MethodInvocation MethodInvocation SimpleName hostname
+stage id SimpleName MethodInvocation MethodInvocation SimpleName hostname
+get host action SimpleName MethodInvocation SimpleName hostname
+am SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+get action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+stage id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+get host action SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+hostname SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+get host action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get role commands SimpleName MethodInvocation MethodInvocation SimpleName get
+get host action SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+hostname SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get role commands SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get role commands SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get exit code
+get SimpleName MethodInvocation MethodInvocation SimpleName get exit code
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get exit code
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get exit code
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get exit code
+am SimpleName MethodInvocation SimpleName get action
+am SimpleName MethodInvocation SimpleName request id
+am SimpleName MethodInvocation SimpleName stage id
+get action SimpleName MethodInvocation SimpleName request id
+get action SimpleName MethodInvocation SimpleName stage id
+request id SimpleName MethodInvocation SimpleName stage id
+am SimpleName MethodInvocation MethodInvocation SimpleName get host action
+get action SimpleName MethodInvocation MethodInvocation SimpleName get host action
+request id SimpleName MethodInvocation MethodInvocation SimpleName get host action
+stage id SimpleName MethodInvocation MethodInvocation SimpleName get host action
+am SimpleName MethodInvocation MethodInvocation SimpleName hostname
+get action SimpleName MethodInvocation MethodInvocation SimpleName hostname
+request id SimpleName MethodInvocation MethodInvocation SimpleName hostname
+stage id SimpleName MethodInvocation MethodInvocation SimpleName hostname
+get host action SimpleName MethodInvocation SimpleName hostname
+am SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+get action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+stage id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+get host action SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+hostname SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+get host action SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get role commands SimpleName MethodInvocation MethodInvocation SimpleName get
+get host action SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+hostname SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get role commands SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+get role commands SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+get SimpleName MethodInvocation MethodInvocation SimpleName get status
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation QualifiedName host role statuscompleted
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+host role statuscompleted QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+host role statuscompleted QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+host role statuscompleted QualifiedName MethodInvocation MethodInvocation SimpleName get status
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test action response
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test action response
+void PrimitiveType MethodDeclaration SimpleName test action response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test action response
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test action response

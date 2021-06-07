@@ -1,0 +1,36 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+slave id SimpleName SimpleType SingleVariableDeclaration SimpleName slave id
+reservations SimpleName MethodInvocation SimpleName get if present
+reservations SimpleName MethodInvocation SimpleName slave id
+get if present SimpleName MethodInvocation SimpleName slave id
+optional SimpleName MethodInvocation SimpleName from nullable
+optional SimpleName MethodInvocation MethodInvocation SimpleName reservations
+optional SimpleName MethodInvocation MethodInvocation SimpleName get if present
+optional SimpleName MethodInvocation MethodInvocation SimpleName slave id
+from nullable SimpleName MethodInvocation MethodInvocation SimpleName reservations
+from nullable SimpleName MethodInvocation MethodInvocation SimpleName get if present
+from nullable SimpleName MethodInvocation MethodInvocation SimpleName slave id
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName optional
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get slave reservation
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slave id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName slave id
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName optional
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName get slave reservation
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slave id
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName slave id
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get slave reservation
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get slave reservation
+get slave reservation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slave id
+get slave reservation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName slave id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get slave reservation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get slave reservation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave id

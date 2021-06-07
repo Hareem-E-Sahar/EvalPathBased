@@ -1,0 +1,144 @@
+storage util SimpleName MethodInvocation SimpleName expect operations
+expect task still pending query SimpleName MethodInvocation SimpleName task a
+expect active job fetch SimpleName MethodInvocation SimpleName task a
+expect assigned SimpleName MethodInvocation SimpleName task a
+expect assigned SimpleName MethodInvocation SimpleName no reservation
+task a SimpleName MethodInvocation SimpleName no reservation
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName and return
+task a SimpleName MethodInvocation MethodInvocation SimpleName and return
+no reservation SimpleName MethodInvocation MethodInvocation SimpleName and return
+expect assigned SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+task a SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+no reservation SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+expect as map SimpleName MethodInvocation SimpleName no reservation
+expect no reservation SimpleName MethodInvocation SimpleName task a
+optional SimpleName MethodInvocation SimpleType SimpleName string
+optional SimpleName MethodInvocation SimpleName absent
+string SimpleName SimpleType MethodInvocation SimpleName absent
+expect preemptor call SimpleName MethodInvocation SimpleName task a
+expect preemptor call SimpleName MethodInvocation MethodInvocation SimpleName optional
+expect preemptor call SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+expect preemptor call SimpleName MethodInvocation MethodInvocation SimpleName absent
+task a SimpleName MethodInvocation MethodInvocation SimpleName optional
+task a SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+task a SimpleName MethodInvocation MethodInvocation SimpleName absent
+expect task still pending query SimpleName MethodInvocation SimpleName task a
+expect active job fetch SimpleName MethodInvocation SimpleName task a
+expect assigned SimpleName MethodInvocation SimpleName task a
+expect assigned SimpleName MethodInvocation SimpleName no reservation
+task a SimpleName MethodInvocation SimpleName no reservation
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName and return
+task a SimpleName MethodInvocation MethodInvocation SimpleName and return
+no reservation SimpleName MethodInvocation MethodInvocation SimpleName and return
+expect assigned SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+task a SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+no reservation SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+expect as map SimpleName MethodInvocation SimpleName no reservation
+expect no reservation SimpleName MethodInvocation SimpleName task a
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName slave id
+of SimpleName MethodInvocation SimpleName slave id
+expect preemptor call SimpleName MethodInvocation SimpleName task a
+expect preemptor call SimpleName MethodInvocation MethodInvocation SimpleName optional
+expect preemptor call SimpleName MethodInvocation MethodInvocation SimpleName of
+expect preemptor call SimpleName MethodInvocation MethodInvocation SimpleName slave id
+task a SimpleName MethodInvocation MethodInvocation SimpleName optional
+task a SimpleName MethodInvocation MethodInvocation SimpleName of
+task a SimpleName MethodInvocation MethodInvocation SimpleName slave id
+expect add reservation SimpleName MethodInvocation SimpleName task a
+expect add reservation SimpleName MethodInvocation SimpleName slave id
+task a SimpleName MethodInvocation SimpleName slave id
+expect task still pending query SimpleName MethodInvocation SimpleName task a
+expect active job fetch SimpleName MethodInvocation SimpleName task a
+immutable map SimpleName MethodInvocation SimpleName of
+immutable map SimpleName MethodInvocation SimpleName slave id
+immutable map SimpleName MethodInvocation SimpleName group key
+of SimpleName MethodInvocation SimpleName slave id
+of SimpleName MethodInvocation SimpleName group key
+slave id SimpleName MethodInvocation SimpleName group key
+expect as map SimpleName MethodInvocation MethodInvocation SimpleName immutable map
+expect as map SimpleName MethodInvocation MethodInvocation SimpleName of
+expect as map SimpleName MethodInvocation MethodInvocation SimpleName slave id
+expect as map SimpleName MethodInvocation MethodInvocation SimpleName group key
+immutable map SimpleName MethodInvocation SimpleName of
+immutable map SimpleName MethodInvocation SimpleName slave id
+immutable map SimpleName MethodInvocation SimpleName group key
+of SimpleName MethodInvocation SimpleName slave id
+of SimpleName MethodInvocation SimpleName group key
+slave id SimpleName MethodInvocation SimpleName group key
+expect assigned SimpleName MethodInvocation SimpleName task a
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName immutable map
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName of
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName slave id
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName group key
+task a SimpleName MethodInvocation MethodInvocation SimpleName immutable map
+task a SimpleName MethodInvocation MethodInvocation SimpleName of
+task a SimpleName MethodInvocation MethodInvocation SimpleName slave id
+task a SimpleName MethodInvocation MethodInvocation SimpleName group key
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName and return
+task a SimpleName MethodInvocation MethodInvocation SimpleName and return
+immutable map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect assigned SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+task a SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+immutable map SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+of SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+group key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+and return SimpleName MethodInvocation BooleanLiteral true
+control SimpleName MethodInvocation SimpleName replay
+scheduler SimpleName MethodInvocation SimpleName schedule
+scheduler SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+scheduler SimpleName MethodInvocation StringLiteral a
+schedule SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+schedule SimpleName MethodInvocation StringLiteral a
+storage utilmutable store provider QualifiedName MethodInvocation StringLiteral a
+assert false SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert false SimpleName MethodInvocation MethodInvocation SimpleName schedule
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral a
+scheduler SimpleName MethodInvocation SimpleName schedule
+scheduler SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+scheduler SimpleName MethodInvocation StringLiteral a
+schedule SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+schedule SimpleName MethodInvocation StringLiteral a
+storage utilmutable store provider QualifiedName MethodInvocation StringLiteral a
+assert false SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert false SimpleName MethodInvocation MethodInvocation SimpleName schedule
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral a
+scheduler SimpleName MethodInvocation SimpleName schedule
+scheduler SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+scheduler SimpleName MethodInvocation StringLiteral a
+schedule SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+schedule SimpleName MethodInvocation StringLiteral a
+storage utilmutable store provider QualifiedName MethodInvocation StringLiteral a
+assert true SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert true SimpleName MethodInvocation MethodInvocation SimpleName schedule
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral a
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test reservation
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test reservation
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test reservation
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test reservation SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test reservation
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test reservation
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

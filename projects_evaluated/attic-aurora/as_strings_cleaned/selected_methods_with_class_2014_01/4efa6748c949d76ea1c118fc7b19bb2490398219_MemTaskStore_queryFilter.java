@@ -1,0 +1,190 @@
+predicate SimpleName SimpleType ParameterizedType SimpleType SimpleName task
+final Modifier SingleVariableDeclaration SimpleType SimpleName task query
+final Modifier SingleVariableDeclaration SimpleName query
+task query SimpleName SimpleType SingleVariableDeclaration SimpleName query
+predicate SimpleName SimpleType ParameterizedType SimpleType SimpleName task
+task SimpleName SimpleType SingleVariableDeclaration SimpleName canonical task
+task SimpleName VariableDeclarationFragment QualifiedName canonical tasktask
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName canonical tasktask
+task SimpleName MethodInvocation SimpleName get assigned task
+task SimpleName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get assigned task
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get task
+i task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+query SimpleName MethodInvocation SimpleName get owner
+query SimpleName MethodInvocation SimpleName get owner
+query SimpleName MethodInvocation MethodInvocation SimpleName get role
+get owner SimpleName MethodInvocation MethodInvocation SimpleName get role
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get role
+is blank SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+is blank SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+is blank SimpleName MethodInvocation MethodInvocation SimpleName get role
+query SimpleName MethodInvocation SimpleName get owner
+query SimpleName MethodInvocation MethodInvocation SimpleName get role
+get owner SimpleName MethodInvocation MethodInvocation SimpleName get role
+config SimpleName MethodInvocation SimpleName get owner
+config SimpleName MethodInvocation MethodInvocation SimpleName get role
+get owner SimpleName MethodInvocation MethodInvocation SimpleName get role
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get owner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get role SimpleName MethodInvocation MethodInvocation SimpleName equals
+get role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+equals SimpleName MethodInvocation MethodInvocation SimpleName get role
+query SimpleName MethodInvocation SimpleName get owner
+query SimpleName MethodInvocation MethodInvocation SimpleName get user
+get owner SimpleName MethodInvocation MethodInvocation SimpleName get user
+string utils SimpleName MethodInvocation SimpleName is blank
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+string utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get user
+is blank SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+is blank SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+is blank SimpleName MethodInvocation MethodInvocation SimpleName get user
+query SimpleName MethodInvocation SimpleName get owner
+query SimpleName MethodInvocation MethodInvocation SimpleName get user
+get owner SimpleName MethodInvocation MethodInvocation SimpleName get user
+config SimpleName MethodInvocation SimpleName get owner
+config SimpleName MethodInvocation MethodInvocation SimpleName get user
+get owner SimpleName MethodInvocation MethodInvocation SimpleName get user
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get owner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get user SimpleName MethodInvocation MethodInvocation SimpleName equals
+get user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner
+equals SimpleName MethodInvocation MethodInvocation SimpleName get user
+query SimpleName MethodInvocation SimpleName get environment
+query SimpleName MethodInvocation SimpleName get environment
+config SimpleName MethodInvocation SimpleName get environment
+query SimpleName MethodInvocation MethodInvocation SimpleName equals
+get environment SimpleName MethodInvocation MethodInvocation SimpleName equals
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get environment
+get environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+get environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get environment
+equals SimpleName MethodInvocation MethodInvocation SimpleName config
+equals SimpleName MethodInvocation MethodInvocation SimpleName get environment
+query SimpleName MethodInvocation SimpleName get job name
+query SimpleName MethodInvocation SimpleName get job name
+config SimpleName MethodInvocation SimpleName get job name
+query SimpleName MethodInvocation MethodInvocation SimpleName equals
+get job name SimpleName MethodInvocation MethodInvocation SimpleName equals
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get job name
+get job name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+get job name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get job name
+equals SimpleName MethodInvocation MethodInvocation SimpleName config
+equals SimpleName MethodInvocation MethodInvocation SimpleName get job name
+query SimpleName MethodInvocation SimpleName get task ids
+query SimpleName MethodInvocation SimpleName get task ids
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task
+id SimpleName MethodInvocation SimpleName task
+query SimpleName MethodInvocation MethodInvocation SimpleName contains
+get task ids SimpleName MethodInvocation MethodInvocation SimpleName contains
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get task ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+get task ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+get task ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+contains SimpleName MethodInvocation MethodInvocation SimpleName tasks
+contains SimpleName MethodInvocation MethodInvocation SimpleName id
+contains SimpleName MethodInvocation MethodInvocation SimpleName task
+query SimpleName MethodInvocation SimpleName get statuses size
+query SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get statuses size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+query SimpleName MethodInvocation SimpleName get statuses
+task SimpleName MethodInvocation SimpleName get status
+query SimpleName MethodInvocation MethodInvocation SimpleName contains
+get statuses SimpleName MethodInvocation MethodInvocation SimpleName contains
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+get statuses SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get statuses SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+contains SimpleName MethodInvocation MethodInvocation SimpleName task
+contains SimpleName MethodInvocation MethodInvocation SimpleName get status
+query SimpleName MethodInvocation SimpleName get slave host
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName query
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get slave host
+is empty SimpleName MethodInvocation MethodInvocation SimpleName query
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get slave host
+query SimpleName MethodInvocation SimpleName get slave host
+task SimpleName MethodInvocation SimpleName get assigned task
+task SimpleName MethodInvocation MethodInvocation SimpleName get slave host
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get slave host
+query SimpleName MethodInvocation MethodInvocation SimpleName equals
+get slave host SimpleName MethodInvocation MethodInvocation SimpleName equals
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get slave host
+get slave host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get slave host
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+equals SimpleName MethodInvocation MethodInvocation SimpleName get slave host
+query SimpleName MethodInvocation SimpleName get instance ids size
+query SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get instance ids size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+query SimpleName MethodInvocation SimpleName get instance ids
+task SimpleName MethodInvocation SimpleName get assigned task
+task SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+query SimpleName MethodInvocation MethodInvocation SimpleName contains
+get instance ids SimpleName MethodInvocation MethodInvocation SimpleName contains
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance id
+get instance ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get instance id
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+contains SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+contains SimpleName MethodInvocation MethodInvocation SimpleName get instance id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName canonical task
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName canonical task
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName apply
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName canonical task
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName canonical task
+apply SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName predicate
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName task
+private Modifier MethodDeclaration SimpleName query filter
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task query
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName predicate
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName task
+static Modifier MethodDeclaration SimpleName query filter
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task query
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+predicate SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName query filter
+task SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName query filter
+query filter SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+query filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task query
+query filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName query filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName query filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query

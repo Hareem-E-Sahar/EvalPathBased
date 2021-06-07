@@ -1,0 +1,63 @@
+crontab entry SimpleName SimpleType SingleVariableDeclaration SimpleName schedule
+time zone SimpleName SimpleType SingleVariableDeclaration SimpleName time zone
+trigger builder SimpleName MethodInvocation SimpleName new trigger
+cron expression SimpleName MethodInvocation SimpleName schedule
+cron expression SimpleName MethodInvocation SimpleName time zone
+schedule SimpleName MethodInvocation SimpleName time zone
+cron schedule builder SimpleName MethodInvocation SimpleName cron schedule
+cron schedule builder SimpleName MethodInvocation MethodInvocation SimpleName cron expression
+cron schedule builder SimpleName MethodInvocation MethodInvocation SimpleName schedule
+cron schedule builder SimpleName MethodInvocation MethodInvocation SimpleName time zone
+cron schedule SimpleName MethodInvocation MethodInvocation SimpleName cron expression
+cron schedule SimpleName MethodInvocation MethodInvocation SimpleName schedule
+cron schedule SimpleName MethodInvocation MethodInvocation SimpleName time zone
+trigger builder SimpleName MethodInvocation MethodInvocation SimpleName with schedule
+new trigger SimpleName MethodInvocation MethodInvocation SimpleName with schedule
+trigger builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron schedule builder
+trigger builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron schedule
+new trigger SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron schedule builder
+new trigger SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron schedule
+with schedule SimpleName MethodInvocation MethodInvocation SimpleName cron schedule builder
+with schedule SimpleName MethodInvocation MethodInvocation SimpleName cron schedule
+with schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron expression
+with schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName schedule
+with schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time zone
+schedule SimpleName MethodInvocation SimpleName to string
+trigger builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with description
+new trigger SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with description
+with schedule SimpleName MethodInvocation MethodInvocation SimpleName with description
+cron schedule builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with description
+cron schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName with description
+with schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName schedule
+with schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+with description SimpleName MethodInvocation MethodInvocation SimpleName schedule
+with description SimpleName MethodInvocation MethodInvocation SimpleName to string
+with schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+with description SimpleName MethodInvocation MethodInvocation SimpleName build
+schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+to string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+static Modifier MethodDeclaration SimpleType SimpleName cron trigger
+static Modifier MethodDeclaration SimpleName cron trigger
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crontab entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName schedule
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time zone
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName time zone
+cron trigger SimpleName SimpleType MethodDeclaration SimpleName cron trigger
+cron trigger SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName schedule
+cron trigger SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName time zone
+cron trigger SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crontab entry
+cron trigger SimpleName MethodDeclaration SingleVariableDeclaration SimpleName schedule
+cron trigger SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time zone
+cron trigger SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time zone
+schedule SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time zone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron trigger
+public Modifier TypeDeclaration MethodDeclaration SimpleName cron trigger
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName schedule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time zone
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron trigger
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cron trigger
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName schedule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time zone

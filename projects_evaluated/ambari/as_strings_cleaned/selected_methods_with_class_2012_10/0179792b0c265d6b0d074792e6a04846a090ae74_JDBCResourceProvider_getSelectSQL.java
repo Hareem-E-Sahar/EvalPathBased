@@ -1,0 +1,269 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property ids
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property ids
+predicate SimpleName SimpleType SingleVariableDeclaration SimpleName predicate
+columns SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName columns
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType SingleVariableDeclaration SimpleName property id
+columns SimpleName MethodInvocation SimpleName length
+columns SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+columns SimpleName MethodInvocation SimpleName append
+columns SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+property id SimpleName MethodInvocation SimpleName get category
+columns SimpleName MethodInvocation SimpleName append
+columns SimpleName MethodInvocation MethodInvocation SimpleName property id
+columns SimpleName MethodInvocation MethodInvocation SimpleName get category
+append SimpleName MethodInvocation MethodInvocation SimpleName property id
+append SimpleName MethodInvocation MethodInvocation SimpleName get category
+columns SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+property id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+columns SimpleName MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation MethodInvocation StringLiteral .
+property id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral .
+get category SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation StringLiteral .
+property id SimpleName MethodInvocation SimpleName get name
+columns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+. StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property id
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName property id
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation SimpleName property id
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+property id SimpleName MethodInvocation SimpleName get category
+table set SimpleName MethodInvocation SimpleName add
+table set SimpleName MethodInvocation MethodInvocation SimpleName property id
+table set SimpleName MethodInvocation MethodInvocation SimpleName get category
+add SimpleName MethodInvocation MethodInvocation SimpleName property id
+add SimpleName MethodInvocation MethodInvocation SimpleName get category
+property id SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName property ids
+property id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName property ids
+have where clause SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName have where clause
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+where clause SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName where clause
+predicate helper SimpleName MethodInvocation SimpleName get property ids
+predicate helper SimpleName MethodInvocation SimpleName predicate
+get property ids SimpleName MethodInvocation SimpleName predicate
+property ids SimpleName MethodInvocation SimpleName contains all
+property ids SimpleName MethodInvocation MethodInvocation SimpleName predicate helper
+property ids SimpleName MethodInvocation MethodInvocation SimpleName get property ids
+property ids SimpleName MethodInvocation MethodInvocation SimpleName predicate
+contains all SimpleName MethodInvocation MethodInvocation SimpleName predicate helper
+contains all SimpleName MethodInvocation MethodInvocation SimpleName get property ids
+contains all SimpleName MethodInvocation MethodInvocation SimpleName predicate
+predicate SimpleName InfixExpression InfixExpression MethodInvocation SimpleName property ids
+predicate SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains all
+predicate SimpleName InstanceofExpression SimpleType SimpleName predicate visitor acceptor
+visitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sql predicate visitor
+sql predicate visitor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName visitor
+predicate visitor acceptor SimpleName SimpleType CastExpression SimpleName predicate
+predicate SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName accept
+predicate SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName visitor
+accept SimpleName MethodInvocation SimpleName visitor
+visitor SimpleName MethodInvocation SimpleName get sql
+where clause SimpleName MethodInvocation SimpleName append
+where clause SimpleName MethodInvocation MethodInvocation SimpleName visitor
+where clause SimpleName MethodInvocation MethodInvocation SimpleName get sql
+append SimpleName MethodInvocation MethodInvocation SimpleName visitor
+append SimpleName MethodInvocation MethodInvocation SimpleName get sql
+have where clause SimpleName Assignment BooleanLiteral true
+join clause SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName join clause
+table set SimpleName MethodInvocation SimpleName size
+table set SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+imported keys SimpleName MethodInvocation SimpleName get
+imported keys SimpleName MethodInvocation SimpleName table
+get SimpleName MethodInvocation SimpleName table
+join keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName imported keys
+join keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+join keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName property id
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName property id
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+join keys SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get category
+get key SimpleName MethodInvocation MethodInvocation SimpleName get category
+category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key
+category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get category
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName category
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get category
+get value SimpleName MethodInvocation MethodInvocation SimpleName get category
+category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+category SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value
+category SimpleName VariableDeclarationFragment MethodInvocation SimpleName get category
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName category
+table set SimpleName MethodInvocation SimpleName contains
+table set SimpleName MethodInvocation SimpleName category
+contains SimpleName MethodInvocation SimpleName category
+table set SimpleName MethodInvocation SimpleName contains
+table set SimpleName MethodInvocation SimpleName category
+contains SimpleName MethodInvocation SimpleName category
+table set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table set
+table set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+table set SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName category
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table set
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+contains SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName category
+category SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName table set
+category SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains
+category SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName category
+join clause SimpleName MethodInvocation SimpleName append
+join clause SimpleName MethodInvocation StringLiteral and
+append SimpleName MethodInvocation StringLiteral and
+join clause SimpleName MethodInvocation SimpleName append
+join clause SimpleName MethodInvocation SimpleName category
+append SimpleName MethodInvocation SimpleName category
+join clause SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+category SimpleName MethodInvocation MethodInvocation SimpleName append
+join clause SimpleName MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation MethodInvocation StringLiteral .
+category SimpleName MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation StringLiteral .
+entry SimpleName MethodInvocation SimpleName get key
+entry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get key SimpleName MethodInvocation MethodInvocation SimpleName get name
+join clause SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+. StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+join clause SimpleName MethodInvocation SimpleName append
+join clause SimpleName MethodInvocation StringLiteral =
+append SimpleName MethodInvocation StringLiteral =
+join clause SimpleName MethodInvocation SimpleName append
+join clause SimpleName MethodInvocation SimpleName category
+append SimpleName MethodInvocation SimpleName category
+join clause SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+category SimpleName MethodInvocation MethodInvocation SimpleName append
+join clause SimpleName MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation MethodInvocation StringLiteral .
+category SimpleName MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation StringLiteral .
+entry SimpleName MethodInvocation SimpleName get value
+entry SimpleName MethodInvocation MethodInvocation SimpleName get name
+get value SimpleName MethodInvocation MethodInvocation SimpleName get name
+join clause SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+category SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+. StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+table set SimpleName MethodInvocation SimpleName add
+table set SimpleName MethodInvocation SimpleName category
+add SimpleName MethodInvocation SimpleName category
+table set SimpleName MethodInvocation SimpleName add
+table set SimpleName MethodInvocation SimpleName category
+add SimpleName MethodInvocation SimpleName category
+have where clause SimpleName Assignment BooleanLiteral true
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName join keys
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table set
+table SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table set
+tables SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tables
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+tables SimpleName MethodInvocation SimpleName length
+tables SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tables SimpleName MethodInvocation SimpleName append
+tables SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+tables SimpleName MethodInvocation SimpleName append
+tables SimpleName MethodInvocation SimpleName table
+append SimpleName MethodInvocation SimpleName table
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName table set
+table SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName table set
+select StringLiteral InfixExpression SimpleName columns
+select StringLiteral InfixExpression StringLiteral from
+select StringLiteral InfixExpression SimpleName tables
+columns SimpleName InfixExpression StringLiteral from
+columns SimpleName InfixExpression SimpleName tables
+from StringLiteral InfixExpression SimpleName tables
+sql SimpleName VariableDeclarationFragment InfixExpression StringLiteral select
+sql SimpleName VariableDeclarationFragment InfixExpression SimpleName columns
+sql SimpleName VariableDeclarationFragment InfixExpression StringLiteral from
+sql SimpleName VariableDeclarationFragment InfixExpression SimpleName tables
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sql
+sql SimpleName InfixExpression StringLiteral where
+sql SimpleName InfixExpression SimpleName where clause
+sql SimpleName InfixExpression SimpleName join clause
+where StringLiteral InfixExpression SimpleName where clause
+where StringLiteral InfixExpression SimpleName join clause
+where clause SimpleName InfixExpression SimpleName join clause
+sql SimpleName Assignment InfixExpression SimpleName sql
+sql SimpleName Assignment InfixExpression StringLiteral where
+sql SimpleName Assignment InfixExpression SimpleName where clause
+sql SimpleName Assignment InfixExpression SimpleName join clause
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName sql
+println SimpleName MethodInvocation SimpleName sql
+property ids SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+table set SimpleName EnhancedForStatement Block IfStatement SimpleName have where clause
+table set SimpleName EnhancedForStatement Block ReturnStatement SimpleName sql
+have where clause SimpleName IfStatement Block ReturnStatement SimpleName sql
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get select sql
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property ids
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName property ids
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName table set
+private Modifier MethodDeclaration Block IfStatement SimpleName have where clause
+private Modifier MethodDeclaration Block ReturnStatement SimpleName sql
+string SimpleName SimpleType MethodDeclaration SimpleName get select sql
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property ids
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName predicate
+get select sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property ids
+get select sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+get select sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+get select sql SimpleName MethodDeclaration Block EnhancedForStatement SimpleName property ids
+get select sql SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get select sql SimpleName MethodDeclaration Block EnhancedForStatement SimpleName table set
+get select sql SimpleName MethodDeclaration Block IfStatement SimpleName have where clause
+get select sql SimpleName MethodDeclaration Block ReturnStatement SimpleName sql
+property ids SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get select sql
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get select sql
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate

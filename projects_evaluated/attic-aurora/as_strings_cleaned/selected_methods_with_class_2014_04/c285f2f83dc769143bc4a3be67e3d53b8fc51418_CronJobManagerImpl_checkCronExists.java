@@ -1,0 +1,64 @@
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+job store SimpleName SimpleType SingleVariableDeclaration SimpleName job store
+job store SimpleName MethodInvocation SimpleName fetch job
+job store SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+job store SimpleName MethodInvocation SimpleName job key
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+fetch job SimpleName MethodInvocation SimpleName job key
+get manager key SimpleName MethodInvocation MethodInvocation SimpleName job key
+job store SimpleName MethodInvocation MethodInvocation SimpleName is present
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName is present
+get manager key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is present
+job key SimpleName MethodInvocation MethodInvocation SimpleName is present
+job keys SimpleName MethodInvocation SimpleName canonical string
+job keys SimpleName MethodInvocation SimpleName job key
+canonical string SimpleName MethodInvocation SimpleName job key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral no cron template found for s
+string SimpleName MethodInvocation MethodInvocation SimpleName job keys
+string SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+string SimpleName MethodInvocation MethodInvocation SimpleName job key
+format SimpleName MethodInvocation StringLiteral no cron template found for s
+format SimpleName MethodInvocation MethodInvocation SimpleName job keys
+format SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+format SimpleName MethodInvocation MethodInvocation SimpleName job key
+no cron template found for s StringLiteral MethodInvocation MethodInvocation SimpleName job keys
+no cron template found for s StringLiteral MethodInvocation MethodInvocation SimpleName canonical string
+no cron template found for s StringLiteral MethodInvocation MethodInvocation SimpleName job key
+cron exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName string
+cron exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+cron exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral no cron template found for s
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check cron exists
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job store
+private Modifier MethodDeclaration SimpleType SimpleName cron exception
+void PrimitiveType MethodDeclaration SimpleName check cron exists
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job store
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job store
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+check cron exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+check cron exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+check cron exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job store
+check cron exists SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job store
+check cron exists SimpleName MethodDeclaration SimpleType SimpleName cron exception
+job key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store
+job key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+job store SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check cron exists
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check cron exists
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

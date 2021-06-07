@@ -1,0 +1,88 @@
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+predicate SimpleName SimpleType SingleVariableDeclaration SimpleName predicate
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+request SimpleName MethodInvocation SimpleName get properties
+request SimpleName MethodInvocation MethodInvocation SimpleName iterator
+get properties SimpleName MethodInvocation MethodInvocation SimpleName iterator
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+get properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+iterator SimpleName MethodInvocation MethodInvocation SimpleName next
+properties SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterator
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+get properties SimpleName MethodInvocation SimpleName predicate
+set properties SimpleName MethodInvocation SimpleName properties
+set properties SimpleName MethodInvocation MethodInvocation SimpleName get properties
+set properties SimpleName MethodInvocation MethodInvocation SimpleName predicate
+set properties SimpleName MethodInvocation SimpleName host component cluster name property id
+set properties SimpleName MethodInvocation SimpleName host component service name property id
+set properties SimpleName MethodInvocation SimpleName host component component name property id
+properties SimpleName MethodInvocation MethodInvocation SimpleName get properties
+properties SimpleName MethodInvocation MethodInvocation SimpleName predicate
+properties SimpleName MethodInvocation SimpleName host component cluster name property id
+properties SimpleName MethodInvocation SimpleName host component service name property id
+properties SimpleName MethodInvocation SimpleName host component component name property id
+properties SimpleName MethodInvocation SimpleName host component host name property id
+get properties SimpleName MethodInvocation MethodInvocation SimpleName host component cluster name property id
+predicate SimpleName MethodInvocation MethodInvocation SimpleName host component cluster name property id
+get properties SimpleName MethodInvocation MethodInvocation SimpleName host component service name property id
+predicate SimpleName MethodInvocation MethodInvocation SimpleName host component service name property id
+get properties SimpleName MethodInvocation MethodInvocation SimpleName host component component name property id
+predicate SimpleName MethodInvocation MethodInvocation SimpleName host component component name property id
+get properties SimpleName MethodInvocation MethodInvocation SimpleName host component host name property id
+predicate SimpleName MethodInvocation MethodInvocation SimpleName host component host name property id
+host component cluster name property id SimpleName MethodInvocation SimpleName host component service name property id
+host component cluster name property id SimpleName MethodInvocation SimpleName host component component name property id
+host component cluster name property id SimpleName MethodInvocation SimpleName host component host name property id
+host component service name property id SimpleName MethodInvocation SimpleName host component component name property id
+host component service name property id SimpleName MethodInvocation SimpleName host component host name property id
+host component component name property id SimpleName MethodInvocation SimpleName host component host name property id
+get request SimpleName MethodInvocation SimpleName properties
+host component request SimpleName VariableDeclarationFragment MethodInvocation SimpleName get request
+host component request SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+service component host request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host component request
+get management controller SimpleName MethodInvocation MethodInvocation SimpleName update host component
+get management controller SimpleName MethodInvocation MethodInvocation SimpleName host component request
+update host component SimpleName MethodInvocation SimpleName host component request
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update resources
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update resources
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName update resources
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName predicate
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+update resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+update resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+update resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+update resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+update resources SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update resources
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update resources
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

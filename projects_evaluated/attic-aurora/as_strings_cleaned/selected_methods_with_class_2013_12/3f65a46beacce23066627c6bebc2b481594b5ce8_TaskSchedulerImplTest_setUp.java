@@ -1,0 +1,116 @@
+storage util SimpleName Assignment ClassInstanceCreation SimpleType SimpleName storage test util
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName state manager
+state manager SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task assigner
+assigner SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName offer queue
+offer queue SimpleName Assignment MethodInvocation SimpleName create mock
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation NumberLiteral l
+amount SimpleName MethodInvocation QualifiedName timeminutes
+of SimpleName MethodInvocation NumberLiteral l
+of SimpleName MethodInvocation QualifiedName timeminutes
+l NumberLiteral MethodInvocation QualifiedName timeminutes
+reservation duration SimpleName Assignment MethodInvocation SimpleName amount
+reservation duration SimpleName Assignment MethodInvocation SimpleName of
+reservation duration SimpleName Assignment MethodInvocation NumberLiteral l
+reservation duration SimpleName Assignment MethodInvocation QualifiedName timeminutes
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation NumberLiteral l
+amount SimpleName MethodInvocation QualifiedName timeminutes
+of SimpleName MethodInvocation NumberLiteral l
+of SimpleName MethodInvocation QualifiedName timeminutes
+l NumberLiteral MethodInvocation QualifiedName timeminutes
+half reservation duration SimpleName Assignment MethodInvocation SimpleName amount
+half reservation duration SimpleName Assignment MethodInvocation SimpleName of
+half reservation duration SimpleName Assignment MethodInvocation NumberLiteral l
+half reservation duration SimpleName Assignment MethodInvocation QualifiedName timeminutes
+clock SimpleName Assignment ClassInstanceCreation SimpleType SimpleName fake clock
+clock SimpleName MethodInvocation SimpleName set now millis
+clock SimpleName MethodInvocation NumberLiteral empty
+set now millis SimpleName MethodInvocation NumberLiteral empty
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName preemptor
+preemptor SimpleName Assignment MethodInvocation SimpleName create mock
+pubsub test util SimpleName MethodInvocation SimpleName install pubsub
+pubsub test util SimpleName MethodInvocation MethodInvocation SimpleName binder
+install pubsub SimpleName MethodInvocation MethodInvocation SimpleName binder
+bind SimpleName MethodInvocation QualifiedName async modulepreemptor key
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+async modulepreemptor key QualifiedName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName preemptor
+async modulepreemptor key QualifiedName MethodInvocation MethodInvocation SimpleName preemptor
+to instance SimpleName MethodInvocation SimpleName preemptor
+async module SimpleName MethodInvocation SimpleName bind task scheduler
+async module SimpleName MethodInvocation MethodInvocation SimpleName binder
+async module SimpleName MethodInvocation QualifiedName async modulepreemptor key
+async module SimpleName MethodInvocation SimpleName reservation duration
+bind task scheduler SimpleName MethodInvocation MethodInvocation SimpleName binder
+bind task scheduler SimpleName MethodInvocation QualifiedName async modulepreemptor key
+bind task scheduler SimpleName MethodInvocation SimpleName reservation duration
+binder SimpleName MethodInvocation MethodInvocation QualifiedName async modulepreemptor key
+binder SimpleName MethodInvocation MethodInvocation SimpleName reservation duration
+async modulepreemptor key QualifiedName MethodInvocation SimpleName reservation duration
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName offer queue
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName offer queue
+to instance SimpleName MethodInvocation SimpleName offer queue
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName state manager
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName state manager
+to instance SimpleName MethodInvocation SimpleName state manager
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task assigner
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName assigner
+to instance SimpleName MethodInvocation SimpleName assigner
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clock
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName clock
+to instance SimpleName MethodInvocation SimpleName clock
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName storage
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation QualifiedName storage utilstorage
+to instance SimpleName MethodInvocation QualifiedName storage utilstorage
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+guice SimpleName MethodInvocation SimpleName create injector
+guice SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract module
+create injector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract module
+injector SimpleName VariableDeclarationFragment MethodInvocation SimpleName guice
+injector SimpleName VariableDeclarationFragment MethodInvocation SimpleName create injector
+injector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName injector
+injector SimpleName MethodInvocation SimpleName get instance
+injector SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+get instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+scheduler SimpleName Assignment MethodInvocation SimpleName injector
+scheduler SimpleName Assignment MethodInvocation SimpleName get instance
+pubsub test util SimpleName MethodInvocation SimpleName start pubsub
+pubsub test util SimpleName MethodInvocation SimpleName injector
+start pubsub SimpleName MethodInvocation SimpleName injector
+event sink SimpleName Assignment MethodInvocation SimpleName pubsub test util
+event sink SimpleName Assignment MethodInvocation SimpleName start pubsub
+event sink SimpleName Assignment MethodInvocation SimpleName injector
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

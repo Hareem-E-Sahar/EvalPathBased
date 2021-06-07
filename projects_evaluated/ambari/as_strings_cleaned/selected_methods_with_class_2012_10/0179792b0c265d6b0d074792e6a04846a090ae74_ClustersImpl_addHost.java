@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+hosts SimpleName MethodInvocation SimpleName contains key
+hosts SimpleName MethodInvocation SimpleName hostname
+contains key SimpleName MethodInvocation SimpleName hostname
+duplicate entry for host StringLiteral InfixExpression StringLiteral host name
+duplicate entry for host StringLiteral InfixExpression SimpleName hostname
+host name StringLiteral InfixExpression SimpleName hostname
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral duplicate entry for host
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral host name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName hostname
+host impl SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+hosts SimpleName MethodInvocation SimpleName put
+hosts SimpleName MethodInvocation SimpleName hostname
+hosts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host impl
+hosts SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+put SimpleName MethodInvocation SimpleName hostname
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host impl
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+hostname SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host impl
+hostname SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster
+host cluster map SimpleName MethodInvocation SimpleName put
+host cluster map SimpleName MethodInvocation SimpleName hostname
+put SimpleName MethodInvocation SimpleName hostname
+log SimpleName MethodInvocation SimpleName is debug enabled
+adding a host to clusters StringLiteral InfixExpression StringLiteral hostname
+adding a host to clusters StringLiteral InfixExpression SimpleName hostname
+hostname StringLiteral InfixExpression SimpleName hostname
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral adding a host to clusters
+log SimpleName MethodInvocation InfixExpression StringLiteral hostname
+log SimpleName MethodInvocation InfixExpression SimpleName hostname
+debug SimpleName MethodInvocation InfixExpression StringLiteral adding a host to clusters
+debug SimpleName MethodInvocation InfixExpression StringLiteral hostname
+debug SimpleName MethodInvocation InfixExpression SimpleName hostname
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add host
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+synchronized Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName add host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+add host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+add host SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

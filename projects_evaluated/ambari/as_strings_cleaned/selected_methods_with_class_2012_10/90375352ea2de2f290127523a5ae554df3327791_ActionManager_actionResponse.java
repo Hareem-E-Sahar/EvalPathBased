@@ -1,0 +1,87 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName command report
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName reports
+command report SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName reports
+command report SimpleName SimpleType SingleVariableDeclaration SimpleName report
+report SimpleName MethodInvocation SimpleName get action id
+action id SimpleName VariableDeclarationFragment MethodInvocation SimpleName report
+action id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get action id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName action id
+stage utils SimpleName MethodInvocation SimpleName get request stage
+stage utils SimpleName MethodInvocation SimpleName action id
+get request stage SimpleName MethodInvocation SimpleName action id
+request stage ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName stage utils
+request stage ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get request stage
+request stage ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName action id
+long PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName request stage ids
+request stage ids SimpleName ArrayAccess NumberLiteral empty
+request id SimpleName VariableDeclarationFragment ArrayAccess SimpleName request stage ids
+request id SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName request id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName request stage ids
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+request stage ids SimpleName ArrayAccess NumberLiteral empty
+stage id SimpleName VariableDeclarationFragment ArrayAccess SimpleName request stage ids
+stage id SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName stage id
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName request stage ids
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+report SimpleName MethodInvocation SimpleName get role
+db SimpleName MethodInvocation SimpleName update host role state
+db SimpleName MethodInvocation SimpleName hostname
+db SimpleName MethodInvocation SimpleName request id
+db SimpleName MethodInvocation SimpleName stage id
+db SimpleName MethodInvocation MethodInvocation SimpleName report
+db SimpleName MethodInvocation MethodInvocation SimpleName get role
+update host role state SimpleName MethodInvocation SimpleName hostname
+update host role state SimpleName MethodInvocation SimpleName request id
+update host role state SimpleName MethodInvocation SimpleName stage id
+update host role state SimpleName MethodInvocation MethodInvocation SimpleName report
+update host role state SimpleName MethodInvocation MethodInvocation SimpleName get role
+update host role state SimpleName MethodInvocation SimpleName report
+hostname SimpleName MethodInvocation SimpleName request id
+hostname SimpleName MethodInvocation SimpleName stage id
+hostname SimpleName MethodInvocation MethodInvocation SimpleName report
+hostname SimpleName MethodInvocation MethodInvocation SimpleName get role
+hostname SimpleName MethodInvocation SimpleName report
+request id SimpleName MethodInvocation SimpleName stage id
+request id SimpleName MethodInvocation MethodInvocation SimpleName report
+request id SimpleName MethodInvocation MethodInvocation SimpleName get role
+request id SimpleName MethodInvocation SimpleName report
+stage id SimpleName MethodInvocation MethodInvocation SimpleName report
+stage id SimpleName MethodInvocation MethodInvocation SimpleName get role
+stage id SimpleName MethodInvocation SimpleName report
+report SimpleName MethodInvocation MethodInvocation SimpleName report
+get role SimpleName MethodInvocation MethodInvocation SimpleName report
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+command report SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName reports
+report SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName reports
+reports SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+reports SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action response
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reports
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName reports
+void PrimitiveType MethodDeclaration SimpleName action response
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reports
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName reports
+action response SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+action response SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+action response SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reports
+action response SimpleName MethodDeclaration Block EnhancedForStatement SimpleName reports
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reports
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName action response
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reports
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName action response
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reports

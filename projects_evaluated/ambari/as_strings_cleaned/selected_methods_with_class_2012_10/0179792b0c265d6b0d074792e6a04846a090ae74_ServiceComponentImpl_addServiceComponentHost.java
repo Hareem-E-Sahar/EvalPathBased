@@ -1,0 +1,152 @@
+service component host SimpleName SimpleType SingleVariableDeclaration SimpleName host component
+log SimpleName MethodInvocation SimpleName is debug enabled
+adding a service component host to service component StringLiteral InfixExpression StringLiteral cluster name
+service SimpleName MethodInvocation SimpleName get cluster
+service SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+service SimpleName MethodInvocation SimpleName get cluster
+service SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+service SimpleName MethodInvocation SimpleName get name
+host component SimpleName MethodInvocation SimpleName get host name
+adding a service component host to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+adding a service component host to service component StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+adding a service component host to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster id
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster id
+adding a service component host to service component StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+adding a service component host to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName service
+adding a service component host to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName service
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+service SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cluster id
+get cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral cluster id
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+service SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service name
+get cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName service
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+service SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service component name
+get cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service component name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral service component name
+cluster id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName service
+cluster id StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get cluster
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName get cluster id
+cluster id StringLiteral InfixExpression StringLiteral service name
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName service
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName get name
+cluster id StringLiteral InfixExpression StringLiteral service component name
+cluster id StringLiteral InfixExpression SimpleName component name
+service SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service name
+get cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service name
+get cluster id SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName service
+get cluster id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+service SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service component name
+get cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral service component name
+get cluster id SimpleName MethodInvocation InfixExpression StringLiteral service component name
+service SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName component name
+get cluster SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName component name
+get cluster id SimpleName MethodInvocation InfixExpression SimpleName component name
+service SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral hostname
+get cluster SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral hostname
+get cluster id SimpleName MethodInvocation InfixExpression StringLiteral hostname
+service name StringLiteral InfixExpression MethodInvocation SimpleName service
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression StringLiteral service component name
+service name StringLiteral InfixExpression SimpleName component name
+service name StringLiteral InfixExpression StringLiteral hostname
+service name StringLiteral InfixExpression MethodInvocation SimpleName host component
+service name StringLiteral InfixExpression MethodInvocation SimpleName get host name
+service SimpleName MethodInvocation InfixExpression StringLiteral service component name
+get name SimpleName MethodInvocation InfixExpression StringLiteral service component name
+service SimpleName MethodInvocation InfixExpression SimpleName component name
+get name SimpleName MethodInvocation InfixExpression SimpleName component name
+service SimpleName MethodInvocation InfixExpression StringLiteral hostname
+get name SimpleName MethodInvocation InfixExpression StringLiteral hostname
+service SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host component
+service SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host component
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+service component name StringLiteral InfixExpression SimpleName component name
+service component name StringLiteral InfixExpression StringLiteral hostname
+service component name StringLiteral InfixExpression MethodInvocation SimpleName host component
+service component name StringLiteral InfixExpression MethodInvocation SimpleName get host name
+component name SimpleName InfixExpression StringLiteral hostname
+component name SimpleName InfixExpression MethodInvocation SimpleName host component
+component name SimpleName InfixExpression MethodInvocation SimpleName get host name
+hostname StringLiteral InfixExpression MethodInvocation SimpleName host component
+hostname StringLiteral InfixExpression MethodInvocation SimpleName get host name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral adding a service component host to service component
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+log SimpleName MethodInvocation InfixExpression StringLiteral service name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName service
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral service component name
+log SimpleName MethodInvocation InfixExpression SimpleName component name
+log SimpleName MethodInvocation InfixExpression StringLiteral hostname
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host component
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral adding a service component host to service component
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+debug SimpleName MethodInvocation InfixExpression StringLiteral service name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName service
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral service component name
+debug SimpleName MethodInvocation InfixExpression SimpleName component name
+debug SimpleName MethodInvocation InfixExpression StringLiteral hostname
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host component
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+host component SimpleName MethodInvocation SimpleName get host name
+host components SimpleName FieldAccess MethodInvocation SimpleName put
+host components SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName host component
+host components SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get host name
+host components SimpleName FieldAccess MethodInvocation SimpleName host component
+put SimpleName MethodInvocation MethodInvocation SimpleName host component
+put SimpleName MethodInvocation MethodInvocation SimpleName get host name
+put SimpleName MethodInvocation SimpleName host component
+host component SimpleName MethodInvocation MethodInvocation SimpleName host component
+get host name SimpleName MethodInvocation MethodInvocation SimpleName host component
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add service component host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host component
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add service component host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host component
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add service component host
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component host
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName host component
+void PrimitiveType MethodDeclaration SimpleName add service component host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host component
+add service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component host
+add service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host component
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add service component host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host component
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add service component host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host component

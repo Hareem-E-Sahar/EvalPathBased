@@ -1,0 +1,18 @@
+sanitized cron job SimpleName SimpleType SingleVariableDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SimpleName create job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+create job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+create job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+create job SimpleName MethodDeclaration SimpleType SimpleName cron exception
+config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

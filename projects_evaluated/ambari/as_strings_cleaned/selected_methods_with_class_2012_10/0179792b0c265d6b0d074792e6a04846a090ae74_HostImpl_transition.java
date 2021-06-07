@@ -1,0 +1,82 @@
+host impl SimpleName SimpleType SingleVariableDeclaration SimpleName host
+host event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+host heartbeat lost event SimpleName SimpleType CastExpression SimpleName event
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName host heartbeat lost event
+e SimpleName VariableDeclarationFragment CastExpression SimpleName event
+host heartbeat lost event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+host transitioned to heartbeat lost state StringLiteral InfixExpression StringLiteral host
+e SimpleName MethodInvocation SimpleName get host name
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+host transitioned to heartbeat lost state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName e
+host transitioned to heartbeat lost state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get host name
+host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName e
+host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get host name
+host transitioned to heartbeat lost state StringLiteral InfixExpression InfixExpression StringLiteral last heartbeat time
+host StringLiteral InfixExpression InfixExpression StringLiteral last heartbeat time
+host transitioned to heartbeat lost state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName host
+host transitioned to heartbeat lost state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get last heartbeat time
+host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName host
+host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get last heartbeat time
+e SimpleName MethodInvocation InfixExpression StringLiteral last heartbeat time
+get host name SimpleName MethodInvocation InfixExpression StringLiteral last heartbeat time
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get last heartbeat time
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get last heartbeat time
+last heartbeat time StringLiteral InfixExpression MethodInvocation SimpleName host
+last heartbeat time StringLiteral InfixExpression MethodInvocation SimpleName get last heartbeat time
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral host transitioned to heartbeat lost state
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral host
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+log SimpleName MethodInvocation InfixExpression StringLiteral last heartbeat time
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get last heartbeat time
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral host transitioned to heartbeat lost state
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral host
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+debug SimpleName MethodInvocation InfixExpression StringLiteral last heartbeat time
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation SimpleName get health status
+host SimpleName MethodInvocation MethodInvocation SimpleName set health status
+get health status SimpleName MethodInvocation MethodInvocation SimpleName set health status
+host SimpleName MethodInvocation MethodInvocation QualifiedName health statusunknown
+get health status SimpleName MethodInvocation MethodInvocation QualifiedName health statusunknown
+set health status SimpleName MethodInvocation QualifiedName health statusunknown
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName transition
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName transition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName transition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host event
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName transition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName transition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

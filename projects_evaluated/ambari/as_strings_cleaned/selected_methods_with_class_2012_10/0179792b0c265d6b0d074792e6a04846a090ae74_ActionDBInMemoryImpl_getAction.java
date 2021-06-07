@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName action id
+stage SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName get action id
+s SimpleName MethodInvocation MethodInvocation SimpleName equals
+get action id SimpleName MethodInvocation MethodInvocation SimpleName equals
+s SimpleName MethodInvocation MethodInvocation SimpleName action id
+get action id SimpleName MethodInvocation MethodInvocation SimpleName action id
+equals SimpleName MethodInvocation SimpleName action id
+stage SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stage list
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stage list
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName stage
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get action
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName action id
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName stage
+public Modifier MethodDeclaration SimpleName get action
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName action id
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName stage list
+synchronized Modifier MethodDeclaration SimpleType SimpleName stage
+synchronized Modifier MethodDeclaration SimpleName get action
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName action id
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName stage list
+stage SimpleName SimpleType MethodDeclaration SimpleName get action
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName action id
+get action SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get action SimpleName MethodDeclaration SingleVariableDeclaration SimpleName action id
+get action SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stage list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+public Modifier TypeDeclaration MethodDeclaration SimpleName get action
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action id
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get action
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action id

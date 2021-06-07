@@ -1,0 +1,68 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName host role command
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName host role command
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName host role cmd for role
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName host role cmd for role
+host role command SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName host role cmd for role
+float PrimitiveType SingleVariableDeclaration SimpleName success factor
+host role cmd for role SimpleName MethodInvocation SimpleName size
+role status SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName host role cmd for role
+role status SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+role status SimpleName SimpleType ClassInstanceCreation SimpleName success factor
+host role cmd for role SimpleName MethodInvocation ClassInstanceCreation SimpleName success factor
+size SimpleName MethodInvocation ClassInstanceCreation SimpleName success factor
+rs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName role status
+rs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName host role cmd for role
+rs SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+rs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName success factor
+role status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rs
+string SimpleName SimpleType SingleVariableDeclaration SimpleName h
+host role cmd for role SimpleName MethodInvocation SimpleName key set
+host role cmd for role SimpleName MethodInvocation SimpleName get
+host role cmd for role SimpleName MethodInvocation SimpleName h
+get SimpleName MethodInvocation SimpleName h
+hrc SimpleName VariableDeclarationFragment MethodInvocation SimpleName host role cmd for role
+hrc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+hrc SimpleName VariableDeclarationFragment MethodInvocation SimpleName h
+host role command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hrc
+hrc SimpleName MethodInvocation SimpleName get status
+hrc SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName completed
+get status SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName completed
+hrc SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName failed
+get status SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName failed
+completed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName failed
+failed SimpleName SwitchCase SwitchStatement SwitchCase SimpleName queued
+queued SimpleName SwitchCase SwitchStatement SwitchCase SimpleName pending
+pending SimpleName SwitchCase SwitchStatement SwitchCase SimpleName timedout
+timedout SimpleName SwitchCase SwitchStatement SwitchCase SimpleName aborted
+h SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName host role cmd for role
+h SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration SimpleType SimpleName role status
+private Modifier MethodDeclaration SimpleName get role status
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName host role cmd for role
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName success factor
+private Modifier MethodDeclaration Block ReturnStatement SimpleName rs
+role status SimpleName SimpleType MethodDeclaration SimpleName get role status
+role status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host role cmd for role
+role status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+role status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName success factor
+get role status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host role cmd for role
+get role status SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+get role status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName success factor
+get role status SimpleName MethodDeclaration Block ReturnStatement SimpleName rs
+host role cmd for role SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+host role cmd for role SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName success factor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName role status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get role status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host role cmd for role
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName success factor
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName role status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get role status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host role cmd for role
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName success factor

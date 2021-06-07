@@ -1,0 +1,48 @@
+host impl SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+host SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host impl
+host SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+host impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+register host SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host statewaiting for host status updates
+host SimpleName MethodInvocation QualifiedName host statewaiting for host status updates
+exception thrown SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exception thrown
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+register host SimpleName MethodInvocation SimpleName host
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception thrown SimpleName Assignment BooleanLiteral true
+fail SimpleName MethodInvocation StringLiteral expected invalid transition exception to be thrown
+ensure host updates received SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation QualifiedName host statehealthy
+exception thrown SimpleName Assignment BooleanLiteral false
+ensure host updates received SimpleName MethodInvocation SimpleName host
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception thrown SimpleName Assignment BooleanLiteral true
+fail SimpleName MethodInvocation StringLiteral expected invalid transition exception to be thrown
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test host registration flow
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test host registration flow
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName test host registration flow
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test host registration flow SimpleName MethodDeclaration SimpleType SimpleName exception
+test host registration flow SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test host registration flow
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test host registration flow
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

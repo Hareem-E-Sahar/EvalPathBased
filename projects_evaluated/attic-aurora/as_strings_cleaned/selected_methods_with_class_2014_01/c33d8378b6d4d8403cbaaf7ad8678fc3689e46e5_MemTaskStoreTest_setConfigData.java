@@ -1,0 +1,54 @@
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+string SimpleName SimpleType SingleVariableDeclaration SimpleName config data
+task SimpleName MethodInvocation SimpleName new builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName task
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new builder
+scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName get assigned task
+builder SimpleName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor config
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor config
+get task SimpleName MethodInvocation MethodInvocation SimpleName get executor config
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set data
+get executor config SimpleName MethodInvocation MethodInvocation SimpleName set data
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config data
+get executor config SimpleName MethodInvocation MethodInvocation SimpleName config data
+set data SimpleName MethodInvocation SimpleName config data
+i scheduled task SimpleName MethodInvocation SimpleName build
+i scheduled task SimpleName MethodInvocation SimpleName builder
+build SimpleName MethodInvocation SimpleName builder
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName i scheduled task
+private Modifier MethodDeclaration SimpleName set config data
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName config data
+static Modifier MethodDeclaration SimpleType SimpleName i scheduled task
+static Modifier MethodDeclaration SimpleName set config data
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config data
+i scheduled task SimpleName SimpleType MethodDeclaration SimpleName set config data
+i scheduled task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName task
+i scheduled task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config data
+set config data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+set config data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+set config data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set config data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config data
+task SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i scheduled task
+public Modifier TypeDeclaration MethodDeclaration SimpleName set config data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config data
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i scheduled task
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set config data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config data

@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+public Modifier MethodDeclaration SimpleType SimpleName host state
+public Modifier MethodDeclaration SimpleName get host state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+host state SimpleName SimpleType MethodDeclaration SimpleName get host state
+host state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName host
+get host state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get host state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName host state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get host state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName host state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get host state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host

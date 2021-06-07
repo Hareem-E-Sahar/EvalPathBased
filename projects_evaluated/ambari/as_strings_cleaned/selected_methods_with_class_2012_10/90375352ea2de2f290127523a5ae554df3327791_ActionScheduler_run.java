@@ -1,0 +1,36 @@
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName sleep time
+sleep SimpleName MethodInvocation SimpleName sleep time
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral scheduler thread is interrupted going to stop
+log SimpleName MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation StringLiteral scheduler thread is interrupted going to stop
+warn SimpleName MethodInvocation SimpleName ex
+scheduler thread is interrupted going to stop StringLiteral MethodInvocation SimpleName ex
+should run SimpleName Assignment BooleanLiteral false
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral exception received
+log SimpleName MethodInvocation SimpleName ex
+warn SimpleName MethodInvocation StringLiteral exception received
+warn SimpleName MethodInvocation SimpleName ex
+exception received StringLiteral MethodInvocation SimpleName ex
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block WhileStatement SimpleName should run
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block WhileStatement SimpleName should run
+run SimpleName MethodDeclaration Block WhileStatement SimpleName should run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

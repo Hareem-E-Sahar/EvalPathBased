@@ -1,0 +1,97 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName resource definition
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName resource definition
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName resource definition
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName resource definition
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName resource definition
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName resource definition
+service resource definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id
+service resource SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service resource definition
+service resource SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get id
+service resource definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service resource
+get cluster controller SimpleName MethodInvocation MethodInvocation SimpleName get schema
+get cluster controller SimpleName MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+get schema SimpleName MethodInvocation QualifiedName resourcetypeservice
+get cluster controller SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key property id
+get schema SimpleName MethodInvocation MethodInvocation SimpleName get key property id
+resourcetypeservice QualifiedName MethodInvocation MethodInvocation SimpleName get key property id
+get cluster controller SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+get schema SimpleName MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+resourcetypeservice QualifiedName MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+get key property id SimpleName MethodInvocation QualifiedName resourcetypeservice
+service id property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get schema
+service id property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+service id property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key property id
+service id property SimpleName VariableDeclarationFragment MethodInvocation QualifiedName resourcetypeservice
+property id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service id property
+service resource SimpleName MethodInvocation SimpleName get query
+service resource SimpleName MethodInvocation MethodInvocation SimpleName add property
+get query SimpleName MethodInvocation MethodInvocation SimpleName add property
+service resource SimpleName MethodInvocation MethodInvocation SimpleName service id property
+get query SimpleName MethodInvocation MethodInvocation SimpleName service id property
+add property SimpleName MethodInvocation SimpleName service id property
+service resource SimpleName MethodInvocation SimpleName get plural name
+map children SimpleName MethodInvocation SimpleName put
+map children SimpleName MethodInvocation MethodInvocation SimpleName service resource
+map children SimpleName MethodInvocation MethodInvocation SimpleName get plural name
+map children SimpleName MethodInvocation SimpleName service resource
+put SimpleName MethodInvocation MethodInvocation SimpleName service resource
+put SimpleName MethodInvocation MethodInvocation SimpleName get plural name
+put SimpleName MethodInvocation SimpleName service resource
+service resource SimpleName MethodInvocation MethodInvocation SimpleName service resource
+get plural name SimpleName MethodInvocation MethodInvocation SimpleName service resource
+host resource definition SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id
+host resource SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host resource definition
+host resource SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get id
+host resource definition SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host resource
+get cluster controller SimpleName MethodInvocation MethodInvocation SimpleName get schema
+get cluster controller SimpleName MethodInvocation MethodInvocation QualifiedName resourcetypehost
+get schema SimpleName MethodInvocation QualifiedName resourcetypehost
+get cluster controller SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key property id
+get schema SimpleName MethodInvocation MethodInvocation SimpleName get key property id
+resourcetypehost QualifiedName MethodInvocation MethodInvocation SimpleName get key property id
+get cluster controller SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName resourcetypehost
+get schema SimpleName MethodInvocation MethodInvocation QualifiedName resourcetypehost
+resourcetypehost QualifiedName MethodInvocation MethodInvocation QualifiedName resourcetypehost
+get key property id SimpleName MethodInvocation QualifiedName resourcetypehost
+host id property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get schema
+host id property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName resourcetypehost
+host id property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key property id
+host id property SimpleName VariableDeclarationFragment MethodInvocation QualifiedName resourcetypehost
+property id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host id property
+host resource SimpleName MethodInvocation SimpleName get query
+host resource SimpleName MethodInvocation MethodInvocation SimpleName add property
+get query SimpleName MethodInvocation MethodInvocation SimpleName add property
+host resource SimpleName MethodInvocation MethodInvocation SimpleName host id property
+get query SimpleName MethodInvocation MethodInvocation SimpleName host id property
+add property SimpleName MethodInvocation SimpleName host id property
+host resource SimpleName MethodInvocation SimpleName get plural name
+map children SimpleName MethodInvocation SimpleName put
+map children SimpleName MethodInvocation MethodInvocation SimpleName host resource
+map children SimpleName MethodInvocation MethodInvocation SimpleName get plural name
+map children SimpleName MethodInvocation SimpleName host resource
+put SimpleName MethodInvocation MethodInvocation SimpleName host resource
+put SimpleName MethodInvocation MethodInvocation SimpleName get plural name
+put SimpleName MethodInvocation SimpleName host resource
+host resource SimpleName MethodInvocation MethodInvocation SimpleName host resource
+get plural name SimpleName MethodInvocation MethodInvocation SimpleName host resource
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get sub resources
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName resource definition
+public Modifier MethodDeclaration SimpleName get sub resources
+public Modifier MethodDeclaration Block ReturnStatement SimpleName map children
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get sub resources
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get sub resources
+resource definition SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get sub resources
+get sub resources SimpleName MethodDeclaration Block ReturnStatement SimpleName map children
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sub resources
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sub resources

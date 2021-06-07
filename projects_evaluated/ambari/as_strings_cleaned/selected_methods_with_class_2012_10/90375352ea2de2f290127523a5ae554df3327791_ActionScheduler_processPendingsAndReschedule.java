@@ -1,0 +1,362 @@
+stage SimpleName SimpleType SingleVariableDeclaration SimpleName stage
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName host role command
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName host role command
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hrc map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hrc map
+host role command SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName hrc map
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+hrc map SimpleName MethodInvocation SimpleName key set
+hrc map SimpleName MethodInvocation SimpleName get
+hrc map SimpleName MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+hrc SimpleName VariableDeclarationFragment MethodInvocation SimpleName hrc map
+hrc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+hrc SimpleName VariableDeclarationFragment MethodInvocation SimpleName host
+host role command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hrc
+hrc SimpleName MethodInvocation SimpleName get status
+hrc SimpleName MethodInvocation InfixExpression QualifiedName host role statuspending
+get status SimpleName MethodInvocation InfixExpression QualifiedName host role statuspending
+hrc SimpleName MethodInvocation SimpleName get status
+hrc SimpleName MethodInvocation InfixExpression QualifiedName host role statusqueued
+get status SimpleName MethodInvocation InfixExpression QualifiedName host role statusqueued
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+stage SimpleName MethodInvocation SimpleName get last attempt time
+stage SimpleName MethodInvocation SimpleName host
+get last attempt time SimpleName MethodInvocation SimpleName host
+stage SimpleName MethodInvocation InfixExpression SimpleName action timeout
+get last attempt time SimpleName MethodInvocation InfixExpression SimpleName action timeout
+host SimpleName MethodInvocation InfixExpression SimpleName action timeout
+now SimpleName InfixExpression InfixExpression MethodInvocation SimpleName stage
+now SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get last attempt time
+now SimpleName InfixExpression InfixExpression MethodInvocation SimpleName host
+now SimpleName InfixExpression InfixExpression SimpleName action timeout
+hrc SimpleName MethodInvocation SimpleName get role
+stage SimpleName MethodInvocation SimpleName get action id
+host StringLiteral InfixExpression SimpleName host
+host StringLiteral InfixExpression StringLiteral role
+host StringLiteral InfixExpression MethodInvocation SimpleName hrc
+host StringLiteral InfixExpression MethodInvocation SimpleName get role
+host StringLiteral InfixExpression StringLiteral action id
+host StringLiteral InfixExpression MethodInvocation SimpleName stage
+host StringLiteral InfixExpression MethodInvocation SimpleName get action id
+host SimpleName InfixExpression StringLiteral role
+host SimpleName InfixExpression MethodInvocation SimpleName hrc
+host SimpleName InfixExpression MethodInvocation SimpleName get role
+host SimpleName InfixExpression StringLiteral action id
+host SimpleName InfixExpression MethodInvocation SimpleName stage
+host SimpleName InfixExpression MethodInvocation SimpleName get action id
+host SimpleName InfixExpression StringLiteral timed out
+role StringLiteral InfixExpression MethodInvocation SimpleName hrc
+role StringLiteral InfixExpression MethodInvocation SimpleName get role
+role StringLiteral InfixExpression StringLiteral action id
+role StringLiteral InfixExpression MethodInvocation SimpleName stage
+role StringLiteral InfixExpression MethodInvocation SimpleName get action id
+role StringLiteral InfixExpression StringLiteral timed out
+hrc SimpleName MethodInvocation InfixExpression StringLiteral action id
+get role SimpleName MethodInvocation InfixExpression StringLiteral action id
+hrc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+hrc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+get role SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+get role SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+hrc SimpleName MethodInvocation InfixExpression StringLiteral timed out
+get role SimpleName MethodInvocation InfixExpression StringLiteral timed out
+action id StringLiteral InfixExpression MethodInvocation SimpleName stage
+action id StringLiteral InfixExpression MethodInvocation SimpleName get action id
+action id StringLiteral InfixExpression StringLiteral timed out
+stage SimpleName MethodInvocation InfixExpression StringLiteral timed out
+get action id SimpleName MethodInvocation InfixExpression StringLiteral timed out
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral host
+log SimpleName MethodInvocation InfixExpression SimpleName host
+log SimpleName MethodInvocation InfixExpression StringLiteral role
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hrc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get role
+log SimpleName MethodInvocation InfixExpression StringLiteral action id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+log SimpleName MethodInvocation InfixExpression StringLiteral timed out
+info SimpleName MethodInvocation InfixExpression StringLiteral host
+info SimpleName MethodInvocation InfixExpression SimpleName host
+info SimpleName MethodInvocation InfixExpression StringLiteral role
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hrc
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get role
+info SimpleName MethodInvocation InfixExpression StringLiteral action id
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+info SimpleName MethodInvocation InfixExpression StringLiteral timed out
+stage SimpleName MethodInvocation SimpleName get attempt count
+stage SimpleName MethodInvocation SimpleName host
+get attempt count SimpleName MethodInvocation SimpleName host
+stage SimpleName MethodInvocation InfixExpression SimpleName max attempts
+get attempt count SimpleName MethodInvocation InfixExpression SimpleName max attempts
+host SimpleName MethodInvocation InfixExpression SimpleName max attempts
+hrc SimpleName MethodInvocation SimpleName get role
+stage SimpleName MethodInvocation SimpleName get action id
+host StringLiteral InfixExpression SimpleName host
+host StringLiteral InfixExpression StringLiteral role
+host StringLiteral InfixExpression MethodInvocation SimpleName hrc
+host StringLiteral InfixExpression MethodInvocation SimpleName get role
+host StringLiteral InfixExpression StringLiteral action id
+host StringLiteral InfixExpression MethodInvocation SimpleName stage
+host StringLiteral InfixExpression MethodInvocation SimpleName get action id
+host SimpleName InfixExpression StringLiteral role
+host SimpleName InfixExpression MethodInvocation SimpleName hrc
+host SimpleName InfixExpression MethodInvocation SimpleName get role
+host SimpleName InfixExpression StringLiteral action id
+host SimpleName InfixExpression MethodInvocation SimpleName stage
+host SimpleName InfixExpression MethodInvocation SimpleName get action id
+host SimpleName InfixExpression StringLiteral expired
+role StringLiteral InfixExpression MethodInvocation SimpleName hrc
+role StringLiteral InfixExpression MethodInvocation SimpleName get role
+role StringLiteral InfixExpression StringLiteral action id
+role StringLiteral InfixExpression MethodInvocation SimpleName stage
+role StringLiteral InfixExpression MethodInvocation SimpleName get action id
+role StringLiteral InfixExpression StringLiteral expired
+hrc SimpleName MethodInvocation InfixExpression StringLiteral action id
+get role SimpleName MethodInvocation InfixExpression StringLiteral action id
+hrc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+hrc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+get role SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+get role SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+hrc SimpleName MethodInvocation InfixExpression StringLiteral expired
+get role SimpleName MethodInvocation InfixExpression StringLiteral expired
+action id StringLiteral InfixExpression MethodInvocation SimpleName stage
+action id StringLiteral InfixExpression MethodInvocation SimpleName get action id
+action id StringLiteral InfixExpression StringLiteral expired
+stage SimpleName MethodInvocation InfixExpression StringLiteral expired
+get action id SimpleName MethodInvocation InfixExpression StringLiteral expired
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral host
+log SimpleName MethodInvocation InfixExpression SimpleName host
+log SimpleName MethodInvocation InfixExpression StringLiteral role
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hrc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get role
+log SimpleName MethodInvocation InfixExpression StringLiteral action id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+log SimpleName MethodInvocation InfixExpression StringLiteral expired
+warn SimpleName MethodInvocation InfixExpression StringLiteral host
+warn SimpleName MethodInvocation InfixExpression SimpleName host
+warn SimpleName MethodInvocation InfixExpression StringLiteral role
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hrc
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get role
+warn SimpleName MethodInvocation InfixExpression StringLiteral action id
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get action id
+warn SimpleName MethodInvocation InfixExpression StringLiteral expired
+hrc SimpleName MethodInvocation SimpleName get role
+hrc SimpleName MethodInvocation MethodInvocation SimpleName to string
+get role SimpleName MethodInvocation MethodInvocation SimpleName to string
+service component host op failed event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+service component host op failed event SimpleName SimpleType ClassInstanceCreation SimpleName host
+service component host op failed event SimpleName SimpleType ClassInstanceCreation SimpleName now
+hrc SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName host
+get role SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName host
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName host
+hrc SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName now
+get role SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName now
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName now
+host SimpleName ClassInstanceCreation SimpleName now
+timeout event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service component host op failed event
+timeout event SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+timeout event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName host
+timeout event SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName now
+service component host op failed event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName timeout event
+stage SimpleName MethodInvocation SimpleName get cluster name
+fsm object SimpleName MethodInvocation SimpleName get cluster
+fsm object SimpleName MethodInvocation MethodInvocation SimpleName stage
+fsm object SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName stage
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+hrc SimpleName MethodInvocation SimpleName get role
+hrc SimpleName MethodInvocation MethodInvocation SimpleName to string
+get role SimpleName MethodInvocation MethodInvocation SimpleName to string
+fsm object SimpleName MethodInvocation MethodInvocation SimpleName handle service component host event
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName handle service component host event
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handle service component host event
+get cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handle service component host event
+fsm object SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get cluster SimpleName MethodInvocation MethodInvocation StringLiteral empty
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+fsm object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+fsm object SimpleName MethodInvocation MethodInvocation SimpleName host
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName host
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+fsm object SimpleName MethodInvocation MethodInvocation SimpleName timeout event
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName timeout event
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timeout event
+get cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timeout event
+handle service component host event SimpleName MethodInvocation StringLiteral empty
+handle service component host event SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+handle service component host event SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+handle service component host event SimpleName MethodInvocation MethodInvocation SimpleName to string
+handle service component host event SimpleName MethodInvocation SimpleName host
+handle service component host event SimpleName MethodInvocation SimpleName timeout event
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+empty StringLiteral MethodInvocation MethodInvocation SimpleName to string
+empty StringLiteral MethodInvocation SimpleName host
+empty StringLiteral MethodInvocation SimpleName timeout event
+hrc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+to string SimpleName MethodInvocation MethodInvocation SimpleName host
+hrc SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timeout event
+get role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timeout event
+to string SimpleName MethodInvocation MethodInvocation SimpleName timeout event
+host SimpleName MethodInvocation SimpleName timeout event
+invalid state transiton exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+hrc SimpleName MethodInvocation SimpleName get role
+transition failed for host StringLiteral InfixExpression SimpleName host
+transition failed for host StringLiteral InfixExpression StringLiteral role
+transition failed for host StringLiteral InfixExpression MethodInvocation SimpleName hrc
+transition failed for host StringLiteral InfixExpression MethodInvocation SimpleName get role
+host SimpleName InfixExpression StringLiteral role
+host SimpleName InfixExpression MethodInvocation SimpleName hrc
+host SimpleName InfixExpression MethodInvocation SimpleName get role
+role StringLiteral InfixExpression MethodInvocation SimpleName hrc
+role StringLiteral InfixExpression MethodInvocation SimpleName get role
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral transition failed for host
+log SimpleName MethodInvocation InfixExpression SimpleName host
+log SimpleName MethodInvocation InfixExpression StringLiteral role
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hrc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get role
+log SimpleName MethodInvocation SimpleName e
+info SimpleName MethodInvocation InfixExpression StringLiteral transition failed for host
+info SimpleName MethodInvocation InfixExpression SimpleName host
+info SimpleName MethodInvocation InfixExpression StringLiteral role
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hrc
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get role
+info SimpleName MethodInvocation SimpleName e
+transition failed for host StringLiteral InfixExpression MethodInvocation SimpleName e
+host SimpleName InfixExpression MethodInvocation SimpleName e
+role StringLiteral InfixExpression MethodInvocation SimpleName e
+hrc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get role SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+stage SimpleName MethodInvocation SimpleName get request id
+stage SimpleName MethodInvocation SimpleName get stage id
+hrc SimpleName MethodInvocation SimpleName get role
+db SimpleName MethodInvocation SimpleName timeout host role
+db SimpleName MethodInvocation SimpleName host
+db SimpleName MethodInvocation MethodInvocation SimpleName stage
+db SimpleName MethodInvocation MethodInvocation SimpleName get request id
+db SimpleName MethodInvocation MethodInvocation SimpleName stage
+db SimpleName MethodInvocation MethodInvocation SimpleName get stage id
+db SimpleName MethodInvocation MethodInvocation SimpleName hrc
+db SimpleName MethodInvocation MethodInvocation SimpleName get role
+timeout host role SimpleName MethodInvocation SimpleName host
+timeout host role SimpleName MethodInvocation MethodInvocation SimpleName stage
+timeout host role SimpleName MethodInvocation MethodInvocation SimpleName get request id
+timeout host role SimpleName MethodInvocation MethodInvocation SimpleName stage
+timeout host role SimpleName MethodInvocation MethodInvocation SimpleName get stage id
+timeout host role SimpleName MethodInvocation MethodInvocation SimpleName hrc
+timeout host role SimpleName MethodInvocation MethodInvocation SimpleName get role
+host SimpleName MethodInvocation MethodInvocation SimpleName stage
+host SimpleName MethodInvocation MethodInvocation SimpleName get request id
+host SimpleName MethodInvocation MethodInvocation SimpleName stage
+host SimpleName MethodInvocation MethodInvocation SimpleName get stage id
+host SimpleName MethodInvocation MethodInvocation SimpleName hrc
+host SimpleName MethodInvocation MethodInvocation SimpleName get role
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stage
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get stage id
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stage
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get stage id
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+get stage id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+get stage id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+schedule host role SimpleName MethodInvocation SimpleName stage
+schedule host role SimpleName MethodInvocation SimpleName host
+schedule host role SimpleName MethodInvocation SimpleName hrc
+stage SimpleName MethodInvocation SimpleName host
+stage SimpleName MethodInvocation SimpleName hrc
+host SimpleName MethodInvocation SimpleName hrc
+invalid state transiton exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral cannot make this transitionaborting host role
+log SimpleName MethodInvocation SimpleName ex
+info SimpleName MethodInvocation StringLiteral cannot make this transitionaborting host role
+info SimpleName MethodInvocation SimpleName ex
+cannot make this transitionaborting host role StringLiteral MethodInvocation SimpleName ex
+stage SimpleName MethodInvocation SimpleName get request id
+stage SimpleName MethodInvocation SimpleName get stage id
+hrc SimpleName MethodInvocation SimpleName get role
+db SimpleName MethodInvocation SimpleName abort host role
+db SimpleName MethodInvocation SimpleName host
+db SimpleName MethodInvocation MethodInvocation SimpleName stage
+db SimpleName MethodInvocation MethodInvocation SimpleName get request id
+db SimpleName MethodInvocation MethodInvocation SimpleName stage
+db SimpleName MethodInvocation MethodInvocation SimpleName get stage id
+db SimpleName MethodInvocation MethodInvocation SimpleName hrc
+db SimpleName MethodInvocation MethodInvocation SimpleName get role
+abort host role SimpleName MethodInvocation SimpleName host
+abort host role SimpleName MethodInvocation MethodInvocation SimpleName stage
+abort host role SimpleName MethodInvocation MethodInvocation SimpleName get request id
+abort host role SimpleName MethodInvocation MethodInvocation SimpleName stage
+abort host role SimpleName MethodInvocation MethodInvocation SimpleName get stage id
+abort host role SimpleName MethodInvocation MethodInvocation SimpleName hrc
+abort host role SimpleName MethodInvocation MethodInvocation SimpleName get role
+host SimpleName MethodInvocation MethodInvocation SimpleName stage
+host SimpleName MethodInvocation MethodInvocation SimpleName get request id
+host SimpleName MethodInvocation MethodInvocation SimpleName stage
+host SimpleName MethodInvocation MethodInvocation SimpleName get stage id
+host SimpleName MethodInvocation MethodInvocation SimpleName hrc
+host SimpleName MethodInvocation MethodInvocation SimpleName get role
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stage
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get stage id
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stage
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get stage id
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+get request id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+stage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+get stage id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hrc
+get stage id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName hrc map
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process pendings and reschedule
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stage
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName stage
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName hrc map
+private Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName process pendings and reschedule
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stage
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stage
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hrc map
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+process pendings and reschedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stage
+process pendings and reschedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stage
+process pendings and reschedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hrc map
+process pendings and reschedule SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+stage SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hrc map
+stage SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+hrc map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process pendings and reschedule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hrc map
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process pendings and reschedule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hrc map
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

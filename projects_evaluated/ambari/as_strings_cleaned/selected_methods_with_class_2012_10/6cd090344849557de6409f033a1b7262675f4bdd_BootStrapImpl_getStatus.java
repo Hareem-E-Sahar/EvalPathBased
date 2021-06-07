@@ -1,0 +1,34 @@
+long PrimitiveType SingleVariableDeclaration SimpleName request id
+bs status SimpleName MethodInvocation SimpleName contains key
+bs status SimpleName MethodInvocation SimpleName request id
+contains key SimpleName MethodInvocation SimpleName request id
+bs status SimpleName MethodInvocation SimpleName get
+bs status SimpleName MethodInvocation SimpleName request id
+get SimpleName MethodInvocation SimpleName request id
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName boot strap status
+public Modifier MethodDeclaration SimpleName get status
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+synchronized Modifier MethodDeclaration SimpleType SimpleName boot strap status
+synchronized Modifier MethodDeclaration SimpleName get status
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+boot strap status SimpleName SimpleType MethodDeclaration SimpleName get status
+boot strap status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+boot strap status SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request id
+get status SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boot strap status
+public Modifier TypeDeclaration MethodDeclaration SimpleName get status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boot strap status
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id

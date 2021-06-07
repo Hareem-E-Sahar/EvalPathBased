@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName service name
+services SimpleName MethodInvocation SimpleName get
+services SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName service
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get service
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName service name
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName service
+public Modifier MethodDeclaration SimpleName get service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service name
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName service
+synchronized Modifier MethodDeclaration SimpleName get service
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName service name
+synchronized Modifier MethodDeclaration SimpleType SimpleName ambari exception
+service SimpleName SimpleType MethodDeclaration SimpleName get service
+service SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service name
+service SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+get service SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service name
+get service SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+service name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

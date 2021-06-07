@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+cmd SimpleName FieldAccess Assignment SimpleName cmd
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set cmd
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+void PrimitiveType MethodDeclaration SimpleName set cmd
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+set cmd SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set cmd SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set cmd
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set cmd
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd

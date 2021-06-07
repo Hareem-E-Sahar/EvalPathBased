@@ -1,0 +1,62 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName task store
+final Modifier SingleVariableDeclaration SimpleName store
+task store SimpleName SimpleType SingleVariableDeclaration SimpleName store
+final Modifier SingleVariableDeclaration SimpleType SimpleName i job key
+final Modifier SingleVariableDeclaration SimpleName job key
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+active job state query SimpleName MethodInvocation SimpleName job key
+store SimpleName MethodInvocation SimpleName fetch tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName active job state query
+store SimpleName MethodInvocation MethodInvocation SimpleName job key
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName active job state query
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName job key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName immutable set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SimpleName get
+immutable set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+i scheduled task SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+suppliers SimpleName MethodInvocation SimpleName memoize
+cached job state SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName suppliers
+cached job state SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName memoize
+private Modifier MethodDeclaration SimpleType SimpleName cached job state
+private Modifier MethodDeclaration SimpleName get job state
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName store
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+cached job state SimpleName SimpleType MethodDeclaration SimpleName get job state
+cached job state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+cached job state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName store
+cached job state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+cached job state SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName job key
+get job state SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get job state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task store
+get job state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store
+get job state SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get job state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+get job state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cached job state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get job state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cached job state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get job state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key

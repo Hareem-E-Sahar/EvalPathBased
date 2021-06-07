@@ -1,0 +1,119 @@
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert task count SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation SimpleName new builder
+key a SimpleName MethodInvocation SimpleName get name
+key a SimpleName MethodInvocation InfixExpression StringLiteral empty
+get name SimpleName MethodInvocation InfixExpression StringLiteral empty
+key a SimpleName MethodInvocation MethodInvocation SimpleName set name
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set name
+key a SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+new builder SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+set name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName key a
+set name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+set name SimpleName MethodInvocation InfixExpression StringLiteral empty
+i job key SimpleName MethodInvocation SimpleName build
+i job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+i job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+i job key SimpleName MethodInvocation MethodInvocation SimpleName set name
+i job key SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+build SimpleName MethodInvocation MethodInvocation SimpleName set name
+build SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+make job SimpleName MethodInvocation MethodInvocation SimpleName i job key
+make job SimpleName MethodInvocation MethodInvocation SimpleName build
+make job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set name
+make job SimpleName MethodInvocation NumberLiteral empty
+i job key SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+build SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i job key
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i job key
+create job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert task count SimpleName MethodInvocation NumberLiteral empty
+job a SimpleName InfixExpression StringLiteral empty
+query job SimpleName MethodInvocation SimpleName owner a
+query job SimpleName MethodInvocation InfixExpression SimpleName job a
+query job SimpleName MethodInvocation InfixExpression StringLiteral empty
+owner a SimpleName MethodInvocation InfixExpression SimpleName job a
+owner a SimpleName MethodInvocation InfixExpression StringLiteral empty
+owner a SimpleName MethodInvocation SimpleName get user
+scheduler SimpleName MethodInvocation SimpleName kill tasks
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName query job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName owner a
+scheduler SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName job a
+scheduler SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName owner a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName get user
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName query job
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName owner a
+kill tasks SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName job a
+kill tasks SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName owner a
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName get user
+query job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+query job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+owner a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+owner a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+assert task count SimpleName MethodInvocation NumberLiteral empty
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName state
+query SimpleName MethodInvocation SimpleName unscoped
+storageutil QualifiedName MethodInvocation SimpleName consistent fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName query
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName unscoped
+consistent fetch tasks SimpleName MethodInvocation SimpleName storage
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName unscoped
+storage SimpleName MethodInvocation MethodInvocation SimpleName query
+storage SimpleName MethodInvocation MethodInvocation SimpleName unscoped
+tasks SimpleName MethodInvocation SimpleName get job
+tasks SimpleName MethodInvocation SimpleName state
+get job SimpleName MethodInvocation SimpleName state
+assert equals SimpleName MethodInvocation SimpleName job a
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tasks
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName state
+job a SimpleName MethodInvocation MethodInvocation SimpleName tasks
+job a SimpleName MethodInvocation MethodInvocation SimpleName get job
+job a SimpleName MethodInvocation MethodInvocation SimpleName state
+state SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName storageutil
+state SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName consistent fetch tasks
+state SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName storage
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test kill job
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test kill job
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test kill job
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test kill job SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test kill job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test kill job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

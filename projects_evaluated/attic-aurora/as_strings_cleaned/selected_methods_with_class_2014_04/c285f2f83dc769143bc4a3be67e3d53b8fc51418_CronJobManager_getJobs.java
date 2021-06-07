@@ -1,0 +1,6 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName i job configuration
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get jobs
+i job configuration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get jobs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get jobs
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get jobs

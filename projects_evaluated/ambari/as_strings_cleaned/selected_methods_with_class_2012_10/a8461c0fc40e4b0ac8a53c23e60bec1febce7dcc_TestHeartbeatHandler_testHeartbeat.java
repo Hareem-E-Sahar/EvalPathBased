@@ -1,0 +1,124 @@
+action manager SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+action manager SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName action db in memory impl
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName action db in memory impl
+am SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName action manager
+am SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+am SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+action manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName am
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clusters
+fsm SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+clusters SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsm
+hostname SimpleName VariableDeclarationFragment StringLiteral host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral host
+aq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName action queue
+action queue SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aq
+exec cmd SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName execution command
+execution command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exec cmd
+exec cmd SimpleName MethodInvocation SimpleName set command id
+exec cmd SimpleName MethodInvocation StringLiteral -
+set command id SimpleName MethodInvocation StringLiteral -
+exec cmd SimpleName MethodInvocation SimpleName set host name
+exec cmd SimpleName MethodInvocation SimpleName hostname
+set host name SimpleName MethodInvocation SimpleName hostname
+aq SimpleName MethodInvocation SimpleName enqueue
+aq SimpleName MethodInvocation SimpleName hostname
+aq SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName execution command
+enqueue SimpleName MethodInvocation SimpleName hostname
+enqueue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName execution command
+hostname SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName execution command
+heart beat handler SimpleName SimpleType ClassInstanceCreation SimpleName fsm
+heart beat handler SimpleName SimpleType ClassInstanceCreation SimpleName aq
+heart beat handler SimpleName SimpleType ClassInstanceCreation SimpleName am
+fsm SimpleName ClassInstanceCreation SimpleName aq
+fsm SimpleName ClassInstanceCreation SimpleName am
+aq SimpleName ClassInstanceCreation SimpleName am
+handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName heart beat handler
+handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fsm
+handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName aq
+handler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName am
+heart beat handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handler
+hb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName heart beat
+heart beat SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hb
+host status SimpleName SimpleType ClassInstanceCreation QualifiedName statushealthy
+host status SimpleName SimpleType ClassInstanceCreation StringLiteral i am ok
+statushealthy QualifiedName ClassInstanceCreation StringLiteral i am ok
+hb SimpleName MethodInvocation SimpleName set node status
+hb SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host status
+hb SimpleName MethodInvocation ClassInstanceCreation QualifiedName statushealthy
+hb SimpleName MethodInvocation ClassInstanceCreation StringLiteral i am ok
+set node status SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host status
+set node status SimpleName MethodInvocation ClassInstanceCreation QualifiedName statushealthy
+set node status SimpleName MethodInvocation ClassInstanceCreation StringLiteral i am ok
+hb SimpleName MethodInvocation SimpleName set hostname
+hb SimpleName MethodInvocation SimpleName hostname
+set hostname SimpleName MethodInvocation SimpleName hostname
+host impl SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+host object SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host impl
+host object SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hostname
+host SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host object
+host object SimpleName MethodInvocation SimpleName set state
+host object SimpleName MethodInvocation QualifiedName host stateunhealthy
+set state SimpleName MethodInvocation QualifiedName host stateunhealthy
+fsm SimpleName MethodInvocation SimpleName get host
+fsm SimpleName MethodInvocation SimpleName hostname
+get host SimpleName MethodInvocation SimpleName hostname
+when SimpleName MethodInvocation MethodInvocation SimpleName fsm
+when SimpleName MethodInvocation MethodInvocation SimpleName get host
+when SimpleName MethodInvocation MethodInvocation SimpleName hostname
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName host object
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host object
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host object
+hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host object
+then return SimpleName MethodInvocation SimpleName host object
+handler SimpleName MethodInvocation SimpleName handle heart beat
+handler SimpleName MethodInvocation SimpleName hb
+handle heart beat SimpleName MethodInvocation SimpleName hb
+host object SimpleName MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName host statehealthy
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host object
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+host statehealthy QualifiedName MethodInvocation MethodInvocation SimpleName host object
+host statehealthy QualifiedName MethodInvocation MethodInvocation SimpleName get state
+aq SimpleName MethodInvocation SimpleName dequeue all
+aq SimpleName MethodInvocation SimpleName hostname
+dequeue all SimpleName MethodInvocation SimpleName hostname
+aq SimpleName MethodInvocation MethodInvocation SimpleName size
+dequeue all SimpleName MethodInvocation MethodInvocation SimpleName size
+hostname SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aq
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dequeue all
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName aq
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName dequeue all
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test heartbeat
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test heartbeat
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName test heartbeat
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+test heartbeat SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test heartbeat
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test heartbeat
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

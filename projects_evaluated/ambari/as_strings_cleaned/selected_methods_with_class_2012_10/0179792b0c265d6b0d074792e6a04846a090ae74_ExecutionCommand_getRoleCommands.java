@@ -1,0 +1,28 @@
+json property SimpleName SingleMemberAnnotation StringLiteral role commands
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName role execution
+json property SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+role commands StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+json property SimpleName SingleMemberAnnotation MethodDeclaration Modifier synchronized
+role commands StringLiteral SingleMemberAnnotation MethodDeclaration Modifier synchronized
+json property SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get role commands
+role commands StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get role commands
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName role execution
+public Modifier MethodDeclaration SimpleName get role commands
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName role execution
+synchronized Modifier MethodDeclaration SimpleName get role commands
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get role commands
+role execution SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get role commands
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral role commands
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get role commands
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral role commands
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get role commands

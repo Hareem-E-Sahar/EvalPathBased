@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+host action SimpleName SimpleType SingleVariableDeclaration SimpleName ha
+ha SimpleName MethodInvocation SimpleName set command id
+ha SimpleName MethodInvocation SimpleName request id
+ha SimpleName MethodInvocation SimpleName stage id
+set command id SimpleName MethodInvocation SimpleName request id
+set command id SimpleName MethodInvocation SimpleName stage id
+request id SimpleName MethodInvocation SimpleName stage id
+host actions SimpleName MethodInvocation SimpleName put
+host actions SimpleName MethodInvocation SimpleName host
+host actions SimpleName MethodInvocation SimpleName ha
+put SimpleName MethodInvocation SimpleName host
+put SimpleName MethodInvocation SimpleName ha
+host SimpleName MethodInvocation SimpleName ha
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add host action
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host action
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ha
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add host action
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host action
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName ha
+void PrimitiveType MethodDeclaration SimpleName add host action
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host action
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ha
+add host action SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add host action SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+add host action SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host action
+add host action SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ha
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ha
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add host action
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ha
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add host action
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ha

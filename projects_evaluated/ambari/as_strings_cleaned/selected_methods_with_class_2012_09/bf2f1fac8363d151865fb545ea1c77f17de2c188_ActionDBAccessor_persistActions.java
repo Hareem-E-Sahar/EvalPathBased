@@ -1,0 +1,18 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName stages
+stage SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName stages
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName persist actions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stages
+void PrimitiveType MethodDeclaration SimpleName persist actions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stages
+persist actions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stages
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName persist actions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stages
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName persist actions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stages

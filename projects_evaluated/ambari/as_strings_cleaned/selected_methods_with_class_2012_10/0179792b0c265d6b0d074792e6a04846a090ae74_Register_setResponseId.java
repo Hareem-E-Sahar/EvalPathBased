@@ -1,0 +1,37 @@
+json property SimpleName SingleMemberAnnotation StringLiteral response id
+int PrimitiveType SingleVariableDeclaration SimpleName response id
+response id SimpleName FieldAccess Assignment SimpleName response id
+json property SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+response id StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+json property SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+response id StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+json property SimpleName SingleMemberAnnotation MethodDeclaration SimpleName set response id
+response id StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName set response id
+json property SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+json property SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName response id
+response id StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+response id StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName response id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set response id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName response id
+void PrimitiveType MethodDeclaration SimpleName set response id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName response id
+set response id SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set response id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName response id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral response id
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set response id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response id
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral response id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set response id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName response id

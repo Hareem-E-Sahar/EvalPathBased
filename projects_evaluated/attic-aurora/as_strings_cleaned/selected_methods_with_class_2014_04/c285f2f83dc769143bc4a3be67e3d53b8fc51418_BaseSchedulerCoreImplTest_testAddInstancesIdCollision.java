@@ -1,0 +1,102 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName schedule exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+existing task SimpleName VariableDeclarationFragment MethodInvocation SimpleName production task
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName existing task
+production task SimpleName MethodInvocation MethodInvocation SimpleName set environment
+production task SimpleName MethodInvocation MethodInvocation SimpleName env a
+set environment SimpleName MethodInvocation SimpleName env a
+key a SimpleName MethodInvocation SimpleName get name
+production task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set job name
+set environment SimpleName MethodInvocation MethodInvocation SimpleName set job name
+env a SimpleName MethodInvocation MethodInvocation SimpleName set job name
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+env a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+env a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+set job name SimpleName MethodInvocation MethodInvocation SimpleName key a
+set job name SimpleName MethodInvocation MethodInvocation SimpleName get name
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set owner
+env a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set owner
+set job name SimpleName MethodInvocation MethodInvocation SimpleName set owner
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set owner
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set owner
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+env a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+set job name SimpleName MethodInvocation MethodInvocation SimpleName owner a
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+set owner SimpleName MethodInvocation SimpleName owner a
+new task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set job name
+new task SimpleName VariableDeclarationFragment MethodInvocation SimpleName set owner
+new task SimpleName VariableDeclarationFragment MethodInvocation SimpleName owner a
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new task
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation NumberLiteral empty
+instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable set
+instances SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+instances SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+expect no cron job SimpleName MethodInvocation SimpleName key a
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation SimpleName existing task
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation SimpleName existing task
+key a SimpleName MethodInvocation NumberLiteral empty
+existing task SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName existing task
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation SimpleName existing task
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert task count SimpleName MethodInvocation NumberLiteral empty
+i task config SimpleName MethodInvocation SimpleName build
+i task config SimpleName MethodInvocation SimpleName new task
+build SimpleName MethodInvocation SimpleName new task
+scheduler SimpleName MethodInvocation SimpleName add instances
+scheduler SimpleName MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation SimpleName instances
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName i task config
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName build
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName new task
+add instances SimpleName MethodInvocation SimpleName key a
+add instances SimpleName MethodInvocation SimpleName instances
+add instances SimpleName MethodInvocation MethodInvocation SimpleName i task config
+add instances SimpleName MethodInvocation MethodInvocation SimpleName build
+add instances SimpleName MethodInvocation MethodInvocation SimpleName new task
+key a SimpleName MethodInvocation SimpleName instances
+key a SimpleName MethodInvocation MethodInvocation SimpleName i task config
+key a SimpleName MethodInvocation MethodInvocation SimpleName build
+key a SimpleName MethodInvocation MethodInvocation SimpleName new task
+instances SimpleName MethodInvocation MethodInvocation SimpleName i task config
+instances SimpleName MethodInvocation MethodInvocation SimpleName build
+instances SimpleName MethodInvocation MethodInvocation SimpleName new task
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test add instances id collision
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test add instances id collision
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add instances id collision
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test add instances id collision
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test add instances id collision SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add instances id collision
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add instances id collision
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

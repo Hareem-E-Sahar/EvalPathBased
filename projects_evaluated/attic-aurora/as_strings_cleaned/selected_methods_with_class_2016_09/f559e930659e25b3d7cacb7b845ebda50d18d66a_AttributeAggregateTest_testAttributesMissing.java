@@ -1,0 +1,46 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal state exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+attribute store SimpleName MethodInvocation SimpleName get host attributes
+attribute store SimpleName MethodInvocation StringLiteral a
+get host attributes SimpleName MethodInvocation StringLiteral a
+expect SimpleName MethodInvocation MethodInvocation SimpleName attribute store
+expect SimpleName MethodInvocation MethodInvocation SimpleName get host attributes
+expect SimpleName MethodInvocation MethodInvocation StringLiteral a
+optional SimpleName MethodInvocation SimpleName absent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+attribute store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get host attributes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName absent
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleName absent
+control SimpleName MethodInvocation SimpleName replay
+task SimpleName MethodInvocation StringLiteral empty
+task SimpleName MethodInvocation StringLiteral a
+empty StringLiteral MethodInvocation StringLiteral a
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName task
+aggregate SimpleName MethodInvocation MethodInvocation StringLiteral empty
+aggregate SimpleName MethodInvocation MethodInvocation StringLiteral a
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName get aggregates
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test attributes missing
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test attributes missing
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test attributes missing
+void PrimitiveType MethodDeclaration SimpleName test attributes missing
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test attributes missing
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test attributes missing

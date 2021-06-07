@@ -1,0 +1,35 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+ret SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+ret SimpleName InfixExpression SimpleName host
+ret SimpleName InfixExpression StringLiteral empty
+host SimpleName InfixExpression StringLiteral empty
+ret SimpleName Assignment InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression SimpleName host
+ret SimpleName Assignment InfixExpression StringLiteral empty
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+host SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+list SimpleName EnhancedForStatement Block ReturnStatement SimpleName ret
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName create host string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName list
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName create host string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName list
+create host string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+create host string SimpleName MethodDeclaration Block EnhancedForStatement SimpleName list
+create host string SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName create host string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create host string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

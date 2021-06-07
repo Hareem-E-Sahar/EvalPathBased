@@ -1,0 +1,57 @@
+property id impl SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+property id impl SimpleName SimpleType ClassInstanceCreation StringLiteral category
+property id impl SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+foo StringLiteral ClassInstanceCreation StringLiteral category
+foo StringLiteral ClassInstanceCreation BooleanLiteral false
+category StringLiteral ClassInstanceCreation BooleanLiteral false
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName property id impl
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral category
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+property id impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property id
+equals predicate SimpleName SimpleType ClassInstanceCreation SimpleName property id
+equals predicate SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+property id SimpleName ClassInstanceCreation StringLiteral bar
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName equals predicate
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName property id
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral bar
+equals predicate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName predicate
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+predicate SimpleName MethodInvocation SimpleName get property ids
+ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName predicate
+ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property ids
+ids SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName ids
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName ids
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName ids
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+ids SimpleName MethodInvocation SimpleName contains
+ids SimpleName MethodInvocation SimpleName property id
+contains SimpleName MethodInvocation SimpleName property id
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName ids
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation SimpleName property id
+assert true SimpleName MethodInvocation MethodInvocation SimpleName ids
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation SimpleName property id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get properties
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get properties
+void PrimitiveType MethodDeclaration SimpleName test get properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get properties
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get properties

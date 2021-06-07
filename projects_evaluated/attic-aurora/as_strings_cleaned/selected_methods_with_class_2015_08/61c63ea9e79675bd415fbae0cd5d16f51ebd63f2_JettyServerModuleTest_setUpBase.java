@@ -1,0 +1,203 @@
+storage SimpleName Assignment ClassInstanceCreation SimpleType SimpleName storage test util
+dynamic host set SimpleName SimpleType ParameterizedType SimpleType SimpleName service instance
+dynamic host set SimpleName SimpleType ParameterizedType SimpleType SimpleName service instance
+schedulers SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mock
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName dynamic host set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName service instance
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName schedulers
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName create mock
+class SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName clazz
+create mock SimpleName MethodInvocation SimpleName clazz
+mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName create mock
+mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName clazz
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mock
+bind SimpleName MethodInvocation SimpleName clazz
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+clazz SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName mock
+clazz SimpleName MethodInvocation MethodInvocation SimpleName mock
+to instance SimpleName MethodInvocation SimpleName mock
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName bind mock
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName clazz
+t SimpleName SimpleType MethodDeclaration SimpleName bind mock
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clazz
+bind mock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clazz
+bind mock SimpleName MethodDeclaration Block ReturnStatement SimpleName mock
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName stats provider
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName fake stats provider
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName storage
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation QualifiedName storagestorage
+to instance SimpleName MethodInvocation QualifiedName storagestorage
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName i server info
+server info SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set cluster name
+server info SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral unittest
+set cluster name SimpleName MethodInvocation StringLiteral unittest
+set cluster name SimpleName MethodInvocation MethodInvocation SimpleName set thrift api version
+unittest StringLiteral MethodInvocation MethodInvocation SimpleName set thrift api version
+set cluster name SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+unittest StringLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set thrift api version SimpleName MethodInvocation NumberLiteral empty
+set cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set stats url prefix
+unittest StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set stats url prefix
+set thrift api version SimpleName MethodInvocation MethodInvocation SimpleName set stats url prefix
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set stats url prefix
+set cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral none
+unittest StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral none
+set thrift api version SimpleName MethodInvocation MethodInvocation StringLiteral none
+empty NumberLiteral MethodInvocation MethodInvocation StringLiteral none
+set stats url prefix SimpleName MethodInvocation StringLiteral none
+i server info SimpleName MethodInvocation SimpleName build
+i server info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set thrift api version
+i server info SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+i server info SimpleName MethodInvocation MethodInvocation SimpleName set stats url prefix
+i server info SimpleName MethodInvocation MethodInvocation StringLiteral none
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set thrift api version
+build SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+build SimpleName MethodInvocation MethodInvocation SimpleName set stats url prefix
+build SimpleName MethodInvocation MethodInvocation StringLiteral none
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i server info
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+to instance SimpleName MethodInvocation MethodInvocation SimpleName i server info
+to instance SimpleName MethodInvocation MethodInvocation SimpleName build
+to instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set stats url prefix
+to instance SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral none
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task groups settings
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation NumberLiteral l
+amount SimpleName MethodInvocation QualifiedName timemilliseconds
+of SimpleName MethodInvocation NumberLiteral l
+of SimpleName MethodInvocation QualifiedName timemilliseconds
+l NumberLiteral MethodInvocation QualifiedName timemilliseconds
+bind mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName backoff strategy
+rate limiter SimpleName MethodInvocation SimpleName create
+rate limiter SimpleName MethodInvocation NumberLiteral empty
+create SimpleName MethodInvocation NumberLiteral empty
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName amount
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName of
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral l
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName timemilliseconds
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bind mock
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rate limiter
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create
+task groups settings SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+amount SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bind mock
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bind mock
+l NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bind mock
+timemilliseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bind mock
+amount SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+amount SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+amount SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+of SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+l NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+l NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+l NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+timemilliseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+timemilliseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+timemilliseconds QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+bind mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+bind mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+bind mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName task groups settings
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName amount
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral l
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName timemilliseconds
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bind mock
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+dynamic host set SimpleName SimpleType ParameterizedType SimpleType SimpleName service instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName schedulers
+to instance SimpleName MethodInvocation SimpleName schedulers
+bind mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron job manager
+bind mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName lock manager
+bind mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName offer manager
+bind mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reschedule calculator
+bind mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+bind mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName threaduncaught exception handler
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName servlet context listener
+provider SimpleName SimpleType ParameterizedType SimpleType SimpleName servlet context listener
+make servlet context listener SimpleName MethodInvocation SimpleName injector
+make servlet context listener SimpleName MethodInvocation MethodInvocation SimpleName get child servlet module
+injector SimpleName MethodInvocation MethodInvocation SimpleName get child servlet module
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName servlet context listener
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName servlet context listener
+public Modifier MethodDeclaration SimpleName get
+servlet context listener SimpleName SimpleType MethodDeclaration SimpleName get
+bind SimpleName MethodInvocation MethodInvocation SimpleName to provider
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+bind mock SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+bind mock SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+bind mock SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName configure
+jetty server module SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+guice SimpleName MethodInvocation SimpleName create injector
+guice SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stats module
+guice SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lifecycle module
+guice SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scheduler services module
+guice SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName async module
+create injector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName stats module
+create injector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lifecycle module
+create injector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName scheduler services module
+create injector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName async module
+create injector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract module
+injector SimpleName Assignment MethodInvocation SimpleName guice
+injector SimpleName Assignment MethodInvocation SimpleName create injector
+injector SimpleName Assignment MethodInvocation ClassInstanceCreation BooleanLiteral false
+scheduler watcher SimpleName Assignment MethodInvocation SimpleName create capture
+capture SimpleName MethodInvocation SimpleName scheduler watcher
+schedulers SimpleName MethodInvocation SimpleName watch
+schedulers SimpleName MethodInvocation MethodInvocation SimpleName capture
+schedulers SimpleName MethodInvocation MethodInvocation SimpleName scheduler watcher
+watch SimpleName MethodInvocation MethodInvocation SimpleName capture
+watch SimpleName MethodInvocation MethodInvocation SimpleName scheduler watcher
+expect SimpleName MethodInvocation MethodInvocation SimpleName schedulers
+expect SimpleName MethodInvocation MethodInvocation SimpleName watch
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName capture
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scheduler watcher
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName command
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+schedulers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+watch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create mock
+and return SimpleName MethodInvocation MethodInvocation SimpleName create mock
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up base
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up base
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName set up base
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+set up base SimpleName MethodDeclaration SimpleType SimpleName exception
+set up base SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up base
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up base
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

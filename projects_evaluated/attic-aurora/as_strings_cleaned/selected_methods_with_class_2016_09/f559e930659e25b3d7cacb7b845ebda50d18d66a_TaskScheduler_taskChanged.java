@@ -1,0 +1,80 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName task state change
+final Modifier SingleVariableDeclaration SimpleName state change event
+task state change SimpleName SimpleType SingleVariableDeclaration SimpleName state change event
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName pending
+of SimpleName MethodInvocation SimpleName pending
+state change event SimpleName MethodInvocation SimpleName get old state
+optional SimpleName MethodInvocation MethodInvocation SimpleName equals
+of SimpleName MethodInvocation MethodInvocation SimpleName equals
+pending SimpleName MethodInvocation MethodInvocation SimpleName equals
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state change event
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get old state
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state change event
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get old state
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state change event
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get old state
+equals SimpleName MethodInvocation MethodInvocation SimpleName state change event
+equals SimpleName MethodInvocation MethodInvocation SimpleName get old state
+state change event SimpleName MethodInvocation SimpleName get task
+state change event SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+get task SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+assigned SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName state change event
+assigned SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get task
+assigned SimpleName VariableDeclarationFragment MethodInvocation SimpleName get assigned task
+i assigned task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName assigned
+assigned SimpleName MethodInvocation SimpleName get slave id
+assigned SimpleName MethodInvocation SimpleName get slave id
+assigned SimpleName MethodInvocation SimpleName get task
+task group key SimpleName MethodInvocation SimpleName from
+task group key SimpleName MethodInvocation MethodInvocation SimpleName assigned
+task group key SimpleName MethodInvocation MethodInvocation SimpleName get task
+from SimpleName MethodInvocation MethodInvocation SimpleName assigned
+from SimpleName MethodInvocation MethodInvocation SimpleName get task
+reservations SimpleName MethodInvocation SimpleName remove
+reservations SimpleName MethodInvocation MethodInvocation SimpleName assigned
+reservations SimpleName MethodInvocation MethodInvocation SimpleName get slave id
+reservations SimpleName MethodInvocation MethodInvocation SimpleName task group key
+reservations SimpleName MethodInvocation MethodInvocation SimpleName from
+reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+remove SimpleName MethodInvocation MethodInvocation SimpleName assigned
+remove SimpleName MethodInvocation MethodInvocation SimpleName get slave id
+remove SimpleName MethodInvocation MethodInvocation SimpleName task group key
+remove SimpleName MethodInvocation MethodInvocation SimpleName from
+remove SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+remove SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task group key
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+get slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task group key
+get slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+subscribe SimpleName MarkerAnnotation MethodDeclaration Modifier public
+subscribe SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+subscribe SimpleName MarkerAnnotation MethodDeclaration SimpleName task changed
+subscribe SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+subscribe SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state change event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName task changed
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task state change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state change event
+void PrimitiveType MethodDeclaration SimpleName task changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task state change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state change event
+task changed SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+task changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task state change
+task changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state change event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName task changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state change event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName task changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state change event

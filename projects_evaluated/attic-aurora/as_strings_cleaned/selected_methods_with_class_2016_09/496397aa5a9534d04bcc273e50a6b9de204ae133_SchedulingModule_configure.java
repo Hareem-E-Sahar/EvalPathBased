@@ -1,0 +1,167 @@
+bind SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task groupstask groups settings
+first schedule delay SimpleName MethodInvocation SimpleName get
+initial schedule penalty SimpleName MethodInvocation SimpleName get
+max schedule penalty SimpleName MethodInvocation SimpleName get
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName initial schedule penalty
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName max schedule penalty
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+initial schedule penalty SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max schedule penalty
+initial schedule penalty SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max schedule penalty
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+max schedule attempts per sec SimpleName MethodInvocation SimpleName get
+rate limiter SimpleName MethodInvocation SimpleName create
+rate limiter SimpleName MethodInvocation MethodInvocation SimpleName max schedule attempts per sec
+rate limiter SimpleName MethodInvocation MethodInvocation SimpleName get
+create SimpleName MethodInvocation MethodInvocation SimpleName max schedule attempts per sec
+create SimpleName MethodInvocation MethodInvocation SimpleName get
+task groupstask groups settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName first schedule delay
+task groupstask groups settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+task groupstask groups settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName rate limiter
+task groupstask groups settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName create
+first schedule delay SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+first schedule delay SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName task groupstask groups settings
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName first schedule delay
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName rate limiter
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create
+bind SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName reschedule calculator implreschedule calculator settings
+initial flapping delay SimpleName MethodInvocation SimpleName get
+max flapping delay SimpleName MethodInvocation SimpleName get
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName initial flapping delay
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName max flapping delay
+truncated binary backoff SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+initial flapping delay SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max flapping delay
+initial flapping delay SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max flapping delay
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+flapping threshold SimpleName MethodInvocation SimpleName get
+max rescheduling delay SimpleName MethodInvocation SimpleName get
+reschedule calculator implreschedule calculator settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName flapping threshold
+reschedule calculator implreschedule calculator settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+reschedule calculator implreschedule calculator settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName max rescheduling delay
+reschedule calculator implreschedule calculator settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+flapping threshold SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max rescheduling delay
+flapping threshold SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max rescheduling delay
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName reschedule calculator implreschedule calculator settings
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName flapping threshold
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName max rescheduling delay
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reschedule calculator
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reschedule calculator impl
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+to SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+expose SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reschedule calculator
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task groups
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+expose SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task groups
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+install SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName private module
+pubsub event module SimpleName MethodInvocation SimpleName bind subscriber
+pubsub event module SimpleName MethodInvocation MethodInvocation SimpleName binder
+pubsub event module SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task groups
+bind subscriber SimpleName MethodInvocation MethodInvocation SimpleName binder
+bind subscriber SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task groups
+type literal SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+bind SimpleName MethodInvocation MethodInvocation SimpleName annotated with
+annotated with SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task groupsscheduling max batch size
+scheduling max batch size SimpleName MethodInvocation SimpleName get
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to instance
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName to instance
+annotated with SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName scheduling max batch size
+annotated with SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+to instance SimpleName MethodInvocation MethodInvocation SimpleName scheduling max batch size
+to instance SimpleName MethodInvocation MethodInvocation SimpleName get
+bind SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task groupstask group batch worker
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+add scheduler active service binding SimpleName MethodInvocation MethodInvocation SimpleName binder
+add scheduler active service binding SimpleName MethodInvocation MethodInvocation SimpleName to
+binder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task groupstask group batch worker
+bi cache SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+bi cache SimpleName SimpleType ParameterizedType SimpleType SimpleName task group key
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName task group key
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName bi cachebi cache settings
+reservation duration SimpleName MethodInvocation SimpleName get
+bi cachebi cache settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName reservation duration
+bi cachebi cache settings QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+bi cachebi cache settings QualifiedName SimpleType ClassInstanceCreation StringLiteral reservation cache size
+reservation duration SimpleName MethodInvocation ClassInstanceCreation StringLiteral reservation cache size
+get SimpleName MethodInvocation ClassInstanceCreation StringLiteral reservation cache size
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral reservation cache size
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName bi cachebi cache settings
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reservation duration
+to instance SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+to instance SimpleName MethodInvocation ClassInstanceCreation StringLiteral reservation cache size
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task schedulertask scheduler impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task schedulertask scheduler impl
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+expose SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+install SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName private module
+pubsub event module SimpleName MethodInvocation SimpleName bind subscriber
+pubsub event module SimpleName MethodInvocation MethodInvocation SimpleName binder
+pubsub event module SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+bind subscriber SimpleName MethodInvocation MethodInvocation SimpleName binder
+bind subscriber SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task throttler
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+expose SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task throttler
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+install SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName private module
+pubsub event module SimpleName MethodInvocation SimpleName bind subscriber
+pubsub event module SimpleName MethodInvocation MethodInvocation SimpleName binder
+pubsub event module SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task throttler
+bind subscriber SimpleName MethodInvocation MethodInvocation SimpleName binder
+bind subscriber SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task throttler
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

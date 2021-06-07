@@ -1,0 +1,197 @@
+host SimpleName VariableDeclarationFragment StringLiteral slave a
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral slave a
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation StringLiteral role
+make task SimpleName MethodInvocation StringLiteral env
+make task SimpleName MethodInvocation StringLiteral job
+a StringLiteral MethodInvocation StringLiteral role
+a StringLiteral MethodInvocation StringLiteral env
+a StringLiteral MethodInvocation StringLiteral job
+role StringLiteral MethodInvocation StringLiteral env
+role StringLiteral MethodInvocation StringLiteral job
+env StringLiteral MethodInvocation StringLiteral job
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName host
+of SimpleName MethodInvocation SimpleName host
+set host SimpleName MethodInvocation MethodInvocation SimpleName make task
+set host SimpleName MethodInvocation MethodInvocation StringLiteral a
+set host SimpleName MethodInvocation MethodInvocation StringLiteral role
+set host SimpleName MethodInvocation MethodInvocation StringLiteral env
+set host SimpleName MethodInvocation MethodInvocation StringLiteral job
+set host SimpleName MethodInvocation MethodInvocation SimpleName optional
+set host SimpleName MethodInvocation MethodInvocation SimpleName of
+set host SimpleName MethodInvocation MethodInvocation SimpleName host
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName set host
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName make task
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral a
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral role
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral env
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral job
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName optional
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName host
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set host
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName a
+store SimpleName MethodInvocation SimpleName save tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store SimpleName MethodInvocation MethodInvocation SimpleName of
+store SimpleName MethodInvocation MethodInvocation SimpleName a
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName a
+query SimpleName MethodInvocation SimpleName slave scoped
+query SimpleName MethodInvocation SimpleName host
+slave scoped SimpleName MethodInvocation SimpleName host
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName query
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName slave scoped
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName host
+assert query results SimpleName MethodInvocation SimpleName a
+query SimpleName MethodInvocation MethodInvocation SimpleName a
+slave scoped SimpleName MethodInvocation MethodInvocation SimpleName a
+host SimpleName MethodInvocation MethodInvocation SimpleName a
+optional SimpleName MethodInvocation SimpleType SimpleName string
+optional SimpleName MethodInvocation SimpleName absent
+string SimpleName SimpleType MethodInvocation SimpleName absent
+set host SimpleName MethodInvocation SimpleName a
+set host SimpleName MethodInvocation MethodInvocation SimpleName optional
+set host SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+set host SimpleName MethodInvocation MethodInvocation SimpleName absent
+a SimpleName MethodInvocation MethodInvocation SimpleName optional
+a SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+a SimpleName MethodInvocation MethodInvocation SimpleName absent
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName set host
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName optional
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName absent
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set host
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName a
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName a
+id SimpleName MethodInvocation SimpleName a
+query SimpleName MethodInvocation SimpleName task scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName tasks
+query SimpleName MethodInvocation MethodInvocation SimpleName id
+query SimpleName MethodInvocation MethodInvocation SimpleName a
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName tasks
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName id
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName a
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+i scheduled task SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+assert equals SimpleName MethodInvocation SimpleName a
+assert equals SimpleName MethodInvocation SimpleName task
+a SimpleName MethodInvocation SimpleName task
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i scheduled task
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration Block ReturnStatement SimpleName b
+i scheduled task SimpleName SimpleType MethodDeclaration SimpleName apply
+i scheduled task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName task
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+apply SimpleName MethodDeclaration Block ReturnStatement SimpleName b
+store SimpleName MethodInvocation SimpleName mutate tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName query
+store SimpleName MethodInvocation MethodInvocation SimpleName task scoped
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+mutate tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+mutate tasks SimpleName MethodInvocation MethodInvocation SimpleName task scoped
+mutate tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+mutate tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+mutate tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName mutate tasks
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task scoped
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName of
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName b
+assert equals SimpleName MethodInvocation SimpleName result
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName result
+of SimpleName MethodInvocation MethodInvocation SimpleName result
+b SimpleName MethodInvocation MethodInvocation SimpleName result
+query SimpleName MethodInvocation SimpleName slave scoped
+query SimpleName MethodInvocation SimpleName host
+slave scoped SimpleName MethodInvocation SimpleName host
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName query
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName slave scoped
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName host
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName b
+id SimpleName MethodInvocation SimpleName b
+query SimpleName MethodInvocation SimpleName task scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName tasks
+query SimpleName MethodInvocation MethodInvocation SimpleName id
+query SimpleName MethodInvocation MethodInvocation SimpleName b
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName tasks
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName id
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName b
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName query
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName task scoped
+assert query results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+assert query results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+assert query results SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+assert query results SimpleName MethodInvocation SimpleName b
+query SimpleName MethodInvocation MethodInvocation SimpleName b
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName b
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+b SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test unset slave host
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test unset slave host
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test unset slave host
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test unset slave host SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test unset slave host SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test unset slave host
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test unset slave host

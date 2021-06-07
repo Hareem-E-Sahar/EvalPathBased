@@ -1,0 +1,22 @@
+job id SimpleName SimpleType SingleVariableDeclaration SimpleName id
+write lock SimpleName MethodInvocation SimpleName lock
+id SimpleName FieldAccess Assignment SimpleName id
+write lock SimpleName MethodInvocation SimpleName unlock
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName set id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job id
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

@@ -1,0 +1,154 @@
+resource slot SimpleName MethodInvocation SimpleName from
+resource slot SimpleName MethodInvocation SimpleName offer
+from SimpleName MethodInvocation SimpleName offer
+offer SimpleName MethodInvocation SimpleName get hostname
+task SimpleName MethodInvocation SimpleName get assigned task
+task SimpleName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task
+id SimpleName MethodInvocation SimpleName task
+filter SimpleName MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation MethodInvocation SimpleName resource slot
+filter SimpleName MethodInvocation MethodInvocation SimpleName from
+filter SimpleName MethodInvocation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+filter SimpleName MethodInvocation MethodInvocation SimpleName get task
+filter SimpleName MethodInvocation MethodInvocation SimpleName tasks
+filter SimpleName MethodInvocation MethodInvocation SimpleName id
+filter SimpleName MethodInvocation MethodInvocation SimpleName task
+filter SimpleName MethodInvocation MethodInvocation SimpleName resource slot
+filter SimpleName MethodInvocation MethodInvocation SimpleName from
+filter SimpleName MethodInvocation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+filter SimpleName MethodInvocation MethodInvocation SimpleName get task
+filter SimpleName MethodInvocation MethodInvocation SimpleName tasks
+filter SimpleName MethodInvocation MethodInvocation SimpleName id
+filter SimpleName MethodInvocation MethodInvocation SimpleName task
+filter SimpleName MethodInvocation SimpleName empty job
+resource slot SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+resource slot SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hostname
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hostname
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hostname
+resource slot SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+resource slot SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+resource slot SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+resource slot SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+resource slot SimpleName MethodInvocation MethodInvocation SimpleName empty job
+from SimpleName MethodInvocation MethodInvocation SimpleName empty job
+offer SimpleName MethodInvocation MethodInvocation SimpleName empty job
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+get hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+get hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+get hostname SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+offer SimpleName MethodInvocation MethodInvocation SimpleName empty job
+get hostname SimpleName MethodInvocation MethodInvocation SimpleName empty job
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty job
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty job
+get task SimpleName MethodInvocation MethodInvocation SimpleName empty job
+tasks SimpleName MethodInvocation MethodInvocation SimpleName empty job
+id SimpleName MethodInvocation MethodInvocation SimpleName empty job
+task SimpleName MethodInvocation MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName filter
+expect SimpleName MethodInvocation MethodInvocation SimpleName filter
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resource slot
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hostname
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+veto SimpleName MethodInvocation SimpleName constraint mismatch
+veto SimpleName MethodInvocation StringLiteral denied
+constraint mismatch SimpleName MethodInvocation StringLiteral denied
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName veto
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName constraint mismatch
+immutable set SimpleName MethodInvocation MethodInvocation StringLiteral denied
+of SimpleName MethodInvocation MethodInvocation SimpleName veto
+of SimpleName MethodInvocation MethodInvocation SimpleName constraint mismatch
+of SimpleName MethodInvocation MethodInvocation StringLiteral denied
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+and return SimpleName MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName veto
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName constraint mismatch
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral denied
+control SimpleName MethodInvocation SimpleName replay
+optional SimpleName MethodInvocation SimpleType SimpleName task info
+optional SimpleName MethodInvocation SimpleName absent
+task info SimpleName SimpleType MethodInvocation SimpleName absent
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName offer
+assigner SimpleName MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName empty job
+maybe assign SimpleName MethodInvocation SimpleName offer
+maybe assign SimpleName MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName empty job
+offer SimpleName MethodInvocation SimpleName task
+offer SimpleName MethodInvocation SimpleName empty job
+task SimpleName MethodInvocation SimpleName empty job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName optional
+assert equals SimpleName MethodInvocation MethodInvocation SimpleType SimpleName task info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName absent
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName assigner
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName maybe assign
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName offer
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName task
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName empty job
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigner
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName maybe assign
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty job
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigner
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName maybe assign
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty job
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test assign vetoes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test assign vetoes
+void PrimitiveType MethodDeclaration SimpleName test assign vetoes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test assign vetoes
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test assign vetoes

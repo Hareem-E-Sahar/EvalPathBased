@@ -1,0 +1,77 @@
+expect auth SimpleName MethodInvocation SimpleName role
+expect auth SimpleName MethodInvocation BooleanLiteral true
+role SimpleName MethodInvocation BooleanLiteral true
+optional SimpleName MethodInvocation SimpleType SimpleName i lock
+optional SimpleName MethodInvocation SimpleName absent
+i lock SimpleName SimpleType MethodInvocation SimpleName absent
+lock manager SimpleName MethodInvocation SimpleName validate if locked
+lock manager SimpleName MethodInvocation SimpleName lock key
+lock manager SimpleName MethodInvocation MethodInvocation SimpleName optional
+lock manager SimpleName MethodInvocation MethodInvocation SimpleType SimpleName i lock
+lock manager SimpleName MethodInvocation MethodInvocation SimpleName absent
+validate if locked SimpleName MethodInvocation SimpleName lock key
+validate if locked SimpleName MethodInvocation MethodInvocation SimpleName optional
+validate if locked SimpleName MethodInvocation MethodInvocation SimpleType SimpleName i lock
+validate if locked SimpleName MethodInvocation MethodInvocation SimpleName absent
+lock key SimpleName MethodInvocation MethodInvocation SimpleName optional
+lock key SimpleName MethodInvocation MethodInvocation SimpleType SimpleName i lock
+lock key SimpleName MethodInvocation MethodInvocation SimpleName absent
+any object SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sanitized cron job
+cron job manager SimpleName MethodInvocation SimpleName update job
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName any object
+update job SimpleName MethodInvocation MethodInvocation SimpleName any object
+cron exception SimpleName SimpleType ClassInstanceCreation StringLiteral nope
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName and throw
+expect last call SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral nope
+and throw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cron exception
+and throw SimpleName MethodInvocation ClassInstanceCreation StringLiteral nope
+control SimpleName MethodInvocation SimpleName replay
+thrift SimpleName MethodInvocation SimpleName replace cron template
+thrift SimpleName MethodInvocation SimpleName cron job
+thrift SimpleName MethodInvocation SimpleName default lock
+thrift SimpleName MethodInvocation SimpleName session
+replace cron template SimpleName MethodInvocation SimpleName cron job
+replace cron template SimpleName MethodInvocation SimpleName default lock
+replace cron template SimpleName MethodInvocation SimpleName session
+cron job SimpleName MethodInvocation SimpleName default lock
+cron job SimpleName MethodInvocation SimpleName session
+default lock SimpleName MethodInvocation SimpleName session
+thrift SimpleName MethodInvocation MethodInvocation SimpleName get response code
+replace cron template SimpleName MethodInvocation MethodInvocation SimpleName get response code
+cron job SimpleName MethodInvocation MethodInvocation SimpleName get response code
+default lock SimpleName MethodInvocation MethodInvocation SimpleName get response code
+session SimpleName MethodInvocation MethodInvocation SimpleName get response code
+assert equals SimpleName MethodInvocation SimpleName invalid request
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName thrift
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace cron template
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default lock
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName session
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get response code
+invalid request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName thrift
+invalid request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName replace cron template
+invalid request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job
+invalid request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName default lock
+invalid request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName session
+invalid request SimpleName MethodInvocation MethodInvocation SimpleName get response code
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test replace cron template does not exist
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test replace cron template does not exist
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test replace cron template does not exist
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test replace cron template does not exist SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test replace cron template does not exist
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test replace cron template does not exist
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

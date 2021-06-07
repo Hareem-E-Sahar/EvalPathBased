@@ -1,0 +1,50 @@
+capture SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+expect task retry in SimpleName MethodInvocation SimpleName first schedule delay ms
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName expect task retry in
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName first schedule delay ms
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation SimpleName pending
+a StringLiteral MethodInvocation SimpleName pending
+task state change SimpleName MethodInvocation SimpleName transition
+task state change SimpleName MethodInvocation MethodInvocation SimpleName make task
+task state change SimpleName MethodInvocation MethodInvocation StringLiteral a
+task state change SimpleName MethodInvocation MethodInvocation SimpleName pending
+task state change SimpleName MethodInvocation SimpleName init
+transition SimpleName MethodInvocation MethodInvocation SimpleName make task
+transition SimpleName MethodInvocation MethodInvocation StringLiteral a
+transition SimpleName MethodInvocation MethodInvocation SimpleName pending
+transition SimpleName MethodInvocation SimpleName init
+make task SimpleName MethodInvocation MethodInvocation SimpleName init
+a StringLiteral MethodInvocation MethodInvocation SimpleName init
+pending SimpleName MethodInvocation MethodInvocation SimpleName init
+task groups SimpleName MethodInvocation SimpleName task changed state
+task groups SimpleName MethodInvocation MethodInvocation SimpleName task state change
+task groups SimpleName MethodInvocation MethodInvocation SimpleName transition
+task groups SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName make task
+task groups SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+task groups SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+task groups SimpleName MethodInvocation MethodInvocation SimpleName init
+task changed state SimpleName MethodInvocation MethodInvocation SimpleName task state change
+task changed state SimpleName MethodInvocation MethodInvocation SimpleName transition
+task changed state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName make task
+task changed state SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+task changed state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+task changed state SimpleName MethodInvocation MethodInvocation SimpleName init
+timeout capture SimpleName MethodInvocation SimpleName get value
+timeout capture SimpleName MethodInvocation MethodInvocation SimpleName run
+get value SimpleName MethodInvocation MethodInvocation SimpleName run
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test task missing
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test task missing
+void PrimitiveType MethodDeclaration SimpleName test task missing
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test task missing
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test task missing

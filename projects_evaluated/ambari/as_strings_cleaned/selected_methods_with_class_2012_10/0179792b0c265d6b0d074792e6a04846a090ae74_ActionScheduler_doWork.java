@@ -1,0 +1,108 @@
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral scheduler wakes up
+info SimpleName MethodInvocation StringLiteral scheduler wakes up
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+db SimpleName MethodInvocation SimpleName get stages in progress
+stages SimpleName VariableDeclarationFragment MethodInvocation SimpleName db
+stages SimpleName VariableDeclarationFragment MethodInvocation SimpleName get stages in progress
+stages SimpleName MethodInvocation SimpleName is empty
+stages SimpleName InfixExpression InfixExpression MethodInvocation SimpleName stages
+stages SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral no stage in progressnothing to do
+info SimpleName MethodInvocation StringLiteral no stage in progressnothing to do
+operation failure SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName operation failure
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+stage SimpleName SimpleType SingleVariableDeclaration SimpleName s
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName host role command
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName host role command
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName role
+get inverted role map SimpleName MethodInvocation SimpleName s
+role to hrc map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inverted role map
+role to hrc map SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+move to next stage SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName move to next stage
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+role SimpleName SimpleType SingleVariableDeclaration SimpleName r
+role to hrc map SimpleName MethodInvocation SimpleName key set
+role to hrc map SimpleName MethodInvocation SimpleName get
+role to hrc map SimpleName MethodInvocation SimpleName r
+get SimpleName MethodInvocation SimpleName r
+process pendings and reschedule SimpleName MethodInvocation SimpleName s
+process pendings and reschedule SimpleName MethodInvocation MethodInvocation SimpleName role to hrc map
+process pendings and reschedule SimpleName MethodInvocation MethodInvocation SimpleName get
+process pendings and reschedule SimpleName MethodInvocation MethodInvocation SimpleName r
+s SimpleName MethodInvocation MethodInvocation SimpleName role to hrc map
+s SimpleName MethodInvocation MethodInvocation SimpleName get
+s SimpleName MethodInvocation MethodInvocation SimpleName r
+role to hrc map SimpleName MethodInvocation SimpleName get
+role to hrc map SimpleName MethodInvocation SimpleName r
+get SimpleName MethodInvocation SimpleName r
+s SimpleName MethodInvocation SimpleName get success factor
+s SimpleName MethodInvocation SimpleName r
+get success factor SimpleName MethodInvocation SimpleName r
+get role status SimpleName MethodInvocation MethodInvocation SimpleName role to hrc map
+get role status SimpleName MethodInvocation MethodInvocation SimpleName get
+get role status SimpleName MethodInvocation MethodInvocation SimpleName r
+get role status SimpleName MethodInvocation MethodInvocation SimpleName s
+get role status SimpleName MethodInvocation MethodInvocation SimpleName get success factor
+get role status SimpleName MethodInvocation MethodInvocation SimpleName r
+role to hrc map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+role to hrc map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get success factor
+role to hrc map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get success factor
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get success factor
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+role status SimpleName VariableDeclarationFragment MethodInvocation SimpleName get role status
+role status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName role to hrc map
+role status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+role status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName r
+role status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName s
+role status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get success factor
+role status SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName r
+role status SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName role status
+role status SimpleName MethodInvocation SimpleName is role successful
+role status SimpleName MethodInvocation SimpleName is role in progress
+operation failure SimpleName Assignment BooleanLiteral true
+move to next stage SimpleName Assignment BooleanLiteral false
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName role to hrc map
+r SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+s SimpleName MethodInvocation SimpleName get request id
+db SimpleName MethodInvocation SimpleName abort operation
+db SimpleName MethodInvocation MethodInvocation SimpleName s
+db SimpleName MethodInvocation MethodInvocation SimpleName get request id
+abort operation SimpleName MethodInvocation MethodInvocation SimpleName s
+abort operation SimpleName MethodInvocation MethodInvocation SimpleName get request id
+operation failure SimpleName InfixExpression PrefixExpression SimpleName move to next stage
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName operation failure
+stage SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stages
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stages
+stages SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType boolean
+stages SimpleName EnhancedForStatement Block IfStatement SimpleName operation failure
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName stages
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do work
+private Modifier MethodDeclaration SimpleType SimpleName ambari exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName stages
+void PrimitiveType MethodDeclaration SimpleName do work
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName stages
+do work SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+do work SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+do work SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stages
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do work
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do work
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

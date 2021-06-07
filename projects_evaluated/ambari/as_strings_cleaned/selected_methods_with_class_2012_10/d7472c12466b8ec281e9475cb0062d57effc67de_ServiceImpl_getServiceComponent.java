@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName component name
+components SimpleName MethodInvocation SimpleName contains key
+components SimpleName MethodInvocation SimpleName component name
+contains key SimpleName MethodInvocation SimpleName component name
+cluster SimpleName MethodInvocation SimpleName get cluster name
+service component not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+service component not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get cluster name
+service component not found exception SimpleName SimpleType ClassInstanceCreation SimpleName service name
+service component not found exception SimpleName SimpleType ClassInstanceCreation SimpleName component name
+cluster SimpleName MethodInvocation ClassInstanceCreation SimpleName service name
+get cluster name SimpleName MethodInvocation ClassInstanceCreation SimpleName service name
+cluster SimpleName MethodInvocation ClassInstanceCreation SimpleName component name
+get cluster name SimpleName MethodInvocation ClassInstanceCreation SimpleName component name
+service name SimpleName ClassInstanceCreation SimpleName component name
+components SimpleName FieldAccess MethodInvocation SimpleName get
+components SimpleName FieldAccess MethodInvocation SimpleName component name
+get SimpleName MethodInvocation SimpleName component name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName service component
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get service component
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName component name
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration SimpleType SimpleName service component
+public Modifier MethodDeclaration SimpleName get service component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName component name
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+service component SimpleName SimpleType MethodDeclaration SimpleName get service component
+service component SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName component name
+service component SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+get service component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName component name
+get service component SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+component name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service component
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName component name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service component
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName component name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

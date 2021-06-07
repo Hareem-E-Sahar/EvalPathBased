@@ -1,0 +1,243 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName deferred launch
+storagemutable store provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName i job configuration
+store provider SimpleName MethodInvocation SimpleName get job store
+cron job manager SimpleName MethodInvocation SimpleName get manager key
+store provider SimpleName MethodInvocation MethodInvocation SimpleName fetch job
+get job store SimpleName MethodInvocation MethodInvocation SimpleName fetch job
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job manager
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job manager
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+store provider SimpleName MethodInvocation MethodInvocation SimpleName key
+get job store SimpleName MethodInvocation MethodInvocation SimpleName key
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+fetch job SimpleName MethodInvocation SimpleName key
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName key
+get manager key SimpleName MethodInvocation MethodInvocation SimpleName key
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName store provider
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get job store
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName fetch job
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cron job manager
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get manager key
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+config SimpleName MethodInvocation SimpleName is present
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral cron was triggered for s but no job with that key was found in storage
+string SimpleName MethodInvocation SimpleName path
+format SimpleName MethodInvocation StringLiteral cron was triggered for s but no job with that key was found in storage
+format SimpleName MethodInvocation SimpleName path
+cron was triggered for s but no job with that key was found in storage StringLiteral MethodInvocation SimpleName path
+log SimpleName MethodInvocation SimpleName warning
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral cron was triggered for s but no job with that key was found in storage
+log SimpleName MethodInvocation MethodInvocation SimpleName path
+warning SimpleName MethodInvocation MethodInvocation SimpleName string
+warning SimpleName MethodInvocation MethodInvocation SimpleName format
+warning SimpleName MethodInvocation MethodInvocation StringLiteral cron was triggered for s but no job with that key was found in storage
+warning SimpleName MethodInvocation MethodInvocation SimpleName path
+cron job misfires SimpleName MethodInvocation SimpleName increment and get
+optional SimpleName MethodInvocation SimpleName absent
+sanitized cron job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cron job
+config SimpleName MethodInvocation SimpleName get
+sanitized cron job SimpleName MethodInvocation SimpleName from unsanitized
+sanitized cron job SimpleName MethodInvocation MethodInvocation SimpleName config
+sanitized cron job SimpleName MethodInvocation MethodInvocation SimpleName get
+from unsanitized SimpleName MethodInvocation MethodInvocation SimpleName config
+from unsanitized SimpleName MethodInvocation MethodInvocation SimpleName get
+cron job SimpleName Assignment MethodInvocation SimpleName sanitized cron job
+cron job SimpleName Assignment MethodInvocation SimpleName from unsanitized
+cron job SimpleName Assignment MethodInvocation MethodInvocation SimpleName config
+cron job SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+configuration managertask description exception QualifiedName SimpleType UnionType SimpleType SimpleName cron exception
+configuration managertask description exception QualifiedName SimpleType UnionType SingleVariableDeclaration SimpleName e
+cron exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral invalid cron job for s in storage - failed to parse with s
+string SimpleName MethodInvocation SimpleName key
+string SimpleName MethodInvocation SimpleName e
+format SimpleName MethodInvocation StringLiteral invalid cron job for s in storage - failed to parse with s
+format SimpleName MethodInvocation SimpleName key
+format SimpleName MethodInvocation SimpleName e
+invalid cron job for s in storage - failed to parse with s StringLiteral MethodInvocation SimpleName key
+invalid cron job for s in storage - failed to parse with s StringLiteral MethodInvocation SimpleName e
+key SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation SimpleName warning
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral invalid cron job for s in storage - failed to parse with s
+log SimpleName MethodInvocation MethodInvocation SimpleName key
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+warning SimpleName MethodInvocation MethodInvocation SimpleName string
+warning SimpleName MethodInvocation MethodInvocation SimpleName format
+warning SimpleName MethodInvocation MethodInvocation StringLiteral invalid cron job for s in storage - failed to parse with s
+warning SimpleName MethodInvocation MethodInvocation SimpleName key
+warning SimpleName MethodInvocation MethodInvocation SimpleName e
+cron job parse failures SimpleName MethodInvocation SimpleName increment and get
+optional SimpleName MethodInvocation SimpleName absent
+cron job SimpleName MethodInvocation SimpleName get cron collision policy
+collision policy SimpleName VariableDeclarationFragment MethodInvocation SimpleName cron job
+collision policy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cron collision policy
+cron collision policy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName collision policy
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral cron triggered for s at s with policy s
+string SimpleName MethodInvocation SimpleName path
+string SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+string SimpleName MethodInvocation SimpleName collision policy
+format SimpleName MethodInvocation StringLiteral cron triggered for s at s with policy s
+format SimpleName MethodInvocation SimpleName path
+format SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+format SimpleName MethodInvocation SimpleName collision policy
+cron triggered for s at s with policy s StringLiteral MethodInvocation SimpleName path
+cron triggered for s at s with policy s StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+cron triggered for s at s with policy s StringLiteral MethodInvocation SimpleName collision policy
+path SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName date
+path SimpleName MethodInvocation SimpleName collision policy
+date SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName collision policy
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral cron triggered for s at s with policy s
+log SimpleName MethodInvocation MethodInvocation SimpleName path
+log SimpleName MethodInvocation MethodInvocation SimpleName collision policy
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral cron triggered for s at s with policy s
+info SimpleName MethodInvocation MethodInvocation SimpleName path
+info SimpleName MethodInvocation MethodInvocation SimpleName collision policy
+cron job triggers SimpleName MethodInvocation SimpleName increment and get
+immutable map SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+immutable map SimpleName SimpleType ParameterizedType SimpleType SimpleName i task config
+integer SimpleName SimpleType ParameterizedType SimpleType SimpleName i task config
+cron job SimpleName MethodInvocation SimpleName get sanitized config
+cron job SimpleName MethodInvocation MethodInvocation SimpleName get task configs
+get sanitized config SimpleName MethodInvocation MethodInvocation SimpleName get task configs
+immutable map SimpleName MethodInvocation SimpleName copy of
+immutable map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job
+immutable map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get sanitized config
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName get task configs
+copy of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job
+copy of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get sanitized config
+copy of SimpleName MethodInvocation MethodInvocation SimpleName get task configs
+pending tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable map
+pending tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy of
+pending tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get task configs
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key
+job scoped SimpleName MethodInvocation SimpleName key
+query SimpleName MethodInvocation MethodInvocation SimpleName active
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName active
+key SimpleName MethodInvocation MethodInvocation SimpleName active
+active query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+active query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job scoped
+active query SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key
+active query SimpleName VariableDeclarationFragment MethodInvocation SimpleName active
+final Modifier VariableDeclarationStatement SimpleType QualifiedName querybuilder
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName active query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName active
+querybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active query
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+store provider SimpleName MethodInvocation SimpleName get task store
+store provider SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+get task store SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+store provider SimpleName MethodInvocation MethodInvocation SimpleName active query
+get task store SimpleName MethodInvocation MethodInvocation SimpleName active query
+fetch tasks SimpleName MethodInvocation SimpleName active query
+tasks SimpleName MethodInvocation SimpleName ids
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store provider
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task store
+tasks SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+tasks SimpleName MethodInvocation MethodInvocation SimpleName active query
+ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store provider
+ids SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task store
+ids SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+ids SimpleName MethodInvocation MethodInvocation SimpleName active query
+active tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+active tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName ids
+active tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fetch tasks
+active tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName active query
+active tasks SimpleName MethodInvocation SimpleName is empty
+state manager SimpleName MethodInvocation SimpleName insert pending tasks
+state manager SimpleName MethodInvocation SimpleName pending tasks
+insert pending tasks SimpleName MethodInvocation SimpleName pending tasks
+optional SimpleName MethodInvocation SimpleName absent
+cron job collisions SimpleName MethodInvocation SimpleName increment and get
+deferred launch SimpleName SimpleType ClassInstanceCreation SimpleName pending tasks
+deferred launch SimpleName SimpleType ClassInstanceCreation SimpleName active tasks
+pending tasks SimpleName ClassInstanceCreation SimpleName active tasks
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName deferred launch
+optional SimpleName MethodInvocation ClassInstanceCreation SimpleName pending tasks
+optional SimpleName MethodInvocation ClassInstanceCreation SimpleName active tasks
+of SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName deferred launch
+of SimpleName MethodInvocation ClassInstanceCreation SimpleName pending tasks
+of SimpleName MethodInvocation ClassInstanceCreation SimpleName active tasks
+ignoring trigger for job s with deprecated collision StringLiteral InfixExpression StringLiteral policy run overlap due to unterminated active tasks
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation InfixExpression StringLiteral ignoring trigger for job s with deprecated collision
+string SimpleName MethodInvocation InfixExpression StringLiteral policy run overlap due to unterminated active tasks
+string SimpleName MethodInvocation SimpleName path
+format SimpleName MethodInvocation InfixExpression StringLiteral ignoring trigger for job s with deprecated collision
+format SimpleName MethodInvocation InfixExpression StringLiteral policy run overlap due to unterminated active tasks
+format SimpleName MethodInvocation SimpleName path
+ignoring trigger for job s with deprecated collision StringLiteral InfixExpression MethodInvocation SimpleName path
+policy run overlap due to unterminated active tasks StringLiteral InfixExpression MethodInvocation SimpleName path
+log SimpleName MethodInvocation SimpleName severe
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ignoring trigger for job s with deprecated collision
+log SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral policy run overlap due to unterminated active tasks
+log SimpleName MethodInvocation MethodInvocation SimpleName path
+severe SimpleName MethodInvocation MethodInvocation SimpleName string
+severe SimpleName MethodInvocation MethodInvocation SimpleName format
+severe SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral ignoring trigger for job s with deprecated collision
+severe SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral policy run overlap due to unterminated active tasks
+severe SimpleName MethodInvocation MethodInvocation SimpleName path
+optional SimpleName MethodInvocation SimpleName absent
+optional SimpleName MethodInvocation SimpleName absent
+unrecognized cron collision policy StringLiteral InfixExpression SimpleName collision policy
+log SimpleName MethodInvocation SimpleName severe
+log SimpleName MethodInvocation InfixExpression StringLiteral unrecognized cron collision policy
+log SimpleName MethodInvocation InfixExpression SimpleName collision policy
+severe SimpleName MethodInvocation InfixExpression StringLiteral unrecognized cron collision policy
+severe SimpleName MethodInvocation InfixExpression SimpleName collision policy
+optional SimpleName MethodInvocation SimpleName absent
+collision policy SimpleName SwitchStatement SwitchCase SimpleName kill existing
+collision policy SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName optional
+collision policy SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName of
+collision policy SimpleName SwitchStatement SwitchCase SimpleName run overlap
+collision policy SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName log
+collision policy SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName severe
+collision policy SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName optional
+collision policy SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName absent
+kill existing SimpleName SwitchCase SwitchStatement SwitchCase SimpleName run overlap
+kill existing SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cancel new
+run overlap SimpleName SwitchCase SwitchStatement SwitchCase SimpleName cancel new
+final Modifier VariableDeclarationStatement Block SwitchStatement SimpleName collision policy
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName optional
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName deferred launch
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block SwitchStatement SimpleName collision policy
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+deferred launch SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+apply SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+apply SimpleName MethodDeclaration Block SwitchStatement SimpleName collision policy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider

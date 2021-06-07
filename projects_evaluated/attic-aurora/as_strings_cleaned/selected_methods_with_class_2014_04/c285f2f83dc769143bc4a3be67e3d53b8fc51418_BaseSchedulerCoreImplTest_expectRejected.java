@@ -1,0 +1,78 @@
+identity SimpleName SimpleType SingleVariableDeclaration SimpleName identity
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+make job SimpleName MethodInvocation SimpleName job key
+make job SimpleName MethodInvocation NumberLiteral empty
+job key SimpleName MethodInvocation NumberLiteral empty
+make job SimpleName MethodInvocation MethodInvocation SimpleName get job config
+job key SimpleName MethodInvocation MethodInvocation SimpleName get job config
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get job config
+make job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+get job config SimpleName MethodInvocation MethodInvocation SimpleName new builder
+get job config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set owner
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set owner
+get job config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity
+new builder SimpleName MethodInvocation MethodInvocation SimpleName identity
+set owner SimpleName MethodInvocation SimpleName identity
+i job configuration SimpleName MethodInvocation SimpleName build
+i job configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+i job configuration SimpleName MethodInvocation MethodInvocation SimpleName set owner
+i job configuration SimpleName MethodInvocation MethodInvocation SimpleName identity
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+build SimpleName MethodInvocation MethodInvocation SimpleName set owner
+build SimpleName MethodInvocation MethodInvocation SimpleName identity
+sanitized configuration SimpleName MethodInvocation SimpleName from unsanitized
+sanitized configuration SimpleName MethodInvocation MethodInvocation SimpleName i job configuration
+sanitized configuration SimpleName MethodInvocation MethodInvocation SimpleName build
+sanitized configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set owner
+sanitized configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity
+from unsanitized SimpleName MethodInvocation MethodInvocation SimpleName i job configuration
+from unsanitized SimpleName MethodInvocation MethodInvocation SimpleName build
+from unsanitized SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set owner
+from unsanitized SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName sanitized configuration
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName from unsanitized
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i job configuration
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+create job SimpleName MethodInvocation MethodInvocation SimpleName sanitized configuration
+create job SimpleName MethodInvocation MethodInvocation SimpleName from unsanitized
+create job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i job configuration
+create job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+fail SimpleName MethodInvocation StringLiteral job ownername should have been rejected
+task description exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName expect rejected
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName identity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName identity
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+private Modifier MethodDeclaration SimpleType SimpleName schedule exception
+void PrimitiveType MethodDeclaration SimpleName expect rejected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName identity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName identity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SimpleType SimpleName schedule exception
+expect rejected SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName identity
+expect rejected SimpleName MethodDeclaration SingleVariableDeclaration SimpleName identity
+expect rejected SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+expect rejected SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+expect rejected SimpleName MethodDeclaration SimpleType SimpleName schedule exception
+identity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+identity SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+job key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName expect rejected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName expect rejected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName identity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schedule exception

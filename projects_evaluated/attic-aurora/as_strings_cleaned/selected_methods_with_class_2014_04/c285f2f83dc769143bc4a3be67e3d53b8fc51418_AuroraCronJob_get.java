@@ -1,0 +1,47 @@
+storageutil QualifiedName MethodInvocation SimpleName consistent fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation SimpleName query
+consistent fetch tasks SimpleName MethodInvocation SimpleName storage
+consistent fetch tasks SimpleName MethodInvocation SimpleName query
+storage SimpleName MethodInvocation SimpleName query
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName is empty
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName is empty
+storage SimpleName MethodInvocation MethodInvocation SimpleName is empty
+query SimpleName MethodInvocation MethodInvocation SimpleName is empty
+initiating delayed launch of cron StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral initiating delayed launch of cron
+log SimpleName MethodInvocation InfixExpression SimpleName path
+info SimpleName MethodInvocation InfixExpression StringLiteral initiating delayed launch of cron
+info SimpleName MethodInvocation InfixExpression SimpleName path
+deferred launch SimpleName MethodInvocation SimpleName get
+deferred launch SimpleName MethodInvocation FieldAccess SimpleName pending tasks
+get SimpleName MethodInvocation FieldAccess SimpleName pending tasks
+state manager SimpleName MethodInvocation SimpleName insert pending tasks
+state manager SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName deferred launch
+state manager SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+state manager SimpleName MethodInvocation FieldAccess SimpleName pending tasks
+insert pending tasks SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName deferred launch
+insert pending tasks SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get
+insert pending tasks SimpleName MethodInvocation FieldAccess SimpleName pending tasks
+not yet safe to run cron StringLiteral InfixExpression SimpleName path
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral not yet safe to run cron
+log SimpleName MethodInvocation InfixExpression SimpleName path
+info SimpleName MethodInvocation InfixExpression StringLiteral not yet safe to run cron
+info SimpleName MethodInvocation InfixExpression SimpleName path
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName get
+boolean SimpleName SimpleType MethodDeclaration SimpleName get
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

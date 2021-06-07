@@ -1,0 +1,97 @@
+storage SimpleName SimpleType SingleVariableDeclaration SimpleName new storage
+storage SimpleName FieldAccess Assignment SimpleName new storage
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store provider
+storage backfill SimpleName MethodInvocation SimpleName backfill
+storage backfill SimpleName MethodInvocation SimpleName store provider
+storage backfill SimpleName MethodInvocation SimpleName clock
+backfill SimpleName MethodInvocation SimpleName store provider
+backfill SimpleName MethodInvocation SimpleName clock
+store provider SimpleName MethodInvocation SimpleName clock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName write
+storage SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName mutate workno resultquiet
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName mutate workno resultquiet
+state manager impl SimpleName SimpleType ClassInstanceCreation SimpleName storage
+state manager impl SimpleName SimpleType ClassInstanceCreation SimpleName clock
+state manager impl SimpleName SimpleType ClassInstanceCreation SimpleName driver
+state manager impl SimpleName SimpleType ClassInstanceCreation SimpleName task id generator
+state manager impl SimpleName SimpleType ClassInstanceCreation SimpleName event sink
+storage SimpleName ClassInstanceCreation SimpleName clock
+storage SimpleName ClassInstanceCreation SimpleName driver
+storage SimpleName ClassInstanceCreation SimpleName task id generator
+storage SimpleName ClassInstanceCreation SimpleName event sink
+storage SimpleName ClassInstanceCreation SimpleName reschedule calculator
+clock SimpleName ClassInstanceCreation SimpleName driver
+clock SimpleName ClassInstanceCreation SimpleName task id generator
+clock SimpleName ClassInstanceCreation SimpleName event sink
+clock SimpleName ClassInstanceCreation SimpleName reschedule calculator
+driver SimpleName ClassInstanceCreation SimpleName task id generator
+driver SimpleName ClassInstanceCreation SimpleName event sink
+driver SimpleName ClassInstanceCreation SimpleName reschedule calculator
+task id generator SimpleName ClassInstanceCreation SimpleName event sink
+task id generator SimpleName ClassInstanceCreation SimpleName reschedule calculator
+event sink SimpleName ClassInstanceCreation SimpleName reschedule calculator
+state manager SimpleName Assignment ClassInstanceCreation SimpleType SimpleName state manager impl
+state manager SimpleName Assignment ClassInstanceCreation SimpleName storage
+state manager SimpleName Assignment ClassInstanceCreation SimpleName clock
+state manager SimpleName Assignment ClassInstanceCreation SimpleName driver
+state manager SimpleName Assignment ClassInstanceCreation SimpleName task id generator
+state manager SimpleName Assignment ClassInstanceCreation SimpleName event sink
+state manager SimpleName Assignment ClassInstanceCreation SimpleName reschedule calculator
+scheduler core impl SimpleName SimpleType ClassInstanceCreation SimpleName storage
+scheduler core impl SimpleName SimpleType ClassInstanceCreation SimpleName cron job manager
+scheduler core impl SimpleName SimpleType ClassInstanceCreation SimpleName state manager
+scheduler core impl SimpleName SimpleType ClassInstanceCreation SimpleName task id generator
+scheduler core impl SimpleName SimpleType ClassInstanceCreation SimpleName quota manager
+storage SimpleName ClassInstanceCreation SimpleName cron job manager
+storage SimpleName ClassInstanceCreation SimpleName state manager
+storage SimpleName ClassInstanceCreation SimpleName task id generator
+storage SimpleName ClassInstanceCreation SimpleName quota manager
+cron job manager SimpleName ClassInstanceCreation SimpleName state manager
+cron job manager SimpleName ClassInstanceCreation SimpleName task id generator
+cron job manager SimpleName ClassInstanceCreation SimpleName quota manager
+state manager SimpleName ClassInstanceCreation SimpleName task id generator
+state manager SimpleName ClassInstanceCreation SimpleName quota manager
+task id generator SimpleName ClassInstanceCreation SimpleName quota manager
+scheduler SimpleName Assignment ClassInstanceCreation SimpleType SimpleName scheduler core impl
+scheduler SimpleName Assignment ClassInstanceCreation SimpleName storage
+scheduler SimpleName Assignment ClassInstanceCreation SimpleName cron job manager
+scheduler SimpleName Assignment ClassInstanceCreation SimpleName state manager
+scheduler SimpleName Assignment ClassInstanceCreation SimpleName task id generator
+scheduler SimpleName Assignment ClassInstanceCreation SimpleName quota manager
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName build scheduler
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName new storage
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName build scheduler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new storage
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+build scheduler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage
+build scheduler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new storage
+build scheduler SimpleName MethodDeclaration SimpleType SimpleName exception
+new storage SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build scheduler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new storage
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build scheduler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new storage
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

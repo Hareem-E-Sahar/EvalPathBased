@@ -1,0 +1,67 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+cached job state SimpleName SimpleType SingleVariableDeclaration SimpleName cached job state
+reservations SimpleName MethodInvocation SimpleName has reservation for task
+reservations SimpleName MethodInvocation SimpleName task id
+has reservation for task SimpleName MethodInvocation SimpleName task id
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+preemptor SimpleName MethodInvocation SimpleName find preemption slot for
+preemptor SimpleName MethodInvocation SimpleName task id
+preemptor SimpleName MethodInvocation SimpleName cached job state
+find preemption slot for SimpleName MethodInvocation SimpleName task id
+find preemption slot for SimpleName MethodInvocation SimpleName cached job state
+task id SimpleName MethodInvocation SimpleName cached job state
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName preemptor
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName find preemption slot for
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName task id
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName cached job state
+slave id SimpleName MethodInvocation SimpleName is present
+slave id SimpleName MethodInvocation SimpleName new builder
+slave id SimpleName MethodInvocation SimpleName get
+slave id SimpleName MethodInvocation MethodInvocation SimpleName set value
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set value
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName slave id
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName slave id
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+set value SimpleName MethodInvocation MethodInvocation SimpleName slave id
+set value SimpleName MethodInvocation MethodInvocation SimpleName get
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+set value SimpleName MethodInvocation MethodInvocation SimpleName build
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+reservations SimpleName FieldAccess MethodInvocation SimpleName add
+reservations SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName build
+reservations SimpleName FieldAccess MethodInvocation SimpleName task id
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set value
+add SimpleName MethodInvocation MethodInvocation SimpleName build
+add SimpleName MethodInvocation SimpleName task id
+set value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+build SimpleName MethodInvocation MethodInvocation SimpleName task id
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName maybe preempt for
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+void PrimitiveType MethodDeclaration SimpleName maybe preempt for
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task id
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+task id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName maybe preempt for
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName maybe preempt for
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cached job state

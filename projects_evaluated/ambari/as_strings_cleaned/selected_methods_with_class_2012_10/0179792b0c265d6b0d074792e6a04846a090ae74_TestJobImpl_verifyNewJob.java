@@ -1,0 +1,52 @@
+job SimpleName SimpleType SingleVariableDeclaration SimpleName job
+long PrimitiveType SingleVariableDeclaration SimpleName start time
+job SimpleName MethodInvocation SimpleName get state
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName job stateinit
+assert SimpleName MethodInvocation MethodInvocation SimpleName job
+assert SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName job stateinit
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+job stateinit QualifiedName MethodInvocation MethodInvocation SimpleName job
+job stateinit QualifiedName MethodInvocation MethodInvocation SimpleName get state
+job SimpleName MethodInvocation SimpleName get start time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName start time
+assert SimpleName MethodInvocation MethodInvocation SimpleName job
+assert SimpleName MethodInvocation MethodInvocation SimpleName get start time
+assert equals SimpleName MethodInvocation SimpleName start time
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get start time
+start time SimpleName MethodInvocation MethodInvocation SimpleName job
+start time SimpleName MethodInvocation MethodInvocation SimpleName get start time
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName verify new job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName start time
+void PrimitiveType MethodDeclaration SimpleName verify new job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start time
+verify new job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job
+verify new job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+verify new job SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+verify new job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start time
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName verify new job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start time
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName verify new job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start time

@@ -1,0 +1,125 @@
+easy mock SimpleName MethodInvocation SimpleType SimpleName runnable
+easy mock SimpleName MethodInvocation SimpleName any object
+runnable SimpleName SimpleType MethodInvocation SimpleName any object
+easy mock SimpleName MethodInvocation SimpleName eq
+easy mock SimpleName MethodInvocation SimpleName first schedule delay ms
+eq SimpleName MethodInvocation SimpleName first schedule delay ms
+easy mock SimpleName MethodInvocation SimpleName eq
+easy mock SimpleName MethodInvocation SimpleName milliseconds
+eq SimpleName MethodInvocation SimpleName milliseconds
+executor SimpleName MethodInvocation SimpleName schedule
+executor SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+executor SimpleName MethodInvocation MethodInvocation SimpleType SimpleName runnable
+executor SimpleName MethodInvocation MethodInvocation SimpleName any object
+executor SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+executor SimpleName MethodInvocation MethodInvocation SimpleName eq
+executor SimpleName MethodInvocation MethodInvocation SimpleName first schedule delay ms
+executor SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+executor SimpleName MethodInvocation MethodInvocation SimpleName eq
+executor SimpleName MethodInvocation MethodInvocation SimpleName milliseconds
+schedule SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+schedule SimpleName MethodInvocation MethodInvocation SimpleType SimpleName runnable
+schedule SimpleName MethodInvocation MethodInvocation SimpleName any object
+schedule SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+schedule SimpleName MethodInvocation MethodInvocation SimpleName eq
+schedule SimpleName MethodInvocation MethodInvocation SimpleName first schedule delay ms
+schedule SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+schedule SimpleName MethodInvocation MethodInvocation SimpleName eq
+schedule SimpleName MethodInvocation MethodInvocation SimpleName milliseconds
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName first schedule delay ms
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName first schedule delay ms
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName milliseconds
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName milliseconds
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName milliseconds
+eq SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+eq SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+eq SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName milliseconds
+first schedule delay ms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+first schedule delay ms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName eq
+first schedule delay ms SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName milliseconds
+scheduled future SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+scheduled future SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+easy mock SimpleName MethodInvocation SimpleName get current arguments
+easy mock SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get current arguments SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName scheduled future
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName answer
+scheduled future SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer
+void SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName and answer
+rate limiter SimpleName MethodInvocation SimpleName acquire
+expect SimpleName MethodInvocation MethodInvocation SimpleName rate limiter
+expect SimpleName MethodInvocation MethodInvocation SimpleName acquire
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+rate limiter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+acquire SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation NumberLiteral d
+rate limiter SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral d
+acquire SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral d
+and return SimpleName MethodInvocation NumberLiteral d
+task scheduler SimpleName MethodInvocation SimpleName schedule
+task scheduler SimpleName MethodInvocation StringLiteral a
+schedule SimpleName MethodInvocation StringLiteral a
+expect SimpleName MethodInvocation MethodInvocation SimpleName task scheduler
+expect SimpleName MethodInvocation MethodInvocation SimpleName schedule
+expect SimpleName MethodInvocation MethodInvocation StringLiteral a
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+task scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+task scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+schedule SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+and return SimpleName MethodInvocation BooleanLiteral true
+control SimpleName MethodInvocation SimpleName replay
+make task SimpleName MethodInvocation StringLiteral a
+task state change SimpleName MethodInvocation SimpleName transition
+task state change SimpleName MethodInvocation MethodInvocation SimpleName make task
+task state change SimpleName MethodInvocation MethodInvocation StringLiteral a
+task state change SimpleName MethodInvocation SimpleName init
+transition SimpleName MethodInvocation MethodInvocation SimpleName make task
+transition SimpleName MethodInvocation MethodInvocation StringLiteral a
+transition SimpleName MethodInvocation SimpleName init
+make task SimpleName MethodInvocation MethodInvocation SimpleName init
+a StringLiteral MethodInvocation MethodInvocation SimpleName init
+task groups SimpleName MethodInvocation SimpleName task changed state
+task groups SimpleName MethodInvocation MethodInvocation SimpleName task state change
+task groups SimpleName MethodInvocation MethodInvocation SimpleName transition
+task groups SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName make task
+task groups SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+task groups SimpleName MethodInvocation MethodInvocation SimpleName init
+task changed state SimpleName MethodInvocation MethodInvocation SimpleName task state change
+task changed state SimpleName MethodInvocation MethodInvocation SimpleName transition
+task changed state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName make task
+task changed state SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral a
+task changed state SimpleName MethodInvocation MethodInvocation SimpleName init
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test evaluated after first schedule penalty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test evaluated after first schedule penalty
+void PrimitiveType MethodDeclaration SimpleName test evaluated after first schedule penalty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test evaluated after first schedule penalty
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test evaluated after first schedule penalty

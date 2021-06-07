@@ -1,0 +1,37 @@
+control SimpleName MethodInvocation SimpleName replay
+task state change SimpleName MethodInvocation SimpleName transition
+task state change SimpleName MethodInvocation SimpleName task a
+task state change SimpleName MethodInvocation SimpleName running
+transition SimpleName MethodInvocation SimpleName task a
+transition SimpleName MethodInvocation SimpleName running
+task a SimpleName MethodInvocation SimpleName running
+event sink SimpleName MethodInvocation SimpleName post
+event sink SimpleName MethodInvocation MethodInvocation SimpleName task state change
+event sink SimpleName MethodInvocation MethodInvocation SimpleName transition
+event sink SimpleName MethodInvocation MethodInvocation SimpleName task a
+event sink SimpleName MethodInvocation MethodInvocation SimpleName running
+post SimpleName MethodInvocation MethodInvocation SimpleName task state change
+post SimpleName MethodInvocation MethodInvocation SimpleName transition
+post SimpleName MethodInvocation MethodInvocation SimpleName task a
+post SimpleName MethodInvocation MethodInvocation SimpleName running
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test non pending ignored
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test non pending ignored
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test non pending ignored
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test non pending ignored SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test non pending ignored
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test non pending ignored
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

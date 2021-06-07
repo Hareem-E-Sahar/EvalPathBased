@@ -1,0 +1,118 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName task info
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName offer
+final Modifier SingleVariableDeclaration SimpleType SimpleName cached job state
+final Modifier SingleVariableDeclaration SimpleName cached job state
+cached job state SimpleName SimpleType SingleVariableDeclaration SimpleName cached job state
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName task id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+final Modifier SingleVariableDeclaration SimpleType SimpleName i scheduled task
+final Modifier SingleVariableDeclaration SimpleName task
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName task info
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName offer
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName task info
+offer SimpleName SimpleType SingleVariableDeclaration SimpleName offer
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+offer SimpleName MethodInvocation SimpleName get slave id
+reservations SimpleName MethodInvocation SimpleName get slave reservation
+reservations SimpleName MethodInvocation MethodInvocation SimpleName offer
+reservations SimpleName MethodInvocation MethodInvocation SimpleName get slave id
+get slave reservation SimpleName MethodInvocation MethodInvocation SimpleName offer
+get slave reservation SimpleName MethodInvocation MethodInvocation SimpleName get slave id
+reserved task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName reservations
+reserved task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get slave reservation
+reserved task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName offer
+reserved task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get slave id
+reserved task id SimpleName MethodInvocation SimpleName is present
+reserved task id SimpleName MethodInvocation SimpleName get
+task id SimpleName MethodInvocation SimpleName equals
+task id SimpleName MethodInvocation MethodInvocation SimpleName reserved task id
+task id SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName reserved task id
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName offer
+assigner SimpleName MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName cached job state
+maybe assign SimpleName MethodInvocation SimpleName offer
+maybe assign SimpleName MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName cached job state
+offer SimpleName MethodInvocation SimpleName task
+offer SimpleName MethodInvocation SimpleName cached job state
+task SimpleName MethodInvocation SimpleName cached job state
+optional SimpleName MethodInvocation SimpleName absent
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName offer
+assigner SimpleName MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName cached job state
+maybe assign SimpleName MethodInvocation SimpleName offer
+maybe assign SimpleName MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName cached job state
+offer SimpleName MethodInvocation SimpleName task
+offer SimpleName MethodInvocation SimpleName cached job state
+task SimpleName MethodInvocation SimpleName cached job state
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName offer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName optional
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName task info
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName offer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offer
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+task info SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName offer
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offer
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName function
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName offer
+private Modifier MethodDeclaration SimpleName get assigner function
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+function SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get assigner function
+offer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get assigner function
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task id
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+get assigner function SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+cached job state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cached job state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+cached job state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+cached job state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+task id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+task id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName get assigner function
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get assigner function
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cached job state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

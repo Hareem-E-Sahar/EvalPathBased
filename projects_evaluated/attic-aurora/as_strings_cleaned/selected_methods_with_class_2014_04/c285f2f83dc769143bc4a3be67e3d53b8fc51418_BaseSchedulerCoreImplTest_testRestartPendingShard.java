@@ -1,0 +1,84 @@
+cron job manager SimpleName MethodInvocation SimpleName has job
+cron job manager SimpleName MethodInvocation SimpleName key a
+has job SimpleName MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName has job
+expect SimpleName MethodInvocation MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+control SimpleName MethodInvocation SimpleName replay
+production task SimpleName MethodInvocation MethodInvocation SimpleName set is service
+production task SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+set is service SimpleName MethodInvocation BooleanLiteral true
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName production task
+make job SimpleName MethodInvocation MethodInvocation SimpleName set is service
+make job SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName production task
+key a SimpleName MethodInvocation MethodInvocation SimpleName set is service
+key a SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+key a SimpleName MethodInvocation NumberLiteral empty
+production task SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set is service SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+true BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set is service
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set is service
+create job SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName restart shards
+scheduler SimpleName MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName of
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation QualifiedName owner auser
+restart shards SimpleName MethodInvocation SimpleName key a
+restart shards SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+restart shards SimpleName MethodInvocation MethodInvocation SimpleName of
+restart shards SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+restart shards SimpleName MethodInvocation QualifiedName owner auser
+key a SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+key a SimpleName MethodInvocation MethodInvocation SimpleName of
+key a SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation QualifiedName owner auser
+immutable set SimpleName MethodInvocation MethodInvocation QualifiedName owner auser
+of SimpleName MethodInvocation MethodInvocation QualifiedName owner auser
+empty NumberLiteral MethodInvocation MethodInvocation QualifiedName owner auser
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test restart pending shard
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test restart pending shard
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test restart pending shard
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test restart pending shard SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test restart pending shard
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test restart pending shard
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

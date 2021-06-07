@@ -1,0 +1,46 @@
+i task config SimpleName SimpleType SingleVariableDeclaration SimpleName task
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+cached job state SimpleName SimpleType SingleVariableDeclaration SimpleName job state
+assert vetoes SimpleName MethodInvocation SimpleName task
+assert vetoes SimpleName MethodInvocation SimpleName host
+assert vetoes SimpleName MethodInvocation SimpleName job state
+task SimpleName MethodInvocation SimpleName host
+task SimpleName MethodInvocation SimpleName job state
+host SimpleName MethodInvocation SimpleName job state
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName assert no vetoes
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job state
+void PrimitiveType MethodDeclaration SimpleName assert no vetoes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job state
+assert no vetoes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+assert no vetoes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+assert no vetoes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+assert no vetoes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+assert no vetoes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cached job state
+assert no vetoes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job state
+task SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+task SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job state
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assert no vetoes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job state
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assert no vetoes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job state

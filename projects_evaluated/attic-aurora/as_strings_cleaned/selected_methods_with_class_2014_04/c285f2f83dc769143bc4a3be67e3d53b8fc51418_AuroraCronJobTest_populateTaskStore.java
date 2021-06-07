@@ -1,0 +1,78 @@
+storagemutable store provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get unsafe task store
+scheduled task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set status
+scheduled task SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName schedule statusrunning
+set status SimpleName MethodInvocation QualifiedName schedule statusrunning
+assigned task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set task id
+assigned task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName task id
+set task id SimpleName MethodInvocation SimpleName task id
+quartz test utiljob QualifiedName MethodInvocation SimpleName get task config
+quartz test utiljob QualifiedName MethodInvocation MethodInvocation SimpleName new builder
+get task config SimpleName MethodInvocation MethodInvocation SimpleName new builder
+set task id SimpleName MethodInvocation MethodInvocation SimpleName set task
+task id SimpleName MethodInvocation MethodInvocation SimpleName set task
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+set task SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName quartz test utiljob
+set task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task config
+set task SimpleName MethodInvocation MethodInvocation SimpleName new builder
+set status SimpleName MethodInvocation MethodInvocation SimpleName set assigned task
+schedule statusrunning QualifiedName MethodInvocation MethodInvocation SimpleName set assigned task
+set status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+schedule statusrunning QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+set assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task id
+set assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+set assigned task SimpleName MethodInvocation MethodInvocation SimpleName set task
+set assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+i scheduled task SimpleName MethodInvocation SimpleName build
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set status
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName schedule statusrunning
+i scheduled task SimpleName MethodInvocation MethodInvocation SimpleName set assigned task
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set status
+build SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName schedule statusrunning
+build SimpleName MethodInvocation MethodInvocation SimpleName set assigned task
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName build
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+of SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+of SimpleName MethodInvocation MethodInvocation SimpleName build
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+store provider SimpleName MethodInvocation MethodInvocation SimpleName save tasks
+get unsafe task store SimpleName MethodInvocation MethodInvocation SimpleName save tasks
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+get unsafe task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+get unsafe task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i scheduled task
+save tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName write
+storage SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName populate task store
+void PrimitiveType MethodDeclaration SimpleName populate task store
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName populate task store
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName populate task store

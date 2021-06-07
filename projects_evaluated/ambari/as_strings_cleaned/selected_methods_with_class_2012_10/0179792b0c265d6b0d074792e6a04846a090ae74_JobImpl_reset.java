@@ -1,0 +1,15 @@
+write lock SimpleName MethodInvocation SimpleName lock
+start time SimpleName FieldAccess Assignment PrefixExpression NumberLiteral empty
+last update time SimpleName FieldAccess Assignment PrefixExpression NumberLiteral empty
+completion time SimpleName FieldAccess Assignment PrefixExpression NumberLiteral empty
+write lock SimpleName MethodInvocation SimpleName unlock
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName reset
+void PrimitiveType MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset

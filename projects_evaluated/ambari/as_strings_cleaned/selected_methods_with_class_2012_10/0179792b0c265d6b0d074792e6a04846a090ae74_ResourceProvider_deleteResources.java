@@ -1,0 +1,25 @@
+predicate SimpleName SimpleType SingleVariableDeclaration SimpleName predicate
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete resources
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName delete resources
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName predicate
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+delete resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+delete resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+delete resources SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete resources
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete resources
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

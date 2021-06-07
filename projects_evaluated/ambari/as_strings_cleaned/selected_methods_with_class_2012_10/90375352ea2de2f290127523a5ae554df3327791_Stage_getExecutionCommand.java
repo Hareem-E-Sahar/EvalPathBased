@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+get host action SimpleName MethodInvocation SimpleName hostname
+get host action SimpleName MethodInvocation MethodInvocation SimpleName get command to host
+hostname SimpleName MethodInvocation MethodInvocation SimpleName get command to host
+public Modifier MethodDeclaration SimpleType SimpleName execution command
+public Modifier MethodDeclaration SimpleName get execution command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+execution command SimpleName SimpleType MethodDeclaration SimpleName get execution command
+execution command SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+get execution command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get execution command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName execution command
+public Modifier TypeDeclaration MethodDeclaration SimpleName get execution command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName execution command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get execution command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

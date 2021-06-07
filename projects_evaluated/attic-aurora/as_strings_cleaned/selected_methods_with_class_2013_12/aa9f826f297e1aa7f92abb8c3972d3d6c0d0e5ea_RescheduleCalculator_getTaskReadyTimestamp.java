@@ -1,0 +1,117 @@
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+get task ancestor SimpleName MethodInvocation SimpleName task
+cur task SimpleName VariableDeclarationFragment MethodInvocation SimpleName get task ancestor
+cur task SimpleName VariableDeclarationFragment MethodInvocation SimpleName task
+penalty ms SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName penalty ms
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+cur task SimpleName MethodInvocation SimpleName is present
+cur task SimpleName MethodInvocation SimpleName get
+flapped SimpleName MethodInvocation SimpleName apply
+flapped SimpleName MethodInvocation MethodInvocation SimpleName cur task
+flapped SimpleName MethodInvocation MethodInvocation SimpleName get
+apply SimpleName MethodInvocation MethodInvocation SimpleName cur task
+apply SimpleName MethodInvocation MethodInvocation SimpleName get
+cur task SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flapped
+cur task SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName apply
+is present SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName flapped
+is present SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName apply
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task
+id SimpleName MethodInvocation SimpleName task
+cur task SimpleName MethodInvocation SimpleName get
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName cur task
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get
+id SimpleName MethodInvocation MethodInvocation SimpleName cur task
+id SimpleName MethodInvocation MethodInvocation SimpleName get
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral ancestor of s flapped s
+string SimpleName MethodInvocation MethodInvocation SimpleName tasks
+string SimpleName MethodInvocation MethodInvocation SimpleName id
+string SimpleName MethodInvocation MethodInvocation SimpleName task
+string SimpleName MethodInvocation MethodInvocation SimpleName tasks
+string SimpleName MethodInvocation MethodInvocation SimpleName id
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cur task
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+format SimpleName MethodInvocation StringLiteral ancestor of s flapped s
+format SimpleName MethodInvocation MethodInvocation SimpleName tasks
+format SimpleName MethodInvocation MethodInvocation SimpleName id
+format SimpleName MethodInvocation MethodInvocation SimpleName task
+format SimpleName MethodInvocation MethodInvocation SimpleName tasks
+format SimpleName MethodInvocation MethodInvocation SimpleName id
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cur task
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+ancestor of s flapped s StringLiteral MethodInvocation MethodInvocation SimpleName tasks
+ancestor of s flapped s StringLiteral MethodInvocation MethodInvocation SimpleName id
+ancestor of s flapped s StringLiteral MethodInvocation MethodInvocation SimpleName task
+ancestor of s flapped s StringLiteral MethodInvocation MethodInvocation SimpleName tasks
+ancestor of s flapped s StringLiteral MethodInvocation MethodInvocation SimpleName id
+ancestor of s flapped s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cur task
+ancestor of s flapped s StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral ancestor of s flapped s
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral ancestor of s flapped s
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+settingsflapping task backoff QualifiedName MethodInvocation SimpleName calculate backoff ms
+settingsflapping task backoff QualifiedName MethodInvocation SimpleName penalty ms
+calculate backoff ms SimpleName MethodInvocation SimpleName penalty ms
+new penalty SimpleName VariableDeclarationFragment MethodInvocation QualifiedName settingsflapping task backoff
+new penalty SimpleName VariableDeclarationFragment MethodInvocation SimpleName calculate backoff ms
+new penalty SimpleName VariableDeclarationFragment MethodInvocation SimpleName penalty ms
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new penalty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName settingsflapping task backoff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName calculate backoff ms
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName penalty ms
+new penalty SimpleName InfixExpression SimpleName penalty ms
+penalty ms SimpleName Assignment SimpleName new penalty
+cur task SimpleName MethodInvocation SimpleName get
+get task ancestor SimpleName MethodInvocation MethodInvocation SimpleName cur task
+get task ancestor SimpleName MethodInvocation MethodInvocation SimpleName get
+cur task SimpleName Assignment MethodInvocation SimpleName get task ancestor
+cur task SimpleName Assignment MethodInvocation MethodInvocation SimpleName cur task
+cur task SimpleName Assignment MethodInvocation MethodInvocation SimpleName get
+clock SimpleName MethodInvocation SimpleName now millis
+penalty ms SimpleName InfixExpression MethodInvocation SimpleName clock
+penalty ms SimpleName InfixExpression MethodInvocation SimpleName now millis
+private Modifier MethodDeclaration PrimitiveType long
+private Modifier MethodDeclaration SimpleName get task ready timestamp
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration SimpleName get task ready timestamp
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get task ready timestamp SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+get task ready timestamp SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+get task ready timestamp SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get task ready timestamp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get task ready timestamp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

@@ -1,0 +1,55 @@
+task config SimpleName SimpleType SingleVariableDeclaration SimpleName task
+task SimpleName MethodInvocation SimpleName is set
+task SimpleName MethodInvocation SimpleName field
+is set SimpleName MethodInvocation SimpleName field
+field SimpleName MethodInvocation SimpleName get field name
+field StringLiteral InfixExpression MethodInvocation SimpleName field
+field StringLiteral InfixExpression MethodInvocation SimpleName get field name
+field StringLiteral InfixExpression StringLiteral is required
+field SimpleName MethodInvocation InfixExpression StringLiteral is required
+get field name SimpleName MethodInvocation InfixExpression StringLiteral is required
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral field
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is required
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+task SimpleName MethodInvocation SimpleName get field value
+task SimpleName MethodInvocation SimpleName field
+get field value SimpleName MethodInvocation SimpleName field
+t SimpleName SimpleType CastExpression MethodInvocation SimpleName task
+t SimpleName SimpleType CastExpression MethodInvocation SimpleName get field value
+t SimpleName SimpleType CastExpression MethodInvocation SimpleName field
+value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName t
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName task
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get field value
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName field
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName t
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement SimpleType SimpleName t
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+validator SimpleName MethodInvocation SimpleName validate
+validator SimpleName MethodInvocation SimpleName value
+validate SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName validate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration SimpleType SimpleName task description exception
+void PrimitiveType MethodDeclaration SimpleName validate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+void PrimitiveType MethodDeclaration SimpleType SimpleName task description exception
+validate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+validate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+validate SimpleName MethodDeclaration SimpleType SimpleName task description exception
+task SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName task description exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName task description exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName task description exception

@@ -1,0 +1,60 @@
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+job storemutable QualifiedName SimpleType SingleVariableDeclaration SimpleName job store
+job store SimpleName MethodInvocation SimpleName remove job
+job store SimpleName MethodInvocation SimpleName job key
+remove job SimpleName MethodInvocation SimpleName job key
+job keys SimpleName MethodInvocation SimpleName canonical string
+job keys SimpleName MethodInvocation SimpleName job key
+canonical string SimpleName MethodInvocation SimpleName job key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral deleted cron job s from storage
+string SimpleName MethodInvocation MethodInvocation SimpleName job keys
+string SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+string SimpleName MethodInvocation MethodInvocation SimpleName job key
+format SimpleName MethodInvocation StringLiteral deleted cron job s from storage
+format SimpleName MethodInvocation MethodInvocation SimpleName job keys
+format SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+format SimpleName MethodInvocation MethodInvocation SimpleName job key
+deleted cron job s from storage StringLiteral MethodInvocation MethodInvocation SimpleName job keys
+deleted cron job s from storage StringLiteral MethodInvocation MethodInvocation SimpleName canonical string
+deleted cron job s from storage StringLiteral MethodInvocation MethodInvocation SimpleName job key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral deleted cron job s from storage
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral deleted cron job s from storage
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName remove job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName job storemutable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job store
+void PrimitiveType MethodDeclaration SimpleName remove job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName job storemutable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job store
+remove job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+remove job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+remove job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName job storemutable
+remove job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job store
+job key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store

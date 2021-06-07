@@ -1,0 +1,57 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+configs SimpleName MethodInvocation SimpleName get configs map
+configs map SimpleName VariableDeclarationFragment MethodInvocation SimpleName configs
+configs map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get configs map
+configs map SimpleName MethodInvocation SimpleName get
+configs map SimpleName MethodInvocation QualifiedName configurationsrvr kstr dir key
+get SimpleName MethodInvocation QualifiedName configurationsrvr kstr dir key
+configs map SimpleName MethodInvocation SimpleName get
+configs map SimpleName MethodInvocation QualifiedName configurationsrvr crt name key
+get SimpleName MethodInvocation QualifiedName configurationsrvr crt name key
+configs map SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+get SimpleName MethodInvocation InfixExpression QualifiedName fileseparator
+configurationsrvr kstr dir key QualifiedName MethodInvocation InfixExpression QualifiedName fileseparator
+configs map SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName configs map
+configs map SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+configs map SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName configurationsrvr crt name key
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName configs map
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName configurationsrvr crt name key
+configurationsrvr kstr dir key QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName configs map
+configurationsrvr kstr dir key QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get
+configurationsrvr kstr dir key QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName configurationsrvr crt name key
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName configs map
+fileseparator QualifiedName InfixExpression MethodInvocation SimpleName get
+fileseparator QualifiedName InfixExpression MethodInvocation QualifiedName configurationsrvr crt name key
+file SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName fileseparator
+cert file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+cert file SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName fileseparator
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cert file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName srvr crt content
+file utils SimpleName MethodInvocation SimpleName read file to string
+file utils SimpleName MethodInvocation SimpleName cert file
+read file to string SimpleName MethodInvocation SimpleName cert file
+srvr crt content SimpleName Assignment MethodInvocation SimpleName file utils
+srvr crt content SimpleName Assignment MethodInvocation SimpleName read file to string
+srvr crt content SimpleName Assignment MethodInvocation SimpleName cert file
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation MethodInvocation SimpleName e
+log SimpleName MethodInvocation MethodInvocation SimpleName get message
+error SimpleName MethodInvocation MethodInvocation SimpleName e
+error SimpleName MethodInvocation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get server cert
+public Modifier MethodDeclaration Block ReturnStatement SimpleName srvr crt content
+string SimpleName SimpleType MethodDeclaration SimpleName get server cert
+get server cert SimpleName MethodDeclaration Block ReturnStatement SimpleName srvr crt content
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get server cert
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get server cert

@@ -1,0 +1,31 @@
+long PrimitiveType SingleVariableDeclaration SimpleName total mem bytes
+write lock SimpleName MethodInvocation SimpleName lock
+total mem bytes SimpleName FieldAccess Assignment SimpleName total mem bytes
+write lock SimpleName MethodInvocation SimpleName unlock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set total mem bytes
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName total mem bytes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set total mem bytes
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName total mem bytes
+void PrimitiveType MethodDeclaration SimpleName set total mem bytes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName total mem bytes
+set total mem bytes SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set total mem bytes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName total mem bytes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set total mem bytes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName total mem bytes
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set total mem bytes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName total mem bytes

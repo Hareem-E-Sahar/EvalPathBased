@@ -1,0 +1,199 @@
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation StringLiteral role
+make task SimpleName MethodInvocation StringLiteral env
+make task SimpleName MethodInvocation StringLiteral job
+a StringLiteral MethodInvocation StringLiteral role
+a StringLiteral MethodInvocation StringLiteral env
+a StringLiteral MethodInvocation StringLiteral job
+role StringLiteral MethodInvocation StringLiteral env
+role StringLiteral MethodInvocation StringLiteral job
+env StringLiteral MethodInvocation StringLiteral job
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral role
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral env
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation StringLiteral role
+make task SimpleName MethodInvocation StringLiteral env
+make task SimpleName MethodInvocation StringLiteral job
+a StringLiteral MethodInvocation StringLiteral role
+a StringLiteral MethodInvocation StringLiteral env
+a StringLiteral MethodInvocation StringLiteral job
+role StringLiteral MethodInvocation StringLiteral env
+role StringLiteral MethodInvocation StringLiteral job
+env StringLiteral MethodInvocation StringLiteral job
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral role
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral env
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation StringLiteral role
+make task SimpleName MethodInvocation StringLiteral env
+make task SimpleName MethodInvocation StringLiteral job
+a StringLiteral MethodInvocation StringLiteral role
+a StringLiteral MethodInvocation StringLiteral env
+a StringLiteral MethodInvocation StringLiteral job
+role StringLiteral MethodInvocation StringLiteral env
+role StringLiteral MethodInvocation StringLiteral job
+env StringLiteral MethodInvocation StringLiteral job
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral role
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral env
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName a
+immutable set SimpleName MethodInvocation SimpleName b
+immutable set SimpleName MethodInvocation SimpleName c
+of SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName c
+a SimpleName MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName c
+b SimpleName MethodInvocation SimpleName c
+inserted SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable set
+inserted SimpleName VariableDeclarationFragment MethodInvocation SimpleName of
+inserted SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+inserted SimpleName VariableDeclarationFragment MethodInvocation SimpleName b
+inserted SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+store SimpleName MethodInvocation SimpleName save tasks
+store SimpleName MethodInvocation SimpleName inserted
+save tasks SimpleName MethodInvocation SimpleName inserted
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i task config
+query SimpleName MethodInvocation SimpleName unscoped
+store SimpleName MethodInvocation SimpleName fetch tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName query
+store SimpleName MethodInvocation MethodInvocation SimpleName unscoped
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName unscoped
+fluent iterable SimpleName MethodInvocation SimpleName from
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName store
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+from SimpleName MethodInvocation MethodInvocation SimpleName store
+from SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName transform
+from SimpleName MethodInvocation MethodInvocation SimpleName transform
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+fluent iterable SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+from SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+store SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+transform SimpleName MethodInvocation QualifiedName tasksscheduled to info
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+transform SimpleName MethodInvocation MethodInvocation SimpleName to set
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation SimpleName to set
+stored configs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName transform
+stored configs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+stored configs SimpleName VariableDeclarationFragment MethodInvocation SimpleName to set
+fluent iterable SimpleName MethodInvocation SimpleName from
+fluent iterable SimpleName MethodInvocation SimpleName inserted
+from SimpleName MethodInvocation SimpleName inserted
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName transform
+from SimpleName MethodInvocation MethodInvocation SimpleName transform
+inserted SimpleName MethodInvocation MethodInvocation SimpleName transform
+fluent iterable SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+from SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+inserted SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+transform SimpleName MethodInvocation QualifiedName tasksscheduled to info
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+inserted SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+transform SimpleName MethodInvocation MethodInvocation SimpleName to set
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation SimpleName to set
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName to set
+assert equals SimpleName MethodInvocation SimpleName stored configs
+transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored configs
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName stored configs
+to set SimpleName MethodInvocation MethodInvocation SimpleName stored configs
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i task config
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i task config
+i task config SimpleName SimpleType ParameterizedType SimpleType SimpleName i task config
+maps SimpleName MethodInvocation SimpleName new identity hash map
+identity map SimpleName VariableDeclarationFragment MethodInvocation SimpleName maps
+identity map SimpleName VariableDeclarationFragment MethodInvocation SimpleName new identity hash map
+i task config SimpleName SimpleType SingleVariableDeclaration SimpleName stored
+identity map SimpleName MethodInvocation SimpleName put
+identity map SimpleName MethodInvocation SimpleName stored
+identity map SimpleName MethodInvocation SimpleName stored
+put SimpleName MethodInvocation SimpleName stored
+put SimpleName MethodInvocation SimpleName stored
+stored SimpleName MethodInvocation SimpleName stored
+i task config SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stored configs
+stored SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stored configs
+tasksscheduled to info QualifiedName MethodInvocation SimpleName apply
+tasksscheduled to info QualifiedName MethodInvocation SimpleName a
+apply SimpleName MethodInvocation SimpleName a
+tasksscheduled to info QualifiedName MethodInvocation SimpleName apply
+tasksscheduled to info QualifiedName MethodInvocation SimpleName a
+apply SimpleName MethodInvocation SimpleName a
+immutable map SimpleName MethodInvocation SimpleName of
+immutable map SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName apply
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName a
+immutable map SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName apply
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName a
+of SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+of SimpleName MethodInvocation MethodInvocation SimpleName apply
+of SimpleName MethodInvocation MethodInvocation SimpleName a
+of SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+of SimpleName MethodInvocation MethodInvocation SimpleName apply
+of SimpleName MethodInvocation MethodInvocation SimpleName a
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName apply
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+apply SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+apply SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply
+apply SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+a SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply
+a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName immutable map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName of
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to info
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+assert equals SimpleName MethodInvocation SimpleName identity map
+immutable map SimpleName MethodInvocation MethodInvocation SimpleName identity map
+of SimpleName MethodInvocation MethodInvocation SimpleName identity map
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName identity map
+apply SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity map
+a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity map
+tasksscheduled to info QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName identity map
+apply SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity map
+a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName identity map
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test canonical task configs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test canonical task configs
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName stored configs
+void PrimitiveType MethodDeclaration SimpleName test canonical task configs
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName stored configs
+test canonical task configs SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stored configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test canonical task configs
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test canonical task configs

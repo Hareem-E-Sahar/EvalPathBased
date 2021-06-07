@@ -1,0 +1,50 @@
+clusters SimpleName Assignment ClassInstanceCreation SimpleType SimpleName clusters impl
+clusters SimpleName MethodInvocation SimpleName add cluster
+clusters SimpleName MethodInvocation StringLiteral c
+add cluster SimpleName MethodInvocation StringLiteral c
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation StringLiteral c
+get cluster SimpleName MethodInvocation StringLiteral c
+c SimpleName Assignment MethodInvocation SimpleName clusters
+c SimpleName Assignment MethodInvocation SimpleName get cluster
+c SimpleName Assignment MethodInvocation StringLiteral c
+c SimpleName MethodInvocation SimpleName get cluster name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation StringLiteral c
+assert SimpleName MethodInvocation MethodInvocation SimpleName c
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert equals SimpleName MethodInvocation StringLiteral c
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName c
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+c StringLiteral MethodInvocation MethodInvocation SimpleName c
+c StringLiteral MethodInvocation MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName add host
+clusters SimpleName MethodInvocation SimpleName h
+add host SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation SimpleName map host to cluster
+clusters SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation StringLiteral c
+map host to cluster SimpleName MethodInvocation SimpleName h
+map host to cluster SimpleName MethodInvocation StringLiteral c
+h SimpleName MethodInvocation StringLiteral c
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+setup SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

@@ -1,0 +1,60 @@
+i job configuration SimpleName SimpleType SingleVariableDeclaration SimpleName job
+job SimpleName MethodInvocation SimpleName get key
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName job
+query SimpleName MethodInvocation MethodInvocation SimpleName get key
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName job
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName get key
+query SimpleName MethodInvocation MethodInvocation SimpleName active
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName active
+job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+storageutil QualifiedName MethodInvocation SimpleName consistent fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+storageutil QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName job scoped
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName active
+consistent fetch tasks SimpleName MethodInvocation SimpleName storage
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job scoped
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName active
+storage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+storage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job scoped
+storage SimpleName MethodInvocation MethodInvocation SimpleName active
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName is empty
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName is empty
+storage SimpleName MethodInvocation MethodInvocation SimpleName is empty
+active SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+has active tasks SimpleName VariableDeclarationFragment PrefixExpression MethodInvocation SimpleName is empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has active tasks
+job SimpleName MethodInvocation SimpleName get key
+cron job manager SimpleName MethodInvocation SimpleName has job
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName job
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName get key
+has job SimpleName MethodInvocation MethodInvocation SimpleName job
+has job SimpleName MethodInvocation MethodInvocation SimpleName get key
+has active tasks SimpleName InfixExpression MethodInvocation SimpleName cron job manager
+has active tasks SimpleName InfixExpression MethodInvocation SimpleName has job
+has active tasks SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName job
+has active tasks SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get key
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName has active job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SimpleName has active job
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+has active job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+has active job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+has active job SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has active job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has active job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job

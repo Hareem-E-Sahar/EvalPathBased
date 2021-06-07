@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName action id
+action id SimpleName MethodInvocation SimpleName split
+action id SimpleName MethodInvocation StringLiteral -
+split SimpleName MethodInvocation StringLiteral -
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName action id
+fields SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+fields SimpleName VariableDeclarationFragment MethodInvocation StringLiteral -
+long PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+request stage ids SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType long
+request stage ids SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+long PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName request stage ids
+request stage ids SimpleName ArrayAccess NumberLiteral empty
+fields SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName fields
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName fields
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+request stage ids SimpleName ArrayAccess Assignment MethodInvocation SimpleName long
+request stage ids SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse long
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName long
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName parse long
+request stage ids SimpleName ArrayAccess NumberLiteral empty
+fields SimpleName ArrayAccess NumberLiteral empty
+long SimpleName MethodInvocation SimpleName parse long
+long SimpleName MethodInvocation ArrayAccess SimpleName fields
+long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+parse long SimpleName MethodInvocation ArrayAccess SimpleName fields
+parse long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+request stage ids SimpleName ArrayAccess Assignment MethodInvocation SimpleName long
+request stage ids SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse long
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName long
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName parse long
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType long
+public Modifier MethodDeclaration SimpleName get request stage
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName action id
+public Modifier MethodDeclaration Block ReturnStatement SimpleName request stage ids
+static Modifier MethodDeclaration ArrayType PrimitiveType long
+static Modifier MethodDeclaration SimpleName get request stage
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName action id
+static Modifier MethodDeclaration Block ReturnStatement SimpleName request stage ids
+long PrimitiveType ArrayType MethodDeclaration SimpleName get request stage
+long PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName action id
+get request stage SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get request stage SimpleName MethodDeclaration SingleVariableDeclaration SimpleName action id
+get request stage SimpleName MethodDeclaration Block ReturnStatement SimpleName request stage ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request stage
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request stage
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action id

@@ -1,0 +1,22 @@
+execution command SimpleName SimpleType SingleVariableDeclaration SimpleName exec cmd
+execution commands SimpleName MethodInvocation SimpleName add
+execution commands SimpleName MethodInvocation SimpleName exec cmd
+add SimpleName MethodInvocation SimpleName exec cmd
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add execution command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName execution command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName exec cmd
+void PrimitiveType MethodDeclaration SimpleName add execution command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName execution command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName exec cmd
+add execution command SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName execution command
+add execution command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName exec cmd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add execution command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exec cmd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add execution command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName exec cmd

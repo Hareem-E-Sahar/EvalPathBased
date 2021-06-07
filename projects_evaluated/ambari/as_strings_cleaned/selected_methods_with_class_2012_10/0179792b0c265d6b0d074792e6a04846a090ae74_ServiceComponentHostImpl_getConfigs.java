@@ -1,0 +1,24 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+read lock SimpleName MethodInvocation SimpleName lock
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation SimpleName configs
+unmodifiable map SimpleName MethodInvocation SimpleName configs
+read lock SimpleName MethodInvocation SimpleName unlock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get configs
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName config
+public Modifier MethodDeclaration SimpleName get configs
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configs
+config SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configs
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configs

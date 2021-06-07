@@ -1,0 +1,77 @@
+i answer SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+final Modifier SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+final Modifier SingleVariableDeclaration SimpleName executor
+fake scheduled executor SimpleName SimpleType SingleVariableDeclaration SimpleName executor
+i answer SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+easy mock SimpleName MethodInvocation SimpleName get current arguments
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName easy mock
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current arguments
+args SimpleName ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+runnable SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+work SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName runnable
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work
+suppress warnings SimpleName SingleMemberAnnotation StringLiteral unchecked
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+args SimpleName ArrayAccess NumberLiteral empty
+delay SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+delay SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+suppress warnings SimpleName SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName delay
+unchecked StringLiteral SingleMemberAnnotation VariableDeclarationStatement VariableDeclarationFragment SimpleName delay
+delay SimpleName MethodInvocation SimpleName as
+delay SimpleName MethodInvocation QualifiedName timemilliseconds
+as SimpleName MethodInvocation QualifiedName timemilliseconds
+add delayed work SimpleName MethodInvocation SimpleName executor
+add delayed work SimpleName MethodInvocation MethodInvocation SimpleName delay
+add delayed work SimpleName MethodInvocation MethodInvocation SimpleName as
+add delayed work SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+add delayed work SimpleName MethodInvocation SimpleName work
+executor SimpleName MethodInvocation MethodInvocation SimpleName delay
+executor SimpleName MethodInvocation MethodInvocation SimpleName as
+executor SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+executor SimpleName MethodInvocation SimpleName work
+delay SimpleName MethodInvocation MethodInvocation SimpleName work
+as SimpleName MethodInvocation MethodInvocation SimpleName work
+timemilliseconds QualifiedName MethodInvocation MethodInvocation SimpleName work
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName object
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName answer
+object SimpleName SimpleType MethodDeclaration SimpleName answer
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i answer
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName answer execute with delay
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i answer
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName answer execute with delay
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor
+i answer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer execute with delay
+object SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer execute with delay
+answer execute with delay SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+answer execute with delay SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+answer execute with delay SimpleName MethodDeclaration SingleVariableDeclaration SimpleName executor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName answer execute with delay
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName answer execute with delay
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor

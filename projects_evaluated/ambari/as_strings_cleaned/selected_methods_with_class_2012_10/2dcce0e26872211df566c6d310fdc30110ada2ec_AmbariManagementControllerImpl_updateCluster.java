@@ -1,0 +1,110 @@
+cluster request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+ambari exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid arguments
+log SimpleName MethodInvocation SimpleName is debug enabled
+received a update cluster request StringLiteral InfixExpression StringLiteral cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+received a update cluster request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+received a update cluster request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+received a update cluster request StringLiteral InfixExpression InfixExpression StringLiteral request
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral request
+received a update cluster request StringLiteral InfixExpression InfixExpression SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression SimpleName request
+request SimpleName MethodInvocation InfixExpression StringLiteral request
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral request
+request SimpleName MethodInvocation InfixExpression SimpleName request
+get cluster name SimpleName MethodInvocation InfixExpression SimpleName request
+request StringLiteral InfixExpression SimpleName request
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral received a update cluster request
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral request
+log SimpleName MethodInvocation InfixExpression SimpleName request
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral received a update cluster request
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral request
+debug SimpleName MethodInvocation InfixExpression SimpleName request
+request SimpleName MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+final Modifier VariableDeclarationStatement SimpleType SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clusters
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get cluster
+cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+request SimpleName MethodInvocation SimpleName get host names
+request SimpleName MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName map hosts to cluster
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get host names
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+map hosts to cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+map hosts to cluster SimpleName MethodInvocation MethodInvocation SimpleName get host names
+map hosts to cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+map hosts to cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster name
+get host names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+get host names SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation SimpleName get stack version
+c SimpleName MethodInvocation SimpleName get desired stack version
+request SimpleName MethodInvocation MethodInvocation SimpleName equals
+get stack version SimpleName MethodInvocation MethodInvocation SimpleName equals
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get desired stack version
+get stack version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+get stack version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get desired stack version
+equals SimpleName MethodInvocation MethodInvocation SimpleName c
+equals SimpleName MethodInvocation MethodInvocation SimpleName get desired stack version
+update of desired stack version StringLiteral InfixExpression StringLiteral not supported
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral update of desired stack version
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not supported
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName track action response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update cluster
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration SimpleType SimpleName track action response
+public Modifier MethodDeclaration SimpleName update cluster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+track action response SimpleName SimpleType MethodDeclaration SimpleName update cluster
+track action response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+track action response SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+update cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster request
+update cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+update cluster SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+update cluster SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+public Modifier TypeDeclaration MethodDeclaration SimpleName update cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

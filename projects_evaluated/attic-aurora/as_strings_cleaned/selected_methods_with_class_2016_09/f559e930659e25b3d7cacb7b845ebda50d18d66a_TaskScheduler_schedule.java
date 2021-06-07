@@ -1,0 +1,51 @@
+timed SimpleName SingleMemberAnnotation StringLiteral task schedule attempt
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName task ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName task ids
+schedule tasks SimpleName MethodInvocation SimpleName store
+schedule tasks SimpleName MethodInvocation SimpleName task ids
+store SimpleName MethodInvocation SimpleName task ids
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral task scheduling unexpectedly failed will be retried
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral task scheduling unexpectedly failed will be retried
+warn SimpleName MethodInvocation SimpleName e
+task scheduling unexpectedly failed will be retried StringLiteral MethodInvocation SimpleName e
+attempts failed SimpleName MethodInvocation SimpleName increment and get
+immutable set SimpleName MethodInvocation SimpleName of
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+task schedule attempt StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration SimpleName schedule
+task schedule attempt StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName schedule
+timed SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store
+task schedule attempt StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store
+timed SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task ids
+task schedule attempt StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task ids
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName schedule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task ids
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName schedule
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName schedule
+schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store
+schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task ids
+store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral task schedule attempt
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName schedule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral task schedule attempt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName schedule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids

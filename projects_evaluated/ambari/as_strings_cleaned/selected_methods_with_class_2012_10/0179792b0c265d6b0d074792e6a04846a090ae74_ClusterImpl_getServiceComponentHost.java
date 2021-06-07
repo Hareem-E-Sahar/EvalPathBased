@@ -1,0 +1,109 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName service name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName service component name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+service component hosts SimpleName MethodInvocation SimpleName contains key
+service component hosts SimpleName MethodInvocation SimpleName service name
+contains key SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation SimpleName contains key
+service name SimpleName MethodInvocation MethodInvocation SimpleName contains key
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName service component name
+get SimpleName MethodInvocation MethodInvocation SimpleName service component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName service component name
+contains key SimpleName MethodInvocation SimpleName service component name
+service component hosts SimpleName MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+service name SimpleName MethodInvocation MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName service component name
+get SimpleName MethodInvocation MethodInvocation SimpleName service component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName service component name
+get SimpleName MethodInvocation SimpleName service component name
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains key
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation SimpleName contains key
+service component name SimpleName MethodInvocation MethodInvocation SimpleName contains key
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation SimpleName hostname
+service component name SimpleName MethodInvocation MethodInvocation SimpleName hostname
+contains key SimpleName MethodInvocation SimpleName hostname
+service component host not found exception SimpleName SimpleType ClassInstanceCreation SimpleName cluster name
+service component host not found exception SimpleName SimpleType ClassInstanceCreation SimpleName service name
+service component host not found exception SimpleName SimpleType ClassInstanceCreation SimpleName service component name
+service component host not found exception SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+cluster name SimpleName ClassInstanceCreation SimpleName service name
+cluster name SimpleName ClassInstanceCreation SimpleName service component name
+cluster name SimpleName ClassInstanceCreation SimpleName hostname
+service name SimpleName ClassInstanceCreation SimpleName service component name
+service name SimpleName ClassInstanceCreation SimpleName hostname
+service component name SimpleName ClassInstanceCreation SimpleName hostname
+service component hosts SimpleName MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+service name SimpleName MethodInvocation MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName service component name
+get SimpleName MethodInvocation MethodInvocation SimpleName service component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName service component name
+get SimpleName MethodInvocation SimpleName service component name
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+service component name SimpleName MethodInvocation MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation SimpleName hostname
+service component name SimpleName MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation SimpleName hostname
+public Modifier MethodDeclaration SimpleType SimpleName service component host
+public Modifier MethodDeclaration SimpleName get service component host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service component name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+service component host SimpleName SimpleType MethodDeclaration SimpleName get service component host
+service component host SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service name
+service component host SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName service component name
+service component host SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+service component host SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service name
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service component name
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+get service component host SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+service name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service component name
+service name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+service name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+service component name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+service component name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service component host
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service component host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service component name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service component host
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service component host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service component name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

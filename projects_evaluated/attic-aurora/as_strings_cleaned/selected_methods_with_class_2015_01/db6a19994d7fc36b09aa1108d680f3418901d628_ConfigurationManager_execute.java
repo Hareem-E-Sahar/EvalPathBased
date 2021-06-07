@@ -1,0 +1,34 @@
+task config SimpleName SimpleType SingleVariableDeclaration SimpleName task
+task SimpleName MethodInvocation SimpleName is set
+task SimpleName MethodInvocation SimpleName field
+is set SimpleName MethodInvocation SimpleName field
+task SimpleName MethodInvocation SimpleName set field value
+task SimpleName MethodInvocation SimpleName field
+task SimpleName MethodInvocation SimpleName default value
+set field value SimpleName MethodInvocation SimpleName field
+set field value SimpleName MethodInvocation SimpleName default value
+field SimpleName MethodInvocation SimpleName default value
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

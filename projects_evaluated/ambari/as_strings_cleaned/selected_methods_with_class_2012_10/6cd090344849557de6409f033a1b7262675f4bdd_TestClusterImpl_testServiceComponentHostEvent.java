@@ -1,0 +1,175 @@
+config version SimpleName SimpleType ClassInstanceCreation StringLiteral . c
+c version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName config version
+c version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . c
+config version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c version
+stack version SimpleName SimpleType ClassInstanceCreation StringLiteral hadoopxyz
+s version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stack version
+s version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hadoopxyz
+stack version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s version
+live state SimpleName VariableDeclarationFragment QualifiedName service component host live stateinstall failed
+service component host live state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName live state
+service component host live state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName service component host live stateinstall failed
+service component host state SimpleName SimpleType ClassInstanceCreation SimpleName c version
+service component host state SimpleName SimpleType ClassInstanceCreation SimpleName s version
+service component host state SimpleName SimpleType ClassInstanceCreation SimpleName live state
+c version SimpleName ClassInstanceCreation SimpleName s version
+c version SimpleName ClassInstanceCreation SimpleName live state
+s version SimpleName ClassInstanceCreation SimpleName live state
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service component host state
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName c version
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName s version
+expected SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName live state
+service component host state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+c SimpleName MethodInvocation SimpleName set service component host state
+c SimpleName MethodInvocation SimpleName s
+c SimpleName MethodInvocation SimpleName sc
+c SimpleName MethodInvocation SimpleName h
+c SimpleName MethodInvocation SimpleName expected
+set service component host state SimpleName MethodInvocation SimpleName s
+set service component host state SimpleName MethodInvocation SimpleName sc
+set service component host state SimpleName MethodInvocation SimpleName h
+set service component host state SimpleName MethodInvocation SimpleName expected
+s SimpleName MethodInvocation SimpleName sc
+s SimpleName MethodInvocation SimpleName h
+s SimpleName MethodInvocation SimpleName expected
+sc SimpleName MethodInvocation SimpleName h
+sc SimpleName MethodInvocation SimpleName expected
+h SimpleName MethodInvocation SimpleName expected
+service component host install event SimpleName SimpleType ClassInstanceCreation SimpleName sc
+service component host install event SimpleName SimpleType ClassInstanceCreation SimpleName h
+service component host install event SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+sc SimpleName ClassInstanceCreation SimpleName h
+sc SimpleName ClassInstanceCreation NumberLiteral empty
+h SimpleName ClassInstanceCreation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName handle service component host event
+c SimpleName MethodInvocation SimpleName s
+c SimpleName MethodInvocation SimpleName sc
+c SimpleName MethodInvocation SimpleName h
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host install event
+c SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+c SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+c SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+handle service component host event SimpleName MethodInvocation SimpleName s
+handle service component host event SimpleName MethodInvocation SimpleName sc
+handle service component host event SimpleName MethodInvocation SimpleName h
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host install event
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName sc
+s SimpleName MethodInvocation SimpleName h
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host install event
+s SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+s SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+s SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+sc SimpleName MethodInvocation SimpleName h
+sc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host install event
+sc SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+sc SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+sc SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+h SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host install event
+h SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+h SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+h SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+fail SimpleName MethodInvocation StringLiteral exception should be thrown on invalid event
+invalid state transiton exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+service component host op restarted event SimpleName SimpleType ClassInstanceCreation SimpleName sc
+service component host op restarted event SimpleName SimpleType ClassInstanceCreation SimpleName h
+service component host op restarted event SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+sc SimpleName ClassInstanceCreation SimpleName h
+sc SimpleName ClassInstanceCreation NumberLiteral empty
+h SimpleName ClassInstanceCreation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName handle service component host event
+c SimpleName MethodInvocation SimpleName s
+c SimpleName MethodInvocation SimpleName sc
+c SimpleName MethodInvocation SimpleName h
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host op restarted event
+c SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+c SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+c SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+handle service component host event SimpleName MethodInvocation SimpleName s
+handle service component host event SimpleName MethodInvocation SimpleName sc
+handle service component host event SimpleName MethodInvocation SimpleName h
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host op restarted event
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+handle service component host event SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName sc
+s SimpleName MethodInvocation SimpleName h
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host op restarted event
+s SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+s SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+s SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+sc SimpleName MethodInvocation SimpleName h
+sc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host op restarted event
+sc SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+sc SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+sc SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+h SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName service component host op restarted event
+h SimpleName MethodInvocation ClassInstanceCreation SimpleName sc
+h SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+h SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName get service component host state
+c SimpleName MethodInvocation SimpleName s
+c SimpleName MethodInvocation SimpleName sc
+c SimpleName MethodInvocation SimpleName h
+get service component host state SimpleName MethodInvocation SimpleName s
+get service component host state SimpleName MethodInvocation SimpleName sc
+get service component host state SimpleName MethodInvocation SimpleName h
+s SimpleName MethodInvocation SimpleName sc
+s SimpleName MethodInvocation SimpleName h
+sc SimpleName MethodInvocation SimpleName h
+c SimpleName MethodInvocation MethodInvocation SimpleName get live state
+get service component host state SimpleName MethodInvocation MethodInvocation SimpleName get live state
+s SimpleName MethodInvocation MethodInvocation SimpleName get live state
+sc SimpleName MethodInvocation MethodInvocation SimpleName get live state
+h SimpleName MethodInvocation MethodInvocation SimpleName get live state
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName service component host live stateinstalling
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host state
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sc
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+assert SimpleName MethodInvocation MethodInvocation SimpleName get live state
+assert equals SimpleName MethodInvocation QualifiedName service component host live stateinstalling
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host state
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sc
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get live state
+service component host live stateinstalling QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+service component host live stateinstalling QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host state
+service component host live stateinstalling QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+service component host live stateinstalling QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName sc
+service component host live stateinstalling QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+service component host live stateinstalling QualifiedName MethodInvocation MethodInvocation SimpleName get live state
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test service component host event
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName invalid state transiton exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test service component host event
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration SimpleType SimpleName invalid state transiton exception
+void PrimitiveType MethodDeclaration SimpleName test service component host event
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName invalid state transiton exception
+test service component host event SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+test service component host event SimpleName MethodDeclaration SimpleType SimpleName invalid state transiton exception
+ambari exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid state transiton exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test service component host event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test service component host event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception

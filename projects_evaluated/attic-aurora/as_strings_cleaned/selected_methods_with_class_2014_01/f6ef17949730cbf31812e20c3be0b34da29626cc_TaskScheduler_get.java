@@ -1,0 +1,21 @@
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+active job state query SimpleName MethodInvocation SimpleName job key
+store SimpleName MethodInvocation SimpleName fetch tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName active job state query
+store SimpleName MethodInvocation MethodInvocation SimpleName job key
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName active job state query
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName job key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName immutable set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SimpleName get
+immutable set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+i scheduled task SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get

@@ -1,0 +1,84 @@
+ssh host info SimpleName SimpleType SingleVariableDeclaration SimpleName info
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName bs response
+bs response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+info SimpleName MethodInvocation SimpleName host list as string
+boot strapping hosts StringLiteral InfixExpression MethodInvocation SimpleName info
+boot strapping hosts StringLiteral InfixExpression MethodInvocation SimpleName host list as string
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral boot strapping hosts
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host list as string
+info SimpleName MethodInvocation InfixExpression StringLiteral boot strapping hosts
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName info
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host list as string
+response SimpleName MethodInvocation SimpleName set log
+response SimpleName MethodInvocation StringLiteral boot strap in progress cannot run more than one
+set log SimpleName MethodInvocation StringLiteral boot strap in progress cannot run more than one
+response SimpleName MethodInvocation SimpleName set status
+response SimpleName MethodInvocation QualifiedName bs run staterror
+set status SimpleName MethodInvocation QualifiedName bs run staterror
+boot strap dir SimpleName MethodInvocation SimpleName to string
+bs runner SimpleName SimpleType ClassInstanceCreation SimpleName info
+bs runner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName boot strap dir
+bs runner SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+bs runner SimpleName SimpleType ClassInstanceCreation SimpleName boot script
+bs runner SimpleName SimpleType ClassInstanceCreation SimpleName request id
+bs runner SimpleName SimpleType ClassInstanceCreation NumberLiteral l
+info SimpleName ClassInstanceCreation MethodInvocation SimpleName boot strap dir
+info SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+info SimpleName ClassInstanceCreation SimpleName boot script
+info SimpleName ClassInstanceCreation SimpleName request id
+info SimpleName ClassInstanceCreation NumberLiteral l
+boot strap dir SimpleName MethodInvocation ClassInstanceCreation SimpleName boot script
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName boot script
+boot strap dir SimpleName MethodInvocation ClassInstanceCreation SimpleName request id
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName request id
+boot strap dir SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+to string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral l
+boot script SimpleName ClassInstanceCreation SimpleName request id
+boot script SimpleName ClassInstanceCreation NumberLiteral l
+request id SimpleName ClassInstanceCreation NumberLiteral l
+bs runner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName bs runner
+bs runner SimpleName Assignment ClassInstanceCreation SimpleName info
+bs runner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName boot strap dir
+bs runner SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+bs runner SimpleName Assignment ClassInstanceCreation SimpleName boot script
+bs runner SimpleName Assignment ClassInstanceCreation SimpleName request id
+bs runner SimpleName Assignment ClassInstanceCreation NumberLiteral l
+bs runner SimpleName MethodInvocation SimpleName start
+response SimpleName MethodInvocation SimpleName set status
+response SimpleName MethodInvocation QualifiedName bs run statok
+set status SimpleName MethodInvocation QualifiedName bs run statok
+response SimpleName MethodInvocation SimpleName set log
+response SimpleName MethodInvocation StringLiteral running bootstrap now
+set log SimpleName MethodInvocation StringLiteral running bootstrap now
+response SimpleName MethodInvocation SimpleName set request id
+response SimpleName MethodInvocation SimpleName request id
+set request id SimpleName MethodInvocation SimpleName request id
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName bs response
+public Modifier MethodDeclaration SimpleName run boot strap
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh host info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+synchronized Modifier MethodDeclaration SimpleType SimpleName bs response
+synchronized Modifier MethodDeclaration SimpleName run boot strap
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh host info
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName response
+bs response SimpleName SimpleType MethodDeclaration SimpleName run boot strap
+bs response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName info
+run boot strap SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName ssh host info
+run boot strap SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+run boot strap SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bs response
+public Modifier TypeDeclaration MethodDeclaration SimpleName run boot strap
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bs response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run boot strap
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info

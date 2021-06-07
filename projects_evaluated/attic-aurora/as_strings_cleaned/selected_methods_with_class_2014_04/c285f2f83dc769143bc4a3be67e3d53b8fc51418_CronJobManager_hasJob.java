@@ -1,0 +1,13 @@
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+boolean PrimitiveType MethodDeclaration SimpleName has job
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+has job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+has job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key

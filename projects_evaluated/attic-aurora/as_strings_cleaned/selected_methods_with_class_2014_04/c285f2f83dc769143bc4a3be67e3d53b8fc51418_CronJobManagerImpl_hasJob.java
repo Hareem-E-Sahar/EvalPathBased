@@ -1,0 +1,64 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName i job key
+final Modifier SingleVariableDeclaration SimpleName job key
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+check not null SimpleName MethodInvocation SimpleName job key
+workquiet QualifiedName SimpleType ParameterizedType SimpleType SimpleName boolean
+storagestore provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+store provider SimpleName MethodInvocation MethodInvocation SimpleName fetch job
+get job store SimpleName MethodInvocation MethodInvocation SimpleName fetch job
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+store provider SimpleName MethodInvocation MethodInvocation SimpleName job key
+get job store SimpleName MethodInvocation MethodInvocation SimpleName job key
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+fetch job SimpleName MethodInvocation SimpleName job key
+get manager key SimpleName MethodInvocation MethodInvocation SimpleName job key
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is present
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is present
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName is present
+get manager key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is present
+job key SimpleName MethodInvocation MethodInvocation SimpleName is present
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration SimpleType SimpleName boolean
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+boolean SimpleName SimpleType MethodDeclaration SimpleName apply
+boolean SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName consistent read
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName has job
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has job
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+boolean PrimitiveType MethodDeclaration SimpleName has job
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+has job SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+has job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+has job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key

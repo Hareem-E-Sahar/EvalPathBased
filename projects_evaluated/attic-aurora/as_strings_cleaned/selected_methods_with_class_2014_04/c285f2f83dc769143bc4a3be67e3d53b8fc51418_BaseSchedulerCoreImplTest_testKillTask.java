@@ -1,0 +1,255 @@
+easy mock SimpleName MethodInvocation SimpleType SimpleName string
+easy mock SimpleName MethodInvocation SimpleName any object
+string SimpleName SimpleType MethodInvocation SimpleName any object
+driver SimpleName MethodInvocation SimpleName kill task
+driver SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+driver SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+driver SimpleName MethodInvocation MethodInvocation SimpleName any object
+kill task SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+kill task SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+kill task SimpleName MethodInvocation MethodInvocation SimpleName any object
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName times
+expect last call SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+times SimpleName MethodInvocation NumberLiteral empty
+control SimpleName MethodInvocation SimpleName replay
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName schedule status
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName statuses
+schedule status SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName statuses
+immutable set SimpleName MethodInvocation SimpleType SimpleName schedule status
+immutable set SimpleName MethodInvocation SimpleName of
+schedule status SimpleName SimpleType MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation SimpleName assigned
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation SimpleName assigned
+enum set SimpleName MethodInvocation SimpleName starting
+of SimpleName MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation SimpleName starting
+enum set SimpleName MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation SimpleName assigned
+enum set SimpleName MethodInvocation SimpleName starting
+enum set SimpleName MethodInvocation SimpleName running
+of SimpleName MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation SimpleName starting
+of SimpleName MethodInvocation SimpleName running
+assigned SimpleName MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation SimpleName running
+starting SimpleName MethodInvocation SimpleName running
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+immutable set SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName enum set
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName assigned
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName enum set
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName assigned
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName starting
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName enum set
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName assigned
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName starting
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName running
+of SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+of SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+of SimpleName MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation SimpleName starting
+of SimpleName MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation SimpleName starting
+of SimpleName MethodInvocation MethodInvocation SimpleName running
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+enum set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+starting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName enum set
+starting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+starting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+starting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+starting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName running
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key a
+job scoped SimpleName MethodInvocation SimpleName key a
+query SimpleName MethodInvocation MethodInvocation SimpleName active
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName active
+key a SimpleName MethodInvocation MethodInvocation SimpleName active
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job scoped
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+get only task SimpleName MethodInvocation MethodInvocation SimpleName active
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+schedule status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+change status SimpleName MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName status
+task id SimpleName MethodInvocation SimpleName status
+schedule status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName statuses
+status SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName statuses
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+owner a SimpleName MethodInvocation SimpleName get user
+scheduler SimpleName MethodInvocation SimpleName kill tasks
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName query
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName role a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName owner a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName get user
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName role a
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName owner a
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName get user
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+role scoped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+role scoped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+role a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+role a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+statuses SimpleName MethodInvocation SimpleName is empty
+get task SimpleName MethodInvocation SimpleName task id
+get task SimpleName MethodInvocation MethodInvocation SimpleName get status
+task id SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation SimpleName killing
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+killing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+killing SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+killing SimpleName MethodInvocation MethodInvocation SimpleName get status
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation MethodInvocation SimpleName query
+change status SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+change status SimpleName MethodInvocation MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation SimpleName killed
+query SimpleName MethodInvocation MethodInvocation SimpleName killed
+role scoped SimpleName MethodInvocation MethodInvocation SimpleName killed
+role a SimpleName MethodInvocation MethodInvocation SimpleName killed
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key a
+job scoped SimpleName MethodInvocation SimpleName key a
+query SimpleName MethodInvocation MethodInvocation SimpleName active
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName active
+key a SimpleName MethodInvocation MethodInvocation SimpleName active
+get tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job scoped
+get tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+get tasks SimpleName MethodInvocation MethodInvocation SimpleName active
+get tasks SimpleName MethodInvocation MethodInvocation SimpleName is empty
+active SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tasks
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+statuses SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName immutable set
+statuses SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName of
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test kill task
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test kill task
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test kill task
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test kill task SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test kill task
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test kill task
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

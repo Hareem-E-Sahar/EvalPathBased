@@ -1,0 +1,13 @@
+event sink SimpleName MethodInvocation SimpleName post
+event sink SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName pubsub eventscheduler active
+post SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName pubsub eventscheduler active
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName boot
+void PrimitiveType MethodDeclaration SimpleName boot
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName boot
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName boot

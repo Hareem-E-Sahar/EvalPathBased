@@ -1,0 +1,96 @@
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+{ StringLiteral InfixExpression StringLiteral hostname
+{ StringLiteral InfixExpression InfixExpression SimpleName hostname
+hostname StringLiteral InfixExpression InfixExpression SimpleName hostname
+{ StringLiteral InfixExpression InfixExpression StringLiteral cluster names
+hostname StringLiteral InfixExpression InfixExpression StringLiteral cluster names
+hostname SimpleName InfixExpression StringLiteral cluster names
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral {
+sb SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral hostname
+sb SimpleName MethodInvocation InfixExpression SimpleName hostname
+sb SimpleName MethodInvocation InfixExpression StringLiteral cluster names
+append SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral {
+append SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral hostname
+append SimpleName MethodInvocation InfixExpression SimpleName hostname
+append SimpleName MethodInvocation InfixExpression StringLiteral cluster names
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+cluster names SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName cluster names
+i SimpleName InfixExpression MethodInvocation SimpleName size
+i SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+cluster names SimpleName MethodInvocation SimpleName get
+cluster names SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName cluster names
+sb SimpleName MethodInvocation MethodInvocation SimpleName get
+sb SimpleName MethodInvocation MethodInvocation SimpleName i
+append SimpleName MethodInvocation MethodInvocation SimpleName cluster names
+append SimpleName MethodInvocation MethodInvocation SimpleName get
+append SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ] host attributes
+append SimpleName MethodInvocation StringLiteral ] host attributes
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+entry SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName attr
+host attributes SimpleName MethodInvocation SimpleName entry set
+i SimpleName InfixExpression NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+attr SimpleName MethodInvocation SimpleName get key
+attr SimpleName MethodInvocation SimpleName get value
+attr SimpleName MethodInvocation InfixExpression StringLiteral =
+get key SimpleName MethodInvocation InfixExpression StringLiteral =
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+get key SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+= StringLiteral InfixExpression MethodInvocation SimpleName attr
+= StringLiteral InfixExpression MethodInvocation SimpleName get value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+sb SimpleName MethodInvocation InfixExpression StringLiteral =
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+sb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get key
+append SimpleName MethodInvocation InfixExpression StringLiteral =
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName host attributes
+attr SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral ] }
+append SimpleName MethodInvocation StringLiteral ] }
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

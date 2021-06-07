@@ -1,0 +1,11 @@
+queue SimpleName MethodInvocation SimpleName size
+synchronized Modifier MethodDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SimpleName get queue size
+int PrimitiveType MethodDeclaration SimpleName get queue size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get queue size
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get queue size

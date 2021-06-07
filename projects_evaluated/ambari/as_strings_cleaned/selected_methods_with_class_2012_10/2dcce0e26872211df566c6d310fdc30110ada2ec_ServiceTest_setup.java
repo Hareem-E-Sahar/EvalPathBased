@@ -1,0 +1,35 @@
+clusters SimpleName Assignment ClassInstanceCreation SimpleType SimpleName clusters impl
+cluster name SimpleName Assignment StringLiteral foo
+clusters SimpleName MethodInvocation SimpleName add cluster
+clusters SimpleName MethodInvocation SimpleName cluster name
+add cluster SimpleName MethodInvocation SimpleName cluster name
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName cluster name
+get cluster SimpleName MethodInvocation SimpleName cluster name
+cluster SimpleName Assignment MethodInvocation SimpleName clusters
+cluster SimpleName Assignment MethodInvocation SimpleName get cluster
+cluster SimpleName Assignment MethodInvocation SimpleName cluster name
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName cluster
+assert not null SimpleName MethodInvocation SimpleName cluster
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName setup
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName setup
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+setup SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

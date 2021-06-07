@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName type
+public Modifier MethodDeclaration SimpleName get request type
+type SimpleName SimpleType MethodDeclaration SimpleName get request type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request type

@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+host actions SimpleName MethodInvocation SimpleName key set
+host role command SimpleName SimpleType SingleVariableDeclaration SimpleName role
+host actions SimpleName MethodInvocation SimpleName get
+host actions SimpleName MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+host actions SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+get SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+host SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+role SimpleName MethodInvocation SimpleName get status
+role SimpleName MethodInvocation MethodInvocation SimpleName equals
+get status SimpleName MethodInvocation MethodInvocation SimpleName equals
+role SimpleName MethodInvocation MethodInvocation QualifiedName host role statuspending
+get status SimpleName MethodInvocation MethodInvocation QualifiedName host role statuspending
+equals SimpleName MethodInvocation QualifiedName host role statuspending
+role SimpleName MethodInvocation SimpleName get status
+role SimpleName MethodInvocation MethodInvocation SimpleName equals
+get status SimpleName MethodInvocation MethodInvocation SimpleName equals
+role SimpleName MethodInvocation MethodInvocation QualifiedName host role statusqueued
+get status SimpleName MethodInvocation MethodInvocation QualifiedName host role statusqueued
+equals SimpleName MethodInvocation QualifiedName host role statusqueued
+role SimpleName MethodInvocation SimpleName get status
+role SimpleName MethodInvocation MethodInvocation SimpleName equals
+get status SimpleName MethodInvocation MethodInvocation SimpleName equals
+role SimpleName MethodInvocation MethodInvocation QualifiedName host role statusin progress
+get status SimpleName MethodInvocation MethodInvocation QualifiedName host role statusin progress
+equals SimpleName MethodInvocation QualifiedName host role statusin progress
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName host role statusqueued
+host role statuspending QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+host role statuspending QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName host role statusqueued
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName host role statusin progress
+host role statuspending QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+host role statuspending QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName host role statusin progress
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName host role statusin progress
+host role statusqueued QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+host role statusqueued QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName host role statusin progress
+role SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get role commands
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName host actions
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is stage in progress
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName is stage in progress
+synchronized Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is stage in progress
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is stage in progress SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is stage in progress
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is stage in progress

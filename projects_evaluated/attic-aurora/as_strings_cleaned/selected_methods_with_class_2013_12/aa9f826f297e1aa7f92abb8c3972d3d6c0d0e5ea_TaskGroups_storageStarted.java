@@ -1,0 +1,65 @@
+storage started SimpleName SimpleType SingleVariableDeclaration SimpleName event
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+query SimpleName MethodInvocation SimpleName unscoped
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+storageutil QualifiedName MethodInvocation SimpleName consistent fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+storageutil QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName by status
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName pending
+consistent fetch tasks SimpleName MethodInvocation SimpleName storage
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName by status
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName pending
+storage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+storage SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+storage SimpleName MethodInvocation MethodInvocation SimpleName by status
+storage SimpleName MethodInvocation MethodInvocation SimpleName pending
+task SimpleName MethodInvocation SimpleName get assigned task
+reschedule calculator SimpleName MethodInvocation SimpleName get startup ready time ms
+reschedule calculator SimpleName MethodInvocation SimpleName task
+get startup ready time ms SimpleName MethodInvocation SimpleName task
+add SimpleName MethodInvocation MethodInvocation SimpleName task
+add SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+add SimpleName MethodInvocation MethodInvocation SimpleName reschedule calculator
+add SimpleName MethodInvocation MethodInvocation SimpleName get startup ready time ms
+add SimpleName MethodInvocation MethodInvocation SimpleName task
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reschedule calculator
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get startup ready time ms
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reschedule calculator
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get startup ready time ms
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName storageutil
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName consistent fetch tasks
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName storage
+subscribe SimpleName MarkerAnnotation MethodDeclaration Modifier public
+subscribe SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+subscribe SimpleName MarkerAnnotation MethodDeclaration SimpleName storage started
+subscribe SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName storage started
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage started
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName storage started
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage started
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+storage started SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName storage started
+storage started SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName storage started
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName storage started
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

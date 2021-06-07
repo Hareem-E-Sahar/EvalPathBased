@@ -1,0 +1,23 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get service component hosts
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName service component host
+public Modifier MethodDeclaration SimpleName get service component hosts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get service component hosts
+service component host SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get service component hosts
+get service component hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service component hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service component hosts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service component hosts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

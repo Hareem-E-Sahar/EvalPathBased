@@ -1,0 +1,72 @@
+task config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+i task config SimpleName MethodInvocation SimpleName build
+i task config SimpleName MethodInvocation SimpleName config
+build SimpleName MethodInvocation SimpleName config
+task config SimpleName VariableDeclarationFragment MethodInvocation SimpleName i task config
+task config SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+task config SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+i task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task config
+config SimpleName MethodInvocation SimpleName is set tier
+tier manager SimpleName MethodInvocation SimpleName get tier
+tier manager SimpleName MethodInvocation SimpleName task config
+get tier SimpleName MethodInvocation SimpleName task config
+tier SimpleName VariableDeclarationFragment MethodInvocation SimpleName tier manager
+tier SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tier
+tier SimpleName VariableDeclarationFragment MethodInvocation SimpleName task config
+tier info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tier
+tier SimpleName MethodInvocation SimpleName is preemptible
+tier SimpleName MethodInvocation SimpleName is revocable
+config SimpleName MethodInvocation SimpleName set production
+tier manager SimpleName MethodInvocation SimpleName get tiers
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get tiers SimpleName MethodInvocation MethodInvocation SimpleName entry set
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stream
+get tiers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stream
+entry set SimpleName MethodInvocation MethodInvocation SimpleName stream
+e SimpleName MethodInvocation SimpleName get value
+e SimpleName MethodInvocation MethodInvocation SimpleName is preemptible
+get value SimpleName MethodInvocation MethodInvocation SimpleName is preemptible
+task config SimpleName MethodInvocation SimpleName is production
+e SimpleName MethodInvocation SimpleName get value
+e SimpleName MethodInvocation MethodInvocation SimpleName is revocable
+get value SimpleName MethodInvocation MethodInvocation SimpleName is revocable
+entry set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName find first
+filter SimpleName MethodInvocation MethodInvocation SimpleName find first
+task config SimpleName MethodInvocation SimpleName get job
+format SimpleName MethodInvocation StringLiteral no matching implicit tier for task of job s
+format SimpleName MethodInvocation MethodInvocation SimpleName task config
+format SimpleName MethodInvocation MethodInvocation SimpleName get job
+no matching implicit tier for task of job s StringLiteral MethodInvocation MethodInvocation SimpleName task config
+no matching implicit tier for task of job s StringLiteral MethodInvocation MethodInvocation SimpleName get job
+illegal state exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format
+illegal state exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral no matching implicit tier for task of job s
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName or else throw
+find first SimpleName MethodInvocation MethodInvocation SimpleName or else throw
+find first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+or else throw SimpleName MethodInvocation MethodInvocation SimpleName get key
+config SimpleName MethodInvocation SimpleName set tier
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName or else throw
+config SimpleName MethodInvocation MethodInvocation SimpleName get key
+set tier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName or else throw
+set tier SimpleName MethodInvocation MethodInvocation SimpleName get key
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName backfill tier
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SimpleName backfill tier
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+backfill tier SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+backfill tier SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName backfill tier
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName backfill tier
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

@@ -1,0 +1,90 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName service response
+service request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+ambari exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid arguments
+request SimpleName MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+final Modifier VariableDeclarationStatement SimpleType SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clusters
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get cluster
+cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName service response
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName service response
+request SimpleName MethodInvocation SimpleName get service name
+request SimpleName MethodInvocation SimpleName get service name
+cluster SimpleName MethodInvocation SimpleName get service
+cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get service name
+get service SimpleName MethodInvocation MethodInvocation SimpleName request
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get service name
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName convert to response
+response SimpleName MethodInvocation SimpleName add
+response SimpleName MethodInvocation MethodInvocation SimpleName s
+response SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+add SimpleName MethodInvocation MethodInvocation SimpleName s
+add SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName service
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName service
+cluster SimpleName MethodInvocation SimpleName get services
+all services SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+all services SimpleName VariableDeclarationFragment MethodInvocation SimpleName get services
+service SimpleName SimpleType SingleVariableDeclaration SimpleName s
+all services SimpleName MethodInvocation SimpleName values
+s SimpleName MethodInvocation SimpleName convert to response
+response SimpleName MethodInvocation SimpleName add
+response SimpleName MethodInvocation MethodInvocation SimpleName s
+response SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+add SimpleName MethodInvocation MethodInvocation SimpleName s
+add SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+s SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName all services
+s SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get services
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName service response
+public Modifier MethodDeclaration SimpleName get services
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get services
+service response SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get services
+get services SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service request
+get services SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get services SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+get services SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get services SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get services
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get services
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

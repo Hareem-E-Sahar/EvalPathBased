@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName base predicate
+public Modifier MethodDeclaration SimpleName get predicate
+public Modifier MethodDeclaration Block ReturnStatement SimpleName predicate
+base predicate SimpleName SimpleType MethodDeclaration SimpleName get predicate
+get predicate SimpleName MethodDeclaration Block ReturnStatement SimpleName predicate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName base predicate
+public Modifier TypeDeclaration MethodDeclaration SimpleName get predicate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName base predicate
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get predicate

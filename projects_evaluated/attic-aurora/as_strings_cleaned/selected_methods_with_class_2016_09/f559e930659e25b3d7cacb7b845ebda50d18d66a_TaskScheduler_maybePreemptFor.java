@@ -1,0 +1,100 @@
+i assigned task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+attribute aggregate SimpleName SimpleType SingleVariableDeclaration SimpleName job state
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store provider
+task SimpleName MethodInvocation SimpleName get task
+task group key SimpleName MethodInvocation SimpleName from
+task group key SimpleName MethodInvocation MethodInvocation SimpleName task
+task group key SimpleName MethodInvocation MethodInvocation SimpleName get task
+from SimpleName MethodInvocation MethodInvocation SimpleName task
+from SimpleName MethodInvocation MethodInvocation SimpleName get task
+reservations SimpleName MethodInvocation SimpleName get by value
+reservations SimpleName MethodInvocation MethodInvocation SimpleName task group key
+reservations SimpleName MethodInvocation MethodInvocation SimpleName from
+reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+get by value SimpleName MethodInvocation MethodInvocation SimpleName task group key
+get by value SimpleName MethodInvocation MethodInvocation SimpleName from
+get by value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get by value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+reservations SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get by value SimpleName MethodInvocation MethodInvocation SimpleName is empty
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+preemptor SimpleName MethodInvocation SimpleName attempt preemption for
+preemptor SimpleName MethodInvocation SimpleName task
+preemptor SimpleName MethodInvocation SimpleName job state
+preemptor SimpleName MethodInvocation SimpleName store provider
+attempt preemption for SimpleName MethodInvocation SimpleName task
+attempt preemption for SimpleName MethodInvocation SimpleName job state
+attempt preemption for SimpleName MethodInvocation SimpleName store provider
+task SimpleName MethodInvocation SimpleName job state
+task SimpleName MethodInvocation SimpleName store provider
+job state SimpleName MethodInvocation SimpleName store provider
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName preemptor
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName attempt preemption for
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName task
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName job state
+slave id SimpleName VariableDeclarationFragment MethodInvocation SimpleName store provider
+slave id SimpleName MethodInvocation SimpleName is present
+slave id SimpleName MethodInvocation SimpleName get
+task SimpleName MethodInvocation SimpleName get task
+task group key SimpleName MethodInvocation SimpleName from
+task group key SimpleName MethodInvocation MethodInvocation SimpleName task
+task group key SimpleName MethodInvocation MethodInvocation SimpleName get task
+from SimpleName MethodInvocation MethodInvocation SimpleName task
+from SimpleName MethodInvocation MethodInvocation SimpleName get task
+reservations SimpleName MethodInvocation SimpleName put
+reservations SimpleName MethodInvocation MethodInvocation SimpleName slave id
+reservations SimpleName MethodInvocation MethodInvocation SimpleName get
+reservations SimpleName MethodInvocation MethodInvocation SimpleName task group key
+reservations SimpleName MethodInvocation MethodInvocation SimpleName from
+reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+put SimpleName MethodInvocation MethodInvocation SimpleName slave id
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName task group key
+put SimpleName MethodInvocation MethodInvocation SimpleName from
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task group key
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task group key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName maybe preempt for
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i assigned task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute aggregate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job state
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName maybe preempt for
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i assigned task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute aggregate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i assigned task
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute aggregate
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job state
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+maybe preempt for SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+task SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job state
+task SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+job state SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName maybe preempt for
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName maybe preempt for
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider

@@ -1,0 +1,65 @@
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+quartz SimpleName MethodInvocation SimpleName job key
+quartz SimpleName MethodInvocation SimpleName job key
+job key SimpleName MethodInvocation SimpleName job key
+scheduler SimpleName MethodInvocation SimpleName trigger job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName quartz
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName job key
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName job key
+trigger job SimpleName MethodInvocation MethodInvocation SimpleName quartz
+trigger job SimpleName MethodInvocation MethodInvocation SimpleName job key
+trigger job SimpleName MethodInvocation MethodInvocation SimpleName job key
+scheduler exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+cron exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+job keys SimpleName MethodInvocation SimpleName canonical string
+job keys SimpleName MethodInvocation SimpleName job key
+canonical string SimpleName MethodInvocation SimpleName job key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral triggered cron job for s
+string SimpleName MethodInvocation MethodInvocation SimpleName job keys
+string SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+string SimpleName MethodInvocation MethodInvocation SimpleName job key
+format SimpleName MethodInvocation StringLiteral triggered cron job for s
+format SimpleName MethodInvocation MethodInvocation SimpleName job keys
+format SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+format SimpleName MethodInvocation MethodInvocation SimpleName job key
+triggered cron job for s StringLiteral MethodInvocation MethodInvocation SimpleName job keys
+triggered cron job for s StringLiteral MethodInvocation MethodInvocation SimpleName canonical string
+triggered cron job for s StringLiteral MethodInvocation MethodInvocation SimpleName job key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral triggered cron job for s
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral triggered cron job for s
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName trigger job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+private Modifier MethodDeclaration SimpleType SimpleName cron exception
+void PrimitiveType MethodDeclaration SimpleName trigger job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+trigger job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+trigger job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+trigger job SimpleName MethodDeclaration SimpleType SimpleName cron exception
+job key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName trigger job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName trigger job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName per service component request
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName components
+per service component request SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName components
+components SimpleName FieldAccess Assignment SimpleName components
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set components
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName components
+void PrimitiveType MethodDeclaration SimpleName set components
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName components
+set components SimpleName MethodDeclaration SingleVariableDeclaration SimpleName components
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set components
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName components
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set components
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName components

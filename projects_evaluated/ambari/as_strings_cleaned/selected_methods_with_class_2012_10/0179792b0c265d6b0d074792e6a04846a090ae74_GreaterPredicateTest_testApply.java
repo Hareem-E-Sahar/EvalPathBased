@@ -1,0 +1,94 @@
+resource impl SimpleName SimpleType ClassInstanceCreation QualifiedName resourcetypehost component
+resource SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName resource impl
+resource SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName resourcetypehost component
+resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+property id impl SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+property id impl SimpleName SimpleType ClassInstanceCreation StringLiteral category
+property id impl SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+foo StringLiteral ClassInstanceCreation StringLiteral category
+foo StringLiteral ClassInstanceCreation BooleanLiteral false
+category StringLiteral ClassInstanceCreation BooleanLiteral false
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName property id impl
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral category
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+property id impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property id
+comparables SimpleName MethodInvocation SimpleName for integer
+comparables SimpleName MethodInvocation NumberLiteral empty
+for integer SimpleName MethodInvocation NumberLiteral empty
+greater predicate SimpleName SimpleType ClassInstanceCreation SimpleName property id
+greater predicate SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName comparables
+greater predicate SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName for integer
+greater predicate SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+property id SimpleName ClassInstanceCreation MethodInvocation SimpleName comparables
+property id SimpleName ClassInstanceCreation MethodInvocation SimpleName for integer
+property id SimpleName ClassInstanceCreation MethodInvocation NumberLiteral empty
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName greater predicate
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName property id
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName comparables
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName for integer
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation NumberLiteral empty
+predicate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName predicate
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation SimpleName property id
+resource SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation SimpleName property id
+set property SimpleName MethodInvocation StringLiteral empty
+property id SimpleName MethodInvocation StringLiteral empty
+predicate SimpleName MethodInvocation SimpleName evaluate
+predicate SimpleName MethodInvocation SimpleName resource
+evaluate SimpleName MethodInvocation SimpleName resource
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert SimpleName MethodInvocation MethodInvocation SimpleName resource
+assert false SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert false SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert false SimpleName MethodInvocation MethodInvocation SimpleName resource
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation SimpleName property id
+resource SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation SimpleName property id
+set property SimpleName MethodInvocation StringLiteral empty
+property id SimpleName MethodInvocation StringLiteral empty
+predicate SimpleName MethodInvocation SimpleName evaluate
+predicate SimpleName MethodInvocation SimpleName resource
+evaluate SimpleName MethodInvocation SimpleName resource
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert SimpleName MethodInvocation MethodInvocation SimpleName resource
+assert true SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert true SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert true SimpleName MethodInvocation MethodInvocation SimpleName resource
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation SimpleName property id
+resource SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation SimpleName property id
+set property SimpleName MethodInvocation StringLiteral empty
+property id SimpleName MethodInvocation StringLiteral empty
+predicate SimpleName MethodInvocation SimpleName evaluate
+predicate SimpleName MethodInvocation SimpleName resource
+evaluate SimpleName MethodInvocation SimpleName resource
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert SimpleName MethodInvocation MethodInvocation SimpleName resource
+assert false SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert false SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert false SimpleName MethodInvocation MethodInvocation SimpleName resource
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test apply
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test apply
+void PrimitiveType MethodDeclaration SimpleName test apply
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test apply
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test apply

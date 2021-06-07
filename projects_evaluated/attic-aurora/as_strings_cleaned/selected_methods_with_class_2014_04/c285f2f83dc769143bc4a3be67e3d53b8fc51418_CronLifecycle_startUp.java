@@ -1,0 +1,78 @@
+scheduler SimpleName MethodInvocation SimpleName get scheduler name
+starting quartz cron scheduler StringLiteral InfixExpression MethodInvocation SimpleName scheduler
+starting quartz cron scheduler StringLiteral InfixExpression MethodInvocation SimpleName get scheduler name
+starting quartz cron scheduler StringLiteral InfixExpression StringLiteral .
+scheduler SimpleName MethodInvocation InfixExpression StringLiteral .
+get scheduler name SimpleName MethodInvocation InfixExpression StringLiteral .
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral starting quartz cron scheduler
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheduler
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get scheduler name
+log SimpleName MethodInvocation InfixExpression StringLiteral .
+info SimpleName MethodInvocation InfixExpression StringLiteral starting quartz cron scheduler
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scheduler
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get scheduler name
+info SimpleName MethodInvocation InfixExpression StringLiteral .
+scheduler SimpleName MethodInvocation SimpleName start
+running flag SimpleName MethodInvocation SimpleName set
+running flag SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation NumberLiteral empty
+i job configuration SimpleName SimpleType SingleVariableDeclaration SimpleName job
+cron job manager SimpleName MethodInvocation SimpleName get jobs
+sanitized cron job SimpleName MethodInvocation SimpleName from unsanitized
+sanitized cron job SimpleName MethodInvocation SimpleName job
+from unsanitized SimpleName MethodInvocation SimpleName job
+cron job SimpleName VariableDeclarationFragment MethodInvocation SimpleName sanitized cron job
+cron job SimpleName VariableDeclarationFragment MethodInvocation SimpleName from unsanitized
+cron job SimpleName VariableDeclarationFragment MethodInvocation SimpleName job
+sanitized cron job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cron job
+cron job SimpleName MethodInvocation SimpleName get crontab entry
+cron job SimpleName MethodInvocation SimpleName get sanitized config
+cron job SimpleName MethodInvocation MethodInvocation SimpleName get job config
+get sanitized config SimpleName MethodInvocation MethodInvocation SimpleName get job config
+cron job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get sanitized config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get job config SimpleName MethodInvocation MethodInvocation SimpleName get key
+cron job manager SimpleName MethodInvocation SimpleName schedule job
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName cron job
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName get crontab entry
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get job config
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName get key
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName cron job
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName get crontab entry
+schedule job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get job config
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName get key
+cron job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get crontab entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+cron exception SimpleName SimpleType UnionType SimpleType QualifiedName configuration managertask description exception
+cron exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+configuration managertask description exception QualifiedName SimpleType UnionType SingleVariableDeclaration SimpleName e
+log launch failure SimpleName MethodInvocation SimpleName job
+log launch failure SimpleName MethodInvocation SimpleName e
+job SimpleName MethodInvocation SimpleName e
+job SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName cron job manager
+job SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get jobs
+loaded flag SimpleName MethodInvocation SimpleName set
+loaded flag SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation NumberLiteral empty
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start up
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName start up
+protected Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName start up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+start up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

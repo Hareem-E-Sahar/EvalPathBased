@@ -1,0 +1,247 @@
+host impl SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+host SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host impl
+host SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+host impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+register host SimpleName MethodInvocation SimpleName host
+ensure host updates received SimpleName MethodInvocation SimpleName host
+counter SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName counter
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+send healthy heartbeat SimpleName MethodInvocation SimpleName host
+send healthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName counter
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+assert equals SimpleName MethodInvocation SimpleName counter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+counter SimpleName MethodInvocation MethodInvocation SimpleName host
+counter SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+send healthy heartbeat SimpleName MethodInvocation SimpleName host
+send healthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName counter
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+assert equals SimpleName MethodInvocation SimpleName counter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+counter SimpleName MethodInvocation MethodInvocation SimpleName host
+counter SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation SimpleName get health status
+host SimpleName MethodInvocation MethodInvocation SimpleName get health status
+get health status SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName health statushealthy
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation QualifiedName health statushealthy
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get health status
+health statushealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+health statushealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+health statushealthy QualifiedName MethodInvocation MethodInvocation SimpleName get health status
+send unhealthy heartbeat SimpleName MethodInvocation SimpleName host
+send unhealthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateunhealthy
+host SimpleName MethodInvocation QualifiedName host stateunhealthy
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName counter
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+assert equals SimpleName MethodInvocation SimpleName counter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+counter SimpleName MethodInvocation MethodInvocation SimpleName host
+counter SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation SimpleName get health status
+host SimpleName MethodInvocation MethodInvocation SimpleName get health status
+get health status SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName health statusunhealthy
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation QualifiedName health statusunhealthy
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get health status
+health statusunhealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+health statusunhealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+health statusunhealthy QualifiedName MethodInvocation MethodInvocation SimpleName get health status
+send unhealthy heartbeat SimpleName MethodInvocation SimpleName host
+send unhealthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateunhealthy
+host SimpleName MethodInvocation QualifiedName host stateunhealthy
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName counter
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+assert equals SimpleName MethodInvocation SimpleName counter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+counter SimpleName MethodInvocation MethodInvocation SimpleName host
+counter SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation SimpleName get health status
+host SimpleName MethodInvocation MethodInvocation SimpleName get health status
+get health status SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName health statusunhealthy
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation QualifiedName health statusunhealthy
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get health status
+health statusunhealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+health statusunhealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+health statusunhealthy QualifiedName MethodInvocation MethodInvocation SimpleName get health status
+send healthy heartbeat SimpleName MethodInvocation SimpleName host
+send healthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName counter
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+assert equals SimpleName MethodInvocation SimpleName counter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+counter SimpleName MethodInvocation MethodInvocation SimpleName host
+counter SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation SimpleName get health status
+host SimpleName MethodInvocation MethodInvocation SimpleName get health status
+get health status SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName health statushealthy
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation QualifiedName health statushealthy
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get health status
+health statushealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+health statushealthy QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+health statushealthy QualifiedName MethodInvocation MethodInvocation SimpleName get health status
+timeout host SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+host SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName counter
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+assert equals SimpleName MethodInvocation SimpleName counter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+counter SimpleName MethodInvocation MethodInvocation SimpleName host
+counter SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation SimpleName get health status
+host SimpleName MethodInvocation MethodInvocation SimpleName get health status
+get health status SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName health statusunknown
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation QualifiedName health statusunknown
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get health status
+health statusunknown QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+health statusunknown QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+health statusunknown QualifiedName MethodInvocation MethodInvocation SimpleName get health status
+timeout host SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+host SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+host SimpleName MethodInvocation SimpleName get last heartbeat time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName counter
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+assert equals SimpleName MethodInvocation SimpleName counter
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+counter SimpleName MethodInvocation MethodInvocation SimpleName host
+counter SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation SimpleName get health status
+host SimpleName MethodInvocation MethodInvocation SimpleName get health status
+get health status SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName health statusunknown
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert SimpleName MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation QualifiedName health statusunknown
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get health status
+health statusunknown QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+health statusunknown QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get health status
+health statusunknown QualifiedName MethodInvocation MethodInvocation SimpleName get health status
+send unhealthy heartbeat SimpleName MethodInvocation SimpleName host
+send unhealthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+fail SimpleName MethodInvocation StringLiteral invalid event should have triggered an exception
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+host SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+send healthy heartbeat SimpleName MethodInvocation SimpleName host
+send healthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+fail SimpleName MethodInvocation StringLiteral invalid event should have triggered an exception
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+host SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test host heartbeat flow
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test host heartbeat flow
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test host heartbeat flow
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test host heartbeat flow SimpleName MethodDeclaration SimpleType SimpleName exception
+test host heartbeat flow SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test host heartbeat flow
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test host heartbeat flow
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

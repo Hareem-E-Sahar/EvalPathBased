@@ -1,0 +1,139 @@
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation SimpleName pending
+a StringLiteral MethodInvocation SimpleName pending
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+task SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+capture SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+expect task retry in SimpleName MethodInvocation SimpleName first schedule delay ms
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName expect task retry in
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName first schedule delay ms
+capture SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+expect offer decline in SimpleName MethodInvocation NumberLiteral empty
+offer expiration capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName expect offer decline in
+offer expiration capture SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName offer a
+assigner SimpleName MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName empty job
+maybe assign SimpleName MethodInvocation SimpleName offer a
+maybe assign SimpleName MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName empty job
+offer a SimpleName MethodInvocation SimpleName task
+offer a SimpleName MethodInvocation SimpleName empty job
+task SimpleName MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName assigner
+expect SimpleName MethodInvocation MethodInvocation SimpleName maybe assign
+expect SimpleName MethodInvocation MethodInvocation SimpleName offer a
+expect SimpleName MethodInvocation MethodInvocation SimpleName task
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+optional SimpleName MethodInvocation SimpleType SimpleName task info
+optional SimpleName MethodInvocation SimpleName absent
+task info SimpleName SimpleType MethodInvocation SimpleName absent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+offer a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName absent
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleType SimpleName task info
+and return SimpleName MethodInvocation MethodInvocation SimpleName absent
+capture SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+expect task group backoff SimpleName MethodInvocation SimpleName first schedule delay ms
+expect task group backoff SimpleName MethodInvocation NumberLiteral empty
+first schedule delay ms SimpleName MethodInvocation NumberLiteral empty
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName expect task group backoff
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName first schedule delay ms
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+preemptor SimpleName MethodInvocation SimpleName find preemption slot for
+preemptor SimpleName MethodInvocation StringLiteral a
+preemptor SimpleName MethodInvocation SimpleName empty job
+find preemption slot for SimpleName MethodInvocation StringLiteral a
+find preemption slot for SimpleName MethodInvocation SimpleName empty job
+a StringLiteral MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName preemptor
+expect SimpleName MethodInvocation MethodInvocation SimpleName find preemption slot for
+expect SimpleName MethodInvocation MethodInvocation StringLiteral a
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+optional SimpleName MethodInvocation SimpleType SimpleName string
+optional SimpleName MethodInvocation SimpleName absent
+string SimpleName SimpleType MethodInvocation SimpleName absent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+preemptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+find preemption slot for SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName absent
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+and return SimpleName MethodInvocation MethodInvocation SimpleName absent
+offer a SimpleName MethodInvocation SimpleName get id
+driver SimpleName MethodInvocation SimpleName decline offer
+driver SimpleName MethodInvocation MethodInvocation SimpleName offer a
+driver SimpleName MethodInvocation MethodInvocation SimpleName get id
+decline offer SimpleName MethodInvocation MethodInvocation SimpleName offer a
+decline offer SimpleName MethodInvocation MethodInvocation SimpleName get id
+expect task group backoff SimpleName MethodInvocation NumberLiteral empty
+expect task group backoff SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+preemptor SimpleName MethodInvocation SimpleName find preemption slot for
+preemptor SimpleName MethodInvocation StringLiteral a
+preemptor SimpleName MethodInvocation SimpleName empty job
+find preemption slot for SimpleName MethodInvocation StringLiteral a
+find preemption slot for SimpleName MethodInvocation SimpleName empty job
+a StringLiteral MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName preemptor
+expect SimpleName MethodInvocation MethodInvocation SimpleName find preemption slot for
+expect SimpleName MethodInvocation MethodInvocation StringLiteral a
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+optional SimpleName MethodInvocation SimpleType SimpleName string
+optional SimpleName MethodInvocation SimpleName absent
+string SimpleName SimpleType MethodInvocation SimpleName absent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+preemptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+find preemption slot for SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName absent
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+and return SimpleName MethodInvocation MethodInvocation SimpleName absent
+change state SimpleName MethodInvocation SimpleName task
+change state SimpleName MethodInvocation SimpleName init
+change state SimpleName MethodInvocation SimpleName pending
+task SimpleName MethodInvocation SimpleName init
+task SimpleName MethodInvocation SimpleName pending
+init SimpleName MethodInvocation SimpleName pending
+offer queue SimpleName MethodInvocation SimpleName add offer
+offer queue SimpleName MethodInvocation SimpleName offer a
+add offer SimpleName MethodInvocation SimpleName offer a
+timeout capture SimpleName MethodInvocation SimpleName get value
+timeout capture SimpleName MethodInvocation MethodInvocation SimpleName run
+get value SimpleName MethodInvocation MethodInvocation SimpleName run
+offer expiration capture SimpleName MethodInvocation SimpleName get value
+offer expiration capture SimpleName MethodInvocation MethodInvocation SimpleName run
+get value SimpleName MethodInvocation MethodInvocation SimpleName run
+timeout capture SimpleName MethodInvocation SimpleName get value
+timeout capture SimpleName MethodInvocation MethodInvocation SimpleName run
+get value SimpleName MethodInvocation MethodInvocation SimpleName run
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test expiration
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test expiration
+void PrimitiveType MethodDeclaration SimpleName test expiration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test expiration
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test expiration

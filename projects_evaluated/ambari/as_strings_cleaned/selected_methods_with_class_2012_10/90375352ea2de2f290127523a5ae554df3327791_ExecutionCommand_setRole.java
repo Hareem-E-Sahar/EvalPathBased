@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName role
+role SimpleName FieldAccess Assignment SimpleName role
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set role
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName role
+void PrimitiveType MethodDeclaration SimpleName set role
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName role
+set role SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set role SimpleName MethodDeclaration SingleVariableDeclaration SimpleName role
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set role
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set role
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role

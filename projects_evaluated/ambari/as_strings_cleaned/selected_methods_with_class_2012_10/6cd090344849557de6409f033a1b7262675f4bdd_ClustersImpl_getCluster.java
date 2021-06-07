@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+clusters SimpleName MethodInvocation SimpleName contains key
+clusters SimpleName MethodInvocation SimpleName cluster name
+contains key SimpleName MethodInvocation SimpleName cluster name
+cluster not found exception SimpleName SimpleType ClassInstanceCreation SimpleName cluster name
+clusters SimpleName MethodInvocation SimpleName get
+clusters SimpleName MethodInvocation SimpleName cluster name
+get SimpleName MethodInvocation SimpleName cluster name
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cluster
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get cluster
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName cluster
+public Modifier MethodDeclaration SimpleName get cluster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+synchronized Modifier MethodDeclaration SimpleType SimpleName cluster
+synchronized Modifier MethodDeclaration SimpleName get cluster
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+synchronized Modifier MethodDeclaration SimpleType SimpleName ambari exception
+cluster SimpleName SimpleType MethodDeclaration SimpleName get cluster
+cluster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+cluster SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+get cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+get cluster SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

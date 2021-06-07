@@ -1,0 +1,47 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+string SimpleName SimpleType SingleVariableDeclaration SimpleName config type
+configs SimpleName MethodInvocation SimpleName get
+configs SimpleName MethodInvocation SimpleName config type
+get SimpleName MethodInvocation SimpleName config type
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation MethodInvocation SimpleName configs
+collections SimpleName MethodInvocation MethodInvocation SimpleName get
+collections SimpleName MethodInvocation MethodInvocation SimpleName config type
+unmodifiable map SimpleName MethodInvocation MethodInvocation SimpleName configs
+unmodifiable map SimpleName MethodInvocation MethodInvocation SimpleName get
+unmodifiable map SimpleName MethodInvocation MethodInvocation SimpleName config type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get configs by type
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName config type
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName config
+public Modifier MethodDeclaration SimpleName get configs by type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config type
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName config
+synchronized Modifier MethodDeclaration SimpleName get configs by type
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName config type
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configs by type
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configs by type
+config SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configs by type
+get configs by type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get configs by type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configs by type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configs by type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config type

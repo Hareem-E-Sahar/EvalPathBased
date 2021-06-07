@@ -1,0 +1,25 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName post processor
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName post processor
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName post processor
+list processors SimpleName MethodInvocation SimpleName add
+list processors SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host component href processor
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host component href processor
+list processors SimpleName MethodInvocation SimpleName add
+list processors SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host component host processor
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host component host processor
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get post processors
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName post processor
+public Modifier MethodDeclaration SimpleName get post processors
+public Modifier MethodDeclaration Block ReturnStatement SimpleName list processors
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get post processors
+post processor SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get post processors
+get post processors SimpleName MethodDeclaration Block ReturnStatement SimpleName list processors
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get post processors
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get post processors

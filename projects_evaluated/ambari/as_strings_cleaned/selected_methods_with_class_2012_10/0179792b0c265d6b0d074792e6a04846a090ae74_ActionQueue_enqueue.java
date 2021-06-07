@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+agent command SimpleName SimpleType SingleVariableDeclaration SimpleName cmd
+queue SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+get queue SimpleName MethodInvocation SimpleName hostname
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName get queue
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+linked list SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+add queue SimpleName MethodInvocation SimpleName hostname
+get queue SimpleName MethodInvocation SimpleName hostname
+q SimpleName Assignment MethodInvocation SimpleName get queue
+q SimpleName Assignment MethodInvocation SimpleName hostname
+reference to queue for host StringLiteral InfixExpression SimpleName hostname
+reference to queue for host StringLiteral InfixExpression StringLiteral is
+reference to queue for host StringLiteral InfixExpression SimpleName q
+hostname SimpleName InfixExpression StringLiteral is
+hostname SimpleName InfixExpression SimpleName q
+is StringLiteral InfixExpression SimpleName q
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral reference to queue for host
+log SimpleName MethodInvocation InfixExpression SimpleName hostname
+log SimpleName MethodInvocation InfixExpression StringLiteral is
+log SimpleName MethodInvocation InfixExpression SimpleName q
+info SimpleName MethodInvocation InfixExpression StringLiteral reference to queue for host
+info SimpleName MethodInvocation InfixExpression SimpleName hostname
+info SimpleName MethodInvocation InfixExpression StringLiteral is
+info SimpleName MethodInvocation InfixExpression SimpleName q
+q SimpleName MethodInvocation SimpleName contains
+q SimpleName MethodInvocation SimpleName cmd
+contains SimpleName MethodInvocation SimpleName cmd
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral cmd already exists in the queue not adding again
+warn SimpleName MethodInvocation StringLiteral cmd already exists in the queue not adding again
+q SimpleName MethodInvocation SimpleName add
+q SimpleName MethodInvocation SimpleName cmd
+add SimpleName MethodInvocation SimpleName cmd
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName enqueue
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName agent command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cmd
+void PrimitiveType MethodDeclaration SimpleName enqueue
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName agent command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cmd
+enqueue SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+enqueue SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+enqueue SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName agent command
+enqueue SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cmd
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName enqueue
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName enqueue
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cmd

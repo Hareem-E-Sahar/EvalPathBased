@@ -1,0 +1,35 @@
+resourcetype QualifiedName SimpleType SingleVariableDeclaration SimpleName resource type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName val
+m map resource ids SimpleName MethodInvocation SimpleName put
+m map resource ids SimpleName MethodInvocation SimpleName resource type
+m map resource ids SimpleName MethodInvocation SimpleName val
+put SimpleName MethodInvocation SimpleName resource type
+put SimpleName MethodInvocation SimpleName val
+resource type SimpleName MethodInvocation SimpleName val
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set resource id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName set resource id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+set resource id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+set resource id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource type
+set resource id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set resource id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+resource type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set resource id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set resource id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

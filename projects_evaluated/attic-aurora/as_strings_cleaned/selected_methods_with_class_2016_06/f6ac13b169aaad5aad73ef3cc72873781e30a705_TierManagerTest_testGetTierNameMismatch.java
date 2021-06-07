@@ -1,0 +1,37 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal argument exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set tier
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral revocable
+set tier SimpleName MethodInvocation StringLiteral revocable
+i task config SimpleName MethodInvocation SimpleName build
+i task config SimpleName MethodInvocation MethodInvocation SimpleName set tier
+i task config SimpleName MethodInvocation MethodInvocation StringLiteral revocable
+build SimpleName MethodInvocation MethodInvocation SimpleName set tier
+build SimpleName MethodInvocation MethodInvocation StringLiteral revocable
+tier manager SimpleName MethodInvocation SimpleName get tier
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName i task config
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName build
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set tier
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral revocable
+get tier SimpleName MethodInvocation MethodInvocation SimpleName i task config
+get tier SimpleName MethodInvocation MethodInvocation SimpleName build
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set tier
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral revocable
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test get tier name mismatch
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test get tier name mismatch
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get tier name mismatch
+void PrimitiveType MethodDeclaration SimpleName test get tier name mismatch
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get tier name mismatch
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get tier name mismatch

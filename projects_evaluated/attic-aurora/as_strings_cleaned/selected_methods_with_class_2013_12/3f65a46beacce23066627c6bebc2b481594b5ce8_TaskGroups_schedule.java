@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+rate limiter SimpleName MethodInvocation SimpleName acquire
+task scheduler SimpleName MethodInvocation SimpleName schedule
+task scheduler SimpleName MethodInvocation SimpleName task id
+schedule SimpleName MethodInvocation SimpleName task id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName task scheduler result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName schedule
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier MethodDeclaration SimpleType SimpleName task scheduler result
+public Modifier MethodDeclaration SimpleName schedule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+task scheduler result SimpleName SimpleType MethodDeclaration SimpleName schedule
+task scheduler result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName task id
+schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName task scheduler result
+public Modifier TypeDeclaration MethodDeclaration SimpleName schedule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName task scheduler result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName schedule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id

@@ -1,0 +1,49 @@
+i task config SimpleName SimpleType SingleVariableDeclaration SimpleName task config
+task config SimpleName MethodInvocation SimpleName is set tier
+task config SimpleName MethodInvocation SimpleName get tier
+tier configtiers QualifiedName MethodInvocation SimpleName contains key
+tier configtiers QualifiedName MethodInvocation MethodInvocation SimpleName task config
+tier configtiers QualifiedName MethodInvocation MethodInvocation SimpleName get tier
+contains key SimpleName MethodInvocation MethodInvocation SimpleName task config
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get tier
+task config SimpleName MethodInvocation SimpleName get tier
+format SimpleName MethodInvocation StringLiteral invalid tier s in task config
+format SimpleName MethodInvocation MethodInvocation SimpleName task config
+format SimpleName MethodInvocation MethodInvocation SimpleName get tier
+invalid tier s in task config StringLiteral MethodInvocation MethodInvocation SimpleName task config
+invalid tier s in task config StringLiteral MethodInvocation MethodInvocation SimpleName get tier
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName tier configtiers
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName contains key
+check argument SimpleName MethodInvocation MethodInvocation SimpleName format
+check argument SimpleName MethodInvocation MethodInvocation StringLiteral invalid tier s in task config
+check argument SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task config
+check argument SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get tier
+task config SimpleName MethodInvocation SimpleName get tier
+tier configtiers QualifiedName MethodInvocation SimpleName get
+tier configtiers QualifiedName MethodInvocation MethodInvocation SimpleName task config
+tier configtiers QualifiedName MethodInvocation MethodInvocation SimpleName get tier
+get SimpleName MethodInvocation MethodInvocation SimpleName task config
+get SimpleName MethodInvocation MethodInvocation SimpleName get tier
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName tier info
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get tier
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task config
+public Modifier MethodDeclaration SimpleType SimpleName tier info
+public Modifier MethodDeclaration SimpleName get tier
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task config
+tier info SimpleName SimpleType MethodDeclaration SimpleName get tier
+tier info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName task config
+get tier SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+get tier SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tier info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tier
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task config
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tier info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tier
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task config

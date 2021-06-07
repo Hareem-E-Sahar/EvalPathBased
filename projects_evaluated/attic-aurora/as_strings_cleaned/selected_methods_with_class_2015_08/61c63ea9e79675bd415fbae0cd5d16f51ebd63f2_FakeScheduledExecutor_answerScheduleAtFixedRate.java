@@ -1,0 +1,141 @@
+scheduled future SimpleName SimpleType ParameterizedType WildcardType ?
+i answer SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+final Modifier SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+final Modifier SingleVariableDeclaration SimpleName executor
+fake scheduled executor SimpleName SimpleType SingleVariableDeclaration SimpleName executor
+final Modifier SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration SimpleName work count
+int PrimitiveType SingleVariableDeclaration SimpleName work count
+scheduled future SimpleName SimpleType ParameterizedType WildcardType ?
+i answer SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+scheduled future SimpleName SimpleType ParameterizedType WildcardType ?
+easy mock SimpleName MethodInvocation SimpleName get current arguments
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName easy mock
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current arguments
+args SimpleName ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+runnable SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+work SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName runnable
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work
+args SimpleName ArrayAccess NumberLiteral empty
+long SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+long SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+initial delay SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName long
+initial delay SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+initial delay SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName initial delay
+args SimpleName ArrayAccess NumberLiteral empty
+long SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+long SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+period SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName long
+period SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+period SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName period
+args SimpleName ArrayAccess NumberLiteral empty
+time unit SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+time unit SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+unit SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName time unit
+unit SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+unit SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+time unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName unit
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName work count
+to millis SimpleName MethodInvocation SimpleName initial delay
+to millis SimpleName MethodInvocation SimpleName unit
+initial delay SimpleName MethodInvocation SimpleName unit
+to millis SimpleName MethodInvocation SimpleName period
+to millis SimpleName MethodInvocation SimpleName unit
+period SimpleName MethodInvocation SimpleName unit
+i SimpleName InfixExpression MethodInvocation SimpleName to millis
+i SimpleName InfixExpression MethodInvocation SimpleName period
+i SimpleName InfixExpression MethodInvocation SimpleName unit
+to millis SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+initial delay SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+unit SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+add delayed work SimpleName MethodInvocation SimpleName executor
+add delayed work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to millis
+add delayed work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName initial delay
+add delayed work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+add delayed work SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+add delayed work SimpleName MethodInvocation SimpleName work
+executor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to millis
+executor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName initial delay
+executor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+executor SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+executor SimpleName MethodInvocation SimpleName work
+to millis SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work
+initial delay SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName work
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName work count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+work count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ParameterizedType WildcardType ?
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName scheduled future
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+scheduled future SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer
+? WildcardType ParameterizedType MethodDeclaration SimpleName answer
+answer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+answer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i answer
+private Modifier MethodDeclaration ParameterizedType ParameterizedType WildcardType ?
+private Modifier MethodDeclaration SimpleName answer schedule at fixed rate
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName work count
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i answer
+static Modifier MethodDeclaration ParameterizedType ParameterizedType WildcardType ?
+static Modifier MethodDeclaration SimpleName answer schedule at fixed rate
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName executor
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName work count
+i answer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer schedule at fixed rate
+? WildcardType ParameterizedType ParameterizedType MethodDeclaration SimpleName answer schedule at fixed rate
+answer schedule at fixed rate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+answer schedule at fixed rate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName fake scheduled executor
+answer schedule at fixed rate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName executor
+answer schedule at fixed rate SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+answer schedule at fixed rate SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+answer schedule at fixed rate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName work count
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work count
+executor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+executor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+executor SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName answer schedule at fixed rate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work count
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName answer schedule at fixed rate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName executor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work count

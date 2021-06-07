@@ -1,0 +1,50 @@
+storagemutable store provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+check not exists SimpleName MethodInvocation SimpleName job key
+check not exists SimpleName MethodInvocation MethodInvocation SimpleName store provider
+check not exists SimpleName MethodInvocation MethodInvocation SimpleName get job store
+job key SimpleName MethodInvocation MethodInvocation SimpleName store provider
+job key SimpleName MethodInvocation MethodInvocation SimpleName get job store
+store provider SimpleName MethodInvocation SimpleName get job store
+save job SimpleName MethodInvocation SimpleName cron job
+save job SimpleName MethodInvocation MethodInvocation SimpleName store provider
+save job SimpleName MethodInvocation MethodInvocation SimpleName get job store
+cron job SimpleName MethodInvocation MethodInvocation SimpleName store provider
+cron job SimpleName MethodInvocation MethodInvocation SimpleName get job store
+cron job SimpleName MethodInvocation SimpleName get crontab entry
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName cron job
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName get crontab entry
+schedule job SimpleName MethodInvocation SimpleName job key
+cron job SimpleName MethodInvocation MethodInvocation SimpleName job key
+get crontab entry SimpleName MethodInvocation MethodInvocation SimpleName job key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cron exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration SimpleType SimpleName cron exception
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SimpleType SimpleName cron exception
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

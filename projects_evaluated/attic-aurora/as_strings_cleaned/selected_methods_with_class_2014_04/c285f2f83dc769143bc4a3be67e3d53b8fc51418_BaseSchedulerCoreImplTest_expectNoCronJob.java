@@ -1,0 +1,40 @@
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+cron job manager SimpleName MethodInvocation SimpleName has job
+cron job manager SimpleName MethodInvocation SimpleName job key
+has job SimpleName MethodInvocation SimpleName job key
+expect SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName has job
+expect SimpleName MethodInvocation MethodInvocation SimpleName job key
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName expect no cron job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+private Modifier MethodDeclaration SimpleType SimpleName cron exception
+void PrimitiveType MethodDeclaration SimpleName expect no cron job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+expect no cron job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+expect no cron job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+expect no cron job SimpleName MethodDeclaration SimpleType SimpleName cron exception
+job key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName expect no cron job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName expect no cron job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

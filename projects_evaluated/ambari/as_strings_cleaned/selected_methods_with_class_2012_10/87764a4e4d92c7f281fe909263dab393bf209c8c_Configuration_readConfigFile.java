@@ -1,0 +1,60 @@
+properties SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties
+configuration SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get class loader
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName get resource as stream
+get class loader SimpleName MethodInvocation MethodInvocation SimpleName config file
+get resource as stream SimpleName MethodInvocation SimpleName config file
+input stream SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class loader
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource as stream
+input stream SimpleName VariableDeclarationFragment MethodInvocation SimpleName config file
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input stream
+config file SimpleName InfixExpression StringLiteral not found in classpath
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression SimpleName config file
+log SimpleName MethodInvocation InfixExpression StringLiteral not found in classpath
+info SimpleName MethodInvocation InfixExpression SimpleName config file
+info SimpleName MethodInvocation InfixExpression StringLiteral not found in classpath
+properties SimpleName MethodInvocation SimpleName load
+properties SimpleName MethodInvocation SimpleName input stream
+load SimpleName MethodInvocation SimpleName input stream
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnf
+no configuration file StringLiteral InfixExpression SimpleName config file
+no configuration file StringLiteral InfixExpression StringLiteral found in classpath
+config file SimpleName InfixExpression StringLiteral found in classpath
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral no configuration file
+log SimpleName MethodInvocation InfixExpression SimpleName config file
+log SimpleName MethodInvocation InfixExpression StringLiteral found in classpath
+log SimpleName MethodInvocation SimpleName fnf
+info SimpleName MethodInvocation InfixExpression StringLiteral no configuration file
+info SimpleName MethodInvocation InfixExpression SimpleName config file
+info SimpleName MethodInvocation InfixExpression StringLiteral found in classpath
+info SimpleName MethodInvocation SimpleName fnf
+no configuration file StringLiteral InfixExpression MethodInvocation SimpleName fnf
+config file SimpleName InfixExpression MethodInvocation SimpleName fnf
+found in classpath StringLiteral InfixExpression MethodInvocation SimpleName fnf
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ie
+cant read configuration file StringLiteral InfixExpression SimpleName config file
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cant read configuration file
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName config file
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName ie
+cant read configuration file StringLiteral InfixExpression ClassInstanceCreation SimpleName ie
+config file SimpleName InfixExpression ClassInstanceCreation SimpleName ie
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName properties
+private Modifier MethodDeclaration SimpleName read config file
+private Modifier MethodDeclaration Block ReturnStatement SimpleName properties
+static Modifier MethodDeclaration SimpleType SimpleName properties
+static Modifier MethodDeclaration SimpleName read config file
+static Modifier MethodDeclaration Block ReturnStatement SimpleName properties
+properties SimpleName SimpleType MethodDeclaration SimpleName read config file
+read config file SimpleName MethodDeclaration Block ReturnStatement SimpleName properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName read config file
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read config file

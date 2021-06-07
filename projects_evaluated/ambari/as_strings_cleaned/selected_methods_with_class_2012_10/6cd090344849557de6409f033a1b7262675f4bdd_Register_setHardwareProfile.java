@@ -1,0 +1,20 @@
+host info SimpleName SimpleType SingleVariableDeclaration SimpleName hardware profile
+hardware profile SimpleName FieldAccess Assignment SimpleName hardware profile
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set hardware profile
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hardware profile
+void PrimitiveType MethodDeclaration SimpleName set hardware profile
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hardware profile
+set hardware profile SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host info
+set hardware profile SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hardware profile
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set hardware profile
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hardware profile
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set hardware profile
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hardware profile

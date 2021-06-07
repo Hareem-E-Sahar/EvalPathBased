@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName config versions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName config versions
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName config versions
+config versions SimpleName FieldAccess Assignment SimpleName config versions
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set config versions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config versions
+void PrimitiveType MethodDeclaration SimpleName set config versions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config versions
+set config versions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config versions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set config versions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config versions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set config versions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config versions

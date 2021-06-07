@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType QualifiedName resourcetype
+public Modifier MethodDeclaration SimpleName get type
+resourcetype QualifiedName SimpleType MethodDeclaration SimpleName get type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName resourcetype
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName resourcetype
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type

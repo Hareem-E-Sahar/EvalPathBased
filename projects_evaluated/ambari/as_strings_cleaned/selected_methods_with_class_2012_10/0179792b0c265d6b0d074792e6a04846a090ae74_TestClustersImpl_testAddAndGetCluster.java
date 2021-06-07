@@ -1,0 +1,106 @@
+c SimpleName VariableDeclarationFragment StringLiteral foo
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral foo
+c SimpleName VariableDeclarationFragment StringLiteral foo
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral foo
+clusters SimpleName MethodInvocation SimpleName add cluster
+clusters SimpleName MethodInvocation SimpleName c
+add cluster SimpleName MethodInvocation SimpleName c
+clusters SimpleName MethodInvocation SimpleName add cluster
+clusters SimpleName MethodInvocation SimpleName c
+add cluster SimpleName MethodInvocation SimpleName c
+fail SimpleName MethodInvocation StringLiteral exception should be thrown on invalid add
+ambari exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+clusters SimpleName MethodInvocation SimpleName add cluster
+clusters SimpleName MethodInvocation SimpleName c
+add cluster SimpleName MethodInvocation SimpleName c
+fail SimpleName MethodInvocation StringLiteral exception should be thrown on invalid add
+ambari exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+c SimpleName Assignment StringLiteral foo
+clusters SimpleName MethodInvocation SimpleName add cluster
+clusters SimpleName MethodInvocation SimpleName c
+add cluster SimpleName MethodInvocation SimpleName c
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName c
+get cluster SimpleName MethodInvocation SimpleName c
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster
+assert SimpleName MethodInvocation MethodInvocation SimpleName c
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get cluster
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName c
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName c
+get cluster SimpleName MethodInvocation SimpleName c
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster
+assert SimpleName MethodInvocation MethodInvocation SimpleName c
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get cluster
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName c
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName c
+get cluster SimpleName MethodInvocation SimpleName c
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+c SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName c
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert equals SimpleName MethodInvocation SimpleName c
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName c
+get cluster SimpleName MethodInvocation SimpleName c
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+c SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName c
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert equals SimpleName MethodInvocation SimpleName c
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test add and get cluster
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add and get cluster
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName test add and get cluster
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+test add and get cluster SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add and get cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add and get cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

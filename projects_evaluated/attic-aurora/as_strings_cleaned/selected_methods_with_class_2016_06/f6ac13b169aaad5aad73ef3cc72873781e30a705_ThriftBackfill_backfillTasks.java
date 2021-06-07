@@ -1,0 +1,44 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName scheduled task
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks
+scheduled task SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks
+tasks SimpleName MethodInvocation SimpleName stream
+backfill scheduled task SimpleName MethodInvocation SimpleName t
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName backfill scheduled task
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName t
+tasks SimpleName MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName backfill scheduled task
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName t
+i scheduled task SimpleName ExpressionMethodReference SimpleName build
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+map SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName build
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName build
+guava utils SimpleName MethodInvocation SimpleName to immutable set
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+i scheduled task SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName collect
+build SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName guava utils
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to immutable set
+collect SimpleName MethodInvocation MethodInvocation SimpleName guava utils
+collect SimpleName MethodInvocation MethodInvocation SimpleName to immutable set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SimpleName backfill tasks
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tasks
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName backfill tasks
+i scheduled task SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName backfill tasks
+backfill tasks SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tasks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName backfill tasks
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName backfill tasks
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks

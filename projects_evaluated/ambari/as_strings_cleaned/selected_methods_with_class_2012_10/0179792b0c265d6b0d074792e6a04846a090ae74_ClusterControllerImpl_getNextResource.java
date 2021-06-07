@@ -1,0 +1,21 @@
+iterator SimpleName MethodInvocation SimpleName has next
+iterator SimpleName MethodInvocation SimpleName next
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+predicate SimpleName MethodInvocation SimpleName evaluate
+predicate SimpleName MethodInvocation SimpleName next
+evaluate SimpleName MethodInvocation SimpleName next
+predicate SimpleName InfixExpression InfixExpression MethodInvocation SimpleName predicate
+predicate SimpleName InfixExpression InfixExpression MethodInvocation SimpleName evaluate
+predicate SimpleName InfixExpression InfixExpression MethodInvocation SimpleName next
+private Modifier MethodDeclaration SimpleType SimpleName resource
+private Modifier MethodDeclaration SimpleName get next resource
+resource SimpleName SimpleType MethodDeclaration SimpleName get next resource
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next resource
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next resource

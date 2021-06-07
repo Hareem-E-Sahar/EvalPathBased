@@ -1,0 +1,19 @@
+properties SimpleName MethodInvocation SimpleName get property
+properties SimpleName MethodInvocation SimpleName bootstrap script
+get property SimpleName MethodInvocation SimpleName bootstrap script
+bootscript SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+bootscript SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+bootscript SimpleName VariableDeclarationFragment MethodInvocation SimpleName bootstrap script
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bootscript
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get boot strap script
+public Modifier MethodDeclaration Block ReturnStatement SimpleName bootscript
+string SimpleName SimpleType MethodDeclaration SimpleName get boot strap script
+get boot strap script SimpleName MethodDeclaration Block ReturnStatement SimpleName bootscript
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get boot strap script
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get boot strap script

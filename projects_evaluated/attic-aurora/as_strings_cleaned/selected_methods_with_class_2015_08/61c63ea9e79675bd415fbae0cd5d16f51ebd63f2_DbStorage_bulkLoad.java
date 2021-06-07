@@ -1,0 +1,88 @@
+timed SimpleName SingleMemberAnnotation StringLiteral db storage bulk load operation
+e SimpleName TypeParameter SimpleType SimpleName exception
+mutate workno result QualifiedName SimpleType ParameterizedType SimpleType SimpleName e
+mutate workno result QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName work
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName work
+session factory SimpleName MethodInvocation SimpleName open session
+session factory SimpleName MethodInvocation BooleanLiteral false
+open session SimpleName MethodInvocation BooleanLiteral false
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName session factory
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName open session
+session SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+sql session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+session SimpleName MethodInvocation SimpleName update
+session SimpleName MethodInvocation SimpleName disable undo log
+update SimpleName MethodInvocation SimpleName disable undo log
+work SimpleName MethodInvocation SimpleName apply
+work SimpleName MethodInvocation SimpleName store provider
+apply SimpleName MethodInvocation SimpleName store provider
+persistence exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+storage exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+storage exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+storage exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+session SimpleName MethodInvocation SimpleName update
+session SimpleName MethodInvocation SimpleName enable undo log
+update SimpleName MethodInvocation SimpleName enable undo log
+post transaction work SimpleName MethodInvocation SimpleName flush
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+db storage bulk load operation StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+db storage bulk load operation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName e
+db storage bulk load operation StringLiteral SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName e
+timed SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+db storage bulk load operation StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+timed SimpleName SingleMemberAnnotation MethodDeclaration SimpleName bulk load
+db storage bulk load operation StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName bulk load
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName bulk load
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName work
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName bulk load
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName work
+public Modifier MethodDeclaration SimpleType SimpleName storage exception
+e SimpleName TypeParameter MethodDeclaration PrimitiveType void
+exception SimpleName SimpleType TypeParameter MethodDeclaration PrimitiveType void
+e SimpleName TypeParameter MethodDeclaration SimpleName bulk load
+exception SimpleName SimpleType TypeParameter MethodDeclaration SimpleName bulk load
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName work
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName storage exception
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName e
+void PrimitiveType MethodDeclaration SimpleName bulk load
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName work
+void PrimitiveType MethodDeclaration SimpleType SimpleName storage exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName e
+bulk load SimpleName MethodDeclaration SingleVariableDeclaration SimpleName work
+bulk load SimpleName MethodDeclaration SimpleType SimpleName storage exception
+bulk load SimpleName MethodDeclaration SimpleType SimpleName e
+work SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName storage exception
+work SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName e
+storage exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral db storage bulk load operation
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bulk load
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName storage exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral db storage bulk load operation
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bulk load
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName storage exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName e

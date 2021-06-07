@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+host components SimpleName MethodInvocation SimpleName contains key
+host components SimpleName MethodInvocation SimpleName hostname
+contains key SimpleName MethodInvocation SimpleName hostname
+service component host not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get cluster name
+service component host not found exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get service name
+service component host not found exception SimpleName SimpleType ClassInstanceCreation SimpleName component name
+service component host not found exception SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get service name
+get cluster name SimpleName MethodInvocation ClassInstanceCreation SimpleName component name
+get cluster name SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+get service name SimpleName MethodInvocation ClassInstanceCreation SimpleName component name
+get service name SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+component name SimpleName ClassInstanceCreation SimpleName hostname
+host components SimpleName FieldAccess MethodInvocation SimpleName get
+host components SimpleName FieldAccess MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation SimpleName hostname
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName service component host
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get service component host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hostname
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration SimpleType SimpleName service component host
+public Modifier MethodDeclaration SimpleName get service component host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+service component host SimpleName SimpleType MethodDeclaration SimpleName get service component host
+service component host SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+service component host SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+get service component host SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service component host
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service component host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service component host
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service component host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

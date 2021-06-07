@@ -1,0 +1,24 @@
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get desired state
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SimpleName get desired state
+public Modifier MethodDeclaration Block ReturnStatement SimpleName desired state
+synchronized Modifier MethodDeclaration SimpleType SimpleName state
+synchronized Modifier MethodDeclaration SimpleName get desired state
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName desired state
+state SimpleName SimpleType MethodDeclaration SimpleName get desired state
+get desired state SimpleName MethodDeclaration Block ReturnStatement SimpleName desired state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SimpleName get desired state
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get desired state

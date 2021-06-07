@@ -1,0 +1,177 @@
+resource aggregate SimpleName SimpleType SingleVariableDeclaration SimpleName aggregate
+aggregate SimpleName MethodInvocation SimpleName is set resources
+aggregate SimpleName MethodInvocation SimpleName get resources
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get resources SimpleName MethodInvocation MethodInvocation SimpleName is empty
+aggregate SimpleName MethodInvocation SimpleName get num cpus
+resource SimpleName MethodInvocation SimpleName num cpus
+resource SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+resource SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+num cpus SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+num cpus SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+aggregate SimpleName MethodInvocation SimpleName add to resources
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName resource
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName resource
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+aggregate SimpleName MethodInvocation SimpleName get ram mb
+resource SimpleName MethodInvocation SimpleName ram mb
+resource SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+resource SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+ram mb SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+ram mb SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+aggregate SimpleName MethodInvocation SimpleName add to resources
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName resource
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName resource
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+aggregate SimpleName MethodInvocation SimpleName get disk mb
+resource SimpleName MethodInvocation SimpleName disk mb
+resource SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+resource SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+disk mb SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+disk mb SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+aggregate SimpleName MethodInvocation SimpleName add to resources
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName resource
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName resource
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+enum set SimpleName SimpleType ParameterizedType SimpleType SimpleName resource type
+quota resources SimpleName VariableDeclarationFragment QualifiedName quota managerquota resource types
+aggregate SimpleName MethodInvocation SimpleName get resources
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName size
+get resources SimpleName MethodInvocation MethodInvocation SimpleName size
+quota resources SimpleName MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName quota resources
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral too many resource values in quota
+aggregate SimpleName MethodInvocation SimpleName get resources
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName stream
+get resources SimpleName MethodInvocation MethodInvocation SimpleName stream
+i resource SimpleName MethodInvocation SimpleName build
+i resource SimpleName MethodInvocation SimpleName e
+build SimpleName MethodInvocation SimpleName e
+resource type SimpleName MethodInvocation SimpleName from resource
+resource type SimpleName MethodInvocation MethodInvocation SimpleName i resource
+resource type SimpleName MethodInvocation MethodInvocation SimpleName build
+resource type SimpleName MethodInvocation MethodInvocation SimpleName e
+from resource SimpleName MethodInvocation MethodInvocation SimpleName i resource
+from resource SimpleName MethodInvocation MethodInvocation SimpleName build
+from resource SimpleName MethodInvocation MethodInvocation SimpleName e
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName resource type
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName from resource
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+stream SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName resource type
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName from resource
+collectors SimpleName MethodInvocation SimpleName to set
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName to set
+quota resources SimpleName MethodInvocation SimpleName equals
+quota resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+quota resources SimpleName MethodInvocation MethodInvocation SimpleName collect
+quota resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+quota resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+equals SimpleName MethodInvocation MethodInvocation SimpleName collect
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+quota resources must be exactly StringLiteral InfixExpression SimpleName quota resources
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral quota resources must be exactly
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName quota resources
+aggregate SimpleName MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation SimpleName cpus
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName cpus
+get resources SimpleName MethodInvocation MethodInvocation SimpleName cpus
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+cpus SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+aggregate SimpleName MethodInvocation SimpleName set num cpus
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cpus
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cpus
+set num cpus SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+aggregate SimpleName MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation SimpleName ram mb
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+get resources SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+ram mb SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+aggregate SimpleName MethodInvocation SimpleName set ram mb
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+set ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+set ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+set ram mb SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+aggregate SimpleName MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation SimpleName disk mb
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+get resources SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+disk mb SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+aggregate SimpleName MethodInvocation SimpleName set disk mb
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+set disk mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+set disk mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+set disk mb SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+i resource aggregate SimpleName MethodInvocation SimpleName build
+i resource aggregate SimpleName MethodInvocation SimpleName aggregate
+build SimpleName MethodInvocation SimpleName aggregate
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName i resource aggregate
+public Modifier MethodDeclaration SimpleName backfill resource aggregate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource aggregate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aggregate
+static Modifier MethodDeclaration SimpleType SimpleName i resource aggregate
+static Modifier MethodDeclaration SimpleName backfill resource aggregate
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource aggregate
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName aggregate
+i resource aggregate SimpleName SimpleType MethodDeclaration SimpleName backfill resource aggregate
+i resource aggregate SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aggregate
+backfill resource aggregate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource aggregate
+backfill resource aggregate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aggregate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i resource aggregate
+public Modifier TypeDeclaration MethodDeclaration SimpleName backfill resource aggregate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aggregate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i resource aggregate
+test SimpleName TypeDeclaration MethodDeclaration SimpleName backfill resource aggregate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aggregate

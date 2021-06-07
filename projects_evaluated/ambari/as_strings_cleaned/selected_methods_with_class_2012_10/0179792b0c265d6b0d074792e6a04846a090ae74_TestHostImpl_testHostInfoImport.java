@@ -1,0 +1,195 @@
+info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host info
+host info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+info SimpleName MethodInvocation SimpleName set memory size
+info SimpleName MethodInvocation NumberLiteral empty
+set memory size SimpleName MethodInvocation NumberLiteral empty
+info SimpleName MethodInvocation SimpleName set processor count
+info SimpleName MethodInvocation NumberLiteral empty
+set processor count SimpleName MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk info
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk info
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral devsda
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral mntdisk
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral %
+devsda StringLiteral ClassInstanceCreation StringLiteral mntdisk
+devsda StringLiteral ClassInstanceCreation StringLiteral empty
+devsda StringLiteral ClassInstanceCreation StringLiteral empty
+devsda StringLiteral ClassInstanceCreation StringLiteral %
+devsda StringLiteral ClassInstanceCreation StringLiteral size
+mntdisk StringLiteral ClassInstanceCreation StringLiteral empty
+mntdisk StringLiteral ClassInstanceCreation StringLiteral empty
+mntdisk StringLiteral ClassInstanceCreation StringLiteral %
+mntdisk StringLiteral ClassInstanceCreation StringLiteral size
+empty StringLiteral ClassInstanceCreation StringLiteral empty
+empty StringLiteral ClassInstanceCreation StringLiteral %
+empty StringLiteral ClassInstanceCreation StringLiteral size
+empty StringLiteral ClassInstanceCreation StringLiteral %
+empty StringLiteral ClassInstanceCreation StringLiteral size
+% StringLiteral ClassInstanceCreation StringLiteral size
+mounts SimpleName MethodInvocation SimpleName add
+mounts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName disk info
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral devsda
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral mntdisk
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral %
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral size
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName disk info
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral devsda
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral mntdisk
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral %
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral size
+info SimpleName MethodInvocation SimpleName set mounts
+info SimpleName MethodInvocation SimpleName mounts
+set mounts SimpleName MethodInvocation SimpleName mounts
+info SimpleName MethodInvocation SimpleName set host name
+info SimpleName MethodInvocation StringLiteral foo
+set host name SimpleName MethodInvocation StringLiteral foo
+info SimpleName MethodInvocation SimpleName set interfaces
+info SimpleName MethodInvocation StringLiteral fip
+set interfaces SimpleName MethodInvocation StringLiteral fip
+info SimpleName MethodInvocation SimpleName set architecture
+info SimpleName MethodInvocation StringLiteral os arch
+set architecture SimpleName MethodInvocation StringLiteral os arch
+info SimpleName MethodInvocation SimpleName set os
+info SimpleName MethodInvocation StringLiteral os type
+set os SimpleName MethodInvocation StringLiteral os type
+info SimpleName MethodInvocation SimpleName set memory total
+info SimpleName MethodInvocation NumberLiteral empty
+set memory total SimpleName MethodInvocation NumberLiteral empty
+host impl SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+host SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host impl
+host SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+host impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+host SimpleName MethodInvocation SimpleName import host info
+host SimpleName MethodInvocation SimpleName info
+import host info SimpleName MethodInvocation SimpleName info
+info SimpleName MethodInvocation SimpleName get host name
+host SimpleName MethodInvocation SimpleName get host name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName info
+assert SimpleName MethodInvocation MethodInvocation SimpleName get host name
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get host name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get host name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get host name
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host name
+info SimpleName MethodInvocation SimpleName get free memory
+host SimpleName MethodInvocation SimpleName get available mem bytes
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName info
+assert SimpleName MethodInvocation MethodInvocation SimpleName get free memory
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get available mem bytes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get free memory
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get available mem bytes
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get available mem bytes
+get free memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get free memory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get available mem bytes
+info SimpleName MethodInvocation SimpleName get memory total
+host SimpleName MethodInvocation SimpleName get total mem bytes
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName info
+assert SimpleName MethodInvocation MethodInvocation SimpleName get memory total
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get total mem bytes
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get memory total
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get total mem bytes
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get total mem bytes
+get memory total SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get memory total SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get total mem bytes
+info SimpleName MethodInvocation SimpleName get processor count
+host SimpleName MethodInvocation SimpleName get cpu count
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName info
+assert SimpleName MethodInvocation MethodInvocation SimpleName get processor count
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cpu count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get processor count
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cpu count
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cpu count
+get processor count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get processor count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cpu count
+info SimpleName MethodInvocation SimpleName get mounts
+info SimpleName MethodInvocation MethodInvocation SimpleName size
+get mounts SimpleName MethodInvocation MethodInvocation SimpleName size
+host SimpleName MethodInvocation SimpleName get disks info
+host SimpleName MethodInvocation MethodInvocation SimpleName size
+get disks info SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName info
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get mounts
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disks info
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName info
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get mounts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disks info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+size SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+info SimpleName MethodInvocation SimpleName get architecture
+host SimpleName MethodInvocation SimpleName get os arch
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName info
+assert SimpleName MethodInvocation MethodInvocation SimpleName get architecture
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get os arch
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get architecture
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get os arch
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get os arch
+get architecture SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get architecture SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get os arch
+info SimpleName MethodInvocation SimpleName get os
+host SimpleName MethodInvocation SimpleName get os type
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName info
+assert SimpleName MethodInvocation MethodInvocation SimpleName get os
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get os type
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName info
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get os
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get os type
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get os type
+get os SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get os SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get os type
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test host info import
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test host info import
+void PrimitiveType MethodDeclaration SimpleName test host info import
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test host info import
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test host info import

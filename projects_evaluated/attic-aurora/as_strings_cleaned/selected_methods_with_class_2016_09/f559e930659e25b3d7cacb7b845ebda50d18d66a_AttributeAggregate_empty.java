@@ -1,0 +1,29 @@
+immutable multiset SimpleName MethodInvocation SimpleName of
+suppliers SimpleName MethodInvocation SimpleName of instance
+suppliers SimpleName MethodInvocation MethodInvocation SimpleName immutable multiset
+suppliers SimpleName MethodInvocation MethodInvocation SimpleName of
+of instance SimpleName MethodInvocation MethodInvocation SimpleName immutable multiset
+of instance SimpleName MethodInvocation MethodInvocation SimpleName of
+attribute aggregate SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName suppliers
+attribute aggregate SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName of instance
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier public
+visible for testing SimpleName MarkerAnnotation MethodDeclaration Modifier static
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName attribute aggregate
+visible for testing SimpleName MarkerAnnotation MethodDeclaration SimpleName empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName attribute aggregate
+public Modifier MethodDeclaration SimpleName empty
+static Modifier MethodDeclaration SimpleType SimpleName attribute aggregate
+static Modifier MethodDeclaration SimpleName empty
+attribute aggregate SimpleName SimpleType MethodDeclaration SimpleName empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute aggregate
+public Modifier TypeDeclaration MethodDeclaration SimpleName empty
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName visible for testing
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute aggregate
+test SimpleName TypeDeclaration MethodDeclaration SimpleName empty

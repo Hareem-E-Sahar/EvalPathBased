@@ -1,0 +1,37 @@
+tree node SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+tree node SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName node
+resource SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName node
+node SimpleName MethodInvocation SimpleName get property
+node SimpleName MethodInvocation StringLiteral href
+get property SimpleName MethodInvocation StringLiteral href
+href prop SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+href prop SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+href prop SimpleName VariableDeclarationFragment MethodInvocation StringLiteral href
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName href prop
+m generator SimpleName MethodInvocation SimpleName write string field
+m generator SimpleName MethodInvocation StringLiteral href
+m generator SimpleName MethodInvocation SimpleName href prop
+write string field SimpleName MethodInvocation StringLiteral href
+write string field SimpleName MethodInvocation SimpleName href prop
+href StringLiteral MethodInvocation SimpleName href prop
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write href
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write href
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write href SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+write href SimpleName MethodDeclaration SimpleType SimpleName io exception
+node SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write href
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write href
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,125 @@
+expect kill task SimpleName MethodInvocation NumberLiteral empty
+expect no cron job SimpleName MethodInvocation SimpleName key a
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation MethodInvocation SimpleName query
+change status SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+change status SimpleName MethodInvocation MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation SimpleName assigned
+change status SimpleName MethodInvocation SimpleName starting
+change status SimpleName MethodInvocation SimpleName running
+query SimpleName MethodInvocation MethodInvocation SimpleName assigned
+role scoped SimpleName MethodInvocation MethodInvocation SimpleName assigned
+role a SimpleName MethodInvocation MethodInvocation SimpleName assigned
+query SimpleName MethodInvocation MethodInvocation SimpleName starting
+role scoped SimpleName MethodInvocation MethodInvocation SimpleName starting
+role a SimpleName MethodInvocation MethodInvocation SimpleName starting
+query SimpleName MethodInvocation MethodInvocation SimpleName running
+role scoped SimpleName MethodInvocation MethodInvocation SimpleName running
+role a SimpleName MethodInvocation MethodInvocation SimpleName running
+assigned SimpleName MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation SimpleName running
+starting SimpleName MethodInvocation SimpleName running
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+owner a SimpleName MethodInvocation SimpleName get user
+scheduler SimpleName MethodInvocation SimpleName kill tasks
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName query
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName role a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName owner a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName get user
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName role a
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName owner a
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName get user
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+role scoped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+role scoped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+role a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+role a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation MethodInvocation SimpleName query
+change status SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+change status SimpleName MethodInvocation MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation SimpleName killed
+query SimpleName MethodInvocation MethodInvocation SimpleName killed
+role scoped SimpleName MethodInvocation MethodInvocation SimpleName killed
+role a SimpleName MethodInvocation MethodInvocation SimpleName killed
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+get only task SimpleName MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+get only task SimpleName MethodInvocation MethodInvocation SimpleName role a
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role scoped
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role a
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role scoped
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role a
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation MethodInvocation SimpleName query
+change status SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+change status SimpleName MethodInvocation MethodInvocation SimpleName role a
+change status SimpleName MethodInvocation SimpleName lost
+query SimpleName MethodInvocation MethodInvocation SimpleName lost
+role scoped SimpleName MethodInvocation MethodInvocation SimpleName lost
+role a SimpleName MethodInvocation MethodInvocation SimpleName lost
+get task SimpleName MethodInvocation SimpleName task id
+get task SimpleName MethodInvocation MethodInvocation SimpleName get status
+task id SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation SimpleName killed
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+killed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+killed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+killed SimpleName MethodInvocation MethodInvocation SimpleName get status
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no transition from terminal state
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no transition from terminal state
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test no transition from terminal state
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test no transition from terminal state SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no transition from terminal state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no transition from terminal state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

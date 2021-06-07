@@ -1,0 +1,168 @@
+storage util SimpleName MethodInvocation SimpleName expect operations
+task b SimpleName VariableDeclarationFragment StringLiteral b
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task b
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral b
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task a
+id SimpleName MethodInvocation SimpleName task a
+query SimpleName MethodInvocation SimpleName task scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName tasks
+query SimpleName MethodInvocation MethodInvocation SimpleName id
+query SimpleName MethodInvocation MethodInvocation SimpleName task a
+query SimpleName MethodInvocation SimpleName task b
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName tasks
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName id
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName task a
+task scoped SimpleName MethodInvocation SimpleName task b
+tasks SimpleName MethodInvocation MethodInvocation SimpleName task b
+id SimpleName MethodInvocation MethodInvocation SimpleName task b
+task a SimpleName MethodInvocation MethodInvocation SimpleName task b
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+task b SimpleName MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+task b SimpleName MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+job keys SimpleName MethodInvocation SimpleName from
+job keys SimpleName MethodInvocation StringLiteral b
+job keys SimpleName MethodInvocation StringLiteral b
+job keys SimpleName MethodInvocation StringLiteral b
+from SimpleName MethodInvocation StringLiteral b
+from SimpleName MethodInvocation StringLiteral b
+from SimpleName MethodInvocation StringLiteral b
+b StringLiteral MethodInvocation StringLiteral b
+b StringLiteral MethodInvocation StringLiteral b
+b StringLiteral MethodInvocation StringLiteral b
+task test util SimpleName MethodInvocation SimpleName make task
+task test util SimpleName MethodInvocation SimpleName task b
+task test util SimpleName MethodInvocation MethodInvocation SimpleName job keys
+task test util SimpleName MethodInvocation MethodInvocation SimpleName from
+task test util SimpleName MethodInvocation MethodInvocation StringLiteral b
+task test util SimpleName MethodInvocation MethodInvocation StringLiteral b
+task test util SimpleName MethodInvocation MethodInvocation StringLiteral b
+make task SimpleName MethodInvocation SimpleName task b
+make task SimpleName MethodInvocation MethodInvocation SimpleName job keys
+make task SimpleName MethodInvocation MethodInvocation SimpleName from
+make task SimpleName MethodInvocation MethodInvocation StringLiteral b
+make task SimpleName MethodInvocation MethodInvocation StringLiteral b
+make task SimpleName MethodInvocation MethodInvocation StringLiteral b
+task b SimpleName MethodInvocation MethodInvocation SimpleName job keys
+task b SimpleName MethodInvocation MethodInvocation SimpleName from
+task b SimpleName MethodInvocation MethodInvocation StringLiteral b
+task b SimpleName MethodInvocation MethodInvocation StringLiteral b
+task b SimpleName MethodInvocation MethodInvocation StringLiteral b
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName task a
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName task test util
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName make task
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName task b
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+of SimpleName MethodInvocation SimpleName task a
+of SimpleName MethodInvocation MethodInvocation SimpleName task test util
+of SimpleName MethodInvocation MethodInvocation SimpleName make task
+of SimpleName MethodInvocation MethodInvocation SimpleName task b
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+of SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+task a SimpleName MethodInvocation MethodInvocation SimpleName task test util
+task a SimpleName MethodInvocation MethodInvocation SimpleName make task
+task a SimpleName MethodInvocation MethodInvocation SimpleName task b
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral b
+storage util SimpleName MethodInvocation SimpleName expect task fetch
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task scoped
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task b
+storage util SimpleName MethodInvocation MethodInvocation SimpleName by status
+storage util SimpleName MethodInvocation MethodInvocation SimpleName pending
+storage util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+storage util SimpleName MethodInvocation MethodInvocation SimpleName of
+storage util SimpleName MethodInvocation MethodInvocation SimpleName task a
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task test util
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName make task
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task b
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task scoped
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task b
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName by status
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName pending
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName of
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName task a
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task test util
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName make task
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task b
+by status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+by status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+by status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task a
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task a
+control SimpleName MethodInvocation SimpleName replay
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName task id
+immutable set SimpleName MethodInvocation SimpleName task b
+of SimpleName MethodInvocation SimpleName task id
+of SimpleName MethodInvocation SimpleName task b
+task id SimpleName MethodInvocation SimpleName task b
+scheduler SimpleName MethodInvocation SimpleName schedule
+scheduler SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName of
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName task id
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName task b
+schedule SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+schedule SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+schedule SimpleName MethodInvocation MethodInvocation SimpleName of
+schedule SimpleName MethodInvocation MethodInvocation SimpleName task id
+schedule SimpleName MethodInvocation MethodInvocation SimpleName task b
+storage utilmutable store provider QualifiedName MethodInvocation MethodInvocation SimpleName immutable set
+storage utilmutable store provider QualifiedName MethodInvocation MethodInvocation SimpleName of
+storage utilmutable store provider QualifiedName MethodInvocation MethodInvocation SimpleName task id
+storage utilmutable store provider QualifiedName MethodInvocation MethodInvocation SimpleName task b
+assert equals SimpleName MethodInvocation SimpleName not scheduled result
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName schedule
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task b
+not scheduled result SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+not scheduled result SimpleName MethodInvocation MethodInvocation SimpleName schedule
+not scheduled result SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+not scheduled result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+not scheduled result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+not scheduled result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+not scheduled result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task b
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test multiple groups rejected
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test multiple groups rejected
+void PrimitiveType MethodDeclaration SimpleName test multiple groups rejected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test multiple groups rejected
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test multiple groups rejected

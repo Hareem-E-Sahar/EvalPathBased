@@ -1,0 +1,59 @@
+resource definition SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+list SimpleName SimpleType ParameterizedType SimpleType QualifiedName resource definitionpost processor
+resource SimpleName MethodInvocation SimpleName get type
+m map post processors SimpleName MethodInvocation SimpleName get
+m map post processors SimpleName MethodInvocation MethodInvocation SimpleName resource
+m map post processors SimpleName MethodInvocation MethodInvocation SimpleName get type
+get SimpleName MethodInvocation MethodInvocation SimpleName resource
+get SimpleName MethodInvocation MethodInvocation SimpleName get type
+list processors SimpleName VariableDeclarationFragment MethodInvocation SimpleName m map post processors
+list processors SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+list processors SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName resource
+list processors SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type
+array list SimpleName SimpleType ParameterizedType SimpleType QualifiedName resource definitionpost processor
+resource SimpleName MethodInvocation SimpleName get type
+m map post processors SimpleName MethodInvocation SimpleName put
+m map post processors SimpleName MethodInvocation MethodInvocation SimpleName resource
+m map post processors SimpleName MethodInvocation MethodInvocation SimpleName get type
+m map post processors SimpleName MethodInvocation SimpleName list processors
+put SimpleName MethodInvocation MethodInvocation SimpleName resource
+put SimpleName MethodInvocation MethodInvocation SimpleName get type
+put SimpleName MethodInvocation SimpleName list processors
+resource SimpleName MethodInvocation MethodInvocation SimpleName list processors
+get type SimpleName MethodInvocation MethodInvocation SimpleName list processors
+resource SimpleName MethodInvocation SimpleName get post processors
+list processors SimpleName MethodInvocation SimpleName add all
+list processors SimpleName MethodInvocation MethodInvocation SimpleName resource
+list processors SimpleName MethodInvocation MethodInvocation SimpleName get post processors
+add all SimpleName MethodInvocation MethodInvocation SimpleName resource
+add all SimpleName MethodInvocation MethodInvocation SimpleName get post processors
+resource definition SimpleName SimpleType SingleVariableDeclaration SimpleName child
+resource SimpleName MethodInvocation SimpleName get sub resources
+resource SimpleName MethodInvocation MethodInvocation SimpleName values
+get sub resources SimpleName MethodInvocation MethodInvocation SimpleName values
+child SimpleName MethodInvocation SimpleName get type
+m map post processors SimpleName MethodInvocation SimpleName contains key
+m map post processors SimpleName MethodInvocation MethodInvocation SimpleName child
+m map post processors SimpleName MethodInvocation MethodInvocation SimpleName get type
+contains key SimpleName MethodInvocation MethodInvocation SimpleName child
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get type
+register resource processors SimpleName MethodInvocation SimpleName child
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName register resource processors
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource definition
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource
+void PrimitiveType MethodDeclaration SimpleName register resource processors
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource definition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource
+register resource processors SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource definition
+register resource processors SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register resource processors
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register resource processors
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource

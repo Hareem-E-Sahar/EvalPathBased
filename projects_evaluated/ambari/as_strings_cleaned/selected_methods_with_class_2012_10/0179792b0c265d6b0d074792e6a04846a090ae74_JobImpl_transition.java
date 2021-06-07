@@ -1,0 +1,118 @@
+job impl SimpleName SimpleType SingleVariableDeclaration SimpleName job
+job event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+job failed event SimpleName SimpleType CastExpression SimpleName event
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName job failed event
+e SimpleName VariableDeclarationFragment CastExpression SimpleName event
+job failed event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get completion time
+job SimpleName MethodInvocation SimpleName set completion time
+job SimpleName MethodInvocation MethodInvocation SimpleName e
+job SimpleName MethodInvocation MethodInvocation SimpleName get completion time
+set completion time SimpleName MethodInvocation MethodInvocation SimpleName e
+set completion time SimpleName MethodInvocation MethodInvocation SimpleName get completion time
+e SimpleName MethodInvocation SimpleName get completion time
+job SimpleName MethodInvocation SimpleName set last update time
+job SimpleName MethodInvocation MethodInvocation SimpleName e
+job SimpleName MethodInvocation MethodInvocation SimpleName get completion time
+set last update time SimpleName MethodInvocation MethodInvocation SimpleName e
+set last update time SimpleName MethodInvocation MethodInvocation SimpleName get completion time
+job failed to complete StringLiteral InfixExpression StringLiteral job id
+job SimpleName MethodInvocation SimpleName get id
+job SimpleName MethodInvocation SimpleName get start time
+job SimpleName MethodInvocation SimpleName get completion time
+job failed to complete StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName job
+job failed to complete StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get id
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName job
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get id
+job failed to complete StringLiteral InfixExpression InfixExpression StringLiteral start time
+job id StringLiteral InfixExpression InfixExpression StringLiteral start time
+job failed to complete StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName job
+job failed to complete StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get start time
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName job
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get start time
+job failed to complete StringLiteral InfixExpression InfixExpression StringLiteral completion time
+job id StringLiteral InfixExpression InfixExpression StringLiteral completion time
+job failed to complete StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName job
+job failed to complete StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get completion time
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName job
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get completion time
+job SimpleName MethodInvocation InfixExpression StringLiteral start time
+get id SimpleName MethodInvocation InfixExpression StringLiteral start time
+job SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+job SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get start time
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get start time
+job SimpleName MethodInvocation InfixExpression StringLiteral completion time
+get id SimpleName MethodInvocation InfixExpression StringLiteral completion time
+job SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+job SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get completion time
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get completion time
+start time StringLiteral InfixExpression MethodInvocation SimpleName job
+start time StringLiteral InfixExpression MethodInvocation SimpleName get start time
+start time StringLiteral InfixExpression StringLiteral completion time
+start time StringLiteral InfixExpression MethodInvocation SimpleName job
+start time StringLiteral InfixExpression MethodInvocation SimpleName get completion time
+job SimpleName MethodInvocation InfixExpression StringLiteral completion time
+get start time SimpleName MethodInvocation InfixExpression StringLiteral completion time
+job SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+job SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get completion time
+get start time SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+get start time SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get completion time
+completion time StringLiteral InfixExpression MethodInvocation SimpleName job
+completion time StringLiteral InfixExpression MethodInvocation SimpleName get completion time
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job failed to complete
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+log SimpleName MethodInvocation InfixExpression StringLiteral start time
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get start time
+log SimpleName MethodInvocation InfixExpression StringLiteral completion time
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get completion time
+info SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job failed to complete
+info SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job id
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+info SimpleName MethodInvocation InfixExpression StringLiteral start time
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get start time
+info SimpleName MethodInvocation InfixExpression StringLiteral completion time
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName job
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get completion time
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName transition
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName job
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName transition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job impl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName transition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job impl
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job event
+transition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName transition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName transition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

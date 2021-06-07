@@ -1,0 +1,47 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName tier info
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName tier info
+immutable map SimpleName MethodInvocation SimpleName of
+immutable map SimpleName MethodInvocation StringLiteral preferred
+immutable map SimpleName MethodInvocation SimpleName preferred tier
+immutable map SimpleName MethodInvocation StringLiteral preemptible
+immutable map SimpleName MethodInvocation SimpleName dev tier
+of SimpleName MethodInvocation StringLiteral preferred
+of SimpleName MethodInvocation SimpleName preferred tier
+of SimpleName MethodInvocation StringLiteral preemptible
+of SimpleName MethodInvocation SimpleName dev tier
+of SimpleName MethodInvocation StringLiteral revocable
+preferred StringLiteral MethodInvocation SimpleName preferred tier
+preferred StringLiteral MethodInvocation StringLiteral preemptible
+preferred StringLiteral MethodInvocation SimpleName dev tier
+preferred StringLiteral MethodInvocation StringLiteral revocable
+preferred StringLiteral MethodInvocation SimpleName revocable tier
+preferred tier SimpleName MethodInvocation StringLiteral preemptible
+preferred tier SimpleName MethodInvocation SimpleName dev tier
+preferred tier SimpleName MethodInvocation StringLiteral revocable
+preferred tier SimpleName MethodInvocation SimpleName revocable tier
+preemptible StringLiteral MethodInvocation SimpleName dev tier
+preemptible StringLiteral MethodInvocation StringLiteral revocable
+preemptible StringLiteral MethodInvocation SimpleName revocable tier
+dev tier SimpleName MethodInvocation StringLiteral revocable
+dev tier SimpleName MethodInvocation SimpleName revocable tier
+revocable StringLiteral MethodInvocation SimpleName revocable tier
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tier info
+public Modifier MethodDeclaration SimpleName tier infos
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tier info
+static Modifier MethodDeclaration SimpleName tier infos
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName tier infos
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName tier infos
+tier info SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName tier infos
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName tier infos
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tier infos

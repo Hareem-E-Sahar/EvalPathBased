@@ -1,0 +1,107 @@
+aurora cron job factory SimpleName SimpleType SingleVariableDeclaration SimpleName job factory
+num threads SimpleName MethodInvocation SimpleName get
+simple thread pool SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName num threads
+simple thread pool SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+simple thread pool SimpleName SimpleType ClassInstanceCreation QualifiedName threadnorm priority
+num threads SimpleName MethodInvocation ClassInstanceCreation QualifiedName threadnorm priority
+get SimpleName MethodInvocation ClassInstanceCreation QualifiedName threadnorm priority
+thread pool SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName simple thread pool
+thread pool SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName num threads
+thread pool SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get
+thread pool SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName threadnorm priority
+simple thread pool SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName thread pool
+thread pool SimpleName MethodInvocation SimpleName set make threads daemons
+thread pool SimpleName MethodInvocation BooleanLiteral true
+set make threads daemons SimpleName MethodInvocation BooleanLiteral true
+direct scheduler factory SimpleName MethodInvocation SimpleName get instance
+scheduler factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName direct scheduler factory
+scheduler factory SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+direct scheduler factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scheduler factory
+id generator SimpleName MethodInvocation SimpleName increment and get
+auroracron StringLiteral InfixExpression MethodInvocation SimpleName id generator
+auroracron StringLiteral InfixExpression MethodInvocation SimpleName increment and get
+scheduler name SimpleName VariableDeclarationFragment InfixExpression StringLiteral auroracron
+scheduler name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName id generator
+scheduler name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName increment and get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scheduler name
+scheduler factory SimpleName MethodInvocation SimpleName create scheduler
+scheduler factory SimpleName MethodInvocation SimpleName scheduler name
+scheduler factory SimpleName MethodInvocation SimpleName scheduler name
+scheduler factory SimpleName MethodInvocation SimpleName thread pool
+scheduler factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ram job store
+create scheduler SimpleName MethodInvocation SimpleName scheduler name
+create scheduler SimpleName MethodInvocation SimpleName scheduler name
+create scheduler SimpleName MethodInvocation SimpleName thread pool
+create scheduler SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ram job store
+scheduler name SimpleName MethodInvocation SimpleName scheduler name
+scheduler name SimpleName MethodInvocation SimpleName thread pool
+scheduler name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ram job store
+scheduler name SimpleName MethodInvocation SimpleName thread pool
+scheduler name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ram job store
+thread pool SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ram job store
+scheduler factory SimpleName MethodInvocation SimpleName get scheduler
+scheduler factory SimpleName MethodInvocation SimpleName scheduler name
+get scheduler SimpleName MethodInvocation SimpleName scheduler name
+scheduler SimpleName VariableDeclarationFragment MethodInvocation SimpleName scheduler factory
+scheduler SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scheduler
+scheduler SimpleName VariableDeclarationFragment MethodInvocation SimpleName scheduler name
+scheduler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scheduler
+scheduler SimpleName MethodInvocation SimpleName set job factory
+scheduler SimpleName MethodInvocation SimpleName job factory
+set job factory SimpleName MethodInvocation SimpleName job factory
+scheduler exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error initializing quartz cron scheduler StringLiteral InfixExpression SimpleName e
+log SimpleName MethodInvocation SimpleName severe
+log SimpleName MethodInvocation InfixExpression StringLiteral error initializing quartz cron scheduler
+log SimpleName MethodInvocation InfixExpression SimpleName e
+severe SimpleName MethodInvocation InfixExpression StringLiteral error initializing quartz cron scheduler
+severe SimpleName MethodInvocation InfixExpression SimpleName e
+throwables SimpleName MethodInvocation SimpleName propagate
+throwables SimpleName MethodInvocation SimpleName e
+propagate SimpleName MethodInvocation SimpleName e
+provides SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName singleton
+provides SimpleName MarkerAnnotation MethodDeclaration Modifier private
+provides SimpleName MarkerAnnotation MethodDeclaration Modifier static
+provides SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+provides SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName scheduler
+singleton SimpleName MarkerAnnotation MethodDeclaration Modifier private
+singleton SimpleName MarkerAnnotation MethodDeclaration Modifier static
+singleton SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+singleton SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName scheduler
+singleton SimpleName MarkerAnnotation MethodDeclaration SimpleName provide scheduler
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration SimpleType SimpleName scheduler
+private Modifier MethodDeclaration SimpleName provide scheduler
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName aurora cron job factory
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job factory
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName scheduler
+static Modifier MethodDeclaration SimpleName provide scheduler
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName aurora cron job factory
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job factory
+synchronized Modifier MethodDeclaration SimpleType SimpleName scheduler
+synchronized Modifier MethodDeclaration SimpleName provide scheduler
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName aurora cron job factory
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName job factory
+scheduler SimpleName SimpleType MethodDeclaration SimpleName provide scheduler
+scheduler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName job factory
+provide scheduler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName aurora cron job factory
+provide scheduler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName provides
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName singleton
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scheduler
+public Modifier TypeDeclaration MethodDeclaration SimpleName provide scheduler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job factory
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName provides
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName singleton
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scheduler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName provide scheduler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job factory

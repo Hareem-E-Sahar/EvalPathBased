@@ -1,0 +1,152 @@
+connection SimpleName SimpleType SingleVariableDeclaration SimpleName connection
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+imported keys SimpleName FieldAccess MethodInvocation SimpleName contains key
+imported keys SimpleName FieldAccess MethodInvocation SimpleName table
+contains key SimpleName MethodInvocation SimpleName table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+imported keys SimpleName FieldAccess MethodInvocation SimpleName put
+imported keys SimpleName FieldAccess MethodInvocation SimpleName table
+imported keys SimpleName FieldAccess MethodInvocation SimpleName imported keys
+put SimpleName MethodInvocation SimpleName table
+put SimpleName MethodInvocation SimpleName imported keys
+table SimpleName MethodInvocation SimpleName imported keys
+connection SimpleName MethodInvocation SimpleName get meta data
+meta data SimpleName VariableDeclarationFragment MethodInvocation SimpleName connection
+meta data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get meta data
+database meta data SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName meta data
+connection SimpleName MethodInvocation SimpleName get catalog
+meta data SimpleName MethodInvocation SimpleName get imported keys
+meta data SimpleName MethodInvocation MethodInvocation SimpleName connection
+meta data SimpleName MethodInvocation MethodInvocation SimpleName get catalog
+meta data SimpleName MethodInvocation SimpleName table
+get imported keys SimpleName MethodInvocation MethodInvocation SimpleName connection
+get imported keys SimpleName MethodInvocation MethodInvocation SimpleName get catalog
+get imported keys SimpleName MethodInvocation SimpleName table
+connection SimpleName MethodInvocation MethodInvocation SimpleName table
+get catalog SimpleName MethodInvocation MethodInvocation SimpleName table
+rs SimpleName VariableDeclarationFragment MethodInvocation SimpleName meta data
+rs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get imported keys
+rs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName connection
+rs SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get catalog
+rs SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+result set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rs
+rs SimpleName MethodInvocation SimpleName next
+rs SimpleName MethodInvocation SimpleName get string
+rs SimpleName MethodInvocation StringLiteral pkcolumn name
+get string SimpleName MethodInvocation StringLiteral pkcolumn name
+rs SimpleName MethodInvocation SimpleName get string
+rs SimpleName MethodInvocation StringLiteral pktable name
+get string SimpleName MethodInvocation StringLiteral pktable name
+properties SimpleName MethodInvocation SimpleName get property id
+properties SimpleName MethodInvocation MethodInvocation SimpleName rs
+properties SimpleName MethodInvocation MethodInvocation SimpleName get string
+properties SimpleName MethodInvocation MethodInvocation StringLiteral pkcolumn name
+properties SimpleName MethodInvocation MethodInvocation SimpleName rs
+properties SimpleName MethodInvocation MethodInvocation SimpleName get string
+properties SimpleName MethodInvocation MethodInvocation StringLiteral pktable name
+get property id SimpleName MethodInvocation MethodInvocation SimpleName rs
+get property id SimpleName MethodInvocation MethodInvocation SimpleName get string
+get property id SimpleName MethodInvocation MethodInvocation StringLiteral pkcolumn name
+get property id SimpleName MethodInvocation MethodInvocation SimpleName rs
+get property id SimpleName MethodInvocation MethodInvocation SimpleName get string
+get property id SimpleName MethodInvocation MethodInvocation StringLiteral pktable name
+rs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rs
+rs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+rs SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral pktable name
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rs
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral pktable name
+pkcolumn name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName rs
+pkcolumn name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+pkcolumn name StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral pktable name
+pk property id SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+pk property id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property id
+pk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rs
+pk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+pk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral pkcolumn name
+pk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rs
+pk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+pk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral pktable name
+property id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pk property id
+rs SimpleName MethodInvocation SimpleName get string
+rs SimpleName MethodInvocation StringLiteral fkcolumn name
+get string SimpleName MethodInvocation StringLiteral fkcolumn name
+rs SimpleName MethodInvocation SimpleName get string
+rs SimpleName MethodInvocation StringLiteral fktable name
+get string SimpleName MethodInvocation StringLiteral fktable name
+properties SimpleName MethodInvocation SimpleName get property id
+properties SimpleName MethodInvocation MethodInvocation SimpleName rs
+properties SimpleName MethodInvocation MethodInvocation SimpleName get string
+properties SimpleName MethodInvocation MethodInvocation StringLiteral fkcolumn name
+properties SimpleName MethodInvocation MethodInvocation SimpleName rs
+properties SimpleName MethodInvocation MethodInvocation SimpleName get string
+properties SimpleName MethodInvocation MethodInvocation StringLiteral fktable name
+get property id SimpleName MethodInvocation MethodInvocation SimpleName rs
+get property id SimpleName MethodInvocation MethodInvocation SimpleName get string
+get property id SimpleName MethodInvocation MethodInvocation StringLiteral fkcolumn name
+get property id SimpleName MethodInvocation MethodInvocation SimpleName rs
+get property id SimpleName MethodInvocation MethodInvocation SimpleName get string
+get property id SimpleName MethodInvocation MethodInvocation StringLiteral fktable name
+rs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rs
+rs SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+rs SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral fktable name
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rs
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+get string SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral fktable name
+fkcolumn name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName rs
+fkcolumn name StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+fkcolumn name StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral fktable name
+fk property id SimpleName VariableDeclarationFragment MethodInvocation SimpleName properties
+fk property id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property id
+fk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rs
+fk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+fk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral fkcolumn name
+fk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rs
+fk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string
+fk property id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral fktable name
+property id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fk property id
+imported keys SimpleName MethodInvocation SimpleName put
+imported keys SimpleName MethodInvocation SimpleName pk property id
+imported keys SimpleName MethodInvocation SimpleName fk property id
+put SimpleName MethodInvocation SimpleName pk property id
+put SimpleName MethodInvocation SimpleName fk property id
+pk property id SimpleName MethodInvocation SimpleName fk property id
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName get imported keys
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName connection
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SimpleType SimpleName sql exception
+void PrimitiveType MethodDeclaration SimpleName get imported keys
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName connection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName table
+void PrimitiveType MethodDeclaration SimpleType SimpleName sql exception
+get imported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName connection
+get imported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connection
+get imported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get imported keys SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+get imported keys SimpleName MethodDeclaration SimpleType SimpleName sql exception
+connection SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+connection SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sql exception
+table SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sql exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get imported keys
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sql exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get imported keys
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sql exception

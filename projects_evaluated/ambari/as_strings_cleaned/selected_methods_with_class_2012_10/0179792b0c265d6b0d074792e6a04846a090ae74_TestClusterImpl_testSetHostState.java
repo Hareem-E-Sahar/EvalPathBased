@@ -1,0 +1,52 @@
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation MethodInvocation SimpleName set state
+get host SimpleName MethodInvocation MethodInvocation SimpleName set state
+h SimpleName MethodInvocation MethodInvocation SimpleName set state
+clusters SimpleName MethodInvocation MethodInvocation QualifiedName host stateheartbeat lost
+get host SimpleName MethodInvocation MethodInvocation QualifiedName host stateheartbeat lost
+h SimpleName MethodInvocation MethodInvocation QualifiedName host stateheartbeat lost
+set state SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get state
+get host SimpleName MethodInvocation MethodInvocation SimpleName get state
+h SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+assert SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+host stateheartbeat lost QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+host stateheartbeat lost QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+host stateheartbeat lost QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+host stateheartbeat lost QualifiedName MethodInvocation MethodInvocation SimpleName get state
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test set host state
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test set host state
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName test set host state
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+test set host state SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test set host state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test set host state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

@@ -1,0 +1,63 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName jaxb map key map
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+jaxb map key map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName list
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+jaxb map key map SimpleName SimpleType SingleVariableDeclaration SimpleName jaxbkey map
+map adapter SimpleName MethodInvocation SimpleName unmarshal
+map adapter SimpleName MethodInvocation QualifiedName jaxbkey mapvalue
+unmarshal SimpleName MethodInvocation QualifiedName jaxbkey mapvalue
+map SimpleName MethodInvocation SimpleName put
+map SimpleName MethodInvocation QualifiedName jaxbkey mapkey
+map SimpleName MethodInvocation MethodInvocation SimpleName map adapter
+map SimpleName MethodInvocation MethodInvocation SimpleName unmarshal
+map SimpleName MethodInvocation MethodInvocation QualifiedName jaxbkey mapvalue
+put SimpleName MethodInvocation QualifiedName jaxbkey mapkey
+put SimpleName MethodInvocation MethodInvocation SimpleName map adapter
+put SimpleName MethodInvocation MethodInvocation SimpleName unmarshal
+put SimpleName MethodInvocation MethodInvocation QualifiedName jaxbkey mapvalue
+jaxbkey mapkey QualifiedName MethodInvocation MethodInvocation SimpleName map adapter
+jaxbkey mapkey QualifiedName MethodInvocation MethodInvocation SimpleName unmarshal
+jaxbkey mapkey QualifiedName MethodInvocation MethodInvocation QualifiedName jaxbkey mapvalue
+jaxb map key map SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName list
+jaxbkey map SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName list
+list SimpleName EnhancedForStatement Block ReturnStatement SimpleName map
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName unmarshal
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName list
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName unmarshal
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName list
+public Modifier MethodDeclaration Block ReturnStatement SimpleName map
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName unmarshal
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName unmarshal
+unmarshal SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+unmarshal SimpleName MethodDeclaration SimpleType SimpleName exception
+unmarshal SimpleName MethodDeclaration Block EnhancedForStatement SimpleName list
+unmarshal SimpleName MethodDeclaration Block ReturnStatement SimpleName map
+list SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName unmarshal
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unmarshal
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

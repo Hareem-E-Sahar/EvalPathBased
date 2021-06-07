@@ -1,0 +1,17 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get config versions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName config versions
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get config versions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get config versions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get config versions
+get config versions SimpleName MethodDeclaration Block ReturnStatement SimpleName config versions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get config versions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get config versions

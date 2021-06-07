@@ -1,0 +1,20 @@
+json property SimpleName SingleMemberAnnotation StringLiteral reports
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName command report
+json property SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+reports StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+json property SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get reports
+reports StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get reports
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName command report
+public Modifier MethodDeclaration SimpleName get reports
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get reports
+command report SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get reports
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral reports
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get reports
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral reports
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get reports

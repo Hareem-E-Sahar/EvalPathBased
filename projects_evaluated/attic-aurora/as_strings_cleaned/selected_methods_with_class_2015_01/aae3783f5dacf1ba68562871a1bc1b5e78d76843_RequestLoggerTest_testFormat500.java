@@ -1,0 +1,234 @@
+l NumberLiteral InfixExpression NumberLiteral empty
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation InfixExpression NumberLiteral l
+amount SimpleName MethodInvocation InfixExpression NumberLiteral empty
+amount SimpleName MethodInvocation QualifiedName timedays
+of SimpleName MethodInvocation InfixExpression NumberLiteral l
+of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+of SimpleName MethodInvocation QualifiedName timedays
+l NumberLiteral InfixExpression MethodInvocation QualifiedName timedays
+empty NumberLiteral InfixExpression MethodInvocation QualifiedName timedays
+clock SimpleName MethodInvocation SimpleName advance
+clock SimpleName MethodInvocation MethodInvocation SimpleName amount
+clock SimpleName MethodInvocation MethodInvocation SimpleName of
+clock SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+clock SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+clock SimpleName MethodInvocation MethodInvocation QualifiedName timedays
+advance SimpleName MethodInvocation MethodInvocation SimpleName amount
+advance SimpleName MethodInvocation MethodInvocation SimpleName of
+advance SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral l
+advance SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+advance SimpleName MethodInvocation MethodInvocation QualifiedName timedays
+response SimpleName MethodInvocation SimpleName get status
+expect SimpleName MethodInvocation MethodInvocation SimpleName response
+expect SimpleName MethodInvocation MethodInvocation SimpleName get status
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+response SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get status SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+and return SimpleName MethodInvocation NumberLiteral empty
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName at least once
+and return SimpleName MethodInvocation MethodInvocation SimpleName at least once
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName at least once
+request SimpleName MethodInvocation SimpleName get server name
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get server name
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation StringLiteral woodstock
+request SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral woodstock
+get server name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral woodstock
+and return SimpleName MethodInvocation StringLiteral woodstock
+request SimpleName MethodInvocation SimpleName get header
+request SimpleName MethodInvocation QualifiedName http headersx forwarded for
+get header SimpleName MethodInvocation QualifiedName http headersx forwarded for
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get header
+expect SimpleName MethodInvocation MethodInvocation QualifiedName http headersx forwarded for
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get header SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+http headersx forwarded for QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation SimpleName get method
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get method
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation StringLiteral post
+request SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral post
+get method SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral post
+and return SimpleName MethodInvocation StringLiteral post
+request SimpleName MethodInvocation SimpleName get uri
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get uri
+http uri SimpleName SimpleType ClassInstanceCreation StringLiteral data
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral data
+and return SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName http uri
+and return SimpleName MethodInvocation ClassInstanceCreation StringLiteral data
+request SimpleName MethodInvocation SimpleName get protocol
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get protocol
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get protocol SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation StringLiteral http
+request SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral http
+get protocol SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral http
+and return SimpleName MethodInvocation StringLiteral http
+response SimpleName MethodInvocation SimpleName get content count
+expect SimpleName MethodInvocation MethodInvocation SimpleName response
+expect SimpleName MethodInvocation MethodInvocation SimpleName get content count
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+response SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get content count SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation NumberLiteral l
+response SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+get content count SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+and return SimpleName MethodInvocation NumberLiteral l
+request SimpleName MethodInvocation SimpleName get remote addr
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get remote addr
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get remote addr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation StringLiteral easymocktest
+request SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral easymocktest
+get remote addr SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral easymocktest
+and return SimpleName MethodInvocation StringLiteral easymocktest
+request SimpleName MethodInvocation SimpleName get header
+request SimpleName MethodInvocation QualifiedName http headersreferer
+get header SimpleName MethodInvocation QualifiedName http headersreferer
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get header
+expect SimpleName MethodInvocation MethodInvocation QualifiedName http headersreferer
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get header SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+http headersreferer QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation SimpleName get header
+request SimpleName MethodInvocation QualifiedName http headersuser agent
+get header SimpleName MethodInvocation QualifiedName http headersuser agent
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get header
+expect SimpleName MethodInvocation MethodInvocation QualifiedName http headersuser agent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get header SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+http headersuser agent QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation StringLiteral junit
+request SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral junit
+get header SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral junit
+http headersuser agent QualifiedName MethodInvocation MethodInvocation MethodInvocation StringLiteral junit
+and return SimpleName MethodInvocation StringLiteral junit
+request SimpleName MethodInvocation SimpleName get time stamp
+expect SimpleName MethodInvocation MethodInvocation SimpleName request
+expect SimpleName MethodInvocation MethodInvocation SimpleName get time stamp
+clock SimpleName MethodInvocation SimpleName now millis
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get time stamp SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clock
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName now millis
+and return SimpleName MethodInvocation MethodInvocation SimpleName clock
+and return SimpleName MethodInvocation MethodInvocation SimpleName now millis
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName at least once
+and return SimpleName MethodInvocation MethodInvocation SimpleName at least once
+clock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName at least once
+now millis SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName at least once
+sink SimpleName MethodInvocation SimpleName is loggable
+sink SimpleName MethodInvocation QualifiedName levelwarning
+is loggable SimpleName MethodInvocation QualifiedName levelwarning
+expect SimpleName MethodInvocation MethodInvocation SimpleName sink
+expect SimpleName MethodInvocation MethodInvocation SimpleName is loggable
+expect SimpleName MethodInvocation MethodInvocation QualifiedName levelwarning
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+is loggable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+levelwarning QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+sink SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+is loggable SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+levelwarning QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+and return SimpleName MethodInvocation BooleanLiteral true
+clock SimpleName MethodInvocation SimpleName now millis
+log date cache SimpleName MethodInvocation SimpleName format
+log date cache SimpleName MethodInvocation MethodInvocation SimpleName clock
+log date cache SimpleName MethodInvocation MethodInvocation SimpleName now millis
+format SimpleName MethodInvocation MethodInvocation SimpleName clock
+format SimpleName MethodInvocation MethodInvocation SimpleName now millis
+log date SimpleName VariableDeclarationFragment MethodInvocation SimpleName log date cache
+log date SimpleName VariableDeclarationFragment MethodInvocation SimpleName format
+log date SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName clock
+log date SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName now millis
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log date
+woodstock easymocktest [ StringLiteral InfixExpression SimpleName log date
+woodstock easymocktest [ StringLiteral InfixExpression StringLiteral ]
+woodstock easymocktest [ StringLiteral InfixExpression StringLiteral post data http \-\ junit
+log date SimpleName InfixExpression StringLiteral ]
+log date SimpleName InfixExpression StringLiteral post data http \-\ junit
+] StringLiteral InfixExpression StringLiteral post data http \-\ junit
+sink SimpleName MethodInvocation SimpleName log
+sink SimpleName MethodInvocation QualifiedName levelwarning
+sink SimpleName MethodInvocation InfixExpression StringLiteral woodstock easymocktest [
+sink SimpleName MethodInvocation InfixExpression SimpleName log date
+sink SimpleName MethodInvocation InfixExpression StringLiteral ]
+sink SimpleName MethodInvocation InfixExpression StringLiteral post data http \-\ junit
+log SimpleName MethodInvocation QualifiedName levelwarning
+log SimpleName MethodInvocation InfixExpression StringLiteral woodstock easymocktest [
+log SimpleName MethodInvocation InfixExpression SimpleName log date
+log SimpleName MethodInvocation InfixExpression StringLiteral ]
+log SimpleName MethodInvocation InfixExpression StringLiteral post data http \-\ junit
+levelwarning QualifiedName MethodInvocation InfixExpression StringLiteral woodstock easymocktest [
+levelwarning QualifiedName MethodInvocation InfixExpression SimpleName log date
+levelwarning QualifiedName MethodInvocation InfixExpression StringLiteral ]
+levelwarning QualifiedName MethodInvocation InfixExpression StringLiteral post data http \-\ junit
+control SimpleName MethodInvocation SimpleName replay
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation NumberLiteral l
+amount SimpleName MethodInvocation QualifiedName timemilliseconds
+of SimpleName MethodInvocation NumberLiteral l
+of SimpleName MethodInvocation QualifiedName timemilliseconds
+l NumberLiteral MethodInvocation QualifiedName timemilliseconds
+clock SimpleName MethodInvocation SimpleName advance
+clock SimpleName MethodInvocation MethodInvocation SimpleName amount
+clock SimpleName MethodInvocation MethodInvocation SimpleName of
+clock SimpleName MethodInvocation MethodInvocation NumberLiteral l
+clock SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+advance SimpleName MethodInvocation MethodInvocation SimpleName amount
+advance SimpleName MethodInvocation MethodInvocation SimpleName of
+advance SimpleName MethodInvocation MethodInvocation NumberLiteral l
+advance SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+log SimpleName MethodInvocation SimpleName log
+log SimpleName MethodInvocation SimpleName request
+log SimpleName MethodInvocation SimpleName response
+log SimpleName MethodInvocation SimpleName request
+log SimpleName MethodInvocation SimpleName response
+request SimpleName MethodInvocation SimpleName response
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test format
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test format
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test format
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test format SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test format
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test format
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

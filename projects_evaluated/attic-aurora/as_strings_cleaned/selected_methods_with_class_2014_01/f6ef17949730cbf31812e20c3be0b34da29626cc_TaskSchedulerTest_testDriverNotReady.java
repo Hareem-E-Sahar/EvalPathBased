@@ -1,0 +1,198 @@
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation SimpleName pending
+a StringLiteral MethodInvocation SimpleName pending
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+task SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+task info SimpleName MethodInvocation SimpleName new builder
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task
+id SimpleName MethodInvocation SimpleName task
+task info SimpleName MethodInvocation MethodInvocation SimpleName set name
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set name
+task info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+task info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+task info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+set name SimpleName MethodInvocation MethodInvocation SimpleName tasks
+set name SimpleName MethodInvocation MethodInvocation SimpleName id
+set name SimpleName MethodInvocation MethodInvocation SimpleName task
+task id SimpleName MethodInvocation SimpleName new builder
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task
+id SimpleName MethodInvocation SimpleName task
+task id SimpleName MethodInvocation MethodInvocation SimpleName set value
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set value
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+set value SimpleName MethodInvocation MethodInvocation SimpleName tasks
+set value SimpleName MethodInvocation MethodInvocation SimpleName id
+set value SimpleName MethodInvocation MethodInvocation SimpleName task
+task info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task id
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task id
+set name SimpleName MethodInvocation MethodInvocation SimpleName set task id
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task id
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task id
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task id
+set name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set value
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+set task id SimpleName MethodInvocation MethodInvocation SimpleName set value
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+slave id SimpleName MethodInvocation SimpleName new builder
+slave id SimpleName MethodInvocation MethodInvocation SimpleName set value
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set value
+slave id SimpleName MethodInvocation MethodInvocation StringLiteral slave id
+new builder SimpleName MethodInvocation MethodInvocation StringLiteral slave id
+set value SimpleName MethodInvocation StringLiteral slave id
+set name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set slave id
+set task id SimpleName MethodInvocation MethodInvocation SimpleName set slave id
+set value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set slave id
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set value
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral slave id
+set slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName slave id
+set slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+set slave id SimpleName MethodInvocation MethodInvocation SimpleName set value
+set slave id SimpleName MethodInvocation MethodInvocation StringLiteral slave id
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+set slave id SimpleName MethodInvocation MethodInvocation SimpleName build
+set value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+slave id StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName build
+mesos task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set slave id
+mesos task SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+task info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mesos task
+capture SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+expect task group backoff SimpleName MethodInvocation NumberLiteral empty
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName expect task group backoff
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+expect offer decline in SimpleName MethodInvocation NumberLiteral empty
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName offer a
+assigner SimpleName MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName empty job
+maybe assign SimpleName MethodInvocation SimpleName offer a
+maybe assign SimpleName MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName empty job
+offer a SimpleName MethodInvocation SimpleName task
+offer a SimpleName MethodInvocation SimpleName empty job
+task SimpleName MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName assigner
+expect SimpleName MethodInvocation MethodInvocation SimpleName maybe assign
+expect SimpleName MethodInvocation MethodInvocation SimpleName offer a
+expect SimpleName MethodInvocation MethodInvocation SimpleName task
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName mesos task
+of SimpleName MethodInvocation SimpleName mesos task
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+offer a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mesos task
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation SimpleName mesos task
+offer a SimpleName MethodInvocation SimpleName get id
+driver SimpleName MethodInvocation SimpleName launch task
+driver SimpleName MethodInvocation MethodInvocation SimpleName offer a
+driver SimpleName MethodInvocation MethodInvocation SimpleName get id
+driver SimpleName MethodInvocation SimpleName mesos task
+launch task SimpleName MethodInvocation MethodInvocation SimpleName offer a
+launch task SimpleName MethodInvocation MethodInvocation SimpleName get id
+launch task SimpleName MethodInvocation SimpleName mesos task
+offer a SimpleName MethodInvocation MethodInvocation SimpleName mesos task
+get id SimpleName MethodInvocation MethodInvocation SimpleName mesos task
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral driver not ready
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName and throw
+expect last call SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral driver not ready
+and throw SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName illegal state exception
+and throw SimpleName MethodInvocation ClassInstanceCreation StringLiteral driver not ready
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName pending
+of SimpleName MethodInvocation SimpleName pending
+state manager SimpleName MethodInvocation SimpleName change state
+state manager SimpleName MethodInvocation StringLiteral a
+state manager SimpleName MethodInvocation MethodInvocation SimpleName optional
+state manager SimpleName MethodInvocation MethodInvocation SimpleName of
+state manager SimpleName MethodInvocation MethodInvocation SimpleName pending
+state manager SimpleName MethodInvocation SimpleName lost
+state manager SimpleName MethodInvocation QualifiedName task scheduler impllaunch failed msg
+change state SimpleName MethodInvocation StringLiteral a
+change state SimpleName MethodInvocation MethodInvocation SimpleName optional
+change state SimpleName MethodInvocation MethodInvocation SimpleName of
+change state SimpleName MethodInvocation MethodInvocation SimpleName pending
+change state SimpleName MethodInvocation SimpleName lost
+change state SimpleName MethodInvocation QualifiedName task scheduler impllaunch failed msg
+a StringLiteral MethodInvocation MethodInvocation SimpleName optional
+a StringLiteral MethodInvocation MethodInvocation SimpleName of
+a StringLiteral MethodInvocation MethodInvocation SimpleName pending
+a StringLiteral MethodInvocation SimpleName lost
+a StringLiteral MethodInvocation QualifiedName task scheduler impllaunch failed msg
+optional SimpleName MethodInvocation MethodInvocation SimpleName lost
+of SimpleName MethodInvocation MethodInvocation SimpleName lost
+pending SimpleName MethodInvocation MethodInvocation SimpleName lost
+optional SimpleName MethodInvocation MethodInvocation QualifiedName task scheduler impllaunch failed msg
+of SimpleName MethodInvocation MethodInvocation QualifiedName task scheduler impllaunch failed msg
+pending SimpleName MethodInvocation MethodInvocation QualifiedName task scheduler impllaunch failed msg
+lost SimpleName MethodInvocation QualifiedName task scheduler impllaunch failed msg
+expect SimpleName MethodInvocation MethodInvocation SimpleName state manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName change state
+expect SimpleName MethodInvocation MethodInvocation StringLiteral a
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+expect SimpleName MethodInvocation MethodInvocation SimpleName lost
+expect SimpleName MethodInvocation MethodInvocation QualifiedName task scheduler impllaunch failed msg
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+state manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+change state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+lost SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+task scheduler impllaunch failed msg QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+state manager SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+change state SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+lost SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+task scheduler impllaunch failed msg QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+and return SimpleName MethodInvocation BooleanLiteral true
+change state SimpleName MethodInvocation SimpleName task
+change state SimpleName MethodInvocation SimpleName init
+change state SimpleName MethodInvocation SimpleName pending
+task SimpleName MethodInvocation SimpleName init
+task SimpleName MethodInvocation SimpleName pending
+init SimpleName MethodInvocation SimpleName pending
+offer queue SimpleName MethodInvocation SimpleName add offer
+offer queue SimpleName MethodInvocation SimpleName offer a
+add offer SimpleName MethodInvocation SimpleName offer a
+timeout capture SimpleName MethodInvocation SimpleName get value
+timeout capture SimpleName MethodInvocation MethodInvocation SimpleName run
+get value SimpleName MethodInvocation MethodInvocation SimpleName run
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test driver not ready
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test driver not ready
+void PrimitiveType MethodDeclaration SimpleName test driver not ready
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test driver not ready
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test driver not ready

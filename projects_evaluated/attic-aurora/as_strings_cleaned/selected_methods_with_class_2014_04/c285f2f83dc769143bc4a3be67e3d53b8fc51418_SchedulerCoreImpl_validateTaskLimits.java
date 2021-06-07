@@ -1,0 +1,88 @@
+i task config SimpleName SimpleType SingleVariableDeclaration SimpleName task
+int PrimitiveType SingleVariableDeclaration SimpleName instances
+task id generator SimpleName MethodInvocation SimpleName generate
+task id generator SimpleName MethodInvocation SimpleName task
+task id generator SimpleName MethodInvocation SimpleName instances
+generate SimpleName MethodInvocation SimpleName task
+generate SimpleName MethodInvocation SimpleName instances
+task SimpleName MethodInvocation SimpleName instances
+task id generator SimpleName MethodInvocation MethodInvocation SimpleName length
+generate SimpleName MethodInvocation MethodInvocation SimpleName length
+task SimpleName MethodInvocation MethodInvocation SimpleName length
+instances SimpleName MethodInvocation MethodInvocation SimpleName length
+task id generator SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max task id length
+generate SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max task id length
+task SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max task id length
+instances SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName max task id length
+length SimpleName MethodInvocation InfixExpression SimpleName max task id length
+schedule exception SimpleName SimpleType ClassInstanceCreation StringLiteral task id is too long please shorten your role or job name
+max tasks per job SimpleName MethodInvocation SimpleName get
+instances SimpleName InfixExpression MethodInvocation SimpleName max tasks per job
+instances SimpleName InfixExpression MethodInvocation SimpleName get
+max tasks per job SimpleName MethodInvocation SimpleName get
+job exceeds task limit of StringLiteral InfixExpression MethodInvocation SimpleName max tasks per job
+job exceeds task limit of StringLiteral InfixExpression MethodInvocation SimpleName get
+schedule exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral job exceeds task limit of
+quota manager SimpleName MethodInvocation SimpleName check quota
+quota manager SimpleName MethodInvocation SimpleName task
+quota manager SimpleName MethodInvocation SimpleName instances
+check quota SimpleName MethodInvocation SimpleName task
+check quota SimpleName MethodInvocation SimpleName instances
+task SimpleName MethodInvocation SimpleName instances
+quota check SimpleName VariableDeclarationFragment MethodInvocation SimpleName quota manager
+quota check SimpleName VariableDeclarationFragment MethodInvocation SimpleName check quota
+quota check SimpleName VariableDeclarationFragment MethodInvocation SimpleName task
+quota check SimpleName VariableDeclarationFragment MethodInvocation SimpleName instances
+quota check result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName quota check
+quota check SimpleName MethodInvocation SimpleName get result
+quota check SimpleName MethodInvocation InfixExpression SimpleName insufficient quota
+get result SimpleName MethodInvocation InfixExpression SimpleName insufficient quota
+quota check SimpleName MethodInvocation SimpleName get details
+quota check SimpleName MethodInvocation MethodInvocation SimpleName or
+get details SimpleName MethodInvocation MethodInvocation SimpleName or
+quota check SimpleName MethodInvocation MethodInvocation StringLiteral empty
+get details SimpleName MethodInvocation MethodInvocation StringLiteral empty
+or SimpleName MethodInvocation StringLiteral empty
+insufficient resource quota StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName quota check
+insufficient resource quota StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get details
+insufficient resource quota StringLiteral InfixExpression MethodInvocation SimpleName or
+insufficient resource quota StringLiteral InfixExpression MethodInvocation StringLiteral empty
+schedule exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral insufficient resource quota
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName validate task limits
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName instances
+private Modifier MethodDeclaration SimpleType SimpleName schedule exception
+void PrimitiveType MethodDeclaration SimpleName validate task limits
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instances
+void PrimitiveType MethodDeclaration SimpleType SimpleName schedule exception
+validate task limits SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+validate task limits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+validate task limits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+validate task limits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instances
+validate task limits SimpleName MethodDeclaration SimpleType SimpleName schedule exception
+task SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+task SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances
+task SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+instances SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate task limits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate task limits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instances
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schedule exception

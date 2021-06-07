@@ -1,0 +1,39 @@
+task group SimpleName SimpleType SingleVariableDeclaration SimpleName group
+group SimpleName MethodInvocation SimpleName get task ids
+group SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get task ids SimpleName MethodInvocation MethodInvocation SimpleName is empty
+group SimpleName MethodInvocation SimpleName get key
+groups SimpleName MethodInvocation SimpleName invalidate
+groups SimpleName MethodInvocation MethodInvocation SimpleName group
+groups SimpleName MethodInvocation MethodInvocation SimpleName get key
+invalidate SimpleName MethodInvocation MethodInvocation SimpleName group
+invalidate SimpleName MethodInvocation MethodInvocation SimpleName get key
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName maybe invalidate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task group
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName group
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName maybe invalidate
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task group
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName group
+synchronized Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName maybe invalidate
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task group
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName group
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+maybe invalidate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task group
+maybe invalidate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group
+maybe invalidate SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName maybe invalidate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName maybe invalidate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group

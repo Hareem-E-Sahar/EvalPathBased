@@ -1,0 +1,43 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property ids
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName property ids
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType SingleVariableDeclaration SimpleName property id
+property id SimpleName MethodInvocation SimpleName get category
+tables SimpleName MethodInvocation SimpleName add
+tables SimpleName MethodInvocation MethodInvocation SimpleName property id
+tables SimpleName MethodInvocation MethodInvocation SimpleName get category
+add SimpleName MethodInvocation MethodInvocation SimpleName property id
+add SimpleName MethodInvocation MethodInvocation SimpleName get category
+property id SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName property ids
+property id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName property ids
+property ids SimpleName EnhancedForStatement Block ReturnStatement SimpleName tables
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get tables
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName property ids
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName property ids
+private Modifier MethodDeclaration Block ReturnStatement SimpleName tables
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get tables
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property ids
+static Modifier MethodDeclaration Block EnhancedForStatement SimpleName property ids
+static Modifier MethodDeclaration Block ReturnStatement SimpleName tables
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get tables
+get tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property ids
+get tables SimpleName MethodDeclaration Block EnhancedForStatement SimpleName property ids
+get tables SimpleName MethodDeclaration Block ReturnStatement SimpleName tables
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids

@@ -1,0 +1,109 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+group SimpleName MethodInvocation SimpleName peek
+group SimpleName MethodInvocation QualifiedName settingsmax tasks per schedule
+peek SimpleName MethodInvocation QualifiedName settingsmax tasks per schedule
+task ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+task ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName peek
+task ids SimpleName VariableDeclarationFragment MethodInvocation QualifiedName settingsmax tasks per schedule
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName set
+final Modifier VariableDeclarationStatement ParameterizedType SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName task ids
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName group
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName peek
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName settingsmax tasks per schedule
+penalty ms SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName penalty ms
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+task ids SimpleName MethodInvocation SimpleName is empty
+settingsrate limiter QualifiedName MethodInvocation SimpleName acquire
+settingsrate limiter QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+acquire SimpleName MethodInvocation InfixExpression NumberLiteral empty
+schedule attempts blocks SimpleName MethodInvocation SimpleName increment and get
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+task scheduler SimpleName MethodInvocation SimpleName schedule
+task scheduler SimpleName MethodInvocation SimpleName store provider
+task scheduler SimpleName MethodInvocation SimpleName task ids
+schedule SimpleName MethodInvocation SimpleName store provider
+schedule SimpleName MethodInvocation SimpleName task ids
+store provider SimpleName MethodInvocation SimpleName task ids
+store provider SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName task scheduler
+store provider SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName schedule
+store provider SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName store provider
+store provider SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName task ids
+batch worker SimpleName MethodInvocation SimpleName execute
+batch worker SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName store provider
+batch worker SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName task scheduler
+batch worker SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName schedule
+batch worker SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName store provider
+batch worker SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName task ids
+execute SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName store provider
+execute SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName task scheduler
+execute SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName schedule
+execute SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName store provider
+execute SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName task ids
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName batch worker
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName execute
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+result SimpleName MethodInvocation SimpleName get
+scheduled SimpleName Assignment MethodInvocation SimpleName result
+scheduled SimpleName Assignment MethodInvocation SimpleName get
+execution exception SimpleName SimpleType UnionType SimpleType SimpleName interrupted exception
+execution exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+interrupted exception SimpleName SimpleType UnionType SingleVariableDeclaration SimpleName e
+thread SimpleName MethodInvocation SimpleName current thread
+thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+current thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+scheduled SimpleName MethodInvocation SimpleName is empty
+group SimpleName MethodInvocation SimpleName get penalty ms
+settingstask group backoff QualifiedName MethodInvocation SimpleName calculate backoff ms
+settingstask group backoff QualifiedName MethodInvocation MethodInvocation SimpleName group
+settingstask group backoff QualifiedName MethodInvocation MethodInvocation SimpleName get penalty ms
+calculate backoff ms SimpleName MethodInvocation MethodInvocation SimpleName group
+calculate backoff ms SimpleName MethodInvocation MethodInvocation SimpleName get penalty ms
+penalty ms SimpleName Assignment MethodInvocation QualifiedName settingstask group backoff
+penalty ms SimpleName Assignment MethodInvocation SimpleName calculate backoff ms
+penalty ms SimpleName Assignment MethodInvocation MethodInvocation SimpleName group
+penalty ms SimpleName Assignment MethodInvocation MethodInvocation SimpleName get penalty ms
+group SimpleName MethodInvocation SimpleName get penalty ms
+scheduled task penalties SimpleName MethodInvocation SimpleName accumulate
+scheduled task penalties SimpleName MethodInvocation MethodInvocation SimpleName group
+scheduled task penalties SimpleName MethodInvocation MethodInvocation SimpleName get penalty ms
+accumulate SimpleName MethodInvocation MethodInvocation SimpleName group
+accumulate SimpleName MethodInvocation MethodInvocation SimpleName get penalty ms
+group SimpleName MethodInvocation SimpleName remove
+group SimpleName MethodInvocation SimpleName scheduled
+remove SimpleName MethodInvocation SimpleName scheduled
+group SimpleName MethodInvocation SimpleName has more
+settingsfirst schedule delay QualifiedName MethodInvocation SimpleName as
+settingsfirst schedule delay QualifiedName MethodInvocation QualifiedName timemilliseconds
+as SimpleName MethodInvocation QualifiedName timemilliseconds
+penalty ms SimpleName Assignment MethodInvocation QualifiedName settingsfirst schedule delay
+penalty ms SimpleName Assignment MethodInvocation SimpleName as
+penalty ms SimpleName Assignment MethodInvocation QualifiedName timemilliseconds
+group SimpleName MethodInvocation SimpleName set penalty ms
+group SimpleName MethodInvocation SimpleName penalty ms
+set penalty ms SimpleName MethodInvocation SimpleName penalty ms
+evaluate group later SimpleName MethodInvocation SimpleName group
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+run SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

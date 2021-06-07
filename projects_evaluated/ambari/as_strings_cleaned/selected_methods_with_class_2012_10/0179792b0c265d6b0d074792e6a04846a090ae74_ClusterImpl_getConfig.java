@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName config type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName version tag
+configs SimpleName MethodInvocation SimpleName contains key
+configs SimpleName MethodInvocation SimpleName config type
+contains key SimpleName MethodInvocation SimpleName config type
+configs SimpleName MethodInvocation SimpleName get
+configs SimpleName MethodInvocation SimpleName config type
+get SimpleName MethodInvocation SimpleName config type
+configs SimpleName MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation SimpleName contains key
+config type SimpleName MethodInvocation MethodInvocation SimpleName contains key
+configs SimpleName MethodInvocation MethodInvocation SimpleName version tag
+get SimpleName MethodInvocation MethodInvocation SimpleName version tag
+config type SimpleName MethodInvocation MethodInvocation SimpleName version tag
+contains key SimpleName MethodInvocation SimpleName version tag
+configs SimpleName MethodInvocation SimpleName get
+configs SimpleName MethodInvocation SimpleName config type
+get SimpleName MethodInvocation SimpleName config type
+configs SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+config type SimpleName MethodInvocation MethodInvocation SimpleName get
+configs SimpleName MethodInvocation MethodInvocation SimpleName version tag
+get SimpleName MethodInvocation MethodInvocation SimpleName version tag
+config type SimpleName MethodInvocation MethodInvocation SimpleName version tag
+get SimpleName MethodInvocation SimpleName version tag
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName config
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get config
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName config type
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName config
+public Modifier MethodDeclaration SimpleName get config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName version tag
+synchronized Modifier MethodDeclaration SimpleType SimpleName config
+synchronized Modifier MethodDeclaration SimpleName get config
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName config type
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName version tag
+config SimpleName SimpleType MethodDeclaration SimpleName get config
+config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config type
+config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName version tag
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config type
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version tag
+config type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SimpleName get config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag

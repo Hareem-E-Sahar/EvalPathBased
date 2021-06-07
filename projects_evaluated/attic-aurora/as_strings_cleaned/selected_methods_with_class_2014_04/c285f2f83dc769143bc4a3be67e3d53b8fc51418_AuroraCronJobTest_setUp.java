@@ -1,0 +1,53 @@
+mem storage SimpleName MethodInvocation SimpleName new empty storage
+storage SimpleName Assignment MethodInvocation SimpleName mem storage
+storage SimpleName Assignment MethodInvocation SimpleName new empty storage
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName state manager
+state manager SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron job manager
+cron job manager SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName backoff helper
+backoff helper SimpleName Assignment MethodInvocation SimpleName create mock
+aurora cron jobconfig QualifiedName SimpleType ClassInstanceCreation SimpleName backoff helper
+aurora cron job SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName backoff helper
+aurora cron job SimpleName SimpleType ClassInstanceCreation SimpleName storage
+aurora cron job SimpleName SimpleType ClassInstanceCreation SimpleName state manager
+aurora cron job SimpleName SimpleType ClassInstanceCreation SimpleName cron job manager
+aurora cron jobconfig QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName storage
+backoff helper SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName storage
+aurora cron jobconfig QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName state manager
+backoff helper SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName state manager
+aurora cron jobconfig QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName cron job manager
+backoff helper SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName cron job manager
+storage SimpleName ClassInstanceCreation SimpleName state manager
+storage SimpleName ClassInstanceCreation SimpleName cron job manager
+state manager SimpleName ClassInstanceCreation SimpleName cron job manager
+aurora cron job SimpleName Assignment ClassInstanceCreation SimpleType SimpleName aurora cron job
+aurora cron job SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName backoff helper
+aurora cron job SimpleName Assignment ClassInstanceCreation SimpleName storage
+aurora cron job SimpleName Assignment ClassInstanceCreation SimpleName state manager
+aurora cron job SimpleName Assignment ClassInstanceCreation SimpleName cron job manager
+cron job manager SimpleName MethodInvocation SimpleName get manager key
+expect SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+expect SimpleName MethodInvocation MethodInvocation SimpleName and stub return
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and stub return
+get manager key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and stub return
+expect SimpleName MethodInvocation MethodInvocation SimpleName manager id
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName manager id
+get manager key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName manager id
+and stub return SimpleName MethodInvocation SimpleName manager id
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up

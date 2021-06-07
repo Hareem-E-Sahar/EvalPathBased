@@ -1,0 +1,234 @@
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+get only task SimpleName MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+get only task SimpleName MethodInvocation MethodInvocation SimpleName role a
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role scoped
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role a
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role scoped
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role a
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+change status SimpleName MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName assigned
+change status SimpleName MethodInvocation SimpleName starting
+task id SimpleName MethodInvocation SimpleName assigned
+task id SimpleName MethodInvocation SimpleName starting
+assigned SimpleName MethodInvocation SimpleName starting
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation StringLiteral bad stuff happened
+of SimpleName MethodInvocation StringLiteral bad stuff happened
+change status SimpleName MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName failed
+change status SimpleName MethodInvocation MethodInvocation SimpleName optional
+change status SimpleName MethodInvocation MethodInvocation SimpleName of
+change status SimpleName MethodInvocation MethodInvocation StringLiteral bad stuff happened
+task id SimpleName MethodInvocation SimpleName failed
+task id SimpleName MethodInvocation MethodInvocation SimpleName optional
+task id SimpleName MethodInvocation MethodInvocation SimpleName of
+task id SimpleName MethodInvocation MethodInvocation StringLiteral bad stuff happened
+failed SimpleName MethodInvocation MethodInvocation SimpleName optional
+failed SimpleName MethodInvocation MethodInvocation SimpleName of
+failed SimpleName MethodInvocation MethodInvocation StringLiteral bad stuff happened
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName schedule status
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+schedule status SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName schedule status
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+schedule status SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName pair
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName schedule status
+immutable list SimpleName MethodInvocation ParameterizedType SimpleType SimpleName string
+immutable list SimpleName MethodInvocation SimpleName builder
+pair SimpleName SimpleType ParameterizedType MethodInvocation SimpleName builder
+schedule status SimpleName SimpleType ParameterizedType MethodInvocation SimpleName builder
+string SimpleName SimpleType ParameterizedType MethodInvocation SimpleName builder
+pair SimpleName MethodInvocation SimpleType SimpleName schedule status
+pair SimpleName MethodInvocation SimpleType SimpleName string
+pair SimpleName MethodInvocation SimpleName of
+pair SimpleName MethodInvocation SimpleName pending
+schedule status SimpleName SimpleType MethodInvocation SimpleType SimpleName string
+schedule status SimpleName SimpleType MethodInvocation SimpleName of
+schedule status SimpleName SimpleType MethodInvocation SimpleName pending
+string SimpleName SimpleType MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName pending
+of SimpleName MethodInvocation SimpleName pending
+immutable list SimpleName MethodInvocation MethodInvocation SimpleName add
+builder SimpleName MethodInvocation MethodInvocation SimpleName add
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+add SimpleName MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation SimpleName pending
+pair SimpleName MethodInvocation SimpleType SimpleName schedule status
+pair SimpleName MethodInvocation SimpleType SimpleName string
+pair SimpleName MethodInvocation SimpleName of
+pair SimpleName MethodInvocation SimpleName assigned
+schedule status SimpleName SimpleType MethodInvocation SimpleType SimpleName string
+schedule status SimpleName SimpleType MethodInvocation SimpleName of
+schedule status SimpleName SimpleType MethodInvocation SimpleName assigned
+string SimpleName SimpleType MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName assigned
+of SimpleName MethodInvocation SimpleName assigned
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+add SimpleName MethodInvocation MethodInvocation SimpleName add
+pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigned
+add SimpleName MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation SimpleName assigned
+pair SimpleName MethodInvocation SimpleType SimpleName schedule status
+pair SimpleName MethodInvocation SimpleType SimpleName string
+pair SimpleName MethodInvocation SimpleName of
+pair SimpleName MethodInvocation SimpleName starting
+schedule status SimpleName SimpleType MethodInvocation SimpleType SimpleName string
+schedule status SimpleName SimpleType MethodInvocation SimpleName of
+schedule status SimpleName SimpleType MethodInvocation SimpleName starting
+string SimpleName SimpleType MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName starting
+of SimpleName MethodInvocation SimpleName starting
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+add SimpleName MethodInvocation MethodInvocation SimpleName add
+pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName starting
+add SimpleName MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation SimpleName starting
+pair SimpleName MethodInvocation SimpleType SimpleName schedule status
+pair SimpleName MethodInvocation SimpleType SimpleName string
+pair SimpleName MethodInvocation SimpleName of
+pair SimpleName MethodInvocation SimpleName failed
+pair SimpleName MethodInvocation StringLiteral bad stuff happened
+schedule status SimpleName SimpleType MethodInvocation SimpleType SimpleName string
+schedule status SimpleName SimpleType MethodInvocation SimpleName of
+schedule status SimpleName SimpleType MethodInvocation SimpleName failed
+schedule status SimpleName SimpleType MethodInvocation StringLiteral bad stuff happened
+string SimpleName SimpleType MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName failed
+string SimpleName SimpleType MethodInvocation StringLiteral bad stuff happened
+of SimpleName MethodInvocation SimpleName failed
+of SimpleName MethodInvocation StringLiteral bad stuff happened
+failed SimpleName MethodInvocation StringLiteral bad stuff happened
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+add SimpleName MethodInvocation MethodInvocation SimpleName add
+pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+starting SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName failed
+add SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral bad stuff happened
+add SimpleName MethodInvocation MethodInvocation SimpleName pair
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+add SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+add SimpleName MethodInvocation MethodInvocation SimpleName of
+add SimpleName MethodInvocation MethodInvocation SimpleName failed
+add SimpleName MethodInvocation MethodInvocation StringLiteral bad stuff happened
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+add SimpleName MethodInvocation MethodInvocation SimpleName build
+pair SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+failed SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+bad stuff happened StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName build
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName iterator
+build SimpleName MethodInvocation MethodInvocation SimpleName iterator
+expected events SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName build
+expected events SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+i task event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+get task SimpleName MethodInvocation SimpleName task id
+get task SimpleName MethodInvocation MethodInvocation SimpleName get task events
+task id SimpleName MethodInvocation MethodInvocation SimpleName get task events
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName schedule status
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+schedule status SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+expected events SimpleName MethodInvocation SimpleName next
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName expected events
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+expected SimpleName MethodInvocation SimpleName get first
+event SimpleName MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get first
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName event
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName event
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName event
+get first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get status
+expected SimpleName MethodInvocation SimpleName get second
+event SimpleName MethodInvocation SimpleName get message
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get second
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName event
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get message
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName event
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+get second SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName event
+get second SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get message
+event SimpleName MethodInvocation SimpleName get scheduler
+assert equals SimpleName MethodInvocation SimpleName hostname
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName event
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get scheduler
+hostname SimpleName MethodInvocation MethodInvocation SimpleName event
+hostname SimpleName MethodInvocation MethodInvocation SimpleName get scheduler
+event SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get task events
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test audit message
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test audit message
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test audit message
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test audit message SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test audit message
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test audit message
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

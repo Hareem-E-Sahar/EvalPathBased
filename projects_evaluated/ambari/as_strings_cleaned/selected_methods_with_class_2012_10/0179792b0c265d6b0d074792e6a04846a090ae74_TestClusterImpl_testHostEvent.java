@@ -1,0 +1,185 @@
+host info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host info
+host info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host info
+host info SimpleName MethodInvocation SimpleName set host name
+host info SimpleName MethodInvocation SimpleName h
+set host name SimpleName MethodInvocation SimpleName h
+host info SimpleName MethodInvocation SimpleName set interfaces
+host info SimpleName MethodInvocation StringLiteral fip
+set interfaces SimpleName MethodInvocation StringLiteral fip
+host info SimpleName MethodInvocation SimpleName set architecture
+host info SimpleName MethodInvocation StringLiteral os arch
+set architecture SimpleName MethodInvocation StringLiteral os arch
+host info SimpleName MethodInvocation SimpleName set os
+host info SimpleName MethodInvocation StringLiteral os type
+set os SimpleName MethodInvocation StringLiteral os type
+host info SimpleName MethodInvocation SimpleName set memory total
+host info SimpleName MethodInvocation NumberLiteral empty
+set memory total SimpleName MethodInvocation NumberLiteral empty
+host info SimpleName MethodInvocation SimpleName set memory size
+host info SimpleName MethodInvocation NumberLiteral empty
+set memory size SimpleName MethodInvocation NumberLiteral empty
+host info SimpleName MethodInvocation SimpleName set processor count
+host info SimpleName MethodInvocation NumberLiteral empty
+set processor count SimpleName MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk info
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk info
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral devsda
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral mntdisk
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral %
+devsda StringLiteral ClassInstanceCreation StringLiteral mntdisk
+devsda StringLiteral ClassInstanceCreation StringLiteral empty
+devsda StringLiteral ClassInstanceCreation StringLiteral empty
+devsda StringLiteral ClassInstanceCreation StringLiteral %
+devsda StringLiteral ClassInstanceCreation StringLiteral size
+mntdisk StringLiteral ClassInstanceCreation StringLiteral empty
+mntdisk StringLiteral ClassInstanceCreation StringLiteral empty
+mntdisk StringLiteral ClassInstanceCreation StringLiteral %
+mntdisk StringLiteral ClassInstanceCreation StringLiteral size
+empty StringLiteral ClassInstanceCreation StringLiteral empty
+empty StringLiteral ClassInstanceCreation StringLiteral %
+empty StringLiteral ClassInstanceCreation StringLiteral size
+empty StringLiteral ClassInstanceCreation StringLiteral %
+empty StringLiteral ClassInstanceCreation StringLiteral size
+% StringLiteral ClassInstanceCreation StringLiteral size
+mounts SimpleName MethodInvocation SimpleName add
+mounts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName disk info
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral devsda
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral mntdisk
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral %
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral size
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName disk info
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral devsda
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral mntdisk
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral %
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral size
+host info SimpleName MethodInvocation SimpleName set mounts
+host info SimpleName MethodInvocation SimpleName mounts
+set mounts SimpleName MethodInvocation SimpleName mounts
+agent version SimpleName SimpleType ClassInstanceCreation StringLiteral . x
+agent version SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName agent version
+agent version SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral . x
+agent version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName agent version
+current time SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+host registration request event SimpleName SimpleType ClassInstanceCreation SimpleName h
+host registration request event SimpleName SimpleType ClassInstanceCreation SimpleName agent version
+host registration request event SimpleName SimpleType ClassInstanceCreation SimpleName current time
+host registration request event SimpleName SimpleType ClassInstanceCreation SimpleName host info
+h SimpleName ClassInstanceCreation SimpleName agent version
+h SimpleName ClassInstanceCreation SimpleName current time
+h SimpleName ClassInstanceCreation SimpleName host info
+agent version SimpleName ClassInstanceCreation SimpleName current time
+agent version SimpleName ClassInstanceCreation SimpleName host info
+current time SimpleName ClassInstanceCreation SimpleName host info
+clusters SimpleName MethodInvocation MethodInvocation SimpleName handle event
+get host SimpleName MethodInvocation MethodInvocation SimpleName handle event
+h SimpleName MethodInvocation MethodInvocation SimpleName handle event
+clusters SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName h
+clusters SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName agent version
+clusters SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName current time
+clusters SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName host info
+get host SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName h
+get host SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName agent version
+get host SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName current time
+get host SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName host info
+h SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName h
+h SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName agent version
+h SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName current time
+h SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName host info
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host registration request event
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName agent version
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName host info
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get state
+get host SimpleName MethodInvocation MethodInvocation SimpleName get state
+h SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName host statewaiting for host status updates
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+assert SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName host statewaiting for host status updates
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+host statewaiting for host status updates QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName clusters
+host statewaiting for host status updates QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get host
+host statewaiting for host status updates QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName h
+host statewaiting for host status updates QualifiedName MethodInvocation MethodInvocation SimpleName get state
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation MethodInvocation SimpleName set state
+get host SimpleName MethodInvocation MethodInvocation SimpleName set state
+h SimpleName MethodInvocation MethodInvocation SimpleName set state
+clusters SimpleName MethodInvocation MethodInvocation QualifiedName host stateheartbeat lost
+get host SimpleName MethodInvocation MethodInvocation QualifiedName host stateheartbeat lost
+h SimpleName MethodInvocation MethodInvocation QualifiedName host stateheartbeat lost
+set state SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+host healthy heartbeat event SimpleName SimpleType ClassInstanceCreation SimpleName h
+host healthy heartbeat event SimpleName SimpleType ClassInstanceCreation SimpleName current time
+h SimpleName ClassInstanceCreation SimpleName current time
+clusters SimpleName MethodInvocation MethodInvocation SimpleName handle event
+get host SimpleName MethodInvocation MethodInvocation SimpleName handle event
+h SimpleName MethodInvocation MethodInvocation SimpleName handle event
+clusters SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName h
+clusters SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName current time
+get host SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName h
+get host SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName current time
+h SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName h
+h SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName current time
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host healthy heartbeat event
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName current time
+fail SimpleName MethodInvocation StringLiteral exception should be thrown on invalid event
+invalid state transiton exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test host event
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName invalid state transiton exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test host event
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration SimpleType SimpleName invalid state transiton exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test host event
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName invalid state transiton exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test host event SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+test host event SimpleName MethodDeclaration SimpleType SimpleName invalid state transiton exception
+test host event SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+ambari exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName invalid state transiton exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test host event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test host event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception

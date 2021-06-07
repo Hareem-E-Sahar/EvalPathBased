@@ -1,0 +1,27 @@
+connection url SimpleName InfixExpression SimpleName db file
+driver manager SimpleName MethodInvocation SimpleName get connection
+driver manager SimpleName MethodInvocation InfixExpression SimpleName connection url
+driver manager SimpleName MethodInvocation InfixExpression SimpleName db file
+get connection SimpleName MethodInvocation InfixExpression SimpleName connection url
+get connection SimpleName MethodInvocation InfixExpression SimpleName db file
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get connection
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName sql exception
+public Modifier MethodDeclaration SimpleType SimpleName connection
+public Modifier MethodDeclaration SimpleName get connection
+public Modifier MethodDeclaration SimpleType SimpleName sql exception
+connection SimpleName SimpleType MethodDeclaration SimpleName get connection
+connection SimpleName SimpleType MethodDeclaration SimpleType SimpleName sql exception
+get connection SimpleName MethodDeclaration SimpleType SimpleName sql exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+public Modifier TypeDeclaration MethodDeclaration SimpleName get connection
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sql exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get connection
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sql exception

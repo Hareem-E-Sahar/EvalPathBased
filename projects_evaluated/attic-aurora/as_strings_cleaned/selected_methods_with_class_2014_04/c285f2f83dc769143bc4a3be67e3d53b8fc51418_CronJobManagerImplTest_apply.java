@@ -1,0 +1,38 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName i job configuration
+storagestore provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+cron job manager SimpleName MethodInvocation SimpleName get manager key
+store provider SimpleName MethodInvocation MethodInvocation SimpleName fetch job
+get job store SimpleName MethodInvocation MethodInvocation SimpleName fetch job
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job manager
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job manager
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+store provider SimpleName MethodInvocation MethodInvocation QualifiedName quartz test utilaurora job key
+get job store SimpleName MethodInvocation MethodInvocation QualifiedName quartz test utilaurora job key
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+fetch job SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+fetch job SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+cron job manager SimpleName MethodInvocation MethodInvocation QualifiedName quartz test utilaurora job key
+get manager key SimpleName MethodInvocation MethodInvocation QualifiedName quartz test utilaurora job key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName optional
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i job configuration
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+i job configuration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider

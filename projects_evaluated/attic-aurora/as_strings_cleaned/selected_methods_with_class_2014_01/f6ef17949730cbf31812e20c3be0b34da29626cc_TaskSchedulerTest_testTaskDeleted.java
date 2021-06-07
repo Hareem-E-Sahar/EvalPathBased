@@ -1,0 +1,158 @@
+expect offer decline in SimpleName MethodInvocation NumberLiteral empty
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation SimpleName pending
+a StringLiteral MethodInvocation SimpleName pending
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+task SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName make task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral a
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pending
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+capture SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+expect task group backoff SimpleName MethodInvocation NumberLiteral empty
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation SimpleName expect task group backoff
+timeout capture SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName offer a
+assigner SimpleName MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName empty job
+maybe assign SimpleName MethodInvocation SimpleName offer a
+maybe assign SimpleName MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName empty job
+offer a SimpleName MethodInvocation SimpleName task
+offer a SimpleName MethodInvocation SimpleName empty job
+task SimpleName MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName assigner
+expect SimpleName MethodInvocation MethodInvocation SimpleName maybe assign
+expect SimpleName MethodInvocation MethodInvocation SimpleName offer a
+expect SimpleName MethodInvocation MethodInvocation SimpleName task
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+optional SimpleName MethodInvocation SimpleType SimpleName task info
+optional SimpleName MethodInvocation SimpleName absent
+task info SimpleName SimpleType MethodInvocation SimpleName absent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+offer a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName absent
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleType SimpleName task info
+and return SimpleName MethodInvocation MethodInvocation SimpleName absent
+expect task group backoff SimpleName MethodInvocation NumberLiteral empty
+expect task group backoff SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+preemptor SimpleName MethodInvocation SimpleName find preemption slot for
+preemptor SimpleName MethodInvocation StringLiteral a
+preemptor SimpleName MethodInvocation SimpleName empty job
+find preemption slot for SimpleName MethodInvocation StringLiteral a
+find preemption slot for SimpleName MethodInvocation SimpleName empty job
+a StringLiteral MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName preemptor
+expect SimpleName MethodInvocation MethodInvocation SimpleName find preemption slot for
+expect SimpleName MethodInvocation MethodInvocation StringLiteral a
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+optional SimpleName MethodInvocation SimpleType SimpleName string
+optional SimpleName MethodInvocation SimpleName absent
+string SimpleName SimpleType MethodInvocation SimpleName absent
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+preemptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+find preemption slot for SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName absent
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+and return SimpleName MethodInvocation MethodInvocation SimpleName absent
+offer queue SimpleName MethodInvocation SimpleName add offer
+offer queue SimpleName MethodInvocation SimpleName offer a
+add offer SimpleName MethodInvocation SimpleName offer a
+change state SimpleName MethodInvocation SimpleName task
+change state SimpleName MethodInvocation SimpleName init
+change state SimpleName MethodInvocation SimpleName pending
+task SimpleName MethodInvocation SimpleName init
+task SimpleName MethodInvocation SimpleName pending
+init SimpleName MethodInvocation SimpleName pending
+timeout capture SimpleName MethodInvocation SimpleName get value
+timeout capture SimpleName MethodInvocation MethodInvocation SimpleName run
+get value SimpleName MethodInvocation MethodInvocation SimpleName run
+change state SimpleName MethodInvocation SimpleName task
+change state SimpleName MethodInvocation SimpleName init
+change state SimpleName MethodInvocation SimpleName pending
+task SimpleName MethodInvocation SimpleName init
+task SimpleName MethodInvocation SimpleName pending
+init SimpleName MethodInvocation SimpleName pending
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get unsafe task store
+tasks SimpleName MethodInvocation SimpleName ids
+tasks SimpleName MethodInvocation SimpleName task
+ids SimpleName MethodInvocation SimpleName task
+store provider SimpleName MethodInvocation MethodInvocation SimpleName delete tasks
+get unsafe task store SimpleName MethodInvocation MethodInvocation SimpleName delete tasks
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ids
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get unsafe task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+get unsafe task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ids
+get unsafe task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName tasks
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName ids
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName task
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName write
+storage SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName mutate workno resultquiet
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName mutate workno resultquiet
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName task
+of SimpleName MethodInvocation SimpleName task
+tasks deleted SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName immutable set
+tasks deleted SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName of
+tasks deleted SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName task
+task groups SimpleName MethodInvocation SimpleName tasks deleted
+task groups SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tasks deleted
+task groups SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable set
+task groups SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+task groups SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName task
+tasks deleted SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tasks deleted
+tasks deleted SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName immutable set
+tasks deleted SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName of
+tasks deleted SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName task
+timeout capture SimpleName MethodInvocation SimpleName get value
+timeout capture SimpleName MethodInvocation MethodInvocation SimpleName run
+get value SimpleName MethodInvocation MethodInvocation SimpleName run
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test task deleted
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test task deleted
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test task deleted
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test task deleted SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test task deleted
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test task deleted

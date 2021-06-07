@@ -1,0 +1,19 @@
+config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+void PrimitiveType MethodDeclaration SimpleName set config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+set config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName config
+set config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

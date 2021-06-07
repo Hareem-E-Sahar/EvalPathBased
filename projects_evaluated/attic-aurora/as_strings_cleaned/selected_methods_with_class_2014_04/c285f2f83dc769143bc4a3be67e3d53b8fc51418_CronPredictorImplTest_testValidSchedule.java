@@ -1,0 +1,87 @@
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation NumberLiteral l
+amount SimpleName MethodInvocation QualifiedName timedays
+of SimpleName MethodInvocation NumberLiteral l
+of SimpleName MethodInvocation QualifiedName timedays
+l NumberLiteral MethodInvocation QualifiedName timedays
+clock SimpleName MethodInvocation SimpleName advance
+clock SimpleName MethodInvocation MethodInvocation SimpleName amount
+clock SimpleName MethodInvocation MethodInvocation SimpleName of
+clock SimpleName MethodInvocation MethodInvocation NumberLiteral l
+clock SimpleName MethodInvocation MethodInvocation QualifiedName timedays
+advance SimpleName MethodInvocation MethodInvocation SimpleName amount
+advance SimpleName MethodInvocation MethodInvocation SimpleName of
+advance SimpleName MethodInvocation MethodInvocation NumberLiteral l
+advance SimpleName MethodInvocation MethodInvocation QualifiedName timedays
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation NumberLiteral l
+amount SimpleName MethodInvocation QualifiedName timedays
+of SimpleName MethodInvocation NumberLiteral l
+of SimpleName MethodInvocation QualifiedName timedays
+l NumberLiteral MethodInvocation QualifiedName timedays
+amount SimpleName MethodInvocation MethodInvocation SimpleName as
+of SimpleName MethodInvocation MethodInvocation SimpleName as
+l NumberLiteral MethodInvocation MethodInvocation SimpleName as
+timedays QualifiedName MethodInvocation MethodInvocation SimpleName as
+amount SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+of SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName timemilliseconds
+timedays QualifiedName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+as SimpleName MethodInvocation QualifiedName timemilliseconds
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation NumberLiteral l
+amount SimpleName MethodInvocation QualifiedName timeminutes
+of SimpleName MethodInvocation NumberLiteral l
+of SimpleName MethodInvocation QualifiedName timeminutes
+l NumberLiteral MethodInvocation QualifiedName timeminutes
+amount SimpleName MethodInvocation MethodInvocation SimpleName as
+of SimpleName MethodInvocation MethodInvocation SimpleName as
+l NumberLiteral MethodInvocation MethodInvocation SimpleName as
+timeminutes QualifiedName MethodInvocation MethodInvocation SimpleName as
+amount SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+of SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+l NumberLiteral MethodInvocation MethodInvocation QualifiedName timemilliseconds
+timeminutes QualifiedName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+as SimpleName MethodInvocation QualifiedName timemilliseconds
+as SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName as
+as SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName timemilliseconds
+timemilliseconds QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName as
+timemilliseconds QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName timemilliseconds
+expected prediction SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName date
+date SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected prediction
+crontab entry SimpleName MethodInvocation SimpleName parse
+crontab entry SimpleName MethodInvocation StringLiteral * * * * *
+parse SimpleName MethodInvocation StringLiteral * * * * *
+cron predictor SimpleName MethodInvocation SimpleName predict next run
+cron predictor SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+cron predictor SimpleName MethodInvocation MethodInvocation SimpleName parse
+cron predictor SimpleName MethodInvocation MethodInvocation StringLiteral * * * * *
+predict next run SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+predict next run SimpleName MethodInvocation MethodInvocation SimpleName parse
+predict next run SimpleName MethodInvocation MethodInvocation StringLiteral * * * * *
+assert equals SimpleName MethodInvocation SimpleName expected prediction
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cron predictor
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName predict next run
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName crontab entry
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral * * * * *
+expected prediction SimpleName MethodInvocation MethodInvocation SimpleName cron predictor
+expected prediction SimpleName MethodInvocation MethodInvocation SimpleName predict next run
+expected prediction SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName crontab entry
+expected prediction SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName parse
+expected prediction SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral * * * * *
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test valid schedule
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test valid schedule
+void PrimitiveType MethodDeclaration SimpleName test valid schedule
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test valid schedule
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test valid schedule

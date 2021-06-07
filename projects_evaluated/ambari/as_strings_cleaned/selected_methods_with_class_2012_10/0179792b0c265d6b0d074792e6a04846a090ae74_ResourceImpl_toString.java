@@ -1,0 +1,128 @@
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral resource :
+append SimpleName MethodInvocation StringLiteral resource :
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+resource : StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName type
+append SimpleName MethodInvocation MethodInvocation SimpleName type
+resource : StringLiteral MethodInvocation MethodInvocation SimpleName type
+append SimpleName MethodInvocation SimpleName type
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+resource : StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+type SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+resource : StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+type SimpleName MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cat entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cat entry
+categories SimpleName MethodInvocation SimpleName entry set
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName prop entry
+cat entry SimpleName MethodInvocation SimpleName get value
+cat entry SimpleName MethodInvocation MethodInvocation SimpleName entry set
+get value SimpleName MethodInvocation MethodInvocation SimpleName entry set
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+cat entry SimpleName MethodInvocation SimpleName get key
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cat entry
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cat entry
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName cat entry
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation SimpleName cat entry
+append SimpleName MethodInvocation MethodInvocation SimpleName get key
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+cat entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral .
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation MethodInvocation StringLiteral .
+cat entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral .
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral .
+append SimpleName MethodInvocation StringLiteral .
+prop entry SimpleName MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+. StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop entry
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName prop entry
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation SimpleName prop entry
+append SimpleName MethodInvocation MethodInvocation SimpleName get key
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+prop entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+. StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation MethodInvocation StringLiteral :
+prop entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+get key SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral :
+append SimpleName MethodInvocation StringLiteral :
+prop entry SimpleName MethodInvocation SimpleName get value
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+: StringLiteral MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop entry
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName prop entry
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+append SimpleName MethodInvocation MethodInvocation SimpleName prop entry
+append SimpleName MethodInvocation MethodInvocation SimpleName get value
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+prop entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+: StringLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation MethodInvocation StringLiteral empty
+prop entry SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+prop entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+cat entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName categories
+cat entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+sb SimpleName MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

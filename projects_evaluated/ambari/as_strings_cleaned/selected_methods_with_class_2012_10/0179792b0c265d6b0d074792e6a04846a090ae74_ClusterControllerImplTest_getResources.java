@@ -1,0 +1,143 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+predicate SimpleName SimpleType SingleVariableDeclaration SimpleName predicate
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+cnt SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName cnt
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+cnt SimpleName InfixExpression NumberLiteral empty
+resource impl SimpleName SimpleType ClassInstanceCreation QualifiedName resourcetypehost
+resource SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName resource impl
+resource SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName resourcetypehost
+resource impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+properties SimpleName MethodInvocation SimpleName get property id
+properties SimpleName MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation StringLiteral c
+get property id SimpleName MethodInvocation StringLiteral p
+get property id SimpleName MethodInvocation StringLiteral c
+p StringLiteral MethodInvocation StringLiteral c
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation MethodInvocation SimpleName properties
+resource SimpleName MethodInvocation MethodInvocation SimpleName get property id
+resource SimpleName MethodInvocation MethodInvocation StringLiteral p
+resource SimpleName MethodInvocation MethodInvocation StringLiteral c
+resource SimpleName MethodInvocation SimpleName cnt
+set property SimpleName MethodInvocation MethodInvocation SimpleName properties
+set property SimpleName MethodInvocation MethodInvocation SimpleName get property id
+set property SimpleName MethodInvocation MethodInvocation StringLiteral p
+set property SimpleName MethodInvocation MethodInvocation StringLiteral c
+set property SimpleName MethodInvocation SimpleName cnt
+properties SimpleName MethodInvocation MethodInvocation SimpleName cnt
+get property id SimpleName MethodInvocation MethodInvocation SimpleName cnt
+p StringLiteral MethodInvocation MethodInvocation SimpleName cnt
+c StringLiteral MethodInvocation MethodInvocation SimpleName cnt
+properties SimpleName MethodInvocation SimpleName get property id
+properties SimpleName MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation StringLiteral c
+get property id SimpleName MethodInvocation StringLiteral p
+get property id SimpleName MethodInvocation StringLiteral c
+p StringLiteral MethodInvocation StringLiteral c
+cnt SimpleName InfixExpression NumberLiteral empty
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation MethodInvocation SimpleName properties
+resource SimpleName MethodInvocation MethodInvocation SimpleName get property id
+resource SimpleName MethodInvocation MethodInvocation StringLiteral p
+resource SimpleName MethodInvocation MethodInvocation StringLiteral c
+resource SimpleName MethodInvocation InfixExpression SimpleName cnt
+resource SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set property SimpleName MethodInvocation MethodInvocation SimpleName properties
+set property SimpleName MethodInvocation MethodInvocation SimpleName get property id
+set property SimpleName MethodInvocation MethodInvocation StringLiteral p
+set property SimpleName MethodInvocation MethodInvocation StringLiteral c
+set property SimpleName MethodInvocation InfixExpression SimpleName cnt
+set property SimpleName MethodInvocation InfixExpression NumberLiteral empty
+properties SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName cnt
+properties SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get property id SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName cnt
+get property id SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+p StringLiteral MethodInvocation MethodInvocation InfixExpression SimpleName cnt
+p StringLiteral MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+c StringLiteral MethodInvocation MethodInvocation InfixExpression SimpleName cnt
+c StringLiteral MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+properties SimpleName MethodInvocation SimpleName get property id
+properties SimpleName MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation StringLiteral c
+get property id SimpleName MethodInvocation StringLiteral p
+get property id SimpleName MethodInvocation StringLiteral c
+p StringLiteral MethodInvocation StringLiteral c
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation MethodInvocation SimpleName properties
+resource SimpleName MethodInvocation MethodInvocation SimpleName get property id
+resource SimpleName MethodInvocation MethodInvocation StringLiteral p
+resource SimpleName MethodInvocation MethodInvocation StringLiteral c
+resource SimpleName MethodInvocation StringLiteral foo
+set property SimpleName MethodInvocation MethodInvocation SimpleName properties
+set property SimpleName MethodInvocation MethodInvocation SimpleName get property id
+set property SimpleName MethodInvocation MethodInvocation StringLiteral p
+set property SimpleName MethodInvocation MethodInvocation StringLiteral c
+set property SimpleName MethodInvocation StringLiteral foo
+properties SimpleName MethodInvocation MethodInvocation StringLiteral foo
+get property id SimpleName MethodInvocation MethodInvocation StringLiteral foo
+p StringLiteral MethodInvocation MethodInvocation StringLiteral foo
+c StringLiteral MethodInvocation MethodInvocation StringLiteral foo
+properties SimpleName MethodInvocation SimpleName get property id
+properties SimpleName MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation StringLiteral c
+get property id SimpleName MethodInvocation StringLiteral p
+get property id SimpleName MethodInvocation StringLiteral c
+p StringLiteral MethodInvocation StringLiteral c
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation MethodInvocation SimpleName properties
+resource SimpleName MethodInvocation MethodInvocation SimpleName get property id
+resource SimpleName MethodInvocation MethodInvocation StringLiteral p
+resource SimpleName MethodInvocation MethodInvocation StringLiteral c
+resource SimpleName MethodInvocation StringLiteral bar
+set property SimpleName MethodInvocation MethodInvocation SimpleName properties
+set property SimpleName MethodInvocation MethodInvocation SimpleName get property id
+set property SimpleName MethodInvocation MethodInvocation StringLiteral p
+set property SimpleName MethodInvocation MethodInvocation StringLiteral c
+set property SimpleName MethodInvocation StringLiteral bar
+properties SimpleName MethodInvocation MethodInvocation StringLiteral bar
+get property id SimpleName MethodInvocation MethodInvocation StringLiteral bar
+p StringLiteral MethodInvocation MethodInvocation StringLiteral bar
+c StringLiteral MethodInvocation MethodInvocation StringLiteral bar
+resources SimpleName MethodInvocation SimpleName add
+resources SimpleName MethodInvocation SimpleName resource
+add SimpleName MethodInvocation SimpleName resource
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName cnt
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName cnt
+cnt SimpleName InfixExpression ForStatement PrefixExpression SimpleName cnt
+empty NumberLiteral InfixExpression ForStatement PrefixExpression SimpleName cnt
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get resources
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName resource
+public Modifier MethodDeclaration SimpleName get resources
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resources
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get resources
+resource SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get resources
+get resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+get resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+get resources SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+get resources SimpleName MethodDeclaration Block ReturnStatement SimpleName resources
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resources
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resources
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate

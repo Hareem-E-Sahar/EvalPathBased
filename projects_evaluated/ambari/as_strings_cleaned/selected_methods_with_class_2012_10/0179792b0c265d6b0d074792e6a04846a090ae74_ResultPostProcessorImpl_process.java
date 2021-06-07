@@ -1,0 +1,36 @@
+result SimpleName SimpleType SingleVariableDeclaration SimpleName result
+result SimpleName MethodInvocation SimpleName get result tree
+m request SimpleName MethodInvocation SimpleName get uri
+m request SimpleName MethodInvocation MethodInvocation SimpleName to string
+get uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+process node SimpleName MethodInvocation MethodInvocation SimpleName result
+process node SimpleName MethodInvocation MethodInvocation SimpleName get result tree
+process node SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName m request
+process node SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get uri
+process node SimpleName MethodInvocation MethodInvocation SimpleName to string
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get result tree SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName result
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result

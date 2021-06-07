@@ -1,0 +1,52 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+int PrimitiveType SingleVariableDeclaration SimpleName max tasks
+tasks SimpleName MethodInvocation SimpleName stream
+tasks SimpleName MethodInvocation SimpleName size
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation SimpleName tasks
+math SimpleName MethodInvocation MethodInvocation SimpleName size
+math SimpleName MethodInvocation SimpleName max tasks
+min SimpleName MethodInvocation MethodInvocation SimpleName tasks
+min SimpleName MethodInvocation MethodInvocation SimpleName size
+min SimpleName MethodInvocation SimpleName max tasks
+tasks SimpleName MethodInvocation MethodInvocation SimpleName max tasks
+size SimpleName MethodInvocation MethodInvocation SimpleName max tasks
+tasks SimpleName MethodInvocation MethodInvocation SimpleName limit
+stream SimpleName MethodInvocation MethodInvocation SimpleName limit
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName math
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName min
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max tasks
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName math
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName min
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max tasks
+limit SimpleName MethodInvocation MethodInvocation SimpleName math
+limit SimpleName MethodInvocation MethodInvocation SimpleName min
+limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+limit SimpleName MethodInvocation MethodInvocation SimpleName max tasks
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+limit SimpleName MethodInvocation MethodInvocation SimpleName collect
+math SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+min SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+max tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to immutable set
+collect SimpleName MethodInvocation MethodInvocation SimpleName to immutable set
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName peek
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName max tasks
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName peek
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName peek
+peek SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+peek SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max tasks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName peek
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max tasks
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName peek
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max tasks

@@ -1,0 +1,13 @@
+crontab entry SimpleName MethodInvocation SimpleName parse
+crontab entry SimpleName MethodInvocation MethodInvocation SimpleName get schedule
+parse SimpleName MethodInvocation MethodInvocation SimpleName get schedule
+public Modifier MethodDeclaration SimpleType SimpleName crontab entry
+public Modifier MethodDeclaration SimpleName parse crontab entry
+crontab entry SimpleName SimpleType MethodDeclaration SimpleName parse crontab entry
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName crontab entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse crontab entry
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName crontab entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse crontab entry

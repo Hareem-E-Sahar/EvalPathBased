@@ -1,0 +1,199 @@
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+tree node SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+tree node SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result node
+resource SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName result node
+string SimpleName SimpleType SingleVariableDeclaration SimpleName href
+tree node SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+result node SimpleName MethodInvocation SimpleName get parent
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName result node
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+parent SimpleName MethodInvocation SimpleName get parent
+parent SimpleName MethodInvocation SimpleName get parent
+parent SimpleName MethodInvocation MethodInvocation SimpleName get object
+get parent SimpleName MethodInvocation MethodInvocation SimpleName get object
+parent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+get parent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+get object SimpleName MethodInvocation MethodInvocation SimpleName get type
+get object SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName resourcetypehost component
+get type SimpleName MethodInvocation InfixExpression QualifiedName resourcetypehost component
+result node SimpleName MethodInvocation SimpleName get object
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName result node
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get object
+resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+get resource ids SimpleName MethodInvocation MethodInvocation SimpleName get
+get resource ids SimpleName MethodInvocation MethodInvocation QualifiedName resourcetypecluster
+get SimpleName MethodInvocation QualifiedName resourcetypecluster
+cluster id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get resource ids
+cluster id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+cluster id SimpleName VariableDeclarationFragment MethodInvocation QualifiedName resourcetypecluster
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster id
+cluster controller helper SimpleName MethodInvocation SimpleName get cluster controller
+r SimpleName MethodInvocation SimpleName get type
+cluster controller helper SimpleName MethodInvocation MethodInvocation SimpleName get schema
+get cluster controller SimpleName MethodInvocation MethodInvocation SimpleName get schema
+cluster controller helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+cluster controller helper SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+get cluster controller SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+get cluster controller SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+get schema SimpleName MethodInvocation MethodInvocation SimpleName r
+get schema SimpleName MethodInvocation MethodInvocation SimpleName get type
+schema SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cluster controller helper
+schema SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster controller
+schema SimpleName VariableDeclarationFragment MethodInvocation SimpleName get schema
+schema SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName r
+schema SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get type
+schema SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema
+schema SimpleName MethodInvocation SimpleName get key property id
+schema SimpleName MethodInvocation QualifiedName resourcetypeservice
+get key property id SimpleName MethodInvocation QualifiedName resourcetypeservice
+r SimpleName MethodInvocation SimpleName get property value
+r SimpleName MethodInvocation MethodInvocation SimpleName schema
+r SimpleName MethodInvocation MethodInvocation SimpleName get key property id
+r SimpleName MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+get property value SimpleName MethodInvocation MethodInvocation SimpleName schema
+get property value SimpleName MethodInvocation MethodInvocation SimpleName get key property id
+get property value SimpleName MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+service id SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+service id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property value
+service id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName schema
+service id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key property id
+service id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName resourcetypeservice
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service id
+r SimpleName MethodInvocation SimpleName get type
+schema SimpleName MethodInvocation SimpleName get key property id
+schema SimpleName MethodInvocation MethodInvocation SimpleName r
+schema SimpleName MethodInvocation MethodInvocation SimpleName get type
+get key property id SimpleName MethodInvocation MethodInvocation SimpleName r
+get key property id SimpleName MethodInvocation MethodInvocation SimpleName get type
+r SimpleName MethodInvocation SimpleName get property value
+r SimpleName MethodInvocation MethodInvocation SimpleName schema
+r SimpleName MethodInvocation MethodInvocation SimpleName get key property id
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+r SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+get property value SimpleName MethodInvocation MethodInvocation SimpleName schema
+get property value SimpleName MethodInvocation MethodInvocation SimpleName get key property id
+get property value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName r
+get property value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get type
+component id SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+component id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property value
+component id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName schema
+component id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get key property id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName component id
+href SimpleName MethodInvocation SimpleName index of
+href SimpleName MethodInvocation SimpleName cluster id
+index of SimpleName MethodInvocation SimpleName cluster id
+cluster id SimpleName MethodInvocation SimpleName length
+href SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+href SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+index of SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+cluster id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+cluster id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+href SimpleName MethodInvocation InfixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cluster id SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cluster id SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+href SimpleName MethodInvocation SimpleName substring
+href SimpleName MethodInvocation NumberLiteral empty
+href SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName href
+href SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+href SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+href SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+href SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+href SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName href
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName index of
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName href
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName index of
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName cluster id
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+href SimpleName MethodInvocation InfixExpression StringLiteral services
+substring SimpleName MethodInvocation InfixExpression StringLiteral services
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral services
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral services
+href SimpleName MethodInvocation InfixExpression SimpleName service id
+substring SimpleName MethodInvocation InfixExpression SimpleName service id
+empty NumberLiteral MethodInvocation InfixExpression SimpleName service id
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName service id
+href SimpleName MethodInvocation InfixExpression StringLiteral components
+substring SimpleName MethodInvocation InfixExpression StringLiteral components
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral components
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral components
+href SimpleName MethodInvocation InfixExpression SimpleName component id
+substring SimpleName MethodInvocation InfixExpression SimpleName component id
+empty NumberLiteral MethodInvocation InfixExpression SimpleName component id
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName component id
+services StringLiteral InfixExpression SimpleName service id
+services StringLiteral InfixExpression StringLiteral components
+services StringLiteral InfixExpression SimpleName component id
+service id SimpleName InfixExpression StringLiteral components
+service id SimpleName InfixExpression SimpleName component id
+components StringLiteral InfixExpression SimpleName component id
+href SimpleName Assignment InfixExpression MethodInvocation SimpleName href
+href SimpleName Assignment InfixExpression MethodInvocation SimpleName substring
+href SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+href SimpleName Assignment InfixExpression StringLiteral services
+href SimpleName Assignment InfixExpression SimpleName service id
+href SimpleName Assignment InfixExpression StringLiteral components
+href SimpleName Assignment InfixExpression SimpleName component id
+result node SimpleName MethodInvocation SimpleName set property
+result node SimpleName MethodInvocation StringLiteral href
+result node SimpleName MethodInvocation SimpleName href
+set property SimpleName MethodInvocation StringLiteral href
+set property SimpleName MethodInvocation SimpleName href
+href StringLiteral MethodInvocation SimpleName href
+process SimpleName SuperMethodInvocation SimpleName request
+process SimpleName SuperMethodInvocation SimpleName result node
+process SimpleName SuperMethodInvocation SimpleName href
+request SimpleName SuperMethodInvocation SimpleName result node
+request SimpleName SuperMethodInvocation SimpleName href
+result node SimpleName SuperMethodInvocation SimpleName href
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName process
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName result node
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName result node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName href
+void PrimitiveType MethodDeclaration SimpleName process
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName result node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName href
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result node
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process SimpleName MethodDeclaration SingleVariableDeclaration SimpleName href
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result node
+request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName href
+result node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName href
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName href
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName href

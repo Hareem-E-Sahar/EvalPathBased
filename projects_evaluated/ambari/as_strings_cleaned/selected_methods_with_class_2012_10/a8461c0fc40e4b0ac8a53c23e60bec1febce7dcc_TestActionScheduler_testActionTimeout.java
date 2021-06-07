@@ -1,0 +1,154 @@
+aq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName action queue
+action queue SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aq
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clusters
+fsm SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+clusters SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsm
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cluster
+one cluster mock SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName one cluster mock
+fsm SimpleName MethodInvocation SimpleName get cluster
+fsm SimpleName MethodInvocation MethodInvocation SimpleName any string
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation SimpleName fsm
+when SimpleName MethodInvocation MethodInvocation SimpleName get cluster
+when SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any string
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName one cluster mock
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName one cluster mock
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName one cluster mock
+then return SimpleName MethodInvocation SimpleName one cluster mock
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName action db accessor impl
+db SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+action db accessor impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName db
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+stage SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+stage SimpleName SimpleType ClassInstanceCreation StringLiteral bogus
+stage SimpleName SimpleType ClassInstanceCreation StringLiteral cluster name
+empty NumberLiteral ClassInstanceCreation StringLiteral bogus
+empty NumberLiteral ClassInstanceCreation StringLiteral cluster name
+bogus StringLiteral ClassInstanceCreation StringLiteral cluster name
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stage
+s SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+s SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral bogus
+s SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral cluster name
+stage SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName set stage id
+s SimpleName MethodInvocation NumberLiteral empty
+set stage id SimpleName MethodInvocation NumberLiteral empty
+stages SimpleName MethodInvocation SimpleName add
+stages SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+hostname SimpleName VariableDeclarationFragment StringLiteral ahostambariapacheorg
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral ahostambariapacheorg
+host action SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+ha SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host action
+ha SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hostname
+host action SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ha
+host role command SimpleName SimpleType ClassInstanceCreation QualifiedName roledatanode
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host role command
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName roledatanode
+host role command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hrc
+ha SimpleName MethodInvocation SimpleName add host role command
+ha SimpleName MethodInvocation SimpleName hrc
+add host role command SimpleName MethodInvocation SimpleName hrc
+s SimpleName MethodInvocation SimpleName add host action
+s SimpleName MethodInvocation SimpleName hostname
+s SimpleName MethodInvocation SimpleName ha
+add host action SimpleName MethodInvocation SimpleName hostname
+add host action SimpleName MethodInvocation SimpleName ha
+hostname SimpleName MethodInvocation SimpleName ha
+db SimpleName MethodInvocation SimpleName get stages in progress
+when SimpleName MethodInvocation MethodInvocation SimpleName db
+when SimpleName MethodInvocation MethodInvocation SimpleName get stages in progress
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+db SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get stages in progress SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName stages
+db SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stages
+get stages in progress SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stages
+then return SimpleName MethodInvocation SimpleName stages
+action scheduler SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+action scheduler SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+action scheduler SimpleName SimpleType ClassInstanceCreation SimpleName db
+action scheduler SimpleName SimpleType ClassInstanceCreation SimpleName aq
+action scheduler SimpleName SimpleType ClassInstanceCreation SimpleName fsm
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation SimpleName db
+empty NumberLiteral ClassInstanceCreation SimpleName aq
+empty NumberLiteral ClassInstanceCreation SimpleName fsm
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation SimpleName db
+empty NumberLiteral ClassInstanceCreation SimpleName aq
+empty NumberLiteral ClassInstanceCreation SimpleName fsm
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+db SimpleName ClassInstanceCreation SimpleName aq
+db SimpleName ClassInstanceCreation SimpleName fsm
+db SimpleName ClassInstanceCreation NumberLiteral empty
+aq SimpleName ClassInstanceCreation SimpleName fsm
+aq SimpleName ClassInstanceCreation NumberLiteral empty
+fsm SimpleName ClassInstanceCreation NumberLiteral empty
+scheduler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName action scheduler
+scheduler SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+scheduler SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+scheduler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName db
+scheduler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName aq
+scheduler SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fsm
+scheduler SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+action scheduler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scheduler
+scheduler SimpleName MethodInvocation SimpleName start
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName db
+verify SimpleName MethodInvocation MethodInvocation SimpleName at least once
+db SimpleName MethodInvocation MethodInvocation SimpleName at least once
+verify SimpleName MethodInvocation MethodInvocation SimpleName timeout host role
+db SimpleName MethodInvocation MethodInvocation SimpleName timeout host role
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName timeout host role
+verify SimpleName MethodInvocation MethodInvocation SimpleName hostname
+db SimpleName MethodInvocation MethodInvocation SimpleName hostname
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+db SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+db SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation QualifiedName roledatanode
+db SimpleName MethodInvocation MethodInvocation QualifiedName roledatanode
+at least once SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName roledatanode
+timeout host role SimpleName MethodInvocation SimpleName hostname
+timeout host role SimpleName MethodInvocation NumberLiteral empty
+timeout host role SimpleName MethodInvocation NumberLiteral empty
+timeout host role SimpleName MethodInvocation QualifiedName roledatanode
+hostname SimpleName MethodInvocation NumberLiteral empty
+hostname SimpleName MethodInvocation NumberLiteral empty
+hostname SimpleName MethodInvocation QualifiedName roledatanode
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName roledatanode
+empty NumberLiteral MethodInvocation QualifiedName roledatanode
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test action timeout
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test action timeout
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test action timeout
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test action timeout SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test action timeout
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test action timeout
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

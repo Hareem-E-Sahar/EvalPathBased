@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName per service request
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName per service request
+public Modifier MethodDeclaration SimpleName get services
+public Modifier MethodDeclaration Block ReturnStatement SimpleName services
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get services
+per service request SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get services
+get services SimpleName MethodDeclaration Block ReturnStatement SimpleName services
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get services
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get services

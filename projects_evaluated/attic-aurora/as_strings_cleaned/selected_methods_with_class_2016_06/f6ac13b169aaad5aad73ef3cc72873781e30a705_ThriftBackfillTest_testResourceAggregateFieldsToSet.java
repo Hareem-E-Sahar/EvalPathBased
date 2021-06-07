@@ -1,0 +1,106 @@
+control SimpleName MethodInvocation SimpleName replay
+resource aggregate SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set num cpus
+resource aggregate SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral .
+set num cpus SimpleName MethodInvocation NumberLiteral .
+set num cpus SimpleName MethodInvocation MethodInvocation SimpleName set ram mb
+. NumberLiteral MethodInvocation MethodInvocation SimpleName set ram mb
+set num cpus SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation NumberLiteral empty
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+set ram mb SimpleName MethodInvocation MethodInvocation SimpleName set disk mb
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set disk mb
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set disk mb SimpleName MethodInvocation NumberLiteral empty
+aggregate SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set ram mb
+aggregate SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+aggregate SimpleName VariableDeclarationFragment MethodInvocation SimpleName set disk mb
+aggregate SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+resource aggregate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aggregate
+aggregate SimpleName MethodInvocation SimpleName deep copy
+num cpus SimpleName MethodInvocation NumberLiteral .
+ram mb SimpleName MethodInvocation NumberLiteral empty
+disk mb SimpleName MethodInvocation NumberLiteral empty
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+immutable set SimpleName MethodInvocation MethodInvocation NumberLiteral .
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+immutable set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+immutable set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+of SimpleName MethodInvocation MethodInvocation NumberLiteral .
+of SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+of SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+of SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName set resources
+deep copy SimpleName MethodInvocation MethodInvocation SimpleName set resources
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+deep copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+deep copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+set resources SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+set resources SimpleName MethodInvocation MethodInvocation SimpleName of
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName num cpus
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral .
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+i resource aggregate SimpleName MethodInvocation SimpleName build
+i resource aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+i resource aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName deep copy
+i resource aggregate SimpleName MethodInvocation MethodInvocation SimpleName set resources
+i resource aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+i resource aggregate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName deep copy
+build SimpleName MethodInvocation MethodInvocation SimpleName set resources
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName i resource aggregate
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set resources
+i resource aggregate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+thrift backfill SimpleName MethodInvocation SimpleName backfill resource aggregate
+thrift backfill SimpleName MethodInvocation SimpleName aggregate
+backfill resource aggregate SimpleName MethodInvocation SimpleName aggregate
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName thrift backfill
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName backfill resource aggregate
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+expected SimpleName MethodInvocation MethodInvocation SimpleName thrift backfill
+expected SimpleName MethodInvocation MethodInvocation SimpleName backfill resource aggregate
+expected SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resource aggregate fields to set
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resource aggregate fields to set
+void PrimitiveType MethodDeclaration SimpleName test resource aggregate fields to set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resource aggregate fields to set
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resource aggregate fields to set

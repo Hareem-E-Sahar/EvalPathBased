@@ -1,0 +1,82 @@
+fluent iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName task
+querybuilder QualifiedName SimpleType SingleVariableDeclaration SimpleName query
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName task
+optional SimpleName MethodInvocation SimpleName absent
+from SimpleName VariableDeclarationFragment MethodInvocation SimpleName optional
+from SimpleName VariableDeclarationFragment MethodInvocation SimpleName absent
+query SimpleName MethodInvocation SimpleName get
+query SimpleName MethodInvocation MethodInvocation SimpleName is set task ids
+get SimpleName MethodInvocation MethodInvocation SimpleName is set task ids
+task queries by id SimpleName MethodInvocation SimpleName increment and get
+query SimpleName MethodInvocation SimpleName get
+query SimpleName MethodInvocation MethodInvocation SimpleName get task ids
+get SimpleName MethodInvocation MethodInvocation SimpleName get task ids
+from id index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+from id index SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+from id index SimpleName MethodInvocation MethodInvocation SimpleName get task ids
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation MethodInvocation SimpleName from id index
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task ids
+of SimpleName MethodInvocation MethodInvocation SimpleName from id index
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task ids
+from SimpleName Assignment MethodInvocation SimpleName optional
+from SimpleName Assignment MethodInvocation SimpleName of
+from SimpleName Assignment MethodInvocation MethodInvocation SimpleName from id index
+secondary index SimpleName SimpleType ParameterizedType WildcardType ?
+secondary index SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName index
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName index
+index SimpleName MethodInvocation SimpleName get matches
+index SimpleName MethodInvocation SimpleName query
+get matches SimpleName MethodInvocation SimpleName query
+from SimpleName Assignment MethodInvocation SimpleName index
+from SimpleName Assignment MethodInvocation SimpleName get matches
+from SimpleName Assignment MethodInvocation SimpleName query
+from SimpleName MethodInvocation SimpleName is present
+? WildcardType ParameterizedType SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+index SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+from SimpleName MethodInvocation SimpleName is present
+task queries all SimpleName MethodInvocation SimpleName increment and get
+tasks SimpleName MethodInvocation SimpleName values
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation MethodInvocation SimpleName tasks
+optional SimpleName MethodInvocation MethodInvocation SimpleName values
+of SimpleName MethodInvocation MethodInvocation SimpleName tasks
+of SimpleName MethodInvocation MethodInvocation SimpleName values
+from SimpleName Assignment MethodInvocation SimpleName optional
+from SimpleName Assignment MethodInvocation SimpleName of
+from SimpleName Assignment MethodInvocation MethodInvocation SimpleName tasks
+from SimpleName Assignment MethodInvocation MethodInvocation SimpleName values
+from SimpleName MethodInvocation SimpleName get
+fluent iterable SimpleName MethodInvocation SimpleName from
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName from
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName get
+from SimpleName MethodInvocation MethodInvocation SimpleName from
+from SimpleName MethodInvocation MethodInvocation SimpleName get
+query SimpleName MethodInvocation SimpleName get
+query filter SimpleName MethodInvocation MethodInvocation SimpleName query
+query filter SimpleName MethodInvocation MethodInvocation SimpleName get
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName filter
+from SimpleName MethodInvocation MethodInvocation SimpleName filter
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query filter
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query filter
+filter SimpleName MethodInvocation MethodInvocation SimpleName query filter
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName fluent iterable
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName task
+private Modifier MethodDeclaration SimpleName matches
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName querybuilder
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName query
+fluent iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName matches
+task SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName matches
+matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName querybuilder
+matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName query
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName matches
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName matches
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName query

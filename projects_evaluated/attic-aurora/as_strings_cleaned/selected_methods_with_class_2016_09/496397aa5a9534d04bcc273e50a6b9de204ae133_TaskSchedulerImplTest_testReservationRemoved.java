@@ -1,0 +1,49 @@
+storage util SimpleName MethodInvocation SimpleName expect operations
+expect task still pending query SimpleName MethodInvocation SimpleName task a
+expect active job fetch SimpleName MethodInvocation SimpleName task a
+expect as map SimpleName MethodInvocation SimpleName no reservation
+expect assigned SimpleName MethodInvocation SimpleName task a
+expect assigned SimpleName MethodInvocation SimpleName no reservation
+task a SimpleName MethodInvocation SimpleName no reservation
+expect assigned SimpleName MethodInvocation MethodInvocation SimpleName and return
+task a SimpleName MethodInvocation MethodInvocation SimpleName and return
+no reservation SimpleName MethodInvocation MethodInvocation SimpleName and return
+expect assigned SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+task a SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+no reservation SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+expect get reservation SimpleName MethodInvocation SimpleName task a
+expect get reservation SimpleName MethodInvocation SimpleName slave id
+task a SimpleName MethodInvocation SimpleName slave id
+control SimpleName MethodInvocation SimpleName replay
+scheduler SimpleName MethodInvocation SimpleName schedule
+scheduler SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+scheduler SimpleName MethodInvocation StringLiteral a
+schedule SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+schedule SimpleName MethodInvocation StringLiteral a
+storage utilmutable store provider QualifiedName MethodInvocation StringLiteral a
+assert false SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert false SimpleName MethodInvocation MethodInvocation SimpleName schedule
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+assert false SimpleName MethodInvocation MethodInvocation StringLiteral a
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test reservation removed
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test reservation removed
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test reservation removed
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test reservation removed SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test reservation removed
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test reservation removed
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

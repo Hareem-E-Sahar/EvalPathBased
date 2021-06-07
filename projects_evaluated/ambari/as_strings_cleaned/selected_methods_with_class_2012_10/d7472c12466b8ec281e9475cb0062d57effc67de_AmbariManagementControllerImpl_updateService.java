@@ -1,0 +1,500 @@
+service request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+request SimpleName MethodInvocation SimpleName get service name
+request SimpleName MethodInvocation SimpleName get service name
+request SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get service name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+ambari exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid arguments
+log SimpleName MethodInvocation SimpleName is debug enabled
+received a update service request StringLiteral InfixExpression StringLiteral cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation SimpleName get service name
+received a update service request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+received a update service request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+received a update service request StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+received a update service request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+received a update service request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get service name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get service name
+received a update service request StringLiteral InfixExpression InfixExpression StringLiteral request
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral request
+received a update service request StringLiteral InfixExpression InfixExpression SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression SimpleName request
+request SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral service name
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get service name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get service name
+request SimpleName MethodInvocation InfixExpression StringLiteral request
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral request
+request SimpleName MethodInvocation InfixExpression SimpleName request
+get cluster name SimpleName MethodInvocation InfixExpression SimpleName request
+service name StringLiteral InfixExpression MethodInvocation SimpleName request
+service name StringLiteral InfixExpression MethodInvocation SimpleName get service name
+service name StringLiteral InfixExpression StringLiteral request
+service name StringLiteral InfixExpression SimpleName request
+request SimpleName MethodInvocation InfixExpression StringLiteral request
+get service name SimpleName MethodInvocation InfixExpression StringLiteral request
+request SimpleName MethodInvocation InfixExpression SimpleName request
+get service name SimpleName MethodInvocation InfixExpression SimpleName request
+request StringLiteral InfixExpression SimpleName request
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral received a update service request
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral service name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get service name
+log SimpleName MethodInvocation InfixExpression StringLiteral request
+log SimpleName MethodInvocation InfixExpression SimpleName request
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral received a update service request
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral service name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get service name
+debug SimpleName MethodInvocation InfixExpression StringLiteral request
+debug SimpleName MethodInvocation InfixExpression SimpleName request
+request SimpleName MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+final Modifier VariableDeclarationStatement SimpleType SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clusters
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get cluster
+cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster
+request SimpleName MethodInvocation SimpleName get service name
+cluster SimpleName MethodInvocation SimpleName get service
+cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get service name
+get service SimpleName MethodInvocation MethodInvocation SimpleName request
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get service name
+final Modifier VariableDeclarationStatement SimpleType SimpleName service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get service
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+request SimpleName MethodInvocation SimpleName get config versions
+unsupported operation - config updates not StringLiteral InfixExpression StringLiteral allowed
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported operation - config updates not
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral allowed
+request SimpleName MethodInvocation SimpleName get desired state
+request SimpleName MethodInvocation SimpleName get desired state
+state SimpleName MethodInvocation SimpleName value of
+state SimpleName MethodInvocation MethodInvocation SimpleName request
+state SimpleName MethodInvocation MethodInvocation SimpleName get desired state
+value of SimpleName MethodInvocation MethodInvocation SimpleName request
+value of SimpleName MethodInvocation MethodInvocation SimpleName get desired state
+new state SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+new state SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+new state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+new state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get desired state
+state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new state
+new state SimpleName MethodInvocation SimpleName is valid desired state
+ambari exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid desired state
+s SimpleName MethodInvocation SimpleName get desired state
+old state SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+old state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get desired state
+state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old state
+new state SimpleName InfixExpression SimpleName old state
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName service component
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName service component
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+service component SimpleName SimpleType SingleVariableDeclaration SimpleName sc
+s SimpleName MethodInvocation SimpleName get service components
+s SimpleName MethodInvocation MethodInvocation SimpleName values
+get service components SimpleName MethodInvocation MethodInvocation SimpleName values
+sc SimpleName MethodInvocation SimpleName get desired state
+old sc state SimpleName VariableDeclarationFragment MethodInvocation SimpleName sc
+old sc state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get desired state
+state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old sc state
+new state SimpleName InfixExpression SimpleName old sc state
+log SimpleName MethodInvocation SimpleName is debug enabled
+ignoring service component StringLiteral InfixExpression StringLiteral cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+s SimpleName MethodInvocation SimpleName get name
+sc SimpleName MethodInvocation SimpleName get name
+sc SimpleName MethodInvocation SimpleName get desired state
+ignoring service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+ignoring service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+ignoring service component StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+ignoring service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName s
+ignoring service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName s
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+ignoring service component StringLiteral InfixExpression InfixExpression StringLiteral component name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral component name
+ignoring service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName sc
+ignoring service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName sc
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral service name
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral component name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral component name
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral current state
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral current state
+service name StringLiteral InfixExpression MethodInvocation SimpleName s
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression StringLiteral component name
+service name StringLiteral InfixExpression MethodInvocation SimpleName sc
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression StringLiteral current state
+service name StringLiteral InfixExpression MethodInvocation SimpleName sc
+service name StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+s SimpleName MethodInvocation InfixExpression StringLiteral component name
+get name SimpleName MethodInvocation InfixExpression StringLiteral component name
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+s SimpleName MethodInvocation InfixExpression StringLiteral current state
+get name SimpleName MethodInvocation InfixExpression StringLiteral current state
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+s SimpleName MethodInvocation InfixExpression StringLiteral new state
+get name SimpleName MethodInvocation InfixExpression StringLiteral new state
+component name StringLiteral InfixExpression MethodInvocation SimpleName sc
+component name StringLiteral InfixExpression MethodInvocation SimpleName get name
+component name StringLiteral InfixExpression StringLiteral current state
+component name StringLiteral InfixExpression MethodInvocation SimpleName sc
+component name StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+component name StringLiteral InfixExpression StringLiteral new state
+component name StringLiteral InfixExpression SimpleName new state
+sc SimpleName MethodInvocation InfixExpression StringLiteral current state
+get name SimpleName MethodInvocation InfixExpression StringLiteral current state
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+sc SimpleName MethodInvocation InfixExpression StringLiteral new state
+get name SimpleName MethodInvocation InfixExpression StringLiteral new state
+sc SimpleName MethodInvocation InfixExpression SimpleName new state
+get name SimpleName MethodInvocation InfixExpression SimpleName new state
+current state StringLiteral InfixExpression MethodInvocation SimpleName sc
+current state StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+current state StringLiteral InfixExpression StringLiteral new state
+current state StringLiteral InfixExpression SimpleName new state
+sc SimpleName MethodInvocation InfixExpression StringLiteral new state
+get desired state SimpleName MethodInvocation InfixExpression StringLiteral new state
+sc SimpleName MethodInvocation InfixExpression SimpleName new state
+get desired state SimpleName MethodInvocation InfixExpression SimpleName new state
+new state StringLiteral InfixExpression SimpleName new state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral ignoring service component
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral service name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral component name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral current state
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+log SimpleName MethodInvocation InfixExpression StringLiteral new state
+log SimpleName MethodInvocation InfixExpression SimpleName new state
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral ignoring service component
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral service name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral component name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral current state
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+debug SimpleName MethodInvocation InfixExpression StringLiteral new state
+debug SimpleName MethodInvocation InfixExpression SimpleName new state
+handling update to service component StringLiteral InfixExpression StringLiteral cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+s SimpleName MethodInvocation SimpleName get name
+sc SimpleName MethodInvocation SimpleName get name
+sc SimpleName MethodInvocation SimpleName get desired state
+handling update to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+handling update to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+handling update to service component StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+handling update to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName s
+handling update to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName s
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+handling update to service component StringLiteral InfixExpression InfixExpression StringLiteral component name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral component name
+handling update to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName sc
+handling update to service component StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName sc
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral service name
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral component name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral component name
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral current state
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral current state
+service name StringLiteral InfixExpression MethodInvocation SimpleName s
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression StringLiteral component name
+service name StringLiteral InfixExpression MethodInvocation SimpleName sc
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression StringLiteral current state
+service name StringLiteral InfixExpression MethodInvocation SimpleName sc
+service name StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+s SimpleName MethodInvocation InfixExpression StringLiteral component name
+get name SimpleName MethodInvocation InfixExpression StringLiteral component name
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+s SimpleName MethodInvocation InfixExpression StringLiteral current state
+get name SimpleName MethodInvocation InfixExpression StringLiteral current state
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+s SimpleName MethodInvocation InfixExpression StringLiteral new state
+get name SimpleName MethodInvocation InfixExpression StringLiteral new state
+component name StringLiteral InfixExpression MethodInvocation SimpleName sc
+component name StringLiteral InfixExpression MethodInvocation SimpleName get name
+component name StringLiteral InfixExpression StringLiteral current state
+component name StringLiteral InfixExpression MethodInvocation SimpleName sc
+component name StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+component name StringLiteral InfixExpression StringLiteral new state
+component name StringLiteral InfixExpression SimpleName new state
+sc SimpleName MethodInvocation InfixExpression StringLiteral current state
+get name SimpleName MethodInvocation InfixExpression StringLiteral current state
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+sc SimpleName MethodInvocation InfixExpression StringLiteral new state
+get name SimpleName MethodInvocation InfixExpression StringLiteral new state
+sc SimpleName MethodInvocation InfixExpression SimpleName new state
+get name SimpleName MethodInvocation InfixExpression SimpleName new state
+current state StringLiteral InfixExpression MethodInvocation SimpleName sc
+current state StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+current state StringLiteral InfixExpression StringLiteral new state
+current state StringLiteral InfixExpression SimpleName new state
+sc SimpleName MethodInvocation InfixExpression StringLiteral new state
+get desired state SimpleName MethodInvocation InfixExpression StringLiteral new state
+sc SimpleName MethodInvocation InfixExpression SimpleName new state
+get desired state SimpleName MethodInvocation InfixExpression SimpleName new state
+new state StringLiteral InfixExpression SimpleName new state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral handling update to service component
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral service name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral component name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral current state
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+log SimpleName MethodInvocation InfixExpression StringLiteral new state
+log SimpleName MethodInvocation InfixExpression SimpleName new state
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral handling update to service component
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral service name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral component name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression StringLiteral current state
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+debug SimpleName MethodInvocation InfixExpression StringLiteral new state
+debug SimpleName MethodInvocation InfixExpression SimpleName new state
+changed comps SimpleName MethodInvocation SimpleName add
+changed comps SimpleName MethodInvocation SimpleName sc
+add SimpleName MethodInvocation SimpleName sc
+service component host SimpleName SimpleType SingleVariableDeclaration SimpleName sch
+sc SimpleName MethodInvocation SimpleName get service component hosts
+sc SimpleName MethodInvocation MethodInvocation SimpleName values
+get service component hosts SimpleName MethodInvocation MethodInvocation SimpleName values
+sch SimpleName MethodInvocation SimpleName get desired state
+new state SimpleName InfixExpression MethodInvocation SimpleName sch
+new state SimpleName InfixExpression MethodInvocation SimpleName get desired state
+ignoring service component host StringLiteral InfixExpression StringLiteral cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+s SimpleName MethodInvocation SimpleName get name
+sc SimpleName MethodInvocation SimpleName get name
+sch SimpleName MethodInvocation SimpleName get host name
+sch SimpleName MethodInvocation SimpleName get desired state
+ignoring service component host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+ignoring service component host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+ignoring service component host StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+ignoring service component host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName s
+ignoring service component host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName s
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+ignoring service component host StringLiteral InfixExpression InfixExpression StringLiteral component name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral component name
+ignoring service component host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName sc
+ignoring service component host StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName sc
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral service name
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral component name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral component name
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+request SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+request SimpleName MethodInvocation InfixExpression StringLiteral hostname
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral hostname
+service name StringLiteral InfixExpression MethodInvocation SimpleName s
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression StringLiteral component name
+service name StringLiteral InfixExpression MethodInvocation SimpleName sc
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression StringLiteral hostname
+service name StringLiteral InfixExpression MethodInvocation SimpleName sch
+service name StringLiteral InfixExpression MethodInvocation SimpleName get host name
+s SimpleName MethodInvocation InfixExpression StringLiteral component name
+get name SimpleName MethodInvocation InfixExpression StringLiteral component name
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+s SimpleName MethodInvocation InfixExpression StringLiteral hostname
+get name SimpleName MethodInvocation InfixExpression StringLiteral hostname
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+s SimpleName MethodInvocation InfixExpression StringLiteral current state
+get name SimpleName MethodInvocation InfixExpression StringLiteral current state
+component name StringLiteral InfixExpression MethodInvocation SimpleName sc
+component name StringLiteral InfixExpression MethodInvocation SimpleName get name
+component name StringLiteral InfixExpression StringLiteral hostname
+component name StringLiteral InfixExpression MethodInvocation SimpleName sch
+component name StringLiteral InfixExpression MethodInvocation SimpleName get host name
+component name StringLiteral InfixExpression StringLiteral current state
+component name StringLiteral InfixExpression MethodInvocation SimpleName sch
+component name StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+sc SimpleName MethodInvocation InfixExpression StringLiteral hostname
+get name SimpleName MethodInvocation InfixExpression StringLiteral hostname
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+sc SimpleName MethodInvocation InfixExpression StringLiteral current state
+get name SimpleName MethodInvocation InfixExpression StringLiteral current state
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+sc SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+sc SimpleName MethodInvocation InfixExpression StringLiteral new state
+get name SimpleName MethodInvocation InfixExpression StringLiteral new state
+hostname StringLiteral InfixExpression MethodInvocation SimpleName sch
+hostname StringLiteral InfixExpression MethodInvocation SimpleName get host name
+hostname StringLiteral InfixExpression StringLiteral current state
+hostname StringLiteral InfixExpression MethodInvocation SimpleName sch
+hostname StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+hostname StringLiteral InfixExpression StringLiteral new state
+hostname StringLiteral InfixExpression SimpleName new state
+sch SimpleName MethodInvocation InfixExpression StringLiteral current state
+get host name SimpleName MethodInvocation InfixExpression StringLiteral current state
+sch SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+sch SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+get host name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+sch SimpleName MethodInvocation InfixExpression StringLiteral new state
+get host name SimpleName MethodInvocation InfixExpression StringLiteral new state
+sch SimpleName MethodInvocation InfixExpression SimpleName new state
+get host name SimpleName MethodInvocation InfixExpression SimpleName new state
+current state StringLiteral InfixExpression MethodInvocation SimpleName sch
+current state StringLiteral InfixExpression MethodInvocation SimpleName get desired state
+current state StringLiteral InfixExpression StringLiteral new state
+current state StringLiteral InfixExpression SimpleName new state
+sch SimpleName MethodInvocation InfixExpression StringLiteral new state
+get desired state SimpleName MethodInvocation InfixExpression StringLiteral new state
+sch SimpleName MethodInvocation InfixExpression SimpleName new state
+get desired state SimpleName MethodInvocation InfixExpression SimpleName new state
+new state StringLiteral InfixExpression SimpleName new state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral ignoring service component host
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral service name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral component name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sc
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation InfixExpression StringLiteral hostname
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get host name
+log SimpleName MethodInvocation InfixExpression StringLiteral current state
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sch
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get desired state
+log SimpleName MethodInvocation InfixExpression StringLiteral new state
+log SimpleName MethodInvocation InfixExpression SimpleName new state
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral ignoring service component host
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name

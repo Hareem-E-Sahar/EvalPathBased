@@ -1,0 +1,240 @@
+long PrimitiveType SingleVariableDeclaration SimpleName request id
+long PrimitiveType SingleVariableDeclaration SimpleName stage id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+inet address SimpleName MethodInvocation SimpleName get local host
+inet address SimpleName MethodInvocation MethodInvocation SimpleName get host name
+get local host SimpleName MethodInvocation MethodInvocation SimpleName get host name
+hostname SimpleName Assignment MethodInvocation MethodInvocation SimpleName inet address
+hostname SimpleName Assignment MethodInvocation MethodInvocation SimpleName get local host
+hostname SimpleName Assignment MethodInvocation SimpleName get host name
+unknown host exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+hostname SimpleName Assignment StringLiteral hostdummy
+stage SimpleName SimpleType ClassInstanceCreation SimpleName request id
+stage SimpleName SimpleType ClassInstanceCreation StringLiteral tmp
+stage SimpleName SimpleType ClassInstanceCreation StringLiteral cluster
+request id SimpleName ClassInstanceCreation StringLiteral tmp
+request id SimpleName ClassInstanceCreation StringLiteral cluster
+tmp StringLiteral ClassInstanceCreation StringLiteral cluster
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stage
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName request id
+s SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral tmp
+s SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral cluster
+stage SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName set stage id
+s SimpleName MethodInvocation SimpleName stage id
+set stage id SimpleName MethodInvocation SimpleName stage id
+host action SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+ha SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host action
+ha SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName hostname
+host action SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ha
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+service component host install event SimpleName SimpleType ClassInstanceCreation StringLiteral namenode
+service component host install event SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+service component host install event SimpleName SimpleType ClassInstanceCreation SimpleName now
+namenode StringLiteral ClassInstanceCreation SimpleName hostname
+namenode StringLiteral ClassInstanceCreation SimpleName now
+hostname SimpleName ClassInstanceCreation SimpleName now
+host role command SimpleName SimpleType ClassInstanceCreation StringLiteral hdfs
+host role command SimpleName SimpleType ClassInstanceCreation QualifiedName rolenamenode
+host role command SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral namenode
+host role command SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName hostname
+host role command SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName now
+hdfs StringLiteral ClassInstanceCreation QualifiedName rolenamenode
+hdfs StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName service component host install event
+hdfs StringLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral namenode
+hdfs StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName hostname
+hdfs StringLiteral ClassInstanceCreation ClassInstanceCreation SimpleName now
+rolenamenode QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName service component host install event
+rolenamenode QualifiedName ClassInstanceCreation ClassInstanceCreation StringLiteral namenode
+rolenamenode QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleName hostname
+rolenamenode QualifiedName ClassInstanceCreation ClassInstanceCreation SimpleName now
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host role command
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral hdfs
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName rolenamenode
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral namenode
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName hostname
+hrc SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName now
+host role command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hrc
+hrc SimpleName MethodInvocation SimpleName set status
+hrc SimpleName MethodInvocation QualifiedName host role statuspending
+set status SimpleName MethodInvocation QualifiedName host role statuspending
+ha SimpleName MethodInvocation SimpleName add host role command
+ha SimpleName MethodInvocation SimpleName hrc
+add host role command SimpleName MethodInvocation SimpleName hrc
+ha SimpleName MethodInvocation SimpleName get command to host
+exec cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName ha
+exec cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get command to host
+execution command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName exec cmd
+s SimpleName MethodInvocation SimpleName get action id
+exec cmd SimpleName MethodInvocation SimpleName set command id
+exec cmd SimpleName MethodInvocation MethodInvocation SimpleName s
+exec cmd SimpleName MethodInvocation MethodInvocation SimpleName get action id
+set command id SimpleName MethodInvocation MethodInvocation SimpleName s
+set command id SimpleName MethodInvocation MethodInvocation SimpleName get action id
+exec cmd SimpleName MethodInvocation SimpleName set cluster name
+exec cmd SimpleName MethodInvocation StringLiteral cluster
+set cluster name SimpleName MethodInvocation StringLiteral cluster
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+slave host list SimpleName MethodInvocation SimpleName add
+slave host list SimpleName MethodInvocation SimpleName hostname
+add SimpleName MethodInvocation SimpleName hostname
+slave host list SimpleName MethodInvocation SimpleName add
+slave host list SimpleName MethodInvocation StringLiteral host
+add SimpleName MethodInvocation StringLiteral host
+cluster host info SimpleName MethodInvocation SimpleName put
+cluster host info SimpleName MethodInvocation StringLiteral slave hosts
+cluster host info SimpleName MethodInvocation SimpleName slave host list
+put SimpleName MethodInvocation StringLiteral slave hosts
+put SimpleName MethodInvocation SimpleName slave host list
+slave hosts StringLiteral MethodInvocation SimpleName slave host list
+exec cmd SimpleName MethodInvocation SimpleName set cluster host info
+exec cmd SimpleName MethodInvocation SimpleName cluster host info
+set cluster host info SimpleName MethodInvocation SimpleName cluster host info
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hdfs site SimpleName MethodInvocation SimpleName put
+hdfs site SimpleName MethodInvocation StringLiteral dfsblocksize
+hdfs site SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral dfsblocksize
+put SimpleName MethodInvocation StringLiteral empty
+dfsblocksize StringLiteral MethodInvocation StringLiteral empty
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+configurations SimpleName MethodInvocation SimpleName put
+configurations SimpleName MethodInvocation StringLiteral hdfssite
+configurations SimpleName MethodInvocation SimpleName hdfs site
+put SimpleName MethodInvocation StringLiteral hdfssite
+put SimpleName MethodInvocation SimpleName hdfs site
+hdfssite StringLiteral MethodInvocation SimpleName hdfs site
+exec cmd SimpleName MethodInvocation SimpleName set configurations
+exec cmd SimpleName MethodInvocation SimpleName configurations
+set configurations SimpleName MethodInvocation SimpleName configurations
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+params SimpleName MethodInvocation SimpleName put
+params SimpleName MethodInvocation StringLiteral jdklocation
+params SimpleName MethodInvocation StringLiteral xyz
+put SimpleName MethodInvocation StringLiteral jdklocation
+put SimpleName MethodInvocation StringLiteral xyz
+jdklocation StringLiteral MethodInvocation StringLiteral xyz
+exec cmd SimpleName MethodInvocation SimpleName set params
+exec cmd SimpleName MethodInvocation SimpleName params
+set params SimpleName MethodInvocation SimpleName params
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+tree map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+role params SimpleName MethodInvocation SimpleName put
+role params SimpleName MethodInvocation StringLiteral format
+role params SimpleName MethodInvocation StringLiteral false
+put SimpleName MethodInvocation StringLiteral format
+put SimpleName MethodInvocation StringLiteral false
+format StringLiteral MethodInvocation StringLiteral false
+exec cmd SimpleName MethodInvocation SimpleName add role command
+exec cmd SimpleName MethodInvocation StringLiteral namenode
+exec cmd SimpleName MethodInvocation StringLiteral install
+exec cmd SimpleName MethodInvocation SimpleName role params
+add role command SimpleName MethodInvocation StringLiteral namenode
+add role command SimpleName MethodInvocation StringLiteral install
+add role command SimpleName MethodInvocation SimpleName role params
+namenode StringLiteral MethodInvocation StringLiteral install
+namenode StringLiteral MethodInvocation SimpleName role params
+install StringLiteral MethodInvocation SimpleName role params
+stage utils SimpleName MethodInvocation SimpleName jaxb to string
+stage utils SimpleName MethodInvocation SimpleName exec cmd
+jaxb to string SimpleName MethodInvocation SimpleName exec cmd
+command string = StringLiteral InfixExpression MethodInvocation SimpleName stage utils
+command string = StringLiteral InfixExpression MethodInvocation SimpleName jaxb to string
+command string = StringLiteral InfixExpression MethodInvocation SimpleName exec cmd
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral command string =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage utils
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName jaxb to string
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exec cmd
+info SimpleName MethodInvocation InfixExpression StringLiteral command string =
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage utils
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName jaxb to string
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName exec cmd
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not get string from jaxb
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+could not get string from jaxb StringLiteral ClassInstanceCreation SimpleName e
+s SimpleName MethodInvocation SimpleName add host action
+s SimpleName MethodInvocation SimpleName hostname
+s SimpleName MethodInvocation SimpleName ha
+add host action SimpleName MethodInvocation SimpleName hostname
+add host action SimpleName MethodInvocation SimpleName ha
+hostname SimpleName MethodInvocation SimpleName ha
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName stage
+public Modifier MethodDeclaration SimpleName get a test stage
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stage id
+static Modifier MethodDeclaration SimpleType SimpleName stage
+static Modifier MethodDeclaration SimpleName get a test stage
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stage id
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+static Modifier MethodDeclaration Block ReturnStatement SimpleName s
+stage SimpleName SimpleType MethodDeclaration SimpleName get a test stage
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request id
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName stage id
+get a test stage SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get a test stage SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request id
+get a test stage SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get a test stage SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stage id
+get a test stage SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+get a test stage SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+request id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+request id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+public Modifier TypeDeclaration MethodDeclaration SimpleName get a test stage
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get a test stage
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id

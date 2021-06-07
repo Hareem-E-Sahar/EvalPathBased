@@ -1,0 +1,109 @@
+is a SimpleName MethodInvocation TypeLiteral SimpleType SimpleName job execution context
+aurora cron job SimpleName MethodInvocation SimpleName execute
+aurora cron job SimpleName MethodInvocation MethodInvocation SimpleName is a
+execute SimpleName MethodInvocation MethodInvocation SimpleName is a
+control SimpleName MethodInvocation SimpleName replay
+injector SimpleName MethodInvocation SimpleName get instance
+injector SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron job manager
+get instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron job manager
+cron job manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName injector
+cron job manager SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName cron job manager
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName cron job manager
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName injector
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get instance
+cron job manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cron job manager
+injector SimpleName MethodInvocation SimpleName get instance
+injector SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scheduler
+get instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scheduler
+scheduler SimpleName VariableDeclarationFragment MethodInvocation SimpleName injector
+scheduler SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+final Modifier VariableDeclarationStatement SimpleType SimpleName scheduler
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName scheduler
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName injector
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get instance
+scheduler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scheduler
+storagemutable store provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+cron job manager SimpleName MethodInvocation SimpleName get manager key
+store provider SimpleName MethodInvocation MethodInvocation SimpleName save accepted job
+get job store SimpleName MethodInvocation MethodInvocation SimpleName save accepted job
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job manager
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron job manager
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+store provider SimpleName MethodInvocation MethodInvocation SimpleName cron job
+get job store SimpleName MethodInvocation MethodInvocation SimpleName cron job
+save accepted job SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+save accepted job SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+save accepted job SimpleName MethodInvocation SimpleName cron job
+cron job manager SimpleName MethodInvocation MethodInvocation SimpleName cron job
+get manager key SimpleName MethodInvocation MethodInvocation SimpleName cron job
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName write
+storage SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+count down latch SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+cron ran SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName count down latch
+cron ran SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+final Modifier VariableDeclarationStatement SimpleType SimpleName count down latch
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName cron ran
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+count down latch SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cron ran
+scheduler SimpleName MethodInvocation SimpleName get listener manager
+count down when complete SimpleName SimpleType ClassInstanceCreation SimpleName cron ran
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName add trigger listener
+get listener manager SimpleName MethodInvocation MethodInvocation SimpleName add trigger listener
+scheduler SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName cron ran
+get listener manager SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName cron ran
+add trigger listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName count down when complete
+add trigger listener SimpleName MethodInvocation ClassInstanceCreation SimpleName cron ran
+cron ran SimpleName MethodInvocation SimpleName await
+shutdown SimpleName MethodInvocation SimpleName get value
+shutdown SimpleName MethodInvocation MethodInvocation SimpleName execute
+get value SimpleName MethodInvocation MethodInvocation SimpleName execute
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test jobs are scheduled
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test jobs are scheduled
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test jobs are scheduled
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test jobs are scheduled SimpleName MethodDeclaration SimpleType SimpleName exception
+test jobs are scheduled SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test jobs are scheduled SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test jobs are scheduled SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test jobs are scheduled
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test jobs are scheduled
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

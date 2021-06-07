@@ -1,0 +1,81 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+fsm SimpleName MethodInvocation SimpleName get all hosts
+all hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName fsm
+all hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all hosts
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+fsm SimpleName MethodInvocation SimpleName get host state
+fsm SimpleName MethodInvocation SimpleName host
+get host state SimpleName MethodInvocation SimpleName host
+host state SimpleName VariableDeclarationFragment MethodInvocation SimpleName fsm
+host state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host state
+host state SimpleName VariableDeclarationFragment MethodInvocation SimpleName host
+host state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host state
+host state SimpleName MethodInvocation SimpleName get last heartbeat
+last heartbeat SimpleName VariableDeclarationFragment MethodInvocation SimpleName host state
+last heartbeat SimpleName VariableDeclarationFragment MethodInvocation SimpleName get last heartbeat
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last heartbeat
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName host state
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get last heartbeat
+empty NumberLiteral InfixExpression SimpleName thread wakeup interval
+last heartbeat SimpleName InfixExpression InfixExpression NumberLiteral empty
+last heartbeat SimpleName InfixExpression InfixExpression SimpleName thread wakeup interval
+last heartbeat SimpleName InfixExpression InfixExpression SimpleName now
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName now
+thread wakeup interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName now
+fsm SimpleName MethodInvocation SimpleName update status
+fsm SimpleName MethodInvocation SimpleName host
+fsm SimpleName MethodInvocation StringLiteral heartbeat expired
+update status SimpleName MethodInvocation SimpleName host
+update status SimpleName MethodInvocation StringLiteral heartbeat expired
+host SimpleName MethodInvocation StringLiteral heartbeat expired
+action queue SimpleName MethodInvocation SimpleName dequeue all
+action queue SimpleName MethodInvocation SimpleName host
+dequeue all SimpleName MethodInvocation SimpleName host
+action manager SimpleName MethodInvocation SimpleName handle lost host
+action manager SimpleName MethodInvocation SimpleName host
+handle lost host SimpleName MethodInvocation SimpleName host
+host state SimpleName InfixExpression QualifiedName host statewaiting for host status updates
+host state SimpleName MethodInvocation SimpleName get time in state
+time spent in state SimpleName VariableDeclarationFragment MethodInvocation SimpleName host state
+time spent in state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in state
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time spent in state
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName host state
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in state
+empty NumberLiteral InfixExpression SimpleName thread wakeup interval
+time spent in state SimpleName InfixExpression InfixExpression NumberLiteral empty
+time spent in state SimpleName InfixExpression InfixExpression SimpleName thread wakeup interval
+time spent in state SimpleName InfixExpression InfixExpression SimpleName now
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName now
+thread wakeup interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName now
+fsm SimpleName MethodInvocation SimpleName update status
+fsm SimpleName MethodInvocation SimpleName host
+fsm SimpleName MethodInvocation StringLiteral go back to init
+update status SimpleName MethodInvocation SimpleName host
+update status SimpleName MethodInvocation StringLiteral go back to init
+host SimpleName MethodInvocation StringLiteral go back to init
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName all hosts
+host SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName all hosts
+all hosts SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName all hosts
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do work
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName all hosts
+void PrimitiveType MethodDeclaration SimpleName do work
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName all hosts
+do work SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+do work SimpleName MethodDeclaration Block EnhancedForStatement SimpleName all hosts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do work
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do work

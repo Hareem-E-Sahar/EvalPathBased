@@ -1,0 +1,126 @@
+scheduled executor service SimpleName SimpleType SingleVariableDeclaration SimpleName mock
+int PrimitiveType SingleVariableDeclaration SimpleName max schedules
+int PrimitiveType SingleVariableDeclaration SimpleName max invocations
+executor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName fake scheduled executor
+fake scheduled executor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName executor
+easy mock SimpleName MethodInvocation SimpleName any object
+easy mock SimpleName MethodInvocation SimpleName any long
+easy mock SimpleName MethodInvocation SimpleName any long
+easy mock SimpleName MethodInvocation SimpleName any object
+mock SimpleName MethodInvocation SimpleName schedule at fixed rate
+mock SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+mock SimpleName MethodInvocation MethodInvocation SimpleName any object
+mock SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+mock SimpleName MethodInvocation MethodInvocation SimpleName any long
+mock SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+mock SimpleName MethodInvocation MethodInvocation SimpleName any long
+mock SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+mock SimpleName MethodInvocation MethodInvocation SimpleName any object
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName any object
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName any long
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName any long
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+schedule at fixed rate SimpleName MethodInvocation MethodInvocation SimpleName any object
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any long
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any long
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any long
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any long
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any object
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any object
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any long
+any long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any long
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any object
+any long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any object
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+easy mock SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any object
+any long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+any long SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any object
+answer schedule at fixed rate SimpleName MethodInvocation SimpleName executor
+answer schedule at fixed rate SimpleName MethodInvocation SimpleName max invocations
+executor SimpleName MethodInvocation SimpleName max invocations
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName and answer
+expect last call SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName answer schedule at fixed rate
+expect last call SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName executor
+expect last call SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max invocations
+and answer SimpleName MethodInvocation MethodInvocation SimpleName answer schedule at fixed rate
+and answer SimpleName MethodInvocation MethodInvocation SimpleName executor
+and answer SimpleName MethodInvocation MethodInvocation SimpleName max invocations
+expect last call SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName times
+and answer SimpleName MethodInvocation MethodInvocation SimpleName times
+answer schedule at fixed rate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName times
+executor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName times
+max invocations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName times
+expect last call SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max schedules
+and answer SimpleName MethodInvocation MethodInvocation SimpleName max schedules
+answer schedule at fixed rate SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max schedules
+executor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max schedules
+max invocations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName max schedules
+times SimpleName MethodInvocation SimpleName max schedules
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName fake scheduled executor
+public Modifier MethodDeclaration SimpleName schedule at fixed rate executor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduled executor service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mock
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max schedules
+static Modifier MethodDeclaration SimpleType SimpleName fake scheduled executor
+static Modifier MethodDeclaration SimpleName schedule at fixed rate executor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduled executor service
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName mock
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName max schedules
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName max invocations
+fake scheduled executor SimpleName SimpleType MethodDeclaration SimpleName schedule at fixed rate executor
+fake scheduled executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mock
+fake scheduled executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+fake scheduled executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName max schedules
+fake scheduled executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+fake scheduled executor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName max invocations
+schedule at fixed rate executor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduled executor service
+schedule at fixed rate executor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mock
+schedule at fixed rate executor SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+schedule at fixed rate executor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max schedules
+schedule at fixed rate executor SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+schedule at fixed rate executor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max invocations
+schedule at fixed rate executor SimpleName MethodDeclaration Block ReturnStatement SimpleName executor
+mock SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+mock SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max schedules
+mock SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+mock SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max invocations
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max invocations
+max schedules SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+max schedules SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max invocations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName fake scheduled executor
+public Modifier TypeDeclaration MethodDeclaration SimpleName schedule at fixed rate executor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max schedules
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max invocations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName fake scheduled executor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName schedule at fixed rate executor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max schedules
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max invocations

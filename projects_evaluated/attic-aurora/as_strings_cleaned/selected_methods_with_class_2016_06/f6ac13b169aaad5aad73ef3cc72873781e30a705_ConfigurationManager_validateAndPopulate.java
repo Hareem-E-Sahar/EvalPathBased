@@ -1,0 +1,332 @@
+i task config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+config SimpleName MethodInvocation SimpleName new builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName new builder
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName is set requested ports
+immutable set SimpleName MethodInvocation SimpleName of
+builder SimpleName MethodInvocation SimpleName set requested ports
+builder SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+builder SimpleName MethodInvocation MethodInvocation SimpleName of
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleName of
+config SimpleName MethodInvocation SimpleName is set tier
+config SimpleName MethodInvocation SimpleName get tier
+user provided strings SimpleName MethodInvocation SimpleName is good identifier
+user provided strings SimpleName MethodInvocation MethodInvocation SimpleName config
+user provided strings SimpleName MethodInvocation MethodInvocation SimpleName get tier
+is good identifier SimpleName MethodInvocation MethodInvocation SimpleName config
+is good identifier SimpleName MethodInvocation MethodInvocation SimpleName get tier
+config SimpleName MethodInvocation SimpleName get tier
+tier contains illegal characters StringLiteral InfixExpression MethodInvocation SimpleName config
+tier contains illegal characters StringLiteral InfixExpression MethodInvocation SimpleName get tier
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral tier contains illegal characters
+tier manager SimpleName MethodInvocation SimpleName get tier
+tier manager SimpleName MethodInvocation SimpleName config
+get tier SimpleName MethodInvocation SimpleName config
+illegal argument exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+task description exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+task description exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+task description exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+config SimpleName MethodInvocation SimpleName get job
+job keys SimpleName MethodInvocation SimpleName is valid
+job keys SimpleName MethodInvocation MethodInvocation SimpleName config
+job keys SimpleName MethodInvocation MethodInvocation SimpleName get job
+is valid SimpleName MethodInvocation MethodInvocation SimpleName config
+is valid SimpleName MethodInvocation MethodInvocation SimpleName get job
+config SimpleName MethodInvocation SimpleName get job
+job key StringLiteral InfixExpression MethodInvocation SimpleName config
+job key StringLiteral InfixExpression MethodInvocation SimpleName get job
+job key StringLiteral InfixExpression StringLiteral is invalid
+config SimpleName MethodInvocation InfixExpression StringLiteral is invalid
+get job SimpleName MethodInvocation InfixExpression StringLiteral is invalid
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral job key
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral is invalid
+builder SimpleName MethodInvocation SimpleName is set executor config
+builder SimpleName MethodInvocation SimpleName is set container
+builder SimpleName MethodInvocation SimpleName get container
+builder SimpleName MethodInvocation MethodInvocation SimpleName is set docker
+get container SimpleName MethodInvocation MethodInvocation SimpleName is set docker
+builder SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is set docker
+is set container SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is set docker
+task description exception SimpleName SimpleType ClassInstanceCreation StringLiteral configuration may not be null
+required field validator SimpleName SimpleType ParameterizedType WildcardType ?
+required field validator SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName validator
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName validator
+validator SimpleName MethodInvocation SimpleName validate
+validator SimpleName MethodInvocation SimpleName builder
+validate SimpleName MethodInvocation SimpleName builder
+? WildcardType ParameterizedType SingleVariableDeclaration EnhancedForStatement SimpleName required fields validators
+validator SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName required fields validators
+get dedicated constraint SimpleName MethodInvocation SimpleName config
+constraint SimpleName VariableDeclarationFragment MethodInvocation SimpleName get dedicated constraint
+constraint SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+i constraint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName constraint
+constraint SimpleName MethodInvocation SimpleName get constraint
+is value constraint SimpleName MethodInvocation MethodInvocation SimpleName constraint
+is value constraint SimpleName MethodInvocation MethodInvocation SimpleName get constraint
+task description exception SimpleName SimpleType ClassInstanceCreation StringLiteral a dedicated constraint must be of value type
+constraint SimpleName MethodInvocation SimpleName get constraint
+constraint SimpleName MethodInvocation MethodInvocation SimpleName get value
+get constraint SimpleName MethodInvocation MethodInvocation SimpleName get value
+value constraint SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName constraint
+value constraint SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get constraint
+value constraint SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+i value constraint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value constraint
+value constraint SimpleName MethodInvocation SimpleName get values
+value constraint SimpleName MethodInvocation MethodInvocation SimpleName size
+get values SimpleName MethodInvocation MethodInvocation SimpleName size
+value constraint SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get values SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+task description exception SimpleName SimpleType ClassInstanceCreation StringLiteral a dedicated constraint must have exactly one value
+get role SimpleName MethodInvocation SimpleName value constraint
+dedicated role SimpleName VariableDeclarationFragment MethodInvocation SimpleName get role
+dedicated role SimpleName VariableDeclarationFragment MethodInvocation SimpleName value constraint
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dedicated role
+* StringLiteral MethodInvocation SimpleName equals
+* StringLiteral MethodInvocation SimpleName dedicated role
+equals SimpleName MethodInvocation SimpleName dedicated role
+config SimpleName MethodInvocation SimpleName get job
+config SimpleName MethodInvocation MethodInvocation SimpleName get role
+get job SimpleName MethodInvocation MethodInvocation SimpleName get role
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get role SimpleName MethodInvocation MethodInvocation SimpleName equals
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dedicated role
+get job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dedicated role
+get role SimpleName MethodInvocation MethodInvocation SimpleName dedicated role
+equals SimpleName MethodInvocation SimpleName dedicated role
+* StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+* StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName dedicated role
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dedicated role
+dedicated role SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+dedicated role SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dedicated role
+only StringLiteral InfixExpression SimpleName dedicated role
+only StringLiteral InfixExpression StringLiteral may use hosts dedicated for that role
+dedicated role SimpleName InfixExpression StringLiteral may use hosts dedicated for that role
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral only
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName dedicated role
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral may use hosts dedicated for that role
+optional SimpleName SimpleType ParameterizedType SimpleType QualifiedName container fields
+config SimpleName MethodInvocation SimpleName is set container
+config SimpleName MethodInvocation SimpleName get container
+container config SimpleName VariableDeclarationFragment MethodInvocation SimpleName config
+container config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get container
+i container SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName container config
+container config SimpleName MethodInvocation SimpleName get set field
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation MethodInvocation SimpleName container config
+optional SimpleName MethodInvocation MethodInvocation SimpleName get set field
+of SimpleName MethodInvocation MethodInvocation SimpleName container config
+of SimpleName MethodInvocation MethodInvocation SimpleName get set field
+container type SimpleName Assignment MethodInvocation SimpleName optional
+container type SimpleName Assignment MethodInvocation SimpleName of
+container type SimpleName Assignment MethodInvocation MethodInvocation SimpleName container config
+container type SimpleName Assignment MethodInvocation MethodInvocation SimpleName get set field
+container config SimpleName MethodInvocation SimpleName is set docker
+container config SimpleName MethodInvocation SimpleName get docker
+container config SimpleName MethodInvocation MethodInvocation SimpleName is set image
+get docker SimpleName MethodInvocation MethodInvocation SimpleName is set image
+task description exception SimpleName SimpleType ClassInstanceCreation StringLiteral a container must specify an image
+container config SimpleName MethodInvocation SimpleName get docker
+container config SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+get docker SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+container config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+get docker SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+get parameters SimpleName MethodInvocation MethodInvocation SimpleName is empty
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName e
+settingsdefault docker parameters QualifiedName MethodInvocation SimpleName entries
+builder SimpleName MethodInvocation SimpleName get container
+builder SimpleName MethodInvocation MethodInvocation SimpleName get docker
+get container SimpleName MethodInvocation MethodInvocation SimpleName get docker
+e SimpleName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation SimpleName get value
+docker parameter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+docker parameter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key
+docker parameter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+docker parameter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+e SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+get key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName e
+get key SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add to parameters
+get container SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add to parameters
+get docker SimpleName MethodInvocation MethodInvocation SimpleName add to parameters
+add to parameters SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName docker parameter
+add to parameters SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName e
+add to parameters SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key
+add to parameters SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName e
+add to parameters SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get value
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation QualifiedName settingsdefault docker parameters
+e SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entries
+task description exception SimpleName SimpleType ClassInstanceCreation SimpleName no docker parameters
+config SimpleName MethodInvocation SimpleName is set executor config
+settingsrequire docker use executor QualifiedName InfixExpression PrefixExpression MethodInvocation SimpleName config
+settingsrequire docker use executor QualifiedName InfixExpression PrefixExpression MethodInvocation SimpleName is set executor config
+task description exception SimpleName SimpleType ClassInstanceCreation SimpleName executor required with docker
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation QualifiedName container fieldsmesos
+of SimpleName MethodInvocation QualifiedName container fieldsmesos
+container type SimpleName Assignment MethodInvocation SimpleName optional
+container type SimpleName Assignment MethodInvocation SimpleName of
+container type SimpleName Assignment MethodInvocation QualifiedName container fieldsmesos
+container type SimpleName MethodInvocation SimpleName is present
+task description exception SimpleName SimpleType ClassInstanceCreation StringLiteral a job must have a container type
+container type SimpleName MethodInvocation SimpleName get
+settingsallowed container types QualifiedName MethodInvocation SimpleName contains
+settingsallowed container types QualifiedName MethodInvocation MethodInvocation SimpleName container type
+settingsallowed container types QualifiedName MethodInvocation MethodInvocation SimpleName get
+contains SimpleName MethodInvocation MethodInvocation SimpleName container type
+contains SimpleName MethodInvocation MethodInvocation SimpleName get
+container type SimpleName MethodInvocation SimpleName get
+container type SimpleName MethodInvocation MethodInvocation SimpleName to string
+get SimpleName MethodInvocation MethodInvocation SimpleName to string
+this scheduler is not configured to allow the container type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName container type
+this scheduler is not configured to allow the container type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get
+this scheduler is not configured to allow the container type StringLiteral InfixExpression MethodInvocation SimpleName to string
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral this scheduler is not configured to allow the container type
+thrift backfill SimpleName MethodInvocation SimpleName backfill task
+thrift backfill SimpleName MethodInvocation SimpleName builder
+backfill task SimpleName MethodInvocation SimpleName builder
+config SimpleName MethodInvocation SimpleName get resources
+config SimpleName MethodInvocation MethodInvocation SimpleName stream
+get resources SimpleName MethodInvocation MethodInvocation SimpleName stream
+resource type SimpleName MethodInvocation SimpleName from resource
+resource type SimpleName MethodInvocation SimpleName e
+from resource SimpleName MethodInvocation SimpleName e
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName resource type
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName from resource
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName e
+collectors SimpleName MethodInvocation SimpleName grouping by
+collectors SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+collectors SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName resource type
+collectors SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName from resource
+collectors SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName e
+grouping by SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+grouping by SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName resource type
+grouping by SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName from resource
+grouping by SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName e
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName grouping by
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName grouping by
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+collect SimpleName MethodInvocation MethodInvocation SimpleName entry set
+collectors SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+grouping by SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+collect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stream
+entry set SimpleName MethodInvocation MethodInvocation SimpleName stream
+e SimpleName MethodInvocation SimpleName get key
+e SimpleName MethodInvocation MethodInvocation SimpleName is multiple allowed
+get key SimpleName MethodInvocation MethodInvocation SimpleName is multiple allowed
+e SimpleName MethodInvocation SimpleName get value
+e SimpleName MethodInvocation MethodInvocation SimpleName size
+get value SimpleName MethodInvocation MethodInvocation SimpleName size
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+entry set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+r SimpleName MethodInvocation SimpleName get key
+r SimpleName MethodInvocation MethodInvocation SimpleName get aurora name
+get key SimpleName MethodInvocation MethodInvocation SimpleName get aurora name
+r SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName get aurora name
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+filter SimpleName MethodInvocation MethodInvocation SimpleName map
+map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName r
+map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get aurora name
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sorted
+map SimpleName MethodInvocation MethodInvocation SimpleName sorted
+collectors SimpleName MethodInvocation SimpleName joining
+collectors SimpleName MethodInvocation StringLiteral empty
+joining SimpleName MethodInvocation StringLiteral empty
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+sorted SimpleName MethodInvocation MethodInvocation SimpleName collect
+sorted SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+sorted SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName joining
+sorted SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral empty
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName joining
+collect SimpleName MethodInvocation MethodInvocation StringLiteral empty
+types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName sorted
+types SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName collectors
+types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName joining
+types SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName types
+strings SimpleName MethodInvocation SimpleName is null or empty
+strings SimpleName MethodInvocation SimpleName types
+is null or empty SimpleName MethodInvocation SimpleName types
+multiple resource values are not supported for StringLiteral InfixExpression SimpleName types
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral multiple resource values are not supported for
+task description exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName types
+config SimpleName MethodInvocation SimpleName get resources
+config SimpleName MethodInvocation MethodInvocation SimpleName stream
+get resources SimpleName MethodInvocation MethodInvocation SimpleName stream
+resource type SimpleName MethodInvocation SimpleName from resource
+resource type SimpleName MethodInvocation SimpleName r
+from resource SimpleName MethodInvocation SimpleName r
+resource type SimpleName MethodInvocation MethodInvocation SimpleName equals
+from resource SimpleName MethodInvocation MethodInvocation SimpleName equals
+r SimpleName MethodInvocation MethodInvocation SimpleName equals
+resource type SimpleName MethodInvocation MethodInvocation SimpleName gpus
+from resource SimpleName MethodInvocation MethodInvocation SimpleName gpus
+r SimpleName MethodInvocation MethodInvocation SimpleName gpus
+equals SimpleName MethodInvocation SimpleName gpus
+r SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName equals
+r SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName gpus
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName r
+filter SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName equals
+filter SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName gpus
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName find any
+filter SimpleName MethodInvocation MethodInvocation SimpleName find any
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is present
+find any SimpleName MethodInvocation MethodInvocation SimpleName is present
+settingsallow gpu resource QualifiedName PrefixExpression InfixExpression MethodInvocation SimpleName is present
+task description exception SimpleName SimpleType ClassInstanceCreation StringLiteral gpu resource support is disabled in this cluster
+maybe fill links SimpleName MethodInvocation SimpleName builder
+i task config SimpleName MethodInvocation SimpleName build
+i task config SimpleName MethodInvocation SimpleName builder
+build SimpleName MethodInvocation SimpleName builder
+public Modifier MethodDeclaration SimpleType SimpleName i task config
+public Modifier MethodDeclaration SimpleName validate and populate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration SimpleType SimpleName task description exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName required fields validators
+i task config SimpleName SimpleType MethodDeclaration SimpleName validate and populate
+i task config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config
+i task config SimpleName SimpleType MethodDeclaration SimpleType SimpleName task description exception
+validate and populate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+validate and populate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+validate and populate SimpleName MethodDeclaration SimpleType SimpleName task description exception
+validate and populate SimpleName MethodDeclaration Block EnhancedForStatement SimpleName required fields validators
+config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName task description exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i task config
+public Modifier TypeDeclaration MethodDeclaration SimpleName validate and populate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName task description exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i task config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName validate and populate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName task description exception

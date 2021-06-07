@@ -1,0 +1,54 @@
+task SimpleName MethodInvocation SimpleName new builder
+task SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+new builder SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task
+builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName new builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get assigned task
+assigned task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName unset assigned ports
+control SimpleName MethodInvocation SimpleName replay
+task SimpleName MethodInvocation SimpleName get assigned task
+i assigned task SimpleName MethodInvocation SimpleName build
+i assigned task SimpleName MethodInvocation SimpleName builder
+build SimpleName MethodInvocation SimpleName builder
+assigner SimpleName MethodInvocation SimpleName map and assign resources
+assigner SimpleName MethodInvocation SimpleName mesos offer
+assigner SimpleName MethodInvocation MethodInvocation SimpleName i assigned task
+assigner SimpleName MethodInvocation MethodInvocation SimpleName build
+assigner SimpleName MethodInvocation MethodInvocation SimpleName builder
+map and assign resources SimpleName MethodInvocation SimpleName mesos offer
+map and assign resources SimpleName MethodInvocation MethodInvocation SimpleName i assigned task
+map and assign resources SimpleName MethodInvocation MethodInvocation SimpleName build
+map and assign resources SimpleName MethodInvocation MethodInvocation SimpleName builder
+mesos offer SimpleName MethodInvocation MethodInvocation SimpleName i assigned task
+mesos offer SimpleName MethodInvocation MethodInvocation SimpleName build
+mesos offer SimpleName MethodInvocation MethodInvocation SimpleName builder
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName task
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName assigner
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName map and assign resources
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName mesos offer
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i assigned task
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName builder
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigner
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map and assign resources
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mesos offer
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assigner
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map and assign resources
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName mesos offer
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test resource mapper callback
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test resource mapper callback
+void PrimitiveType MethodDeclaration SimpleName test resource mapper callback
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test resource mapper callback
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test resource mapper callback

@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName resource definition
+public Modifier MethodDeclaration SimpleName get resource definition
+resource definition SimpleName SimpleType MethodDeclaration SimpleName get resource definition
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource definition
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource definition
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource definition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource definition

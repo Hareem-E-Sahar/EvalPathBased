@@ -1,0 +1,331 @@
+stored task id SimpleName VariableDeclarationFragment StringLiteral task on disk
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName stored task id
+final Modifier VariableDeclarationStatement VariableDeclarationFragment StringLiteral task on disk
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stored task id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral task on disk
+control SimpleName MethodInvocation SimpleName replay
+storage SimpleName Assignment MethodInvocation SimpleName create storage
+thermos config SimpleName VariableDeclarationFragment StringLiteral thermos config
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName thermos config
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral thermos config
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set owner
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName owner a
+set owner SimpleName MethodInvocation SimpleName owner a
+set owner SimpleName MethodInvocation MethodInvocation SimpleName set job name
+owner a SimpleName MethodInvocation MethodInvocation SimpleName set job name
+set owner SimpleName MethodInvocation MethodInvocation SimpleName job a
+owner a SimpleName MethodInvocation MethodInvocation SimpleName job a
+set job name SimpleName MethodInvocation SimpleName job a
+set owner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+owner a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+set job name SimpleName MethodInvocation MethodInvocation SimpleName set environment
+job a SimpleName MethodInvocation MethodInvocation SimpleName set environment
+set owner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName env a
+owner a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName env a
+set job name SimpleName MethodInvocation MethodInvocation SimpleName env a
+job a SimpleName MethodInvocation MethodInvocation SimpleName env a
+set environment SimpleName MethodInvocation SimpleName env a
+set job name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set num cpus
+job a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set num cpus
+set environment SimpleName MethodInvocation MethodInvocation SimpleName set num cpus
+env a SimpleName MethodInvocation MethodInvocation SimpleName set num cpus
+set job name SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral .
+job a SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral .
+set environment SimpleName MethodInvocation MethodInvocation NumberLiteral .
+env a SimpleName MethodInvocation MethodInvocation NumberLiteral .
+set num cpus SimpleName MethodInvocation NumberLiteral .
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set ram mb
+env a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set ram mb
+set num cpus SimpleName MethodInvocation MethodInvocation SimpleName set ram mb
+. NumberLiteral MethodInvocation MethodInvocation SimpleName set ram mb
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName one gb
+env a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName one gb
+set num cpus SimpleName MethodInvocation MethodInvocation SimpleName one gb
+. NumberLiteral MethodInvocation MethodInvocation SimpleName one gb
+set ram mb SimpleName MethodInvocation SimpleName one gb
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+set ram mb SimpleName MethodInvocation MethodInvocation SimpleName set disk mb
+one gb SimpleName MethodInvocation MethodInvocation SimpleName set disk mb
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+one gb SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set disk mb SimpleName MethodInvocation NumberLiteral empty
+executor config SimpleName SimpleType ClassInstanceCreation StringLiteral aurora executor
+executor config SimpleName SimpleType ClassInstanceCreation SimpleName thermos config
+aurora executor StringLiteral ClassInstanceCreation SimpleName thermos config
+set ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set executor config
+one gb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set executor config
+set disk mb SimpleName MethodInvocation MethodInvocation SimpleName set executor config
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set executor config
+set disk mb SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral aurora executor
+set disk mb SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName thermos config
+empty NumberLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral aurora executor
+empty NumberLiteral MethodInvocation MethodInvocation ClassInstanceCreation SimpleName thermos config
+set executor config SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName executor config
+set executor config SimpleName MethodInvocation ClassInstanceCreation StringLiteral aurora executor
+set executor config SimpleName MethodInvocation ClassInstanceCreation SimpleName thermos config
+immutable set SimpleName MethodInvocation SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+set disk mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set requested ports
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set requested ports
+set executor config SimpleName MethodInvocation MethodInvocation SimpleName set requested ports
+aurora executor StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set requested ports
+thermos config SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set requested ports
+set executor config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+set executor config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleType SimpleName constraint
+immutable set SimpleName MethodInvocation SimpleName of
+constraint SimpleName SimpleType MethodInvocation SimpleName of
+set executor config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set constraints
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleName set constraints
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set constraints
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set constraints
+set requested ports SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+set requested ports SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+set constraints SimpleName MethodInvocation MethodInvocation SimpleType SimpleName constraint
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName of
+immutable map SimpleName MethodInvocation SimpleType SimpleName string
+immutable map SimpleName MethodInvocation SimpleType SimpleName string
+immutable map SimpleName MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleType SimpleName string
+string SimpleName SimpleType MethodInvocation SimpleName of
+string SimpleName SimpleType MethodInvocation SimpleName of
+set requested ports SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task links
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName set task links
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task links
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task links
+set constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable map
+set constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+set task links SimpleName MethodInvocation MethodInvocation SimpleName immutable map
+set task links SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+set task links SimpleName MethodInvocation MethodInvocation SimpleType SimpleName string
+set task links SimpleName MethodInvocation MethodInvocation SimpleName of
+stored task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set constraints
+stored task SimpleName VariableDeclarationFragment MethodInvocation SimpleName set task links
+stored task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable map
+stored task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+final Modifier VariableDeclarationStatement SimpleType SimpleName task config
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName stored task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set task links
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stored task
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get unsafe task store
+scheduled task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set status
+scheduled task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName pending
+set status SimpleName MethodInvocation SimpleName pending
+task event SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+task event SimpleName SimpleType ClassInstanceCreation QualifiedName schedule statuspending
+empty NumberLiteral ClassInstanceCreation QualifiedName schedule statuspending
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName task event
+immutable list SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+immutable list SimpleName MethodInvocation ClassInstanceCreation QualifiedName schedule statuspending
+of SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName task event
+of SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+of SimpleName MethodInvocation ClassInstanceCreation QualifiedName schedule statuspending
+set status SimpleName MethodInvocation MethodInvocation SimpleName set task events
+pending SimpleName MethodInvocation MethodInvocation SimpleName set task events
+set status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+set status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable list
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+set task events SimpleName MethodInvocation MethodInvocation SimpleName immutable list
+set task events SimpleName MethodInvocation MethodInvocation SimpleName of
+set task events SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+set task events SimpleName MethodInvocation MethodInvocation ClassInstanceCreation QualifiedName schedule statuspending
+assigned task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set task id
+assigned task SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName stored task id
+set task id SimpleName MethodInvocation SimpleName stored task id
+set task id SimpleName MethodInvocation MethodInvocation SimpleName set instance id
+stored task id SimpleName MethodInvocation MethodInvocation SimpleName set instance id
+set task id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+stored task id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set instance id SimpleName MethodInvocation NumberLiteral empty
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+stored task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+set instance id SimpleName MethodInvocation MethodInvocation SimpleName set task
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set task
+set task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored task
+stored task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored task
+set instance id SimpleName MethodInvocation MethodInvocation SimpleName stored task
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName stored task
+set task SimpleName MethodInvocation SimpleName stored task
+set status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+set task events SimpleName MethodInvocation MethodInvocation SimpleName set assigned task
+immutable list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+set task events SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+set task events SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored task
+set assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set instance id
+set assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set assigned task SimpleName MethodInvocation MethodInvocation SimpleName set task
+set assigned task SimpleName MethodInvocation MethodInvocation SimpleName stored task
+i scheduled task SimpleName MethodInvocation SimpleName build
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task events
+i scheduled task SimpleName MethodInvocation MethodInvocation SimpleName set assigned task
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored task
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task events
+build SimpleName MethodInvocation MethodInvocation SimpleName set assigned task
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set task
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored task
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName build
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+of SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+of SimpleName MethodInvocation MethodInvocation SimpleName build
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set assigned task
+store provider SimpleName MethodInvocation MethodInvocation SimpleName save tasks
+get unsafe task store SimpleName MethodInvocation MethodInvocation SimpleName save tasks
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+get unsafe task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+get unsafe task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i scheduled task
+save tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName write
+storage SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName mutate workno resultquiet
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName mutate workno resultquiet
+build scheduler SimpleName MethodInvocation SimpleName storage
+assign task SimpleName MethodInvocation SimpleName stored task id
+assign task SimpleName MethodInvocation SimpleName slave id
+assign task SimpleName MethodInvocation SimpleName slave host
+stored task id SimpleName MethodInvocation SimpleName slave id
+stored task id SimpleName MethodInvocation SimpleName slave host
+slave id SimpleName MethodInvocation SimpleName slave host
+task config SimpleName SimpleType ClassInstanceCreation SimpleName stored task
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set production
+stored task SimpleName ClassInstanceCreation MethodInvocation SimpleName set production
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+stored task SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+set production SimpleName MethodInvocation BooleanLiteral false
+stored task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set max task failures
+set production SimpleName MethodInvocation MethodInvocation SimpleName set max task failures
+false BooleanLiteral MethodInvocation MethodInvocation SimpleName set max task failures
+stored task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation NumberLiteral empty
+set production SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+false BooleanLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set max task failures SimpleName MethodInvocation NumberLiteral empty
+executor config SimpleName SimpleType ClassInstanceCreation StringLiteral aurora executor
+executor config SimpleName SimpleType ClassInstanceCreation SimpleName thermos config
+aurora executor StringLiteral ClassInstanceCreation SimpleName thermos config
+set production SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set executor config
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set executor config
+set max task failures SimpleName MethodInvocation MethodInvocation SimpleName set executor config
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set executor config
+set max task failures SimpleName MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral aurora executor
+set max task failures SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName thermos config
+empty NumberLiteral MethodInvocation MethodInvocation ClassInstanceCreation StringLiteral aurora executor
+empty NumberLiteral MethodInvocation MethodInvocation ClassInstanceCreation SimpleName thermos config
+set executor config SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName executor config
+set executor config SimpleName MethodInvocation ClassInstanceCreation StringLiteral aurora executor
+set executor config SimpleName MethodInvocation ClassInstanceCreation SimpleName thermos config
+configuration manager SimpleName MethodInvocation SimpleName host limit constraint
+configuration manager SimpleName MethodInvocation NumberLiteral empty
+host limit constraint SimpleName MethodInvocation NumberLiteral empty
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName configuration manager
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName host limit constraint
+immutable set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation MethodInvocation SimpleName configuration manager
+of SimpleName MethodInvocation MethodInvocation SimpleName host limit constraint
+of SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set max task failures SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set constraints
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set constraints
+set executor config SimpleName MethodInvocation MethodInvocation SimpleName set constraints
+aurora executor StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set constraints
+thermos config SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName set constraints
+set executor config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+set executor config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName of
+set constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName configuration manager
+set constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host limit constraint
+set constraints SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+i task config SimpleName MethodInvocation SimpleName build
+i task config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set executor config
+i task config SimpleName MethodInvocation MethodInvocation SimpleName set constraints
+i task config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+i task config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set executor config
+build SimpleName MethodInvocation MethodInvocation SimpleName set constraints
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName i task config
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set constraints
+i task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+get task SimpleName MethodInvocation SimpleName stored task id
+get task SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+stored task id SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+stored task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get task
+expected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+expected SimpleName MethodInvocation MethodInvocation SimpleName get task
+get task SimpleName MethodInvocation SimpleName stored task id
+get task SimpleName MethodInvocation MethodInvocation SimpleName get status
+stored task id SimpleName MethodInvocation MethodInvocation SimpleName get status
+assert equals SimpleName MethodInvocation SimpleName assigned
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored task id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get status
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+assigned SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName stored task id
+assigned SimpleName MethodInvocation MethodInvocation SimpleName get status
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test load tasks from storage
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test load tasks from storage
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test load tasks from storage
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load tasks from storage SimpleName MethodDeclaration SimpleType SimpleName exception
+test load tasks from storage SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test load tasks from storage SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test load tasks from storage
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test load tasks from storage
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

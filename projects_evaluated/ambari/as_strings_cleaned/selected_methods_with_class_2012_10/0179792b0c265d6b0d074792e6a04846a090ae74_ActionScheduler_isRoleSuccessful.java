@@ -1,0 +1,10 @@
+. NumberLiteral InfixExpression SimpleName num succeeded
+. NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName total hosts
+num succeeded SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName total hosts
+success factor SimpleName InfixExpression InfixExpression SimpleName total hosts
+boolean PrimitiveType MethodDeclaration SimpleName is role successful
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is role successful
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is role successful

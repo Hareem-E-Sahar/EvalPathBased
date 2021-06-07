@@ -1,0 +1,18 @@
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SimpleName start job now
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+start job now SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+start job now SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+start job now SimpleName MethodDeclaration SimpleType SimpleName cron exception
+job key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start job now
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start job now
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

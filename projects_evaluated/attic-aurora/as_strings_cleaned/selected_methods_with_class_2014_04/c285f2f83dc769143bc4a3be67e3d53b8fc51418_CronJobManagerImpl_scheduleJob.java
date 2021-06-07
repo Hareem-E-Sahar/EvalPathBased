@@ -1,0 +1,104 @@
+crontab entry SimpleName SimpleType SingleVariableDeclaration SimpleName crontab entry
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+quartz SimpleName MethodInvocation SimpleName job detail
+quartz SimpleName MethodInvocation SimpleName job key
+quartz SimpleName MethodInvocation TypeLiteral SimpleType SimpleName aurora cron job
+job detail SimpleName MethodInvocation SimpleName job key
+job detail SimpleName MethodInvocation TypeLiteral SimpleType SimpleName aurora cron job
+job key SimpleName MethodInvocation TypeLiteral SimpleType SimpleName aurora cron job
+quartz SimpleName MethodInvocation SimpleName cron trigger
+quartz SimpleName MethodInvocation SimpleName crontab entry
+quartz SimpleName MethodInvocation SimpleName time zone
+cron trigger SimpleName MethodInvocation SimpleName crontab entry
+cron trigger SimpleName MethodInvocation SimpleName time zone
+crontab entry SimpleName MethodInvocation SimpleName time zone
+scheduler SimpleName MethodInvocation SimpleName schedule job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName quartz
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName job detail
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName job key
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName quartz
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName cron trigger
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName time zone
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName quartz
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName job detail
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName job key
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName quartz
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName cron trigger
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName time zone
+quartz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quartz
+quartz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron trigger
+quartz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName crontab entry
+quartz SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time zone
+job detail SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quartz
+job detail SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron trigger
+job detail SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName crontab entry
+job detail SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time zone
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName quartz
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cron trigger
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName crontab entry
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName time zone
+scheduler exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+cron exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+job keys SimpleName MethodInvocation SimpleName canonical string
+job keys SimpleName MethodInvocation SimpleName job key
+canonical string SimpleName MethodInvocation SimpleName job key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral scheduled job s with schedule s
+string SimpleName MethodInvocation MethodInvocation SimpleName job keys
+string SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+string SimpleName MethodInvocation MethodInvocation SimpleName job key
+string SimpleName MethodInvocation SimpleName crontab entry
+format SimpleName MethodInvocation StringLiteral scheduled job s with schedule s
+format SimpleName MethodInvocation MethodInvocation SimpleName job keys
+format SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+format SimpleName MethodInvocation MethodInvocation SimpleName job key
+format SimpleName MethodInvocation SimpleName crontab entry
+scheduled job s with schedule s StringLiteral MethodInvocation MethodInvocation SimpleName job keys
+scheduled job s with schedule s StringLiteral MethodInvocation MethodInvocation SimpleName canonical string
+scheduled job s with schedule s StringLiteral MethodInvocation MethodInvocation SimpleName job key
+scheduled job s with schedule s StringLiteral MethodInvocation SimpleName crontab entry
+job keys SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+canonical string SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+job key SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral scheduled job s with schedule s
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+log SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral scheduled job s with schedule s
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+info SimpleName MethodInvocation MethodInvocation SimpleName crontab entry
+void PrimitiveType MethodDeclaration SimpleName schedule job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crontab entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName crontab entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+schedule job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crontab entry
+schedule job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName crontab entry
+schedule job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+schedule job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+schedule job SimpleName MethodDeclaration SimpleType SimpleName cron exception
+crontab entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+crontab entry SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+job key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName schedule job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName crontab entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName schedule job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName crontab entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

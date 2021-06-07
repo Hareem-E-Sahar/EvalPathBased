@@ -1,0 +1,47 @@
+locale SimpleName MethodInvocation SimpleName get default
+date cache SimpleName SimpleType ClassInstanceCreation StringLiteral ddmmmyyyyhhmmss z
+date cache SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName locale
+date cache SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get default
+ddmmmyyyyhhmmss z StringLiteral ClassInstanceCreation MethodInvocation SimpleName locale
+ddmmmyyyyhhmmss z StringLiteral ClassInstanceCreation MethodInvocation SimpleName get default
+log date cache SimpleName Assignment ClassInstanceCreation SimpleType SimpleName date cache
+log date cache SimpleName Assignment ClassInstanceCreation StringLiteral ddmmmyyyyhhmmss z
+log date cache SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName locale
+log date cache SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get default
+log date cache SimpleName MethodInvocation SimpleName set time zone id
+log date cache SimpleName MethodInvocation StringLiteral gmt
+set time zone id SimpleName MethodInvocation StringLiteral gmt
+clock SimpleName Assignment ClassInstanceCreation SimpleType SimpleName fake clock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName log sink
+sink SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName request
+request SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName response
+response SimpleName Assignment MethodInvocation SimpleName create mock
+request logger SimpleName SimpleType ClassInstanceCreation SimpleName clock
+request logger SimpleName SimpleType ClassInstanceCreation SimpleName sink
+clock SimpleName ClassInstanceCreation SimpleName sink
+log SimpleName Assignment ClassInstanceCreation SimpleType SimpleName request logger
+log SimpleName Assignment ClassInstanceCreation SimpleName clock
+log SimpleName Assignment ClassInstanceCreation SimpleName sink
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

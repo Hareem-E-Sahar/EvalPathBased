@@ -1,0 +1,60 @@
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron predictor
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron predictor impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron predictor impl
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron job manager
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron job manager impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron job manager impl
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron scheduler
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron scheduler impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron scheduler impl
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName aurora cron job factory
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName aurora cron job
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName aurora cron jobconfig
+cron start initial backoff SimpleName MethodInvocation SimpleName get
+cron start max backoff SimpleName MethodInvocation SimpleName get
+backoff helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cron start initial backoff
+backoff helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+backoff helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cron start max backoff
+backoff helper SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+cron start initial backoff SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cron start max backoff
+cron start initial backoff SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cron start max backoff
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName aurora cron jobconfig
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron lifecycle
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+pubsub event module SimpleName MethodInvocation SimpleName bind subscriber
+pubsub event module SimpleName MethodInvocation MethodInvocation SimpleName binder
+pubsub event module SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron lifecycle
+bind subscriber SimpleName MethodInvocation MethodInvocation SimpleName binder
+bind subscriber SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron lifecycle
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

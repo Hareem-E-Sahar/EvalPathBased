@@ -1,0 +1,117 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+get cluster SimpleName MethodInvocation SimpleName cluster name
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster name
+cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+get host SimpleName MethodInvocation SimpleName hostname
+host cluster map SimpleName MethodInvocation SimpleName contains key
+host cluster map SimpleName MethodInvocation SimpleName hostname
+contains key SimpleName MethodInvocation SimpleName hostname
+host not found exception SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+host cluster map SimpleName MethodInvocation SimpleName get
+host cluster map SimpleName MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation SimpleName hostname
+host cluster map SimpleName MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation SimpleName add
+hostname SimpleName MethodInvocation MethodInvocation SimpleName add
+host cluster map SimpleName MethodInvocation MethodInvocation SimpleName c
+get SimpleName MethodInvocation MethodInvocation SimpleName c
+hostname SimpleName MethodInvocation MethodInvocation SimpleName c
+add SimpleName MethodInvocation SimpleName c
+log SimpleName MethodInvocation SimpleName is debug enabled
+mapping a host to a cluster StringLiteral InfixExpression StringLiteral cluster name
+c SimpleName MethodInvocation SimpleName get cluster id
+mapping a host to a cluster StringLiteral InfixExpression InfixExpression SimpleName cluster name
+cluster name StringLiteral InfixExpression InfixExpression SimpleName cluster name
+mapping a host to a cluster StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+mapping a host to a cluster StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName c
+mapping a host to a cluster StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster id
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName c
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster id
+mapping a host to a cluster StringLiteral InfixExpression InfixExpression StringLiteral hostname
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral hostname
+mapping a host to a cluster StringLiteral InfixExpression InfixExpression SimpleName hostname
+cluster name StringLiteral InfixExpression InfixExpression SimpleName hostname
+cluster name SimpleName InfixExpression StringLiteral cluster id
+cluster name SimpleName InfixExpression MethodInvocation SimpleName c
+cluster name SimpleName InfixExpression MethodInvocation SimpleName get cluster id
+cluster name SimpleName InfixExpression StringLiteral hostname
+cluster name SimpleName InfixExpression SimpleName hostname
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName c
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName get cluster id
+cluster id StringLiteral InfixExpression StringLiteral hostname
+cluster id StringLiteral InfixExpression SimpleName hostname
+c SimpleName MethodInvocation InfixExpression StringLiteral hostname
+get cluster id SimpleName MethodInvocation InfixExpression StringLiteral hostname
+c SimpleName MethodInvocation InfixExpression SimpleName hostname
+get cluster id SimpleName MethodInvocation InfixExpression SimpleName hostname
+hostname StringLiteral InfixExpression SimpleName hostname
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral mapping a host to a cluster
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression SimpleName cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+log SimpleName MethodInvocation InfixExpression StringLiteral hostname
+log SimpleName MethodInvocation InfixExpression SimpleName hostname
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral mapping a host to a cluster
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression SimpleName cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName c
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+debug SimpleName MethodInvocation InfixExpression StringLiteral hostname
+debug SimpleName MethodInvocation InfixExpression SimpleName hostname
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName map host to cluster
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName map host to cluster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName map host to cluster
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+synchronized Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName map host to cluster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+map host to cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map host to cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+map host to cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+map host to cluster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+map host to cluster SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+cluster name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName map host to cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map host to cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

@@ -1,0 +1,242 @@
+service component host SimpleName SimpleType SingleVariableDeclaration SimpleName svc comp host
+svc comp host SimpleName MethodInvocation SimpleName get host name
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName svc comp host
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svc comp host
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get host name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+svc comp host SimpleName MethodInvocation SimpleName get service name
+service name SimpleName VariableDeclarationFragment MethodInvocation SimpleName svc comp host
+service name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName service name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svc comp host
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get service name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service name
+svc comp host SimpleName MethodInvocation SimpleName get service component name
+component name SimpleName VariableDeclarationFragment MethodInvocation SimpleName svc comp host
+component name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service component name
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName component name
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svc comp host
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get service component name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName component name
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster
+clusters SimpleName MethodInvocation SimpleName get clusters for host
+clusters SimpleName MethodInvocation SimpleName hostname
+get clusters for host SimpleName MethodInvocation SimpleName hostname
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get clusters for host
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+cluster found SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster found
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+cluster SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName get cluster id
+c SimpleName MethodInvocation InfixExpression FieldAccess SimpleName cluster id
+get cluster id SimpleName MethodInvocation InfixExpression FieldAccess SimpleName cluster id
+cluster found SimpleName Assignment BooleanLiteral true
+cluster SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cs
+c SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cs
+host does not belong this cluster StringLiteral InfixExpression StringLiteral hostname
+host does not belong this cluster StringLiteral InfixExpression InfixExpression SimpleName hostname
+hostname StringLiteral InfixExpression InfixExpression SimpleName hostname
+host does not belong this cluster StringLiteral InfixExpression InfixExpression StringLiteral cluster name
+hostname StringLiteral InfixExpression InfixExpression StringLiteral cluster name
+host does not belong this cluster StringLiteral InfixExpression InfixExpression SimpleName cluster name
+hostname StringLiteral InfixExpression InfixExpression SimpleName cluster name
+host does not belong this cluster StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+hostname StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+host does not belong this cluster StringLiteral InfixExpression InfixExpression SimpleName cluster id
+hostname StringLiteral InfixExpression InfixExpression SimpleName cluster id
+hostname SimpleName InfixExpression StringLiteral cluster name
+hostname SimpleName InfixExpression SimpleName cluster name
+hostname SimpleName InfixExpression StringLiteral cluster id
+hostname SimpleName InfixExpression SimpleName cluster id
+cluster name StringLiteral InfixExpression SimpleName cluster name
+cluster name StringLiteral InfixExpression StringLiteral cluster id
+cluster name StringLiteral InfixExpression SimpleName cluster id
+cluster name SimpleName InfixExpression StringLiteral cluster id
+cluster name SimpleName InfixExpression SimpleName cluster id
+cluster id StringLiteral InfixExpression SimpleName cluster id
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName hostname
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cluster name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cluster name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cluster id
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cluster id
+service component hosts SimpleName MethodInvocation SimpleName contains key
+service component hosts SimpleName MethodInvocation SimpleName service name
+contains key SimpleName MethodInvocation SimpleName service name
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+service component hosts SimpleName MethodInvocation SimpleName put
+service component hosts SimpleName MethodInvocation SimpleName service name
+put SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation SimpleName contains key
+service name SimpleName MethodInvocation MethodInvocation SimpleName contains key
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName component name
+get SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+contains key SimpleName MethodInvocation SimpleName component name
+service component hosts SimpleName MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName put
+get SimpleName MethodInvocation MethodInvocation SimpleName put
+service name SimpleName MethodInvocation MethodInvocation SimpleName put
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName component name
+get SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+put SimpleName MethodInvocation SimpleName component name
+service component hosts SimpleName MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+service name SimpleName MethodInvocation MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName component name
+get SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+get SimpleName MethodInvocation SimpleName component name
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains key
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName contains key
+get SimpleName MethodInvocation MethodInvocation SimpleName contains key
+component name SimpleName MethodInvocation MethodInvocation SimpleName contains key
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation SimpleName hostname
+component name SimpleName MethodInvocation MethodInvocation SimpleName hostname
+contains key SimpleName MethodInvocation SimpleName hostname
+duplicate entry for service component host StringLiteral InfixExpression StringLiteral service name
+duplicate entry for service component host StringLiteral InfixExpression InfixExpression SimpleName service name
+service name StringLiteral InfixExpression InfixExpression SimpleName service name
+duplicate entry for service component host StringLiteral InfixExpression InfixExpression StringLiteral service component name
+service name StringLiteral InfixExpression InfixExpression StringLiteral service component name
+duplicate entry for service component host StringLiteral InfixExpression InfixExpression SimpleName component name
+service name StringLiteral InfixExpression InfixExpression SimpleName component name
+duplicate entry for service component host StringLiteral InfixExpression InfixExpression StringLiteral hostname
+service name StringLiteral InfixExpression InfixExpression StringLiteral hostname
+duplicate entry for service component host StringLiteral InfixExpression InfixExpression SimpleName hostname
+service name StringLiteral InfixExpression InfixExpression SimpleName hostname
+service name SimpleName InfixExpression StringLiteral service component name
+service name SimpleName InfixExpression SimpleName component name
+service name SimpleName InfixExpression StringLiteral hostname
+service name SimpleName InfixExpression SimpleName hostname
+service component name StringLiteral InfixExpression SimpleName component name
+service component name StringLiteral InfixExpression StringLiteral hostname
+service component name StringLiteral InfixExpression SimpleName hostname
+component name SimpleName InfixExpression StringLiteral hostname
+component name SimpleName InfixExpression SimpleName hostname
+hostname StringLiteral InfixExpression SimpleName hostname
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName service name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral service component name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName component name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral hostname
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName hostname
+service component hosts by host SimpleName MethodInvocation SimpleName contains key
+service component hosts by host SimpleName MethodInvocation SimpleName hostname
+contains key SimpleName MethodInvocation SimpleName hostname
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+service component hosts by host SimpleName MethodInvocation SimpleName put
+service component hosts by host SimpleName MethodInvocation SimpleName hostname
+put SimpleName MethodInvocation SimpleName hostname
+service component hosts SimpleName MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation SimpleName service name
+get SimpleName MethodInvocation SimpleName service name
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation SimpleName get
+service name SimpleName MethodInvocation MethodInvocation SimpleName get
+service component hosts SimpleName MethodInvocation MethodInvocation SimpleName component name
+get SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+get SimpleName MethodInvocation SimpleName component name
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName put
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName put
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName put
+get SimpleName MethodInvocation MethodInvocation SimpleName put
+component name SimpleName MethodInvocation MethodInvocation SimpleName put
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation MethodInvocation SimpleName hostname
+component name SimpleName MethodInvocation MethodInvocation SimpleName hostname
+service component hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName svc comp host
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName svc comp host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName svc comp host
+get SimpleName MethodInvocation MethodInvocation SimpleName svc comp host
+component name SimpleName MethodInvocation MethodInvocation SimpleName svc comp host
+put SimpleName MethodInvocation SimpleName hostname
+put SimpleName MethodInvocation SimpleName svc comp host
+hostname SimpleName MethodInvocation SimpleName svc comp host
+service component hosts by host SimpleName MethodInvocation SimpleName get
+service component hosts by host SimpleName MethodInvocation SimpleName hostname
+get SimpleName MethodInvocation SimpleName hostname
+service component hosts by host SimpleName MethodInvocation MethodInvocation SimpleName add
+get SimpleName MethodInvocation MethodInvocation SimpleName add
+hostname SimpleName MethodInvocation MethodInvocation SimpleName add
+service component hosts by host SimpleName MethodInvocation MethodInvocation SimpleName svc comp host
+get SimpleName MethodInvocation MethodInvocation SimpleName svc comp host
+hostname SimpleName MethodInvocation MethodInvocation SimpleName svc comp host
+add SimpleName MethodInvocation SimpleName svc comp host
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName cs
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName cs
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier VariableDeclarationStatement Block EnhancedForStatement SimpleName cs
+boolean PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName cs
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add service component host
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component host
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName svc comp host
+synchronized Modifier MethodDeclaration SimpleType SimpleName ambari exception
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+synchronized Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName cs
+void PrimitiveType MethodDeclaration SimpleName add service component host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName svc comp host
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName cs
+add service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component host
+add service component host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svc comp host
+add service component host SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+add service component host SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+add service component host SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+add service component host SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+add service component host SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+add service component host SimpleName MethodDeclaration Block EnhancedForStatement SimpleName cs
+svc comp host SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add service component host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svc comp host
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add service component host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svc comp host
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

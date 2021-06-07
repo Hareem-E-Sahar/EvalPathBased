@@ -1,0 +1,26 @@
+role SimpleName SimpleType SingleVariableDeclaration SimpleName r
+success factors SimpleName MethodInvocation SimpleName get
+success factors SimpleName MethodInvocation SimpleName r
+get SimpleName MethodInvocation SimpleName r
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName success factors
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+synchronized Modifier MethodDeclaration PrimitiveType float
+synchronized Modifier MethodDeclaration SimpleName get success factor
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName role
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+float PrimitiveType MethodDeclaration SimpleName get success factor
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName role
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+get success factor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName role
+get success factor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get success factor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get success factor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

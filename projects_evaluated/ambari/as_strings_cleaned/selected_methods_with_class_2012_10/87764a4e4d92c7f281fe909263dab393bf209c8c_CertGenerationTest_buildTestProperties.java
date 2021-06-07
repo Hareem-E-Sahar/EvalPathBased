@@ -1,0 +1,42 @@
+temp SimpleName MethodInvocation SimpleName create
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+properties SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties
+temp SimpleName MethodInvocation SimpleName get root
+temp SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+get root SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+properties SimpleName MethodInvocation SimpleName set property
+properties SimpleName MethodInvocation QualifiedName configurationsrvr kstr dir key
+properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName temp
+properties SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root
+properties SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+set property SimpleName MethodInvocation QualifiedName configurationsrvr kstr dir key
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName temp
+set property SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get root
+set property SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+configurationsrvr kstr dir key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName temp
+configurationsrvr kstr dir key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get root
+configurationsrvr kstr dir key QualifiedName MethodInvocation MethodInvocation SimpleName get absolute path
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation QualifiedName configurationsrvr crt pass key
+get SimpleName MethodInvocation QualifiedName configurationsrvr crt pass key
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName properties
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get
+systemout QualifiedName MethodInvocation MethodInvocation QualifiedName configurationsrvr crt pass key
+println SimpleName MethodInvocation MethodInvocation SimpleName properties
+println SimpleName MethodInvocation MethodInvocation SimpleName get
+println SimpleName MethodInvocation MethodInvocation QualifiedName configurationsrvr crt pass key
+protected Modifier MethodDeclaration SimpleType SimpleName properties
+protected Modifier MethodDeclaration SimpleName build test properties
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName properties
+properties SimpleName SimpleType MethodDeclaration SimpleName build test properties
+build test properties SimpleName MethodDeclaration Block ReturnStatement SimpleName properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName build test properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build test properties

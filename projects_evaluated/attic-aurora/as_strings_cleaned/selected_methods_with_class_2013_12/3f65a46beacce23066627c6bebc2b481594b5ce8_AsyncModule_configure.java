@@ -1,0 +1,36 @@
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName preemptor
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+bind SimpleName MethodInvocation MethodInvocation SimpleName preemptor key
+to SimpleName MethodInvocation SimpleName preemptor key
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+bind SimpleName MethodInvocation MethodInvocation SimpleName annotated with
+annotated with SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reservation duration
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to instance
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reservation duration
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName reservation duration
+to instance SimpleName MethodInvocation SimpleName reservation duration
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler impl
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+expose SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task scheduler
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

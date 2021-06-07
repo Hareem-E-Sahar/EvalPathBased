@@ -1,0 +1,19 @@
+service component SimpleName SimpleType SingleVariableDeclaration SimpleName component
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add service component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName component
+void PrimitiveType MethodDeclaration SimpleName add service component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName component
+add service component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component
+add service component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName component
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add service component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName component
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add service component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName component

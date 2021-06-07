@@ -1,0 +1,51 @@
+request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get request type
+get request handler factory SimpleName MethodInvocation MethodInvocation SimpleName get request handler
+get request handler factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+get request handler factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get request type
+get request handler SimpleName MethodInvocation MethodInvocation SimpleName request
+get request handler SimpleName MethodInvocation MethodInvocation SimpleName get request type
+get request handler factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handle request
+get request handler SimpleName MethodInvocation MethodInvocation SimpleName handle request
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handle request
+get request type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handle request
+get request handler factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+get request handler SimpleName MethodInvocation MethodInvocation SimpleName request
+request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+get request type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName request
+handle request SimpleName MethodInvocation SimpleName request
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get request handler
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle request
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName request
+result SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+request SimpleName MethodInvocation SimpleName get result post processor
+request SimpleName MethodInvocation MethodInvocation SimpleName process
+get result post processor SimpleName MethodInvocation MethodInvocation SimpleName process
+request SimpleName MethodInvocation MethodInvocation SimpleName result
+get result post processor SimpleName MethodInvocation MethodInvocation SimpleName result
+process SimpleName MethodInvocation SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName handle request
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName result
+public Modifier MethodDeclaration SimpleName handle request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+result SimpleName SimpleType MethodDeclaration SimpleName handle request
+result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName request
+handle request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+handle request SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

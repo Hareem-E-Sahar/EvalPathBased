@@ -1,0 +1,218 @@
+job event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+log SimpleName MethodInvocation SimpleName is debug enabled
+event SimpleName MethodInvocation SimpleName get type
+event SimpleName MethodInvocation MethodInvocation SimpleName name
+get type SimpleName MethodInvocation MethodInvocation SimpleName name
+event SimpleName MethodInvocation SimpleName to string
+handling job event event type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName event
+handling job event event type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get type
+handling job event event type StringLiteral InfixExpression MethodInvocation SimpleName name
+handling job event event type StringLiteral InfixExpression StringLiteral event
+handling job event event type StringLiteral InfixExpression MethodInvocation SimpleName event
+handling job event event type StringLiteral InfixExpression MethodInvocation SimpleName to string
+event SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral event
+get type SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral event
+name SimpleName MethodInvocation InfixExpression StringLiteral event
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+event StringLiteral InfixExpression MethodInvocation SimpleName event
+event StringLiteral InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral handling job event event type
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+debug SimpleName MethodInvocation InfixExpression StringLiteral handling job event event type
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral event
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+old state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state
+job state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old state
+write lock SimpleName MethodInvocation SimpleName lock
+event SimpleName MethodInvocation SimpleName get type
+state machine SimpleName MethodInvocation SimpleName do transition
+state machine SimpleName MethodInvocation MethodInvocation SimpleName event
+state machine SimpleName MethodInvocation MethodInvocation SimpleName get type
+state machine SimpleName MethodInvocation SimpleName event
+do transition SimpleName MethodInvocation MethodInvocation SimpleName event
+do transition SimpleName MethodInvocation MethodInvocation SimpleName get type
+do transition SimpleName MethodInvocation SimpleName event
+event SimpleName MethodInvocation MethodInvocation SimpleName event
+get type SimpleName MethodInvocation MethodInvocation SimpleName event
+invalid state transiton exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+cant handle job event at current state StringLiteral InfixExpression StringLiteral job id
+event SimpleName MethodInvocation SimpleName get type
+cant handle job event at current state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get id
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get id
+cant handle job event at current state StringLiteral InfixExpression InfixExpression StringLiteral current state
+job id StringLiteral InfixExpression InfixExpression StringLiteral current state
+cant handle job event at current state StringLiteral InfixExpression InfixExpression SimpleName old state
+job id StringLiteral InfixExpression InfixExpression SimpleName old state
+cant handle job event at current state StringLiteral InfixExpression InfixExpression StringLiteral event type
+job id StringLiteral InfixExpression InfixExpression StringLiteral event type
+cant handle job event at current state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName event
+cant handle job event at current state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get type
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName event
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get type
+get id SimpleName MethodInvocation InfixExpression StringLiteral current state
+get id SimpleName MethodInvocation InfixExpression SimpleName old state
+get id SimpleName MethodInvocation InfixExpression StringLiteral event type
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+get id SimpleName MethodInvocation InfixExpression StringLiteral event
+current state StringLiteral InfixExpression SimpleName old state
+current state StringLiteral InfixExpression StringLiteral event type
+current state StringLiteral InfixExpression MethodInvocation SimpleName event
+current state StringLiteral InfixExpression MethodInvocation SimpleName get type
+current state StringLiteral InfixExpression StringLiteral event
+current state StringLiteral InfixExpression SimpleName event
+old state SimpleName InfixExpression StringLiteral event type
+old state SimpleName InfixExpression MethodInvocation SimpleName event
+old state SimpleName InfixExpression MethodInvocation SimpleName get type
+old state SimpleName InfixExpression StringLiteral event
+old state SimpleName InfixExpression SimpleName event
+event type StringLiteral InfixExpression MethodInvocation SimpleName event
+event type StringLiteral InfixExpression MethodInvocation SimpleName get type
+event type StringLiteral InfixExpression StringLiteral event
+event type StringLiteral InfixExpression SimpleName event
+event SimpleName MethodInvocation InfixExpression StringLiteral event
+get type SimpleName MethodInvocation InfixExpression StringLiteral event
+event SimpleName MethodInvocation InfixExpression SimpleName event
+get type SimpleName MethodInvocation InfixExpression SimpleName event
+event StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName error
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cant handle job event at current state
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+log SimpleName MethodInvocation InfixExpression StringLiteral current state
+log SimpleName MethodInvocation InfixExpression SimpleName old state
+log SimpleName MethodInvocation InfixExpression StringLiteral event type
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+log SimpleName MethodInvocation InfixExpression StringLiteral event
+log SimpleName MethodInvocation InfixExpression SimpleName event
+error SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cant handle job event at current state
+error SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job id
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+error SimpleName MethodInvocation InfixExpression StringLiteral current state
+error SimpleName MethodInvocation InfixExpression SimpleName old state
+error SimpleName MethodInvocation InfixExpression StringLiteral event type
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName event
+error SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get type
+error SimpleName MethodInvocation InfixExpression StringLiteral event
+error SimpleName MethodInvocation InfixExpression SimpleName event
+write lock SimpleName MethodInvocation SimpleName unlock
+old state SimpleName InfixExpression MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName is debug enabled
+job transitioned to a new state StringLiteral InfixExpression StringLiteral job id
+event SimpleName MethodInvocation SimpleName get type
+event SimpleName MethodInvocation MethodInvocation SimpleName name
+get type SimpleName MethodInvocation MethodInvocation SimpleName name
+job transitioned to a new state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get id
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get id
+job transitioned to a new state StringLiteral InfixExpression InfixExpression StringLiteral old state
+job id StringLiteral InfixExpression InfixExpression StringLiteral old state
+job transitioned to a new state StringLiteral InfixExpression InfixExpression SimpleName old state
+job id StringLiteral InfixExpression InfixExpression SimpleName old state
+job transitioned to a new state StringLiteral InfixExpression InfixExpression StringLiteral current state
+job id StringLiteral InfixExpression InfixExpression StringLiteral current state
+job transitioned to a new state StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get state
+job id StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get state
+get id SimpleName MethodInvocation InfixExpression StringLiteral old state
+get id SimpleName MethodInvocation InfixExpression SimpleName old state
+get id SimpleName MethodInvocation InfixExpression StringLiteral current state
+get id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+get id SimpleName MethodInvocation InfixExpression StringLiteral event type
+old state StringLiteral InfixExpression SimpleName old state
+old state StringLiteral InfixExpression StringLiteral current state
+old state StringLiteral InfixExpression MethodInvocation SimpleName get state
+old state StringLiteral InfixExpression StringLiteral event type
+old state StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName event
+old state StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get type
+old state StringLiteral InfixExpression MethodInvocation SimpleName name
+old state SimpleName InfixExpression StringLiteral current state
+old state SimpleName InfixExpression MethodInvocation SimpleName get state
+old state SimpleName InfixExpression StringLiteral event type
+old state SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName event
+old state SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get type
+old state SimpleName InfixExpression MethodInvocation SimpleName name
+old state SimpleName InfixExpression StringLiteral event
+current state StringLiteral InfixExpression MethodInvocation SimpleName get state
+current state StringLiteral InfixExpression StringLiteral event type
+current state StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName event
+current state StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get type
+current state StringLiteral InfixExpression MethodInvocation SimpleName name
+current state StringLiteral InfixExpression StringLiteral event
+current state StringLiteral InfixExpression SimpleName event
+get state SimpleName MethodInvocation InfixExpression StringLiteral event type
+get state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+get state SimpleName MethodInvocation InfixExpression StringLiteral event
+get state SimpleName MethodInvocation InfixExpression SimpleName event
+event type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName event
+event type StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get type
+event type StringLiteral InfixExpression MethodInvocation SimpleName name
+event type StringLiteral InfixExpression StringLiteral event
+event type StringLiteral InfixExpression SimpleName event
+event SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral event
+get type SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral event
+name SimpleName MethodInvocation InfixExpression StringLiteral event
+event SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName event
+get type SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName event
+name SimpleName MethodInvocation InfixExpression SimpleName event
+event StringLiteral InfixExpression SimpleName event
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job transitioned to a new state
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+log SimpleName MethodInvocation InfixExpression StringLiteral old state
+log SimpleName MethodInvocation InfixExpression SimpleName old state
+log SimpleName MethodInvocation InfixExpression StringLiteral current state
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+log SimpleName MethodInvocation InfixExpression StringLiteral event type
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral event
+log SimpleName MethodInvocation InfixExpression SimpleName event
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job transitioned to a new state
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral job id
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get id
+debug SimpleName MethodInvocation InfixExpression StringLiteral old state
+debug SimpleName MethodInvocation InfixExpression SimpleName old state
+debug SimpleName MethodInvocation InfixExpression StringLiteral current state
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+debug SimpleName MethodInvocation InfixExpression StringLiteral event type
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+debug SimpleName MethodInvocation InfixExpression StringLiteral event
+debug SimpleName MethodInvocation InfixExpression SimpleName event
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName handle event
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName invalid state transiton exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration SimpleType SimpleName invalid state transiton exception
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleType SimpleName invalid state transiton exception
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName job event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+handle event SimpleName MethodDeclaration SimpleType SimpleName invalid state transiton exception
+event SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception

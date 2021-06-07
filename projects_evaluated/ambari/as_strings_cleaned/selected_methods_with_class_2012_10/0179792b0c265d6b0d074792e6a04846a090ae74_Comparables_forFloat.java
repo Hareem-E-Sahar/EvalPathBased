@@ -1,0 +1,58 @@
+comparable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleType SimpleName float
+final Modifier SingleVariableDeclaration SimpleName value
+float SimpleName SimpleType SingleVariableDeclaration SimpleName value
+comparable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+float SimpleName MethodInvocation SimpleName value of
+float SimpleName MethodInvocation SimpleName s
+value of SimpleName MethodInvocation SimpleName s
+value SimpleName MethodInvocation SimpleName compare to
+value SimpleName MethodInvocation MethodInvocation SimpleName float
+value SimpleName MethodInvocation MethodInvocation SimpleName value of
+value SimpleName MethodInvocation MethodInvocation SimpleName s
+compare to SimpleName MethodInvocation MethodInvocation SimpleName float
+compare to SimpleName MethodInvocation MethodInvocation SimpleName value of
+compare to SimpleName MethodInvocation MethodInvocation SimpleName s
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName compare to
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName comparable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName for float
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName comparable
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName for float
+static Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName float
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+comparable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName for float
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName for float
+for float SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+for float SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName float
+for float SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName for float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName for float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

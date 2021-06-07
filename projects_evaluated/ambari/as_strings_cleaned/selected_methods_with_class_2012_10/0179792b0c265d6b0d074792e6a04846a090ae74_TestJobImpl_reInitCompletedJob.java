@@ -1,0 +1,111 @@
+get completed job SimpleName MethodInvocation NumberLiteral empty
+get completed job SimpleName MethodInvocation StringLiteral job name foo
+get completed job SimpleName MethodInvocation NumberLiteral empty
+get completed job SimpleName MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation StringLiteral job name foo
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation BooleanLiteral false
+job name foo StringLiteral MethodInvocation NumberLiteral empty
+job name foo StringLiteral MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation BooleanLiteral false
+job SimpleName VariableDeclarationFragment MethodInvocation SimpleName get completed job
+job SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+job SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job name foo
+job SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+job SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job
+job type SimpleName SimpleType ClassInstanceCreation StringLiteral job name foo
+job id SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+job id SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral job name foo
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName job type
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation StringLiteral job name foo
+j id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName job id
+j id SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+j id SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral job name foo
+job id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName j id
+new job event SimpleName SimpleType ClassInstanceCreation SimpleName j id
+new job event SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+j id SimpleName ClassInstanceCreation NumberLiteral empty
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName new job event
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName j id
+e SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+new job event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+job SimpleName MethodInvocation SimpleName handle event
+job SimpleName MethodInvocation SimpleName e
+handle event SimpleName MethodInvocation SimpleName e
+job SimpleName MethodInvocation SimpleName get state
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName job stateinit
+assert SimpleName MethodInvocation MethodInvocation SimpleName job
+assert SimpleName MethodInvocation MethodInvocation SimpleName get state
+assert equals SimpleName MethodInvocation QualifiedName job stateinit
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get state
+job stateinit QualifiedName MethodInvocation MethodInvocation SimpleName job
+job stateinit QualifiedName MethodInvocation MethodInvocation SimpleName get state
+job SimpleName MethodInvocation SimpleName get start time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName job
+assert SimpleName MethodInvocation MethodInvocation SimpleName get start time
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get start time
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName job
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get start time
+job SimpleName MethodInvocation SimpleName get last update time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName job
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last update time
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last update time
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName job
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName get last update time
+job SimpleName MethodInvocation SimpleName get completion time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName job
+assert SimpleName MethodInvocation MethodInvocation SimpleName get completion time
+assert equals SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get completion time
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName job
+empty NumberLiteral PrefixExpression MethodInvocation MethodInvocation SimpleName get completion time
+job SimpleName MethodInvocation SimpleName get id
+job SimpleName MethodInvocation FieldAccess SimpleName job id
+get id SimpleName MethodInvocation FieldAccess SimpleName job id
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName job
+assert SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get id
+assert SimpleName MethodInvocation FieldAccess SimpleName job id
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName job
+assert equals SimpleName MethodInvocation FieldAccess MethodInvocation SimpleName get id
+assert equals SimpleName MethodInvocation FieldAccess SimpleName job id
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName job
+empty NumberLiteral MethodInvocation FieldAccess MethodInvocation SimpleName get id
+empty NumberLiteral MethodInvocation FieldAccess SimpleName job id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName re init completed job
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName re init completed job
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName re init completed job
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+re init completed job SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName re init completed job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName re init completed job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

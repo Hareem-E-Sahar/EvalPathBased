@@ -1,0 +1,120 @@
+dedicated SimpleName VariableDeclarationFragment StringLiteral user ajob a
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dedicated
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral user ajob a
+dedicated SimpleName VariableDeclarationFragment StringLiteral kestrelkestrel
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dedicated
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral kestrelkestrel
+dedicated SimpleName MethodInvocation SimpleName dedicated
+dedicated SimpleName MethodInvocation SimpleName dedicated
+dedicated SimpleName MethodInvocation SimpleName dedicated
+expect get host attributes SimpleName MethodInvocation SimpleName host a
+expect get host attributes SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+expect get host attributes SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+expect get host attributes SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+host a SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+host a SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+host a SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+expect get host attributes SimpleName MethodInvocation MethodInvocation SimpleName any times
+host a SimpleName MethodInvocation MethodInvocation SimpleName any times
+dedicated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+dedicated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+dedicated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any times
+expect get host maintenance status SimpleName MethodInvocation SimpleName host a
+expect get host maintenance status SimpleName MethodInvocation MethodInvocation SimpleName at least once
+host a SimpleName MethodInvocation MethodInvocation SimpleName at least once
+control SimpleName MethodInvocation SimpleName replay
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set role
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral user a
+set role SimpleName MethodInvocation StringLiteral user a
+check constraint SimpleName MethodInvocation MethodInvocation SimpleName set role
+check constraint SimpleName MethodInvocation MethodInvocation StringLiteral user a
+check constraint SimpleName MethodInvocation StringLiteral job a
+check constraint SimpleName MethodInvocation SimpleName host a
+check constraint SimpleName MethodInvocation SimpleName dedicated attribute
+check constraint SimpleName MethodInvocation BooleanLiteral true
+set role SimpleName MethodInvocation MethodInvocation StringLiteral job a
+user a StringLiteral MethodInvocation MethodInvocation StringLiteral job a
+set role SimpleName MethodInvocation MethodInvocation SimpleName host a
+user a StringLiteral MethodInvocation MethodInvocation SimpleName host a
+set role SimpleName MethodInvocation MethodInvocation SimpleName dedicated attribute
+user a StringLiteral MethodInvocation MethodInvocation SimpleName dedicated attribute
+set role SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+user a StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+set role SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+user a StringLiteral MethodInvocation MethodInvocation SimpleName dedicated
+job a StringLiteral MethodInvocation SimpleName host a
+job a StringLiteral MethodInvocation SimpleName dedicated attribute
+job a StringLiteral MethodInvocation BooleanLiteral true
+job a StringLiteral MethodInvocation SimpleName dedicated
+host a SimpleName MethodInvocation SimpleName dedicated attribute
+host a SimpleName MethodInvocation BooleanLiteral true
+host a SimpleName MethodInvocation SimpleName dedicated
+dedicated attribute SimpleName MethodInvocation BooleanLiteral true
+dedicated attribute SimpleName MethodInvocation SimpleName dedicated
+true BooleanLiteral MethodInvocation SimpleName dedicated
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName check constraint
+assert no vetoes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set role
+assert no vetoes SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral user a
+assert no vetoes SimpleName MethodInvocation MethodInvocation StringLiteral job a
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName host a
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName dedicated attribute
+assert no vetoes SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set role
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral kestrel
+set role SimpleName MethodInvocation StringLiteral kestrel
+check constraint SimpleName MethodInvocation MethodInvocation SimpleName set role
+check constraint SimpleName MethodInvocation MethodInvocation StringLiteral kestrel
+check constraint SimpleName MethodInvocation StringLiteral kestrel
+check constraint SimpleName MethodInvocation SimpleName host a
+check constraint SimpleName MethodInvocation SimpleName dedicated attribute
+check constraint SimpleName MethodInvocation BooleanLiteral true
+set role SimpleName MethodInvocation MethodInvocation StringLiteral kestrel
+kestrel StringLiteral MethodInvocation MethodInvocation StringLiteral kestrel
+set role SimpleName MethodInvocation MethodInvocation SimpleName host a
+kestrel StringLiteral MethodInvocation MethodInvocation SimpleName host a
+set role SimpleName MethodInvocation MethodInvocation SimpleName dedicated attribute
+kestrel StringLiteral MethodInvocation MethodInvocation SimpleName dedicated attribute
+set role SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+kestrel StringLiteral MethodInvocation MethodInvocation BooleanLiteral true
+set role SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+kestrel StringLiteral MethodInvocation MethodInvocation SimpleName dedicated
+kestrel StringLiteral MethodInvocation SimpleName host a
+kestrel StringLiteral MethodInvocation SimpleName dedicated attribute
+kestrel StringLiteral MethodInvocation BooleanLiteral true
+kestrel StringLiteral MethodInvocation SimpleName dedicated
+host a SimpleName MethodInvocation SimpleName dedicated attribute
+host a SimpleName MethodInvocation BooleanLiteral true
+host a SimpleName MethodInvocation SimpleName dedicated
+dedicated attribute SimpleName MethodInvocation BooleanLiteral true
+dedicated attribute SimpleName MethodInvocation SimpleName dedicated
+true BooleanLiteral MethodInvocation SimpleName dedicated
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName check constraint
+assert no vetoes SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set role
+assert no vetoes SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral kestrel
+assert no vetoes SimpleName MethodInvocation MethodInvocation StringLiteral kestrel
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName host a
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName dedicated attribute
+assert no vetoes SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+assert no vetoes SimpleName MethodInvocation MethodInvocation SimpleName dedicated
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test shared dedicated host
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test shared dedicated host
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test shared dedicated host
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test shared dedicated host SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test shared dedicated host
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test shared dedicated host
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,28 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName expected prediction
+expected prediction SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get resource as stream
+expected prediction SimpleName SimpleType TypeLiteral MethodInvocation StringLiteral expectedpredictionsjson
+get resource as stream SimpleName MethodInvocation StringLiteral expectedpredictionsjson
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get resource as stream
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral expectedpredictionsjson
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName expected prediction
+gson SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName from json
+from json SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName input stream reader
+from json SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get resource as stream
+from json SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral expectedpredictionsjson
+from json SimpleName MethodInvocation MethodInvocation SimpleName get type
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName expected prediction
+public Modifier MethodDeclaration SimpleName get all
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName expected prediction
+static Modifier MethodDeclaration SimpleName get all
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all
+expected prediction SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get all
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get all
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get all

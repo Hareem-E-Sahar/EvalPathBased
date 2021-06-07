@@ -1,0 +1,30 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName cron exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+control SimpleName MethodInvocation SimpleName replay
+cron job manager SimpleName MethodInvocation SimpleName start job now
+cron job manager SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+start job now SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test start job now nonexistent
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test start job now nonexistent
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test start job now nonexistent
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test start job now nonexistent
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test start job now nonexistent SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test start job now nonexistent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test start job now nonexistent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

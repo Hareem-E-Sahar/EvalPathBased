@@ -1,0 +1,29 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster response
+cluster request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get clusters
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName cluster response
+public Modifier MethodDeclaration SimpleName get clusters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get clusters
+cluster response SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get clusters
+get clusters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster request
+get clusters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get clusters SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get clusters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get clusters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

@@ -1,0 +1,88 @@
+h SimpleName VariableDeclarationFragment StringLiteral h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral h
+h SimpleName VariableDeclarationFragment StringLiteral h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral h
+h SimpleName VariableDeclarationFragment StringLiteral h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral h
+clusters SimpleName MethodInvocation SimpleName add host
+clusters SimpleName MethodInvocation SimpleName h
+add host SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation SimpleName add host
+clusters SimpleName MethodInvocation SimpleName h
+add host SimpleName MethodInvocation SimpleName h
+fail SimpleName MethodInvocation StringLiteral expected exception on duplicate host entry
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+clusters SimpleName MethodInvocation SimpleName add host
+clusters SimpleName MethodInvocation SimpleName h
+add host SimpleName MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation SimpleName add host
+clusters SimpleName MethodInvocation SimpleName h
+add host SimpleName MethodInvocation SimpleName h
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host
+clusters SimpleName MethodInvocation SimpleName get all hosts
+hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all hosts
+hosts SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName hosts
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName hosts
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName hosts
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation SimpleName get host
+assert SimpleName MethodInvocation MethodInvocation SimpleName h
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get host
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation SimpleName get host
+assert SimpleName MethodInvocation MethodInvocation SimpleName h
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get host
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName h
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation SimpleName h
+get host SimpleName MethodInvocation SimpleName h
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert SimpleName MethodInvocation MethodInvocation SimpleName get host
+assert SimpleName MethodInvocation MethodInvocation SimpleName h
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName clusters
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get host
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName h
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test add and get host
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test add and get host
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName test add and get host
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+test add and get host SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test add and get host
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test add and get host
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

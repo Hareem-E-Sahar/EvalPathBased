@@ -1,0 +1,21 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+config SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update desired configs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName configs
+void PrimitiveType MethodDeclaration SimpleName update desired configs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName configs
+update desired configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update desired configs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update desired configs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configs

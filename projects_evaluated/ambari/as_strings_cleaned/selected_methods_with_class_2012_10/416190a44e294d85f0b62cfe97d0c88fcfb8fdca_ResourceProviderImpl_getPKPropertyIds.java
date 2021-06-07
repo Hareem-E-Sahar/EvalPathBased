@@ -1,0 +1,17 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get pk property ids
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName property id
+protected Modifier MethodDeclaration SimpleName get pk property ids
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName pk property ids
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get pk property ids
+property id SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get pk property ids
+get pk property ids SimpleName MethodDeclaration Block ReturnStatement SimpleName pk property ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get pk property ids
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get pk property ids

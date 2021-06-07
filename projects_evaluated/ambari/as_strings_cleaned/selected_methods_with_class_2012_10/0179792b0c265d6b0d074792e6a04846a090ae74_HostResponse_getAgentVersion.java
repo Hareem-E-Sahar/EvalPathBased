@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName agent version
+public Modifier MethodDeclaration SimpleName get agent version
+public Modifier MethodDeclaration Block ReturnStatement SimpleName agent version
+agent version SimpleName SimpleType MethodDeclaration SimpleName get agent version
+get agent version SimpleName MethodDeclaration Block ReturnStatement SimpleName agent version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName agent version
+public Modifier TypeDeclaration MethodDeclaration SimpleName get agent version
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName agent version
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get agent version

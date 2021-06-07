@@ -1,0 +1,12 @@
+cluster entity SimpleName SimpleType SingleVariableDeclaration SimpleName cluster entity
+cluster SimpleName SimpleType MethodDeclaration SimpleName create
+cluster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster entity
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster entity
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster entity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster entity

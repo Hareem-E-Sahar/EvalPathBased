@@ -1,0 +1,68 @@
+control SimpleName MethodInvocation SimpleName replay
+storagemutable store provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+quartz test utiljob QualifiedName MethodInvocation SimpleName new builder
+quartz test utiljob QualifiedName MethodInvocation MethodInvocation SimpleName set cron schedule
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set cron schedule
+i job configuration SimpleName MethodInvocation SimpleName build
+i job configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName quartz test utiljob
+i job configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+i job configuration SimpleName MethodInvocation MethodInvocation SimpleName set cron schedule
+build SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName quartz test utiljob
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+build SimpleName MethodInvocation MethodInvocation SimpleName set cron schedule
+store provider SimpleName MethodInvocation MethodInvocation SimpleName save accepted job
+get job store SimpleName MethodInvocation MethodInvocation SimpleName save accepted job
+store provider SimpleName MethodInvocation MethodInvocation SimpleName manager id
+get job store SimpleName MethodInvocation MethodInvocation SimpleName manager id
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i job configuration
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i job configuration
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+save accepted job SimpleName MethodInvocation SimpleName manager id
+save accepted job SimpleName MethodInvocation MethodInvocation SimpleName i job configuration
+save accepted job SimpleName MethodInvocation MethodInvocation SimpleName build
+save accepted job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set cron schedule
+manager id SimpleName MethodInvocation MethodInvocation SimpleName i job configuration
+manager id SimpleName MethodInvocation MethodInvocation SimpleName build
+manager id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set cron schedule
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName write
+storage SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+aurora cron job SimpleName MethodInvocation SimpleName do execute
+aurora cron job SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+do execute SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test invalid config is noop
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName job execution exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test invalid config is noop
+public Modifier MethodDeclaration SimpleType SimpleName job execution exception
+void PrimitiveType MethodDeclaration SimpleName test invalid config is noop
+void PrimitiveType MethodDeclaration SimpleType SimpleName job execution exception
+test invalid config is noop SimpleName MethodDeclaration SimpleType SimpleName job execution exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test invalid config is noop
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName job execution exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test invalid config is noop
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName job execution exception

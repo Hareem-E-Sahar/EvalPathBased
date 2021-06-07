@@ -1,0 +1,33 @@
+i job configuration SimpleName SimpleType SingleVariableDeclaration SimpleName job
+check not null SimpleName MethodInvocation SimpleName job
+job SimpleName MethodInvocation SimpleName get cron schedule
+string utils SimpleName MethodInvocation SimpleName is empty
+string utils SimpleName MethodInvocation MethodInvocation SimpleName job
+string utils SimpleName MethodInvocation MethodInvocation SimpleName get cron schedule
+is empty SimpleName MethodInvocation MethodInvocation SimpleName job
+is empty SimpleName MethodInvocation MethodInvocation SimpleName get cron schedule
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName has cron schedule
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName has cron schedule
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+boolean PrimitiveType MethodDeclaration SimpleName has cron schedule
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+has cron schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+has cron schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has cron schedule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has cron schedule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job

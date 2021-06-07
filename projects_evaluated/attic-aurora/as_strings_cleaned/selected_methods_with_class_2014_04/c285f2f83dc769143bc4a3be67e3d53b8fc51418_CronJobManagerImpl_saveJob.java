@@ -1,0 +1,74 @@
+sanitized cron job SimpleName SimpleType SingleVariableDeclaration SimpleName cron job
+job storemutable QualifiedName SimpleType SingleVariableDeclaration SimpleName job store
+cron job SimpleName MethodInvocation SimpleName get sanitized config
+cron job SimpleName MethodInvocation MethodInvocation SimpleName get job config
+get sanitized config SimpleName MethodInvocation MethodInvocation SimpleName get job config
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName cron job
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get sanitized config
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName get job config
+i job configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+job store SimpleName MethodInvocation SimpleName save accepted job
+job store SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+job store SimpleName MethodInvocation SimpleName config
+save accepted job SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+save accepted job SimpleName MethodInvocation SimpleName config
+get manager key SimpleName MethodInvocation MethodInvocation SimpleName config
+config SimpleName MethodInvocation SimpleName get key
+job keys SimpleName MethodInvocation SimpleName canonical string
+job keys SimpleName MethodInvocation MethodInvocation SimpleName config
+job keys SimpleName MethodInvocation MethodInvocation SimpleName get key
+canonical string SimpleName MethodInvocation MethodInvocation SimpleName config
+canonical string SimpleName MethodInvocation MethodInvocation SimpleName get key
+string SimpleName MethodInvocation SimpleName format
+string SimpleName MethodInvocation StringLiteral saved new cron job s to storage
+string SimpleName MethodInvocation MethodInvocation SimpleName job keys
+string SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+format SimpleName MethodInvocation StringLiteral saved new cron job s to storage
+format SimpleName MethodInvocation MethodInvocation SimpleName job keys
+format SimpleName MethodInvocation MethodInvocation SimpleName canonical string
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+format SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+saved new cron job s to storage StringLiteral MethodInvocation MethodInvocation SimpleName job keys
+saved new cron job s to storage StringLiteral MethodInvocation MethodInvocation SimpleName canonical string
+saved new cron job s to storage StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName config
+saved new cron job s to storage StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation MethodInvocation SimpleName string
+log SimpleName MethodInvocation MethodInvocation SimpleName format
+log SimpleName MethodInvocation MethodInvocation StringLiteral saved new cron job s to storage
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+log SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+info SimpleName MethodInvocation MethodInvocation SimpleName string
+info SimpleName MethodInvocation MethodInvocation SimpleName format
+info SimpleName MethodInvocation MethodInvocation StringLiteral saved new cron job s to storage
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job keys
+info SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName canonical string
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName save job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cron job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName job storemutable
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job store
+void PrimitiveType MethodDeclaration SimpleName save job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cron job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName job storemutable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job store
+save job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+save job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cron job
+save job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName job storemutable
+save job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job store
+cron job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName save job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cron job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cron job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job store

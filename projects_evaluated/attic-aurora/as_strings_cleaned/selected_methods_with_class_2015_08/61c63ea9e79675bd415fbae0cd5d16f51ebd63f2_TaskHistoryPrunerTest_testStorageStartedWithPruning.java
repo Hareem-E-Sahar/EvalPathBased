@@ -1,0 +1,198 @@
+clock SimpleName MethodInvocation SimpleName now millis
+task a timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName clock
+task a timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName now millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName task a timestamp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clock
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName now millis
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation SimpleName finished
+a StringLiteral MethodInvocation SimpleName finished
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName finished
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+clock SimpleName MethodInvocation SimpleName advance
+clock SimpleName MethodInvocation SimpleName one minute
+advance SimpleName MethodInvocation SimpleName one minute
+clock SimpleName MethodInvocation SimpleName now millis
+task b timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName clock
+task b timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName now millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName task b timestamp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clock
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName now millis
+make task SimpleName MethodInvocation StringLiteral b
+make task SimpleName MethodInvocation SimpleName lost
+b StringLiteral MethodInvocation SimpleName lost
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral b
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName lost
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+clock SimpleName MethodInvocation SimpleName advance
+clock SimpleName MethodInvocation SimpleName one minute
+advance SimpleName MethodInvocation SimpleName one minute
+clock SimpleName MethodInvocation SimpleName now millis
+task c timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName clock
+task c timestamp SimpleName VariableDeclarationFragment MethodInvocation SimpleName now millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName task c timestamp
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clock
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName now millis
+make task SimpleName MethodInvocation StringLiteral c
+make task SimpleName MethodInvocation SimpleName finished
+c StringLiteral MethodInvocation SimpleName finished
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral c
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName finished
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+clock SimpleName MethodInvocation SimpleName advance
+clock SimpleName MethodInvocation SimpleName one minute
+advance SimpleName MethodInvocation SimpleName one minute
+make task SimpleName MethodInvocation StringLiteral d
+make task SimpleName MethodInvocation SimpleName finished
+d StringLiteral MethodInvocation SimpleName finished
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+d SimpleName VariableDeclarationFragment MethodInvocation StringLiteral d
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName finished
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+make task SimpleName MethodInvocation StringLiteral jobx
+make task SimpleName MethodInvocation StringLiteral e
+make task SimpleName MethodInvocation SimpleName finished
+jobx StringLiteral MethodInvocation StringLiteral e
+jobx StringLiteral MethodInvocation SimpleName finished
+e StringLiteral MethodInvocation SimpleName finished
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jobx
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral e
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName finished
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName a
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName of
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName a
+expect one delayed prune SimpleName MethodInvocation SimpleName task a timestamp
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName a
+immutable set SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName b
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName of
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName a
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName b
+expect one delayed prune SimpleName MethodInvocation SimpleName task b timestamp
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName a
+immutable set SimpleName MethodInvocation SimpleName b
+immutable set SimpleName MethodInvocation SimpleName c
+of SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName c
+a SimpleName MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName c
+b SimpleName MethodInvocation SimpleName c
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName of
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName a
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName b
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName c
+expect immediate prune SimpleName MethodInvocation SimpleName a
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName a
+of SimpleName MethodInvocation MethodInvocation SimpleName a
+a SimpleName MethodInvocation MethodInvocation SimpleName a
+b SimpleName MethodInvocation MethodInvocation SimpleName a
+c SimpleName MethodInvocation MethodInvocation SimpleName a
+expect one delayed prune SimpleName MethodInvocation SimpleName task c timestamp
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName b
+immutable set SimpleName MethodInvocation SimpleName c
+immutable set SimpleName MethodInvocation SimpleName d
+of SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName c
+of SimpleName MethodInvocation SimpleName d
+b SimpleName MethodInvocation SimpleName c
+b SimpleName MethodInvocation SimpleName d
+c SimpleName MethodInvocation SimpleName d
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName of
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName b
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName c
+expect immediate prune SimpleName MethodInvocation MethodInvocation SimpleName d
+expect immediate prune SimpleName MethodInvocation SimpleName b
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName b
+of SimpleName MethodInvocation MethodInvocation SimpleName b
+b SimpleName MethodInvocation MethodInvocation SimpleName b
+c SimpleName MethodInvocation MethodInvocation SimpleName b
+d SimpleName MethodInvocation MethodInvocation SimpleName b
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName e
+of SimpleName MethodInvocation SimpleName e
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName of
+expect no immediate prune SimpleName MethodInvocation MethodInvocation SimpleName e
+control SimpleName MethodInvocation SimpleName replay
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+immutable list SimpleName MethodInvocation SimpleName of
+immutable list SimpleName MethodInvocation SimpleName a
+immutable list SimpleName MethodInvocation SimpleName b
+immutable list SimpleName MethodInvocation SimpleName c
+immutable list SimpleName MethodInvocation SimpleName d
+of SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName c
+of SimpleName MethodInvocation SimpleName d
+of SimpleName MethodInvocation SimpleName e
+a SimpleName MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName c
+a SimpleName MethodInvocation SimpleName d
+a SimpleName MethodInvocation SimpleName e
+b SimpleName MethodInvocation SimpleName c
+b SimpleName MethodInvocation SimpleName d
+b SimpleName MethodInvocation SimpleName e
+c SimpleName MethodInvocation SimpleName d
+c SimpleName MethodInvocation SimpleName e
+d SimpleName MethodInvocation SimpleName e
+task state change SimpleName MethodInvocation SimpleName initialized
+task state change SimpleName MethodInvocation SimpleName task
+initialized SimpleName MethodInvocation SimpleName task
+pruner SimpleName MethodInvocation SimpleName record state change
+pruner SimpleName MethodInvocation MethodInvocation SimpleName task state change
+pruner SimpleName MethodInvocation MethodInvocation SimpleName initialized
+pruner SimpleName MethodInvocation MethodInvocation SimpleName task
+record state change SimpleName MethodInvocation MethodInvocation SimpleName task state change
+record state change SimpleName MethodInvocation MethodInvocation SimpleName initialized
+record state change SimpleName MethodInvocation MethodInvocation SimpleName task
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName immutable list
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName of
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName a
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName b
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName c
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName d
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName e
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test storage started with pruning
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test storage started with pruning
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test storage started with pruning
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test storage started with pruning SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test storage started with pruning SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test storage started with pruning SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test storage started with pruning
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test storage started with pruning

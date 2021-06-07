@@ -1,0 +1,11 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName post processor
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName post processor
+public Modifier MethodDeclaration SimpleName get post processors
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get post processors
+post processor SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get post processors
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get post processors
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get post processors

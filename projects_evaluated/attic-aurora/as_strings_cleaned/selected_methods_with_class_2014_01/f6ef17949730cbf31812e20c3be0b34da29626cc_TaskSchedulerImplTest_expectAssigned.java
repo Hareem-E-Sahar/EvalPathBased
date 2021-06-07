@@ -1,0 +1,52 @@
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName offer
+assigner SimpleName MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName empty job
+maybe assign SimpleName MethodInvocation SimpleName offer
+maybe assign SimpleName MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName empty job
+offer SimpleName MethodInvocation SimpleName task
+offer SimpleName MethodInvocation SimpleName empty job
+task SimpleName MethodInvocation SimpleName empty job
+expect SimpleName MethodInvocation MethodInvocation SimpleName assigner
+expect SimpleName MethodInvocation MethodInvocation SimpleName maybe assign
+expect SimpleName MethodInvocation MethodInvocation SimpleName offer
+expect SimpleName MethodInvocation MethodInvocation SimpleName task
+expect SimpleName MethodInvocation MethodInvocation SimpleName empty job
+task info SimpleName MethodInvocation SimpleName get default instance
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation MethodInvocation SimpleName task info
+optional SimpleName MethodInvocation MethodInvocation SimpleName get default instance
+of SimpleName MethodInvocation MethodInvocation SimpleName task info
+of SimpleName MethodInvocation MethodInvocation SimpleName get default instance
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+empty job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation SimpleName optional
+and return SimpleName MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task info
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get default instance
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName expect assigned
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+void PrimitiveType MethodDeclaration SimpleName expect assigned
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+expect assigned SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+expect assigned SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName expect assigned
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName expect assigned
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

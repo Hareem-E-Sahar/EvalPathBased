@@ -1,0 +1,69 @@
+resource impl SimpleName SimpleType ClassInstanceCreation QualifiedName resourcetypehost component
+resource SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName resource impl
+resource SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName resourcetypehost component
+resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resource
+property id impl SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+property id impl SimpleName SimpleType ClassInstanceCreation StringLiteral category
+property id impl SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+foo StringLiteral ClassInstanceCreation StringLiteral category
+foo StringLiteral ClassInstanceCreation BooleanLiteral false
+category StringLiteral ClassInstanceCreation BooleanLiteral false
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName property id impl
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral category
+property id SimpleName VariableDeclarationFragment ClassInstanceCreation BooleanLiteral false
+property id impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property id
+equals predicate SimpleName SimpleType ClassInstanceCreation SimpleName property id
+equals predicate SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+property id SimpleName ClassInstanceCreation StringLiteral bar
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName equals predicate
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName property id
+predicate SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral bar
+predicate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName predicate
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation SimpleName property id
+resource SimpleName MethodInvocation StringLiteral monkey
+set property SimpleName MethodInvocation SimpleName property id
+set property SimpleName MethodInvocation StringLiteral monkey
+property id SimpleName MethodInvocation StringLiteral monkey
+predicate SimpleName MethodInvocation SimpleName evaluate
+predicate SimpleName MethodInvocation SimpleName resource
+evaluate SimpleName MethodInvocation SimpleName resource
+assert SimpleName MethodInvocation SimpleName assert false
+assert SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert SimpleName MethodInvocation MethodInvocation SimpleName resource
+assert false SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert false SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert false SimpleName MethodInvocation MethodInvocation SimpleName resource
+resource SimpleName MethodInvocation SimpleName set property
+resource SimpleName MethodInvocation SimpleName property id
+resource SimpleName MethodInvocation StringLiteral bar
+set property SimpleName MethodInvocation SimpleName property id
+set property SimpleName MethodInvocation StringLiteral bar
+property id SimpleName MethodInvocation StringLiteral bar
+predicate SimpleName MethodInvocation SimpleName evaluate
+predicate SimpleName MethodInvocation SimpleName resource
+evaluate SimpleName MethodInvocation SimpleName resource
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert SimpleName MethodInvocation MethodInvocation SimpleName resource
+assert true SimpleName MethodInvocation MethodInvocation SimpleName predicate
+assert true SimpleName MethodInvocation MethodInvocation SimpleName evaluate
+assert true SimpleName MethodInvocation MethodInvocation SimpleName resource
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test apply
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test apply
+void PrimitiveType MethodDeclaration SimpleName test apply
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test apply
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test apply

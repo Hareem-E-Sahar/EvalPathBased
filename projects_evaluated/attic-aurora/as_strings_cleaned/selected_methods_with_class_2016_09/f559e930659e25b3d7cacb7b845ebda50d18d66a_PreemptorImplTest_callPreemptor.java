@@ -1,0 +1,26 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+task SimpleName MethodInvocation SimpleName get assigned task
+preemptor SimpleName MethodInvocation SimpleName attempt preemption for
+preemptor SimpleName MethodInvocation MethodInvocation SimpleName task
+preemptor SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+preemptor SimpleName MethodInvocation MethodInvocation SimpleName empty
+preemptor SimpleName MethodInvocation SimpleName store provider
+attempt preemption for SimpleName MethodInvocation MethodInvocation SimpleName task
+attempt preemption for SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+attempt preemption for SimpleName MethodInvocation MethodInvocation SimpleName empty
+attempt preemption for SimpleName MethodInvocation SimpleName store provider
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty
+task SimpleName MethodInvocation MethodInvocation SimpleName store provider
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName store provider
+empty SimpleName MethodInvocation MethodInvocation SimpleName store provider
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName optional
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName call preemptor
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName call preemptor
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName call preemptor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName call preemptor
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call preemptor

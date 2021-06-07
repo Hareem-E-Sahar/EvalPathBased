@@ -1,0 +1,43 @@
+service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+service SimpleName MethodInvocation SimpleName get name
+services SimpleName FieldAccess MethodInvocation SimpleName put
+services SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName service
+services SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get name
+services SimpleName FieldAccess MethodInvocation SimpleName service
+put SimpleName MethodInvocation MethodInvocation SimpleName service
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName service
+service SimpleName MethodInvocation MethodInvocation SimpleName service
+get name SimpleName MethodInvocation MethodInvocation SimpleName service
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add service
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add service
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+void PrimitiveType MethodDeclaration SimpleName add service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName service
+add service SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+add service SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service

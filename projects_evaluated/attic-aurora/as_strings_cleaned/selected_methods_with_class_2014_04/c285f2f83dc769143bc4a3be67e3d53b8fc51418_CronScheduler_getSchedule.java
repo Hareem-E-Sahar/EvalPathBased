@@ -1,0 +1,11 @@
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName crontab entry
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName key
+optional SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get schedule
+crontab entry SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get schedule
+get schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+get schedule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schedule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schedule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

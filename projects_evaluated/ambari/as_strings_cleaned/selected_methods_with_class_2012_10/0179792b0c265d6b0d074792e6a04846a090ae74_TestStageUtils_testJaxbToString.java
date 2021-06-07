@@ -1,0 +1,101 @@
+stage utils SimpleName MethodInvocation SimpleName get a test stage
+stage utils SimpleName MethodInvocation NumberLiteral empty
+stage utils SimpleName MethodInvocation NumberLiteral empty
+get a test stage SimpleName MethodInvocation NumberLiteral empty
+get a test stage SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName stage utils
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get a test stage
+s SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+s SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+stage SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName get hosts
+s SimpleName MethodInvocation MethodInvocation SimpleName get
+get hosts SimpleName MethodInvocation MethodInvocation SimpleName get
+s SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get hosts SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+hostname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName s
+hostname SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hosts
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+hostname SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+s SimpleName MethodInvocation SimpleName get execution command
+s SimpleName MethodInvocation SimpleName hostname
+get execution command SimpleName MethodInvocation SimpleName hostname
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get execution command
+cmd SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+execution command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmd
+cmd SimpleName MethodInvocation SimpleName get role commands
+stage utils SimpleName MethodInvocation SimpleName jaxb to string
+stage utils SimpleName MethodInvocation MethodInvocation SimpleName cmd
+stage utils SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+jaxb to string SimpleName MethodInvocation MethodInvocation SimpleName cmd
+jaxb to string SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+command is StringLiteral InfixExpression MethodInvocation SimpleName stage utils
+command is StringLiteral InfixExpression MethodInvocation SimpleName jaxb to string
+command is StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName cmd
+command is StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get role commands
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral command is
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage utils
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName jaxb to string
+info SimpleName MethodInvocation InfixExpression StringLiteral command is
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage utils
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName jaxb to string
+stage utils SimpleName MethodInvocation SimpleName get action id
+stage utils SimpleName MethodInvocation NumberLiteral empty
+stage utils SimpleName MethodInvocation NumberLiteral empty
+get action id SimpleName MethodInvocation NumberLiteral empty
+get action id SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName get action id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stage utils
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get action id
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName s
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get action id
+stage utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+stage utils SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get action id
+get action id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName s
+get action id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get action id
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName s
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get action id
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName s
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get action id
+stage utils SimpleName MethodInvocation SimpleName jaxb to string
+stage utils SimpleName MethodInvocation SimpleName cmd
+jaxb to string SimpleName MethodInvocation SimpleName cmd
+jaxb string SimpleName VariableDeclarationFragment MethodInvocation SimpleName stage utils
+jaxb string SimpleName VariableDeclarationFragment MethodInvocation SimpleName jaxb to string
+jaxb string SimpleName VariableDeclarationFragment MethodInvocation SimpleName cmd
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jaxb string
+string = StringLiteral InfixExpression SimpleName jaxb string
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral string =
+log SimpleName MethodInvocation InfixExpression SimpleName jaxb string
+info SimpleName MethodInvocation InfixExpression StringLiteral string =
+info SimpleName MethodInvocation InfixExpression SimpleName jaxb string
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test jaxb to string
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test jaxb to string
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test jaxb to string
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test jaxb to string SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test jaxb to string
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test jaxb to string
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,104 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+long PrimitiveType SingleVariableDeclaration SimpleName request id
+long PrimitiveType SingleVariableDeclaration SimpleName stage id
+role SimpleName SimpleType SingleVariableDeclaration SimpleName role
+report SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName command report
+command report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName report
+report SimpleName MethodInvocation SimpleName set exit code
+report SimpleName MethodInvocation NumberLiteral empty
+set exit code SimpleName MethodInvocation NumberLiteral empty
+report SimpleName MethodInvocation SimpleName set std err
+report SimpleName MethodInvocation StringLiteral host role in invalid state
+set std err SimpleName MethodInvocation StringLiteral host role in invalid state
+report SimpleName MethodInvocation SimpleName set std out
+report SimpleName MethodInvocation StringLiteral empty
+set std out SimpleName MethodInvocation StringLiteral empty
+report SimpleName MethodInvocation SimpleName set status
+report SimpleName MethodInvocation StringLiteral aborted
+set status SimpleName MethodInvocation StringLiteral aborted
+role SimpleName MethodInvocation SimpleName to string
+update host role state SimpleName MethodInvocation SimpleName host
+update host role state SimpleName MethodInvocation SimpleName request id
+update host role state SimpleName MethodInvocation SimpleName stage id
+update host role state SimpleName MethodInvocation MethodInvocation SimpleName role
+update host role state SimpleName MethodInvocation MethodInvocation SimpleName to string
+update host role state SimpleName MethodInvocation SimpleName report
+host SimpleName MethodInvocation SimpleName request id
+host SimpleName MethodInvocation SimpleName stage id
+host SimpleName MethodInvocation MethodInvocation SimpleName role
+host SimpleName MethodInvocation MethodInvocation SimpleName to string
+host SimpleName MethodInvocation SimpleName report
+request id SimpleName MethodInvocation SimpleName stage id
+request id SimpleName MethodInvocation MethodInvocation SimpleName role
+request id SimpleName MethodInvocation MethodInvocation SimpleName to string
+request id SimpleName MethodInvocation SimpleName report
+stage id SimpleName MethodInvocation MethodInvocation SimpleName role
+stage id SimpleName MethodInvocation MethodInvocation SimpleName to string
+stage id SimpleName MethodInvocation SimpleName report
+role SimpleName MethodInvocation MethodInvocation SimpleName report
+to string SimpleName MethodInvocation MethodInvocation SimpleName report
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName abort host role
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName abort host role
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stage id
+void PrimitiveType MethodDeclaration SimpleName abort host role
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stage id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName role
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName role
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request id
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stage id
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName role
+abort host role SimpleName MethodDeclaration SingleVariableDeclaration SimpleName role
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+host SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+request id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+request id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role
+request id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role
+stage id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName abort host role
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName abort host role
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role

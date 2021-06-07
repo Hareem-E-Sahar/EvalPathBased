@@ -1,0 +1,108 @@
+cluster SimpleName MethodInvocation SimpleName get cluster id
+cluster SimpleName MethodInvocation SimpleName get cluster name
+stack version SimpleName MethodInvocation SimpleName get stack version
+desired stack version SimpleName MethodInvocation SimpleName get stack version
+desired state SimpleName MethodInvocation SimpleName to string
+service response SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+service response SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get cluster id
+service response SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+service response SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get cluster name
+service response SimpleName SimpleType ClassInstanceCreation SimpleName service name
+service response SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName stack version
+service response SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get stack version
+service response SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get config versions
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get cluster name
+get cluster id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName cluster
+get cluster id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get cluster name
+cluster SimpleName MethodInvocation ClassInstanceCreation SimpleName service name
+get cluster id SimpleName MethodInvocation ClassInstanceCreation SimpleName service name
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+get cluster id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName stack version
+get cluster id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get config versions
+get cluster id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get config versions
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+get cluster id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired stack version
+get cluster id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation SimpleName service name
+get cluster name SimpleName MethodInvocation ClassInstanceCreation SimpleName service name
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName stack version
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get config versions
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get config versions
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired stack version
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired state
+cluster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired state
+get cluster name SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName stack version
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName get stack version
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName get config versions
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName desired stack version
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName get stack version
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName desired state
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get config versions
+get stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get config versions
+stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired stack version
+stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+get stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired stack version
+get stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired state
+stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired state
+get stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get config versions SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired stack version
+get config versions SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get stack version
+get config versions SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired state
+get config versions SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+desired stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired state
+desired stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName desired state
+get stack version SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service response
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cluster
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get cluster id
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cluster
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get cluster name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName stack version
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get stack version
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get config versions
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName desired stack version
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get stack version
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName desired state
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+service response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName service response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName convert to response
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName service response
+public Modifier MethodDeclaration SimpleName convert to response
+public Modifier MethodDeclaration Block ReturnStatement SimpleName r
+synchronized Modifier MethodDeclaration SimpleType SimpleName service response
+synchronized Modifier MethodDeclaration SimpleName convert to response
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName r
+service response SimpleName SimpleType MethodDeclaration SimpleName convert to response
+convert to response SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service response
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert to response
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert to response

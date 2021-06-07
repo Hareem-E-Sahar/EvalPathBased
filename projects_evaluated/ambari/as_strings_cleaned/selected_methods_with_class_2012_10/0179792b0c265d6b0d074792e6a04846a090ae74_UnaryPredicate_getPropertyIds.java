@@ -1,0 +1,16 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+predicate SimpleName MethodInvocation SimpleName get property ids
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get property ids
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName property id
+public Modifier MethodDeclaration SimpleName get property ids
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get property ids
+property id SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get property ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property ids
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property ids

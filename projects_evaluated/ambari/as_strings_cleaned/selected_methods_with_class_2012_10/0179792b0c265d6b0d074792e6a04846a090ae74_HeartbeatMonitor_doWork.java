@@ -1,0 +1,104 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host
+fsm SimpleName MethodInvocation SimpleName get hosts
+all hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName fsm
+all hosts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hosts
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+host SimpleName SimpleType SingleVariableDeclaration SimpleName host obj
+host obj SimpleName MethodInvocation SimpleName get host name
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName host obj
+host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+host obj SimpleName MethodInvocation SimpleName get state
+host state SimpleName VariableDeclarationFragment MethodInvocation SimpleName host obj
+host state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get state
+host state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host state
+last heartbeat SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last heartbeat
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+fsm SimpleName MethodInvocation SimpleName get host
+fsm SimpleName MethodInvocation SimpleName host
+get host SimpleName MethodInvocation SimpleName host
+fsm SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+get host SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+host SimpleName MethodInvocation MethodInvocation SimpleName get last heartbeat time
+last heartbeat SimpleName Assignment MethodInvocation MethodInvocation SimpleName fsm
+last heartbeat SimpleName Assignment MethodInvocation MethodInvocation SimpleName get host
+last heartbeat SimpleName Assignment MethodInvocation MethodInvocation SimpleName host
+last heartbeat SimpleName Assignment MethodInvocation SimpleName get last heartbeat time
+ambari exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral exception in getting host object is it fatal
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral exception in getting host object is it fatal
+warn SimpleName MethodInvocation SimpleName e
+exception in getting host object is it fatal StringLiteral MethodInvocation SimpleName e
+empty NumberLiteral InfixExpression SimpleName thread wakeup interval
+last heartbeat SimpleName InfixExpression InfixExpression NumberLiteral empty
+last heartbeat SimpleName InfixExpression InfixExpression SimpleName thread wakeup interval
+last heartbeat SimpleName InfixExpression InfixExpression SimpleName now
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName now
+thread wakeup interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName now
+hearbeat lost from host StringLiteral InfixExpression SimpleName host
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral hearbeat lost from host
+log SimpleName MethodInvocation InfixExpression SimpleName host
+warn SimpleName MethodInvocation InfixExpression StringLiteral hearbeat lost from host
+warn SimpleName MethodInvocation InfixExpression SimpleName host
+host heartbeat lost event SimpleName SimpleType ClassInstanceCreation SimpleName host
+host obj SimpleName MethodInvocation SimpleName handle event
+host obj SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host heartbeat lost event
+host obj SimpleName MethodInvocation ClassInstanceCreation SimpleName host
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host heartbeat lost event
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName host
+action queue SimpleName MethodInvocation SimpleName dequeue all
+action queue SimpleName MethodInvocation SimpleName host
+dequeue all SimpleName MethodInvocation SimpleName host
+action manager SimpleName MethodInvocation SimpleName handle lost host
+action manager SimpleName MethodInvocation SimpleName host
+handle lost host SimpleName MethodInvocation SimpleName host
+host state SimpleName InfixExpression QualifiedName host statewaiting for host status updates
+host obj SimpleName MethodInvocation SimpleName get time in state
+time spent in state SimpleName VariableDeclarationFragment MethodInvocation SimpleName host obj
+time spent in state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get time in state
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time spent in state
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName host obj
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get time in state
+empty NumberLiteral InfixExpression SimpleName thread wakeup interval
+time spent in state SimpleName InfixExpression InfixExpression NumberLiteral empty
+time spent in state SimpleName InfixExpression InfixExpression SimpleName thread wakeup interval
+time spent in state SimpleName InfixExpression InfixExpression SimpleName now
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName now
+thread wakeup interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName now
+host obj SimpleName MethodInvocation SimpleName set state
+host obj SimpleName MethodInvocation QualifiedName host stateinit
+set state SimpleName MethodInvocation QualifiedName host stateinit
+host SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName all hosts
+host obj SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName all hosts
+all hosts SimpleName EnhancedForStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName all hosts
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName do work
+private Modifier MethodDeclaration SimpleType SimpleName invalid state transiton exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+private Modifier MethodDeclaration Block EnhancedForStatement SimpleName all hosts
+void PrimitiveType MethodDeclaration SimpleName do work
+void PrimitiveType MethodDeclaration SimpleType SimpleName invalid state transiton exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName all hosts
+do work SimpleName MethodDeclaration SimpleType SimpleName invalid state transiton exception
+do work SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+do work SimpleName MethodDeclaration Block EnhancedForStatement SimpleName all hosts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do work
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do work
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName invalid state transiton exception

@@ -1,0 +1,190 @@
+control SimpleName MethodInvocation SimpleName replay
+identity SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+identity SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+foo StringLiteral ClassInstanceCreation StringLiteral bar
+valid identity SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName identity
+valid identity SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+valid identity SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral bar
+identity SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName valid identity
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set role
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral foo
+set role SimpleName MethodInvocation StringLiteral foo
+identity SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+identity SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+foo StringLiteral ClassInstanceCreation StringLiteral bar
+identity SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+identity SimpleName SimpleType ClassInstanceCreation StringLiteral bar
+foo StringLiteral ClassInstanceCreation StringLiteral bar
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set user
+identity SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral bar
+set user SimpleName MethodInvocation StringLiteral bar
+set role SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral foo
+set role SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral bar
+foo StringLiteral MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral foo
+foo StringLiteral MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral bar
+set role SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral foo
+set role SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral bar
+foo StringLiteral MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral foo
+foo StringLiteral MethodInvocation ArrayInitializer ClassInstanceCreation StringLiteral bar
+set role SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName set user
+set role SimpleName MethodInvocation ArrayInitializer MethodInvocation StringLiteral bar
+foo StringLiteral MethodInvocation ArrayInitializer MethodInvocation SimpleName set user
+foo StringLiteral MethodInvocation ArrayInitializer MethodInvocation StringLiteral bar
+foo StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral foo
+foo StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral bar
+bar StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral foo
+bar StringLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation StringLiteral bar
+foo StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName set user
+foo StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation StringLiteral bar
+bar StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName set user
+bar StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation StringLiteral bar
+foo StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName set user
+foo StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation StringLiteral bar
+bar StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName set user
+bar StringLiteral ClassInstanceCreation ArrayInitializer MethodInvocation StringLiteral bar
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation SimpleName set role
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation StringLiteral foo
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral foo
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral bar
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral foo
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer ClassInstanceCreation StringLiteral bar
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation SimpleName set user
+invalid identities SimpleName VariableDeclarationFragment ArrayInitializer MethodInvocation StringLiteral bar
+valid job SimpleName VariableDeclarationFragment StringLiteral baz
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName valid job
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral baz
+baz StringLiteral ArrayInitializer StringLiteral baz
+baz StringLiteral ArrayInitializer StringLiteral baz
+baz StringLiteral ArrayInitializer StringLiteral empty
+baz StringLiteral ArrayInitializer StringLiteral baz
+baz StringLiteral ArrayInitializer StringLiteral empty
+baz StringLiteral ArrayInitializer StringLiteral empty
+invalid identifiers SimpleName VariableDeclarationFragment ArrayInitializer StringLiteral baz
+invalid identifiers SimpleName VariableDeclarationFragment ArrayInitializer StringLiteral baz
+invalid identifiers SimpleName VariableDeclarationFragment ArrayInitializer StringLiteral baz
+invalid identifiers SimpleName VariableDeclarationFragment ArrayInitializer StringLiteral empty
+identity SimpleName SimpleType SingleVariableDeclaration SimpleName ident
+string SimpleName SimpleType SingleVariableDeclaration SimpleName env
+string SimpleName SimpleType SingleVariableDeclaration SimpleName job
+ident SimpleName MethodInvocation SimpleName get role
+job key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set role
+set role SimpleName MethodInvocation MethodInvocation SimpleName ident
+set role SimpleName MethodInvocation MethodInvocation SimpleName get role
+set role SimpleName MethodInvocation MethodInvocation SimpleName set environment
+ident SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+get role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+set role SimpleName MethodInvocation MethodInvocation SimpleName env
+ident SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName env
+get role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName env
+set environment SimpleName MethodInvocation SimpleName env
+set role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set name
+set environment SimpleName MethodInvocation MethodInvocation SimpleName set name
+env SimpleName MethodInvocation MethodInvocation SimpleName set name
+set role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+set environment SimpleName MethodInvocation MethodInvocation SimpleName job
+env SimpleName MethodInvocation MethodInvocation SimpleName job
+set name SimpleName MethodInvocation SimpleName job
+i job key SimpleName MethodInvocation SimpleName build
+i job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+i job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName env
+i job key SimpleName MethodInvocation MethodInvocation SimpleName set name
+i job key SimpleName MethodInvocation MethodInvocation SimpleName job
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName env
+build SimpleName MethodInvocation MethodInvocation SimpleName set name
+build SimpleName MethodInvocation MethodInvocation SimpleName job
+expect rejected SimpleName MethodInvocation SimpleName ident
+expect rejected SimpleName MethodInvocation MethodInvocation SimpleName i job key
+expect rejected SimpleName MethodInvocation MethodInvocation SimpleName build
+expect rejected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set name
+expect rejected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+ident SimpleName MethodInvocation MethodInvocation SimpleName i job key
+ident SimpleName MethodInvocation MethodInvocation SimpleName build
+ident SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set name
+ident SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName invalid identifiers
+job SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName invalid identifiers
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName invalid identifiers
+env SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName invalid identifiers
+invalid identifiers SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName invalid identifiers
+identity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName invalid identities
+ident SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName invalid identities
+invalid identities SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName invalid identifiers
+string SimpleName SimpleType SingleVariableDeclaration SimpleName job name
+valid identity SimpleName MethodInvocation SimpleName get role
+job key SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set role
+set role SimpleName MethodInvocation MethodInvocation SimpleName valid identity
+set role SimpleName MethodInvocation MethodInvocation SimpleName get role
+set role SimpleName MethodInvocation MethodInvocation SimpleName set environment
+valid identity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+get role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+set role SimpleName MethodInvocation MethodInvocation SimpleName valid job
+valid identity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName valid job
+get role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName valid job
+set environment SimpleName MethodInvocation SimpleName valid job
+set role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set name
+set environment SimpleName MethodInvocation MethodInvocation SimpleName set name
+valid job SimpleName MethodInvocation MethodInvocation SimpleName set name
+set role SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job name
+set environment SimpleName MethodInvocation MethodInvocation SimpleName job name
+valid job SimpleName MethodInvocation MethodInvocation SimpleName job name
+set name SimpleName MethodInvocation SimpleName job name
+i job key SimpleName MethodInvocation SimpleName build
+i job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+i job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName valid job
+i job key SimpleName MethodInvocation MethodInvocation SimpleName set name
+i job key SimpleName MethodInvocation MethodInvocation SimpleName job name
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set environment
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName valid job
+build SimpleName MethodInvocation MethodInvocation SimpleName set name
+build SimpleName MethodInvocation MethodInvocation SimpleName job name
+expect rejected SimpleName MethodInvocation SimpleName valid identity
+expect rejected SimpleName MethodInvocation MethodInvocation SimpleName i job key
+expect rejected SimpleName MethodInvocation MethodInvocation SimpleName build
+expect rejected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set name
+expect rejected SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job name
+valid identity SimpleName MethodInvocation MethodInvocation SimpleName i job key
+valid identity SimpleName MethodInvocation MethodInvocation SimpleName build
+valid identity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set name
+valid identity SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job name
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName invalid identifiers
+job name SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName invalid identifiers
+identity SimpleName SimpleType SingleVariableDeclaration SimpleName ident
+expect rejected SimpleName MethodInvocation SimpleName ident
+expect rejected SimpleName MethodInvocation SimpleName key a
+ident SimpleName MethodInvocation SimpleName key a
+identity SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName invalid identities
+ident SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName invalid identities
+invalid identities SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName invalid identifiers
+invalid identities SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName invalid identities
+invalid identifiers SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName invalid identities
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test rejects bad identifiers
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test rejects bad identifiers
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName invalid identities
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName invalid identifiers
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName invalid identities
+void PrimitiveType MethodDeclaration SimpleName test rejects bad identifiers
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName invalid identities
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName invalid identifiers
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName invalid identities
+test rejects bad identifiers SimpleName MethodDeclaration SimpleType SimpleName exception
+test rejects bad identifiers SimpleName MethodDeclaration Block EnhancedForStatement SimpleName invalid identities
+test rejects bad identifiers SimpleName MethodDeclaration Block EnhancedForStatement SimpleName invalid identifiers
+test rejects bad identifiers SimpleName MethodDeclaration Block EnhancedForStatement SimpleName invalid identities
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test rejects bad identifiers
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test rejects bad identifiers
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

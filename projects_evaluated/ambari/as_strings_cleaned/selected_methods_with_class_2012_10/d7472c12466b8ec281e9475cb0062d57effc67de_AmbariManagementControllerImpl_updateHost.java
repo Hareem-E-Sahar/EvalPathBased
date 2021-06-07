@@ -1,0 +1,96 @@
+host request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get hostname
+request SimpleName MethodInvocation SimpleName get hostname
+request SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get hostname SimpleName MethodInvocation MethodInvocation SimpleName is empty
+ambari exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid arguments
+log SimpleName MethodInvocation SimpleName is debug enabled
+received a update host request StringLiteral InfixExpression StringLiteral hostname
+request SimpleName MethodInvocation SimpleName get hostname
+received a update host request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+received a update host request StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get hostname
+hostname StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName request
+hostname StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get hostname
+received a update host request StringLiteral InfixExpression InfixExpression StringLiteral request
+hostname StringLiteral InfixExpression InfixExpression StringLiteral request
+received a update host request StringLiteral InfixExpression InfixExpression SimpleName request
+hostname StringLiteral InfixExpression InfixExpression SimpleName request
+request SimpleName MethodInvocation InfixExpression StringLiteral request
+get hostname SimpleName MethodInvocation InfixExpression StringLiteral request
+request SimpleName MethodInvocation InfixExpression SimpleName request
+get hostname SimpleName MethodInvocation InfixExpression SimpleName request
+request StringLiteral InfixExpression SimpleName request
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral received a update host request
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral hostname
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get hostname
+log SimpleName MethodInvocation InfixExpression StringLiteral request
+log SimpleName MethodInvocation InfixExpression SimpleName request
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral received a update host request
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral hostname
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName request
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get hostname
+debug SimpleName MethodInvocation InfixExpression StringLiteral request
+debug SimpleName MethodInvocation InfixExpression SimpleName request
+request SimpleName MethodInvocation SimpleName get hostname
+clusters SimpleName MethodInvocation SimpleName get host
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+get host SimpleName MethodInvocation MethodInvocation SimpleName request
+get host SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hostname
+host SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cluster name
+request SimpleName MethodInvocation SimpleName get cluster names
+request SimpleName MethodInvocation SimpleName get hostname
+clusters SimpleName MethodInvocation SimpleName map host to cluster
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+clusters SimpleName MethodInvocation SimpleName cluster name
+map host to cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+map host to cluster SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+map host to cluster SimpleName MethodInvocation SimpleName cluster name
+request SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+get hostname SimpleName MethodInvocation MethodInvocation SimpleName cluster name
+cluster name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName request
+cluster name SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get cluster names
+request SimpleName MethodInvocation SimpleName get host attributes
+h SimpleName MethodInvocation SimpleName set host attributes
+h SimpleName MethodInvocation MethodInvocation SimpleName request
+h SimpleName MethodInvocation MethodInvocation SimpleName get host attributes
+set host attributes SimpleName MethodInvocation MethodInvocation SimpleName request
+set host attributes SimpleName MethodInvocation MethodInvocation SimpleName get host attributes
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName track action response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update host
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration SimpleType SimpleName track action response
+public Modifier MethodDeclaration SimpleName update host
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+track action response SimpleName SimpleType MethodDeclaration SimpleName update host
+track action response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+track action response SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+update host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host request
+update host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+update host SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+public Modifier TypeDeclaration MethodDeclaration SimpleName update host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

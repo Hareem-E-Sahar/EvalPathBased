@@ -1,0 +1,41 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName stages
+stage SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName stages
+stage SimpleName SimpleType SingleVariableDeclaration SimpleName s
+stage list SimpleName MethodInvocation SimpleName add
+stage list SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+stage SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stages
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stages
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName persist actions
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName stages
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName persist actions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stages
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName stages
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName persist actions
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName stages
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName stages
+void PrimitiveType MethodDeclaration SimpleName persist actions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stages
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName stages
+persist actions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stages
+persist actions SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stages
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName persist actions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stages
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName persist actions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stages

@@ -1,0 +1,44 @@
+slave id SimpleName SimpleType SingleVariableDeclaration SimpleName slave id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+reservations SimpleName MethodInvocation SimpleName put
+reservations SimpleName MethodInvocation SimpleName slave id
+reservations SimpleName MethodInvocation SimpleName task id
+put SimpleName MethodInvocation SimpleName slave id
+put SimpleName MethodInvocation SimpleName task id
+slave id SimpleName MethodInvocation SimpleName task id
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName add
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slave id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName slave id
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slave id
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName slave id
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slave id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName slave id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task id
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName slave id
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName slave id
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task id
+slave id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id

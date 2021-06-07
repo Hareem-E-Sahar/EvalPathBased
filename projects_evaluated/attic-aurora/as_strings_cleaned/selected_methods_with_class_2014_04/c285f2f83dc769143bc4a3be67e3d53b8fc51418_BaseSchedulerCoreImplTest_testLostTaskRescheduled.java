@@ -1,0 +1,166 @@
+expect kill task SimpleName MethodInvocation NumberLiteral empty
+expect task not throttled SimpleName MethodInvocation MethodInvocation SimpleName times
+expect task not throttled SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+times SimpleName MethodInvocation NumberLiteral empty
+cron job manager SimpleName MethodInvocation SimpleName has job
+cron job manager SimpleName MethodInvocation SimpleName key a
+has job SimpleName MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName has job
+expect SimpleName MethodInvocation MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert task count SimpleName MethodInvocation NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key a
+job scoped SimpleName MethodInvocation SimpleName key a
+storageutil QualifiedName MethodInvocation SimpleName consistent fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName query
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName job scoped
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName key a
+consistent fetch tasks SimpleName MethodInvocation SimpleName storage
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName job scoped
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName key a
+storage SimpleName MethodInvocation MethodInvocation SimpleName query
+storage SimpleName MethodInvocation MethodInvocation SimpleName job scoped
+storage SimpleName MethodInvocation MethodInvocation SimpleName key a
+tasks SimpleName VariableDeclarationFragment MethodInvocation QualifiedName storageutil
+tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName consistent fetch tasks
+tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName storage
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job scoped
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key a
+query SimpleName MethodInvocation SimpleName role scoped
+query SimpleName MethodInvocation SimpleName role a
+role scoped SimpleName MethodInvocation SimpleName role a
+get only task SimpleName MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation SimpleName role scoped
+get only task SimpleName MethodInvocation MethodInvocation SimpleName role a
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role scoped
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role a
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role scoped
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName role a
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+tasks SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tasks
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName tasks
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+change status SimpleName MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName assigned
+change status SimpleName MethodInvocation SimpleName lost
+task id SimpleName MethodInvocation SimpleName assigned
+task id SimpleName MethodInvocation SimpleName lost
+assigned SimpleName MethodInvocation SimpleName lost
+query SimpleName MethodInvocation SimpleName unscoped
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+get only task SimpleName MethodInvocation MethodInvocation SimpleName by status
+get only task SimpleName MethodInvocation MethodInvocation SimpleName pending
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+new task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+new task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+new task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new task id
+new task id SimpleName MethodInvocation SimpleName equals
+new task id SimpleName MethodInvocation SimpleName task id
+equals SimpleName MethodInvocation SimpleName task id
+assert false SimpleName MethodInvocation MethodInvocation SimpleName new task id
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName new task id
+change status SimpleName MethodInvocation SimpleName assigned
+change status SimpleName MethodInvocation SimpleName lost
+new task id SimpleName MethodInvocation SimpleName assigned
+new task id SimpleName MethodInvocation SimpleName lost
+assigned SimpleName MethodInvocation SimpleName lost
+query SimpleName MethodInvocation SimpleName unscoped
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+unscoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName unscoped
+get only task SimpleName MethodInvocation MethodInvocation SimpleName by status
+get only task SimpleName MethodInvocation MethodInvocation SimpleName pending
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+new task id SimpleName MethodInvocation SimpleName equals
+new task id SimpleName MethodInvocation MethodInvocation SimpleName tasks
+new task id SimpleName MethodInvocation MethodInvocation SimpleName id
+new task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get only task
+equals SimpleName MethodInvocation MethodInvocation SimpleName tasks
+equals SimpleName MethodInvocation MethodInvocation SimpleName id
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get only task
+assert false SimpleName MethodInvocation MethodInvocation SimpleName new task id
+assert false SimpleName MethodInvocation MethodInvocation SimpleName equals
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test lost task rescheduled
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test lost task rescheduled
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test lost task rescheduled
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test lost task rescheduled SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test lost task rescheduled
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test lost task rescheduled
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

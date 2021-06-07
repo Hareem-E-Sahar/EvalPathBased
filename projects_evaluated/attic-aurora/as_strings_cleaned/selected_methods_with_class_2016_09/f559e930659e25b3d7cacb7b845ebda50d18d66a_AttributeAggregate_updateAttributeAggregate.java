@@ -1,0 +1,42 @@
+i host attributes SimpleName SimpleType SingleVariableDeclaration SimpleName attributes
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+aggregate SimpleName MethodInvocation SimpleName get
+builder SimpleName MethodInvocation SimpleName add all
+builder SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+builder SimpleName MethodInvocation MethodInvocation SimpleName get
+add all SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+add all SimpleName MethodInvocation MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation SimpleName get attributes
+add attributes SimpleName MethodInvocation SimpleName builder
+add attributes SimpleName MethodInvocation MethodInvocation SimpleName attributes
+add attributes SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+builder SimpleName MethodInvocation MethodInvocation SimpleName attributes
+builder SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+builder SimpleName MethodInvocation SimpleName build
+suppliers SimpleName MethodInvocation SimpleName memoize
+suppliers SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName builder
+suppliers SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName build
+memoize SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName builder
+memoize SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName build
+aggregate SimpleName Assignment MethodInvocation SimpleName suppliers
+aggregate SimpleName Assignment MethodInvocation SimpleName memoize
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update attribute aggregate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i host attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+void PrimitiveType MethodDeclaration SimpleName update attribute aggregate
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i host attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+update attribute aggregate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i host attributes
+update attribute aggregate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update attribute aggregate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update attribute aggregate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes

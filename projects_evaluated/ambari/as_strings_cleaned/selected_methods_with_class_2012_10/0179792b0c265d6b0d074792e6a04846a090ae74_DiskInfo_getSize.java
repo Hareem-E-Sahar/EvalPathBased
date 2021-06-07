@@ -1,0 +1,21 @@
+json property SimpleName SingleMemberAnnotation StringLiteral size
+json property SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+size StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+json property SimpleName SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+size StringLiteral SingleMemberAnnotation MethodDeclaration SimpleType SimpleName string
+json property SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get size
+size StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get size
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get size
+string SimpleName SimpleType MethodDeclaration SimpleName get size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral size
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get size
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get size

@@ -1,0 +1,96 @@
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName shutdown registry
+shutdown registry SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName state manager
+state manager SimpleName Assignment MethodInvocation SimpleName create mock
+mem storage SimpleName MethodInvocation SimpleName new empty storage
+storage SimpleName Assignment MethodInvocation SimpleName mem storage
+storage SimpleName Assignment MethodInvocation SimpleName new empty storage
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName aurora cron job
+aurora cron job SimpleName Assignment MethodInvocation SimpleName create mock
+modules SimpleName MethodInvocation SimpleName override
+modules SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cron module
+override SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cron module
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName aurora cron job
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName aurora cron job
+to instance SimpleName MethodInvocation SimpleName aurora cron job
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+modules SimpleName MethodInvocation MethodInvocation SimpleName with
+override SimpleName MethodInvocation MethodInvocation SimpleName with
+with SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract module
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clock
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation QualifiedName clocksystem clock
+to instance SimpleName MethodInvocation QualifiedName clocksystem clock
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName shutdown registry
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName shutdown registry
+to instance SimpleName MethodInvocation SimpleName shutdown registry
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName state manager
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName state manager
+to instance SimpleName MethodInvocation SimpleName state manager
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName storage
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName storage
+to instance SimpleName MethodInvocation SimpleName storage
+pubsub test util SimpleName MethodInvocation SimpleName install pubsub
+pubsub test util SimpleName MethodInvocation MethodInvocation SimpleName binder
+install pubsub SimpleName MethodInvocation MethodInvocation SimpleName binder
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+guice SimpleName MethodInvocation SimpleName create injector
+guice SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName modules
+guice SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName override
+guice SimpleName MethodInvocation MethodInvocation SimpleName with
+guice SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract module
+create injector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName modules
+create injector SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName override
+create injector SimpleName MethodInvocation MethodInvocation SimpleName with
+create injector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName abstract module
+injector SimpleName Assignment MethodInvocation SimpleName guice
+injector SimpleName Assignment MethodInvocation SimpleName create injector
+injector SimpleName Assignment MethodInvocation MethodInvocation SimpleName with
+pubsub test util SimpleName MethodInvocation SimpleName start pubsub
+pubsub test util SimpleName MethodInvocation SimpleName injector
+start pubsub SimpleName MethodInvocation SimpleName injector
+event sink SimpleName Assignment MethodInvocation SimpleName pubsub test util
+event sink SimpleName Assignment MethodInvocation SimpleName start pubsub
+event sink SimpleName Assignment MethodInvocation SimpleName injector
+shutdown SimpleName Assignment MethodInvocation SimpleName create capture
+capture SimpleName MethodInvocation SimpleName shutdown
+shutdown registry SimpleName MethodInvocation SimpleName add action
+shutdown registry SimpleName MethodInvocation MethodInvocation SimpleName capture
+shutdown registry SimpleName MethodInvocation MethodInvocation SimpleName shutdown
+add action SimpleName MethodInvocation MethodInvocation SimpleName capture
+add action SimpleName MethodInvocation MethodInvocation SimpleName shutdown
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+before SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+set up SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

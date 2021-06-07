@@ -1,0 +1,41 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+predicate SimpleName SimpleType SingleVariableDeclaration SimpleName predicate
+collections SimpleName MethodInvocation SimpleName empty map
+visitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName property predicate visitor
+property predicate visitor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName visitor
+predicate helper SimpleName MethodInvocation SimpleName visit
+predicate helper SimpleName MethodInvocation SimpleName predicate
+predicate helper SimpleName MethodInvocation SimpleName visitor
+visit SimpleName MethodInvocation SimpleName predicate
+visit SimpleName MethodInvocation SimpleName visitor
+predicate SimpleName MethodInvocation SimpleName visitor
+visitor SimpleName MethodInvocation SimpleName get properties
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName property id
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName property id
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+property id SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get properties
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+get properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate

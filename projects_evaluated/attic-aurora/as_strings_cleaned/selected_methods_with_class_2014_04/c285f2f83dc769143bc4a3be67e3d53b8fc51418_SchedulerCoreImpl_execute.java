@@ -1,0 +1,110 @@
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store provider
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+store provider SimpleName MethodInvocation SimpleName get task store
+store provider SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+get task store SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+store provider SimpleName MethodInvocation MethodInvocation SimpleName query
+get task store SimpleName MethodInvocation MethodInvocation SimpleName query
+fetch tasks SimpleName MethodInvocation SimpleName query
+matching tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName store provider
+matching tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get task store
+matching tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName fetch tasks
+matching tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+matching tasks SimpleName MethodInvocation SimpleName size
+shards SimpleName MethodInvocation SimpleName size
+matching tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName shards
+matching tasks SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName shards
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+schedule exception SimpleName SimpleType ClassInstanceCreation StringLiteral not all requested shards are active
+restarting shards matching StringLiteral InfixExpression SimpleName query
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral restarting shards matching
+log SimpleName MethodInvocation InfixExpression SimpleName query
+info SimpleName MethodInvocation InfixExpression StringLiteral restarting shards matching
+info SimpleName MethodInvocation InfixExpression SimpleName query
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+tasks SimpleName MethodInvocation SimpleName ids
+tasks SimpleName MethodInvocation SimpleName matching tasks
+ids SimpleName MethodInvocation SimpleName matching tasks
+optional SimpleName MethodInvocation SimpleType SimpleName schedule status
+optional SimpleName MethodInvocation SimpleName absent
+schedule status SimpleName SimpleType MethodInvocation SimpleName absent
+restarted by StringLiteral InfixExpression SimpleName requesting user
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation InfixExpression StringLiteral restarted by
+optional SimpleName MethodInvocation InfixExpression SimpleName requesting user
+of SimpleName MethodInvocation InfixExpression StringLiteral restarted by
+of SimpleName MethodInvocation InfixExpression SimpleName requesting user
+state manager SimpleName MethodInvocation SimpleName change state
+state manager SimpleName MethodInvocation SimpleName task id
+state manager SimpleName MethodInvocation MethodInvocation SimpleName optional
+state manager SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+state manager SimpleName MethodInvocation MethodInvocation SimpleName absent
+state manager SimpleName MethodInvocation SimpleName restarting
+state manager SimpleName MethodInvocation MethodInvocation SimpleName optional
+state manager SimpleName MethodInvocation MethodInvocation SimpleName of
+state manager SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral restarted by
+state manager SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName requesting user
+change state SimpleName MethodInvocation SimpleName task id
+change state SimpleName MethodInvocation MethodInvocation SimpleName optional
+change state SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+change state SimpleName MethodInvocation MethodInvocation SimpleName absent
+change state SimpleName MethodInvocation SimpleName restarting
+change state SimpleName MethodInvocation MethodInvocation SimpleName optional
+change state SimpleName MethodInvocation MethodInvocation SimpleName of
+change state SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral restarted by
+change state SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName requesting user
+task id SimpleName MethodInvocation MethodInvocation SimpleName optional
+task id SimpleName MethodInvocation MethodInvocation SimpleType SimpleName schedule status
+task id SimpleName MethodInvocation MethodInvocation SimpleName absent
+task id SimpleName MethodInvocation SimpleName restarting
+task id SimpleName MethodInvocation MethodInvocation SimpleName optional
+task id SimpleName MethodInvocation MethodInvocation SimpleName of
+task id SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral restarted by
+task id SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName requesting user
+optional SimpleName MethodInvocation MethodInvocation SimpleName restarting
+schedule status SimpleName SimpleType MethodInvocation MethodInvocation SimpleName restarting
+absent SimpleName MethodInvocation MethodInvocation SimpleName restarting
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+restarting SimpleName MethodInvocation MethodInvocation SimpleName optional
+restarting SimpleName MethodInvocation MethodInvocation SimpleName of
+restarting SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral restarted by
+restarting SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName requesting user
+task id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName tasks
+task id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName ids
+task id SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName matching tasks
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName schedule exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration SimpleType SimpleName schedule exception
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleType SimpleName schedule exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SimpleType SimpleName schedule exception
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schedule exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schedule exception

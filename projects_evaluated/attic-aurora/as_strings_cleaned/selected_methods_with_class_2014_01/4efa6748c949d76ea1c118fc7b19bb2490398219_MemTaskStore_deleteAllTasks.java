@@ -1,0 +1,39 @@
+timed SimpleName SingleMemberAnnotation StringLiteral mem storage delete all tasks
+tasks SimpleName MethodInvocation SimpleName clear
+secondary index SimpleName SimpleType ParameterizedType WildcardType ?
+secondary index SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName index
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName index
+index SimpleName MethodInvocation SimpleName clear
+? WildcardType ParameterizedType SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+index SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+config interner SimpleName MethodInvocation SimpleName clear
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+mem storage delete all tasks StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+mem storage delete all tasks StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+mem storage delete all tasks StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+timed SimpleName SingleMemberAnnotation MethodDeclaration SimpleName delete all tasks
+mem storage delete all tasks StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName delete all tasks
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete all tasks
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete all tasks
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName secondary indices
+void PrimitiveType MethodDeclaration SimpleName delete all tasks
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName secondary indices
+delete all tasks SimpleName MethodDeclaration Block EnhancedForStatement SimpleName secondary indices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage delete all tasks
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete all tasks
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage delete all tasks
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete all tasks

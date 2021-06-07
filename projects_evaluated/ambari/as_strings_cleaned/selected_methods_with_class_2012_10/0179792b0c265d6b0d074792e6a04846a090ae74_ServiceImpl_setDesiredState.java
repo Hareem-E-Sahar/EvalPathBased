@@ -1,0 +1,122 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+log SimpleName MethodInvocation SimpleName is debug enabled
+setting desired state of service StringLiteral InfixExpression StringLiteral cluster name
+cluster SimpleName MethodInvocation SimpleName get cluster name
+cluster SimpleName MethodInvocation SimpleName get cluster id
+setting desired state of service StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName cluster
+setting desired state of service StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName cluster
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster name
+setting desired state of service StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+setting desired state of service StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName cluster
+setting desired state of service StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster id
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName cluster
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get cluster id
+setting desired state of service StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+setting desired state of service StringLiteral InfixExpression InfixExpression SimpleName service name
+cluster name StringLiteral InfixExpression InfixExpression SimpleName service name
+cluster SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+cluster SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster
+cluster SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+cluster SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral service name
+cluster SimpleName MethodInvocation InfixExpression SimpleName service name
+get cluster name SimpleName MethodInvocation InfixExpression SimpleName service name
+cluster SimpleName MethodInvocation InfixExpression StringLiteral old desired state
+get cluster name SimpleName MethodInvocation InfixExpression StringLiteral old desired state
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName cluster
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName get cluster id
+cluster id StringLiteral InfixExpression StringLiteral service name
+cluster id StringLiteral InfixExpression SimpleName service name
+cluster id StringLiteral InfixExpression StringLiteral old desired state
+cluster id StringLiteral InfixExpression FieldAccess SimpleName desired state
+cluster SimpleName MethodInvocation InfixExpression StringLiteral service name
+get cluster id SimpleName MethodInvocation InfixExpression StringLiteral service name
+cluster SimpleName MethodInvocation InfixExpression SimpleName service name
+get cluster id SimpleName MethodInvocation InfixExpression SimpleName service name
+cluster SimpleName MethodInvocation InfixExpression StringLiteral old desired state
+get cluster id SimpleName MethodInvocation InfixExpression StringLiteral old desired state
+cluster SimpleName MethodInvocation InfixExpression FieldAccess SimpleName desired state
+get cluster id SimpleName MethodInvocation InfixExpression FieldAccess SimpleName desired state
+cluster SimpleName MethodInvocation InfixExpression StringLiteral new desired state
+get cluster id SimpleName MethodInvocation InfixExpression StringLiteral new desired state
+service name StringLiteral InfixExpression SimpleName service name
+service name StringLiteral InfixExpression StringLiteral old desired state
+service name StringLiteral InfixExpression FieldAccess SimpleName desired state
+service name StringLiteral InfixExpression StringLiteral new desired state
+service name StringLiteral InfixExpression SimpleName state
+service name SimpleName InfixExpression StringLiteral old desired state
+service name SimpleName InfixExpression FieldAccess SimpleName desired state
+service name SimpleName InfixExpression StringLiteral new desired state
+service name SimpleName InfixExpression SimpleName state
+old desired state StringLiteral InfixExpression FieldAccess SimpleName desired state
+old desired state StringLiteral InfixExpression StringLiteral new desired state
+old desired state StringLiteral InfixExpression SimpleName state
+desired state SimpleName FieldAccess InfixExpression StringLiteral new desired state
+desired state SimpleName FieldAccess InfixExpression SimpleName state
+new desired state StringLiteral InfixExpression SimpleName state
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral setting desired state of service
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+log SimpleName MethodInvocation InfixExpression StringLiteral service name
+log SimpleName MethodInvocation InfixExpression SimpleName service name
+log SimpleName MethodInvocation InfixExpression StringLiteral old desired state
+log SimpleName MethodInvocation InfixExpression FieldAccess SimpleName desired state
+log SimpleName MethodInvocation InfixExpression StringLiteral new desired state
+log SimpleName MethodInvocation InfixExpression SimpleName state
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral setting desired state of service
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cluster
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster id
+debug SimpleName MethodInvocation InfixExpression StringLiteral service name
+debug SimpleName MethodInvocation InfixExpression SimpleName service name
+debug SimpleName MethodInvocation InfixExpression StringLiteral old desired state
+debug SimpleName MethodInvocation InfixExpression FieldAccess SimpleName desired state
+debug SimpleName MethodInvocation InfixExpression StringLiteral new desired state
+debug SimpleName MethodInvocation InfixExpression SimpleName state
+desired state SimpleName FieldAccess Assignment SimpleName state
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set desired state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set desired state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set desired state
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleName set desired state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+set desired state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set desired state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set desired state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set desired state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

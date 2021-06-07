@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName status command
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName commands
+status command SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName commands
+commands SimpleName FieldAccess Assignment SimpleName commands
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set command
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName commands
+void PrimitiveType MethodDeclaration SimpleName set command
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName commands
+set command SimpleName MethodDeclaration SingleVariableDeclaration SimpleName commands
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set command
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName commands
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set command
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName commands

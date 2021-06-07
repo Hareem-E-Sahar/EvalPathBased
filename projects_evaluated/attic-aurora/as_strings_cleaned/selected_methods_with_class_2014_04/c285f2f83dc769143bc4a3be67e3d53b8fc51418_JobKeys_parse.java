@@ -1,0 +1,99 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName string
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+splitter SimpleName MethodInvocation SimpleName on
+splitter SimpleName MethodInvocation StringLiteral /
+on SimpleName MethodInvocation StringLiteral /
+splitter SimpleName MethodInvocation MethodInvocation SimpleName split to list
+on SimpleName MethodInvocation MethodInvocation SimpleName split to list
+/ StringLiteral MethodInvocation MethodInvocation SimpleName split to list
+splitter SimpleName MethodInvocation MethodInvocation SimpleName string
+on SimpleName MethodInvocation MethodInvocation SimpleName string
+/ StringLiteral MethodInvocation MethodInvocation SimpleName string
+split to list SimpleName MethodInvocation SimpleName string
+components SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName splitter
+components SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName on
+components SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral /
+components SimpleName VariableDeclarationFragment MethodInvocation SimpleName split to list
+components SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+components SimpleName MethodInvocation SimpleName size
+components SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName components
+check argument SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+check argument SimpleName MethodInvocation InfixExpression NumberLiteral empty
+components SimpleName MethodInvocation SimpleName get
+components SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+components SimpleName MethodInvocation SimpleName get
+components SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+components SimpleName MethodInvocation SimpleName get
+components SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+from SimpleName MethodInvocation MethodInvocation SimpleName components
+from SimpleName MethodInvocation MethodInvocation SimpleName get
+from SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+from SimpleName MethodInvocation MethodInvocation SimpleName components
+from SimpleName MethodInvocation MethodInvocation SimpleName get
+from SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+from SimpleName MethodInvocation MethodInvocation SimpleName components
+from SimpleName MethodInvocation MethodInvocation SimpleName get
+from SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+components SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName components
+components SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+components SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName components
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName components
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+components SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName components
+components SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+components SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName components
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName components
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+components SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName components
+components SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+components SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName components
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+get SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName components
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName i job key
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string
+public Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+static Modifier MethodDeclaration SimpleType SimpleName i job key
+static Modifier MethodDeclaration SimpleName parse
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName string
+static Modifier MethodDeclaration SimpleType SimpleName illegal argument exception
+i job key SimpleName SimpleType MethodDeclaration SimpleName parse
+i job key SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName string
+i job key SimpleName SimpleType MethodDeclaration SimpleType SimpleName illegal argument exception
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string
+parse SimpleName MethodDeclaration SimpleType SimpleName illegal argument exception
+string SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i job key
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i job key
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName illegal argument exception

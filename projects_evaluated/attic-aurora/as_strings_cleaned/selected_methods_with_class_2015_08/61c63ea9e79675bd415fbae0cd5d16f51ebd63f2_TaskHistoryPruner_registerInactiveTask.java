@@ -1,0 +1,225 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName i job key
+final Modifier SingleVariableDeclaration SimpleName job key
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName task id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+long PrimitiveType SingleVariableDeclaration SimpleName time remaining
+prune task StringLiteral InfixExpression SimpleName task id
+prune task StringLiteral InfixExpression StringLiteral in
+prune task StringLiteral InfixExpression SimpleName time remaining
+prune task StringLiteral InfixExpression StringLiteral ms
+task id SimpleName InfixExpression StringLiteral in
+task id SimpleName InfixExpression SimpleName time remaining
+task id SimpleName InfixExpression StringLiteral ms
+in StringLiteral InfixExpression SimpleName time remaining
+in StringLiteral InfixExpression StringLiteral ms
+time remaining SimpleName InfixExpression StringLiteral ms
+log SimpleName MethodInvocation SimpleName fine
+log SimpleName MethodInvocation InfixExpression StringLiteral prune task
+log SimpleName MethodInvocation InfixExpression SimpleName task id
+log SimpleName MethodInvocation InfixExpression StringLiteral in
+log SimpleName MethodInvocation InfixExpression SimpleName time remaining
+log SimpleName MethodInvocation InfixExpression StringLiteral ms
+fine SimpleName MethodInvocation InfixExpression StringLiteral prune task
+fine SimpleName MethodInvocation InfixExpression SimpleName task id
+fine SimpleName MethodInvocation InfixExpression StringLiteral in
+fine SimpleName MethodInvocation InfixExpression SimpleName time remaining
+fine SimpleName MethodInvocation InfixExpression StringLiteral ms
+pruning expired inactive task StringLiteral InfixExpression SimpleName task id
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral pruning expired inactive task
+log SimpleName MethodInvocation InfixExpression SimpleName task id
+info SimpleName MethodInvocation InfixExpression StringLiteral pruning expired inactive task
+info SimpleName MethodInvocation InfixExpression SimpleName task id
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName task id
+of SimpleName MethodInvocation SimpleName task id
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName task id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+amount SimpleName MethodInvocation SimpleName of
+amount SimpleName MethodInvocation SimpleName time remaining
+amount SimpleName MethodInvocation QualifiedName timemilliseconds
+of SimpleName MethodInvocation SimpleName time remaining
+of SimpleName MethodInvocation QualifiedName timemilliseconds
+time remaining SimpleName MethodInvocation QualifiedName timemilliseconds
+executor SimpleName MethodInvocation SimpleName execute
+executor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+executor SimpleName MethodInvocation MethodInvocation SimpleName amount
+executor SimpleName MethodInvocation MethodInvocation SimpleName of
+executor SimpleName MethodInvocation MethodInvocation SimpleName time remaining
+executor SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+execute SimpleName MethodInvocation MethodInvocation SimpleName amount
+execute SimpleName MethodInvocation MethodInvocation SimpleName of
+execute SimpleName MethodInvocation MethodInvocation SimpleName time remaining
+execute SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+job history query SimpleName MethodInvocation SimpleName job key
+storageutil QualifiedName MethodInvocation SimpleName fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName job history query
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName job key
+fetch tasks SimpleName MethodInvocation SimpleName storage
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName job history query
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName job key
+storage SimpleName MethodInvocation MethodInvocation SimpleName job history query
+storage SimpleName MethodInvocation MethodInvocation SimpleName job key
+inactive tasks SimpleName VariableDeclarationFragment MethodInvocation QualifiedName storageutil
+inactive tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName fetch tasks
+inactive tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName storage
+inactive tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job history query
+inactive tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job key
+iterables SimpleName MethodInvocation SimpleName size
+iterables SimpleName MethodInvocation SimpleName inactive tasks
+size SimpleName MethodInvocation SimpleName inactive tasks
+num inactive tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterables
+num inactive tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+num inactive tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName inactive tasks
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num inactive tasks
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName iterables
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName inactive tasks
+num inactive tasks SimpleName InfixExpression QualifiedName settingsper job history goal
+tasks to prune SimpleName VariableDeclarationFragment InfixExpression SimpleName num inactive tasks
+tasks to prune SimpleName VariableDeclarationFragment InfixExpression QualifiedName settingsper job history goal
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tasks to prune
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName num inactive tasks
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName settingsper job history goal
+tasks to prune SimpleName InfixExpression NumberLiteral empty
+num inactive tasks SimpleName InfixExpression QualifiedName settingsper job history goal
+tasks to prune SimpleName InfixExpression InfixExpression InfixExpression SimpleName num inactive tasks
+tasks to prune SimpleName InfixExpression InfixExpression InfixExpression QualifiedName settingsper job history goal
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName num inactive tasks
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName settingsper job history goal
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+taskslatest activity QualifiedName MethodInvocation SimpleName sorted copy
+taskslatest activity QualifiedName MethodInvocation SimpleName inactive tasks
+sorted copy SimpleName MethodInvocation SimpleName inactive tasks
+fluent iterable SimpleName MethodInvocation SimpleName from
+fluent iterable SimpleName MethodInvocation MethodInvocation QualifiedName taskslatest activity
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName sorted copy
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName inactive tasks
+from SimpleName MethodInvocation MethodInvocation QualifiedName taskslatest activity
+from SimpleName MethodInvocation MethodInvocation SimpleName sorted copy
+from SimpleName MethodInvocation MethodInvocation SimpleName inactive tasks
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName filter
+from SimpleName MethodInvocation MethodInvocation SimpleName filter
+taskslatest activity QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+sorted copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+inactive tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName safe to delete
+from SimpleName MethodInvocation MethodInvocation SimpleName safe to delete
+taskslatest activity QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName safe to delete
+sorted copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName safe to delete
+inactive tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName safe to delete
+filter SimpleName MethodInvocation SimpleName safe to delete
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName limit
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName limit
+filter SimpleName MethodInvocation MethodInvocation SimpleName limit
+safe to delete SimpleName MethodInvocation MethodInvocation SimpleName limit
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks to prune
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks to prune
+filter SimpleName MethodInvocation MethodInvocation SimpleName tasks to prune
+safe to delete SimpleName MethodInvocation MethodInvocation SimpleName tasks to prune
+limit SimpleName MethodInvocation SimpleName tasks to prune
+tasks SimpleName ExpressionMethodReference SimpleName id
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+safe to delete SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+limit SimpleName MethodInvocation MethodInvocation SimpleName transform
+tasks to prune SimpleName MethodInvocation MethodInvocation SimpleName transform
+limit SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName tasks
+limit SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName id
+tasks to prune SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName tasks
+tasks to prune SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName id
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName tasks
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName id
+limit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+tasks to prune SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+transform SimpleName MethodInvocation MethodInvocation SimpleName to set
+tasks SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName to set
+id SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName to set
+to prune SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName transform
+to prune SimpleName VariableDeclarationFragment MethodInvocation SimpleName to set
+delete tasks SimpleName MethodInvocation SimpleName to prune
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+executor SimpleName MethodInvocation SimpleName execute
+executor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+execute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName register inactive task
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+void PrimitiveType MethodDeclaration SimpleName register inactive task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task id
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+register inactive task SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+job key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+job key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+job key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+job key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+task id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+task id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register inactive task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time remaining
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register inactive task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time remaining

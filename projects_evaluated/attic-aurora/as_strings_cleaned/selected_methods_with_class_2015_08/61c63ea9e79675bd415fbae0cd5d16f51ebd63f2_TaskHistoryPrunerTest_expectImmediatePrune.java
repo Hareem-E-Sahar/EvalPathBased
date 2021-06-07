@@ -1,0 +1,119 @@
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+immutable set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks in job
+i scheduled task SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks in job
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName pruned
+easy mock SimpleName MethodInvocation SimpleType SimpleName runnable
+easy mock SimpleName MethodInvocation SimpleName any object
+runnable SimpleName SimpleType MethodInvocation SimpleName any object
+executor SimpleName MethodInvocation SimpleName execute
+executor SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+executor SimpleName MethodInvocation MethodInvocation SimpleType SimpleName runnable
+executor SimpleName MethodInvocation MethodInvocation SimpleName any object
+execute SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+execute SimpleName MethodInvocation MethodInvocation SimpleType SimpleName runnable
+execute SimpleName MethodInvocation MethodInvocation SimpleName any object
+future SimpleName SimpleType ParameterizedType WildcardType ?
+i answer SimpleName SimpleType ParameterizedType ParameterizedType WildcardType ?
+future SimpleName SimpleType ParameterizedType WildcardType ?
+easy mock SimpleName MethodInvocation SimpleName get current arguments
+easy mock SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+get current arguments SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+work SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName runnable
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work
+work SimpleName MethodInvocation SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ParameterizedType WildcardType ?
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName future
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName answer
+future SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer
+? WildcardType ParameterizedType MethodDeclaration SimpleName answer
+expect last call SimpleName MethodInvocation MethodInvocation SimpleName and answer
+fluent iterable SimpleName MethodInvocation SimpleName from
+fluent iterable SimpleName MethodInvocation SimpleName tasks in job
+from SimpleName MethodInvocation SimpleName tasks in job
+tasks SimpleName ExpressionMethodReference SimpleName get job
+fluent iterable SimpleName MethodInvocation MethodInvocation SimpleName transform
+from SimpleName MethodInvocation MethodInvocation SimpleName transform
+tasks in job SimpleName MethodInvocation MethodInvocation SimpleName transform
+fluent iterable SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName tasks
+fluent iterable SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get job
+from SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName tasks
+from SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get job
+tasks in job SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName tasks
+tasks in job SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get job
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName tasks
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName get job
+fluent iterable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+tasks in job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to set
+transform SimpleName MethodInvocation MethodInvocation SimpleName to set
+tasks SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName to set
+get job SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName to set
+iterables SimpleName MethodInvocation SimpleName get only element
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+iterables SimpleName MethodInvocation MethodInvocation SimpleName to set
+get only element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName transform
+get only element SimpleName MethodInvocation MethodInvocation SimpleName to set
+job key SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterables
+job key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get only element
+job key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to set
+i job key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job key
+task history pruner SimpleName MethodInvocation SimpleName job history query
+task history pruner SimpleName MethodInvocation SimpleName job key
+job history query SimpleName MethodInvocation SimpleName job key
+storage util SimpleName MethodInvocation SimpleName expect task fetch
+storage util SimpleName MethodInvocation MethodInvocation SimpleName task history pruner
+storage util SimpleName MethodInvocation MethodInvocation SimpleName job history query
+storage util SimpleName MethodInvocation MethodInvocation SimpleName job key
+storage util SimpleName MethodInvocation SimpleName tasks in job
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName task history pruner
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName job history query
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName job key
+expect task fetch SimpleName MethodInvocation SimpleName tasks in job
+task history pruner SimpleName MethodInvocation MethodInvocation SimpleName tasks in job
+job history query SimpleName MethodInvocation MethodInvocation SimpleName tasks in job
+job key SimpleName MethodInvocation MethodInvocation SimpleName tasks in job
+prunedlength QualifiedName InfixExpression NumberLiteral empty
+tasks SimpleName MethodInvocation SimpleName ids
+tasks SimpleName MethodInvocation SimpleName pruned
+ids SimpleName MethodInvocation SimpleName pruned
+state manager SimpleName MethodInvocation SimpleName delete tasks
+state manager SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+state manager SimpleName MethodInvocation MethodInvocation SimpleName tasks
+state manager SimpleName MethodInvocation MethodInvocation SimpleName ids
+state manager SimpleName MethodInvocation MethodInvocation SimpleName pruned
+delete tasks SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName tasks
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName ids
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName pruned
+storage utilmutable store provider QualifiedName MethodInvocation MethodInvocation SimpleName tasks
+storage utilmutable store provider QualifiedName MethodInvocation MethodInvocation SimpleName ids
+storage utilmutable store provider QualifiedName MethodInvocation MethodInvocation SimpleName pruned
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName expect immediate prune
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tasks in job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pruned
+void PrimitiveType MethodDeclaration SimpleName expect immediate prune
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tasks in job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pruned
+expect immediate prune SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tasks in job
+expect immediate prune SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+expect immediate prune SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pruned
+tasks in job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pruned
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName expect immediate prune
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks in job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pruned
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName expect immediate prune
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks in job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pruned

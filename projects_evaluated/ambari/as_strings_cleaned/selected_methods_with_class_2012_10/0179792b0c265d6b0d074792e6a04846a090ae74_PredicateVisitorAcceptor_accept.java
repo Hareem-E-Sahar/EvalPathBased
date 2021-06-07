@@ -1,0 +1,19 @@
+predicate visitor SimpleName SimpleType SingleVariableDeclaration SimpleName visitor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName accept
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate visitor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName visitor
+void PrimitiveType MethodDeclaration SimpleName accept
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate visitor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName visitor
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate visitor
+accept SimpleName MethodDeclaration SingleVariableDeclaration SimpleName visitor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName accept
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName accept
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName visitor

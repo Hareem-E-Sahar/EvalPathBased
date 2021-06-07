@@ -1,0 +1,299 @@
+cluster name SimpleName VariableDeclarationFragment StringLiteral foo
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral foo
+create cluster SimpleName MethodInvocation SimpleName cluster name
+service name SimpleName VariableDeclarationFragment StringLiteral hdfs
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral hdfs
+create service SimpleName MethodInvocation SimpleName cluster name
+create service SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName service name
+component name SimpleName VariableDeclarationFragment StringLiteral namenode
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName component name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral namenode
+component name SimpleName VariableDeclarationFragment StringLiteral datanode
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName component name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral datanode
+create service component SimpleName MethodInvocation SimpleName cluster name
+create service component SimpleName MethodInvocation SimpleName service name
+create service component SimpleName MethodInvocation SimpleName component name
+create service component SimpleName MethodInvocation QualifiedName stateinit
+cluster name SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation QualifiedName stateinit
+service name SimpleName MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation QualifiedName stateinit
+component name SimpleName MethodInvocation QualifiedName stateinit
+create service component SimpleName MethodInvocation SimpleName cluster name
+create service component SimpleName MethodInvocation SimpleName service name
+create service component SimpleName MethodInvocation SimpleName component name
+create service component SimpleName MethodInvocation QualifiedName stateinit
+cluster name SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation QualifiedName stateinit
+service name SimpleName MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation QualifiedName stateinit
+component name SimpleName MethodInvocation QualifiedName stateinit
+host SimpleName VariableDeclarationFragment StringLiteral h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral h
+host SimpleName VariableDeclarationFragment StringLiteral h
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral h
+create service component host SimpleName MethodInvocation SimpleName cluster name
+create service component host SimpleName MethodInvocation SimpleName service name
+create service component host SimpleName MethodInvocation SimpleName component name
+create service component host SimpleName MethodInvocation SimpleName host
+create service component host SimpleName MethodInvocation QualifiedName stateinstalling
+cluster name SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation SimpleName host
+cluster name SimpleName MethodInvocation QualifiedName stateinstalling
+service name SimpleName MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation SimpleName host
+service name SimpleName MethodInvocation QualifiedName stateinstalling
+component name SimpleName MethodInvocation SimpleName host
+component name SimpleName MethodInvocation QualifiedName stateinstalling
+host SimpleName MethodInvocation QualifiedName stateinstalling
+fail SimpleName MethodInvocation StringLiteral service component host creation should fail for invalid state
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName cluster name
+get cluster SimpleName MethodInvocation SimpleName cluster name
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get service
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get service
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get service
+clusters SimpleName MethodInvocation MethodInvocation SimpleName service name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName service name
+get service SimpleName MethodInvocation SimpleName service name
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service component
+service name SimpleName MethodInvocation MethodInvocation SimpleName get service component
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+get service component SimpleName MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+component name SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName host
+component name SimpleName MethodInvocation MethodInvocation SimpleName host
+get service component host SimpleName MethodInvocation SimpleName host
+fail SimpleName MethodInvocation StringLiteral service component host creation should have failed
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+create service component host SimpleName MethodInvocation SimpleName cluster name
+create service component host SimpleName MethodInvocation SimpleName service name
+create service component host SimpleName MethodInvocation SimpleName component name
+create service component host SimpleName MethodInvocation SimpleName host
+cluster name SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation SimpleName host
+service name SimpleName MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation SimpleName host
+component name SimpleName MethodInvocation SimpleName host
+create service component host SimpleName MethodInvocation SimpleName cluster name
+create service component host SimpleName MethodInvocation SimpleName service name
+create service component host SimpleName MethodInvocation SimpleName component name
+create service component host SimpleName MethodInvocation SimpleName host
+cluster name SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation SimpleName host
+service name SimpleName MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation SimpleName host
+component name SimpleName MethodInvocation SimpleName host
+create service component host SimpleName MethodInvocation SimpleName cluster name
+create service component host SimpleName MethodInvocation SimpleName service name
+create service component host SimpleName MethodInvocation SimpleName component name
+create service component host SimpleName MethodInvocation SimpleName host
+cluster name SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation SimpleName host
+service name SimpleName MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation SimpleName host
+component name SimpleName MethodInvocation SimpleName host
+create service component host SimpleName MethodInvocation SimpleName cluster name
+create service component host SimpleName MethodInvocation SimpleName service name
+create service component host SimpleName MethodInvocation SimpleName component name
+create service component host SimpleName MethodInvocation SimpleName host
+cluster name SimpleName MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation SimpleName host
+service name SimpleName MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation SimpleName host
+component name SimpleName MethodInvocation SimpleName host
+fail SimpleName MethodInvocation StringLiteral service component host creation should fail as duplicate
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName cluster name
+get cluster SimpleName MethodInvocation SimpleName cluster name
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get service
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get service
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get service
+clusters SimpleName MethodInvocation MethodInvocation SimpleName service name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName service name
+get service SimpleName MethodInvocation SimpleName service name
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service component
+service name SimpleName MethodInvocation MethodInvocation SimpleName get service component
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+get service component SimpleName MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+component name SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName host
+component name SimpleName MethodInvocation MethodInvocation SimpleName host
+get service component host SimpleName MethodInvocation SimpleName host
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+assert SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName host
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName cluster name
+get cluster SimpleName MethodInvocation SimpleName cluster name
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get service
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get service
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get service
+clusters SimpleName MethodInvocation MethodInvocation SimpleName service name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName service name
+get service SimpleName MethodInvocation SimpleName service name
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service component
+service name SimpleName MethodInvocation MethodInvocation SimpleName get service component
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+get service component SimpleName MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+component name SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName host
+component name SimpleName MethodInvocation MethodInvocation SimpleName host
+get service component host SimpleName MethodInvocation SimpleName host
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+assert SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName host
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation SimpleName cluster name
+get cluster SimpleName MethodInvocation SimpleName cluster name
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get service
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get service
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName get service
+clusters SimpleName MethodInvocation MethodInvocation SimpleName service name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName service name
+cluster name SimpleName MethodInvocation MethodInvocation SimpleName service name
+get service SimpleName MethodInvocation SimpleName service name
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service component
+service name SimpleName MethodInvocation MethodInvocation SimpleName get service component
+clusters SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation SimpleName component name
+service name SimpleName MethodInvocation MethodInvocation SimpleName component name
+get service component SimpleName MethodInvocation SimpleName component name
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+component name SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+get service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+service name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+get service component SimpleName MethodInvocation MethodInvocation SimpleName host
+component name SimpleName MethodInvocation MethodInvocation SimpleName host
+get service component host SimpleName MethodInvocation SimpleName host
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+assert SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get service component
+assert not null SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName component name
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName get service component host
+assert not null SimpleName MethodInvocation MethodInvocation SimpleName host
+service component host request SimpleName SimpleType ClassInstanceCreation SimpleName cluster name
+service component host request SimpleName SimpleType ClassInstanceCreation SimpleName service name
+service component host request SimpleName SimpleType ClassInstanceCreation SimpleName component name
+cluster name SimpleName ClassInstanceCreation SimpleName service name
+cluster name SimpleName ClassInstanceCreation SimpleName component name
+service name SimpleName ClassInstanceCreation SimpleName component name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service component host request
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName component name
+service component host request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host response
+controller SimpleName MethodInvocation SimpleName get host components
+controller SimpleName MethodInvocation SimpleName r
+get host components SimpleName MethodInvocation SimpleName r
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName controller
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host components
+response SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+response SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName response
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName response
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName response
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create service component host
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create service component host
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName test create service component host
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+test create service component host SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create service component host
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create service component host
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

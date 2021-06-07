@@ -1,0 +1,153 @@
+host SimpleName VariableDeclarationFragment StringLiteral slave a
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral slave a
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation StringLiteral role
+make task SimpleName MethodInvocation StringLiteral env
+make task SimpleName MethodInvocation StringLiteral job
+a StringLiteral MethodInvocation StringLiteral role
+a StringLiteral MethodInvocation StringLiteral env
+a StringLiteral MethodInvocation StringLiteral job
+role StringLiteral MethodInvocation StringLiteral env
+role StringLiteral MethodInvocation StringLiteral job
+env StringLiteral MethodInvocation StringLiteral job
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName host
+of SimpleName MethodInvocation SimpleName host
+set host SimpleName MethodInvocation MethodInvocation SimpleName make task
+set host SimpleName MethodInvocation MethodInvocation StringLiteral a
+set host SimpleName MethodInvocation MethodInvocation StringLiteral role
+set host SimpleName MethodInvocation MethodInvocation StringLiteral env
+set host SimpleName MethodInvocation MethodInvocation StringLiteral job
+set host SimpleName MethodInvocation MethodInvocation SimpleName optional
+set host SimpleName MethodInvocation MethodInvocation SimpleName of
+set host SimpleName MethodInvocation MethodInvocation SimpleName host
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName set host
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName make task
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral a
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral role
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral env
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral job
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName optional
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+a SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName host
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set host
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+make task SimpleName MethodInvocation StringLiteral b
+make task SimpleName MethodInvocation StringLiteral role
+make task SimpleName MethodInvocation StringLiteral env
+make task SimpleName MethodInvocation StringLiteral job
+b StringLiteral MethodInvocation StringLiteral role
+b StringLiteral MethodInvocation StringLiteral env
+b StringLiteral MethodInvocation StringLiteral job
+role StringLiteral MethodInvocation StringLiteral env
+role StringLiteral MethodInvocation StringLiteral job
+env StringLiteral MethodInvocation StringLiteral job
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName host
+of SimpleName MethodInvocation SimpleName host
+set host SimpleName MethodInvocation MethodInvocation SimpleName make task
+set host SimpleName MethodInvocation MethodInvocation StringLiteral b
+set host SimpleName MethodInvocation MethodInvocation StringLiteral role
+set host SimpleName MethodInvocation MethodInvocation StringLiteral env
+set host SimpleName MethodInvocation MethodInvocation StringLiteral job
+set host SimpleName MethodInvocation MethodInvocation SimpleName optional
+set host SimpleName MethodInvocation MethodInvocation SimpleName of
+set host SimpleName MethodInvocation MethodInvocation SimpleName host
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+make task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+b StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+role StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+env StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName optional
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName of
+job StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName set host
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName make task
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral b
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral role
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral env
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral job
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName optional
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName host
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set host
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName a
+immutable set SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName b
+store SimpleName MethodInvocation SimpleName save tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store SimpleName MethodInvocation MethodInvocation SimpleName of
+store SimpleName MethodInvocation MethodInvocation SimpleName a
+store SimpleName MethodInvocation MethodInvocation SimpleName b
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName a
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName b
+query SimpleName MethodInvocation SimpleName slave scoped
+query SimpleName MethodInvocation SimpleName host
+slave scoped SimpleName MethodInvocation SimpleName host
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName query
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName slave scoped
+assert query results SimpleName MethodInvocation MethodInvocation SimpleName host
+assert query results SimpleName MethodInvocation SimpleName a
+assert query results SimpleName MethodInvocation SimpleName b
+query SimpleName MethodInvocation MethodInvocation SimpleName a
+slave scoped SimpleName MethodInvocation MethodInvocation SimpleName a
+host SimpleName MethodInvocation MethodInvocation SimpleName a
+query SimpleName MethodInvocation MethodInvocation SimpleName b
+slave scoped SimpleName MethodInvocation MethodInvocation SimpleName b
+host SimpleName MethodInvocation MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName b
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test tasks on same host
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test tasks on same host
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test tasks on same host
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test tasks on same host SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test tasks on same host SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test tasks on same host
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test tasks on same host

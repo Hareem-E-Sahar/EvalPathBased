@@ -1,0 +1,18 @@
+resourcetype QualifiedName SimpleType SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName schema
+public Modifier MethodDeclaration SimpleName get schema
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+schema SimpleName SimpleType MethodDeclaration SimpleName get schema
+schema SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schema
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schema
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

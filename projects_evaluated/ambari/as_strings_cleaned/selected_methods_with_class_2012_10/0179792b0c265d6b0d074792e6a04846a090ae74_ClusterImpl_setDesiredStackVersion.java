@@ -1,0 +1,85 @@
+stack version SimpleName SimpleType SingleVariableDeclaration SimpleName stack version
+log SimpleName MethodInvocation SimpleName is debug enabled
+changing desired stack version of cluster StringLiteral InfixExpression StringLiteral cluster name
+changing desired stack version of cluster StringLiteral InfixExpression InfixExpression SimpleName cluster name
+cluster name StringLiteral InfixExpression InfixExpression SimpleName cluster name
+changing desired stack version of cluster StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+changing desired stack version of cluster StringLiteral InfixExpression InfixExpression SimpleName cluster id
+cluster name StringLiteral InfixExpression InfixExpression SimpleName cluster id
+changing desired stack version of cluster StringLiteral InfixExpression InfixExpression StringLiteral current stack version
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral current stack version
+changing desired stack version of cluster StringLiteral InfixExpression InfixExpression FieldAccess SimpleName desired stack version
+cluster name StringLiteral InfixExpression InfixExpression FieldAccess SimpleName desired stack version
+cluster name SimpleName InfixExpression StringLiteral cluster id
+cluster name SimpleName InfixExpression SimpleName cluster id
+cluster name SimpleName InfixExpression StringLiteral current stack version
+cluster name SimpleName InfixExpression FieldAccess SimpleName desired stack version
+cluster name SimpleName InfixExpression StringLiteral new stack version
+cluster id StringLiteral InfixExpression SimpleName cluster id
+cluster id StringLiteral InfixExpression StringLiteral current stack version
+cluster id StringLiteral InfixExpression FieldAccess SimpleName desired stack version
+cluster id StringLiteral InfixExpression StringLiteral new stack version
+cluster id StringLiteral InfixExpression SimpleName stack version
+cluster id SimpleName InfixExpression StringLiteral current stack version
+cluster id SimpleName InfixExpression FieldAccess SimpleName desired stack version
+cluster id SimpleName InfixExpression StringLiteral new stack version
+cluster id SimpleName InfixExpression SimpleName stack version
+current stack version StringLiteral InfixExpression FieldAccess SimpleName desired stack version
+current stack version StringLiteral InfixExpression StringLiteral new stack version
+current stack version StringLiteral InfixExpression SimpleName stack version
+desired stack version SimpleName FieldAccess InfixExpression StringLiteral new stack version
+desired stack version SimpleName FieldAccess InfixExpression SimpleName stack version
+new stack version StringLiteral InfixExpression SimpleName stack version
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral changing desired stack version of cluster
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression SimpleName cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+log SimpleName MethodInvocation InfixExpression SimpleName cluster id
+log SimpleName MethodInvocation InfixExpression StringLiteral current stack version
+log SimpleName MethodInvocation InfixExpression FieldAccess SimpleName desired stack version
+log SimpleName MethodInvocation InfixExpression StringLiteral new stack version
+log SimpleName MethodInvocation InfixExpression SimpleName stack version
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral changing desired stack version of cluster
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression SimpleName cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+debug SimpleName MethodInvocation InfixExpression SimpleName cluster id
+debug SimpleName MethodInvocation InfixExpression StringLiteral current stack version
+debug SimpleName MethodInvocation InfixExpression FieldAccess SimpleName desired stack version
+debug SimpleName MethodInvocation InfixExpression StringLiteral new stack version
+debug SimpleName MethodInvocation InfixExpression SimpleName stack version
+desired stack version SimpleName FieldAccess Assignment SimpleName stack version
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set desired stack version
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName stack version
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set desired stack version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stack version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stack version
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set desired stack version
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stack version
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName stack version
+void PrimitiveType MethodDeclaration SimpleName set desired stack version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stack version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stack version
+set desired stack version SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stack version
+set desired stack version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stack version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set desired stack version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stack version
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set desired stack version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stack version

@@ -1,0 +1,28 @@
+host health status SimpleName SimpleType SingleVariableDeclaration SimpleName health status
+write lock SimpleName MethodInvocation SimpleName lock
+health status SimpleName FieldAccess Assignment SimpleName health status
+write lock SimpleName MethodInvocation SimpleName unlock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set health status
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName health status
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set health status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host health status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName health status
+void PrimitiveType MethodDeclaration SimpleName set health status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host health status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName health status
+set health status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host health status
+set health status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName health status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set health status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName health status
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set health status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName health status

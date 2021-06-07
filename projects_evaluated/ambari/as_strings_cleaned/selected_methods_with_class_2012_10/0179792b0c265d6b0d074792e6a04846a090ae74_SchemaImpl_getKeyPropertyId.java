@@ -1,0 +1,27 @@
+resourcetype QualifiedName SimpleType SingleVariableDeclaration SimpleName type
+key property ids SimpleName MethodInvocation SimpleName get
+key property ids SimpleName MethodInvocation SimpleName type
+get SimpleName MethodInvocation SimpleName type
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName property id
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get key property id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName property id
+public Modifier MethodDeclaration SimpleName get key property id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+property id SimpleName SimpleType MethodDeclaration SimpleName get key property id
+property id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get key property id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+get key property id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property id
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key property id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key property id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

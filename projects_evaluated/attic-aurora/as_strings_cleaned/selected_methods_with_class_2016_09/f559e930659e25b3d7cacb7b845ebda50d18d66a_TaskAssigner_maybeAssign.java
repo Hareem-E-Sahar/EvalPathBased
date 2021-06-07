@@ -1,0 +1,335 @@
+timed SimpleName SingleMemberAnnotation StringLiteral assigner maybe assign
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store provider
+resource request SimpleName SimpleType SingleVariableDeclaration SimpleName resource request
+task group key SimpleName SimpleType SingleVariableDeclaration SimpleName group key
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName task ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName task ids
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName task group key
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName task group key
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName slave reservations
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName slave reservations
+task group key SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName slave reservations
+iterables SimpleName MethodInvocation SimpleName is empty
+iterables SimpleName MethodInvocation SimpleName task ids
+is empty SimpleName MethodInvocation SimpleName task ids
+immutable set SimpleName MethodInvocation SimpleName of
+group key SimpleName MethodInvocation SimpleName get task
+tier manager SimpleName MethodInvocation SimpleName get tier
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName group key
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName get task
+get tier SimpleName MethodInvocation MethodInvocation SimpleName group key
+get tier SimpleName MethodInvocation MethodInvocation SimpleName get task
+tier info SimpleName VariableDeclarationFragment MethodInvocation SimpleName tier manager
+tier info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tier
+tier info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName group key
+tier info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get task
+tier info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tier info
+immutable setbuilder QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName builder
+assignment result SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable set
+assignment result SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+iterator SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+task ids SimpleName MethodInvocation SimpleName iterator
+remaining tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName task ids
+remaining tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+remaining tasks SimpleName MethodInvocation SimpleName next
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName remaining tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+host offer SimpleName SimpleType SingleVariableDeclaration SimpleName offer
+offer manager SimpleName MethodInvocation SimpleName get offers
+offer manager SimpleName MethodInvocation SimpleName group key
+get offers SimpleName MethodInvocation SimpleName group key
+optional SimpleName SimpleType ParameterizedType SimpleType SimpleName task group key
+offer SimpleName MethodInvocation SimpleName get offer
+offer SimpleName MethodInvocation MethodInvocation SimpleName get slave id
+get offer SimpleName MethodInvocation MethodInvocation SimpleName get slave id
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get slave id SimpleName MethodInvocation MethodInvocation SimpleName get value
+slave reservations SimpleName MethodInvocation SimpleName get
+slave reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get slave id
+slave reservations SimpleName MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get slave id
+get SimpleName MethodInvocation MethodInvocation SimpleName get value
+optional SimpleName MethodInvocation SimpleName from nullable
+optional SimpleName MethodInvocation MethodInvocation SimpleName slave reservations
+optional SimpleName MethodInvocation MethodInvocation SimpleName get
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+from nullable SimpleName MethodInvocation MethodInvocation SimpleName slave reservations
+from nullable SimpleName MethodInvocation MethodInvocation SimpleName get
+from nullable SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+reserved group SimpleName VariableDeclarationFragment MethodInvocation SimpleName optional
+reserved group SimpleName VariableDeclarationFragment MethodInvocation SimpleName from nullable
+reserved group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName slave reservations
+reserved group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+reserved group SimpleName MethodInvocation SimpleName is present
+reserved group SimpleName MethodInvocation SimpleName get
+reserved group SimpleName MethodInvocation MethodInvocation SimpleName equals
+get SimpleName MethodInvocation MethodInvocation SimpleName equals
+reserved group SimpleName MethodInvocation MethodInvocation SimpleName group key
+get SimpleName MethodInvocation MethodInvocation SimpleName group key
+equals SimpleName MethodInvocation SimpleName group key
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName veto
+offer SimpleName MethodInvocation SimpleName get resource bag
+offer SimpleName MethodInvocation SimpleName tier info
+get resource bag SimpleName MethodInvocation SimpleName tier info
+offer SimpleName MethodInvocation SimpleName get attributes
+unused resource SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName offer
+unused resource SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get resource bag
+unused resource SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tier info
+unused resource SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName offer
+unused resource SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attributes
+offer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName offer
+offer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+get resource bag SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName offer
+get resource bag SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+tier info SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName offer
+tier info SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+filter SimpleName MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unused resource
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get resource bag
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tier info
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+filter SimpleName MethodInvocation SimpleName resource request
+filter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unused resource
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get resource bag
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tier info
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName offer
+filter SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+filter SimpleName MethodInvocation SimpleName resource request
+unused resource SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName resource request
+offer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resource request
+get resource bag SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resource request
+tier info SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resource request
+offer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resource request
+get attributes SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resource request
+vetoes SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter
+vetoes SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter
+vetoes SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource request
+vetoes SimpleName MethodInvocation SimpleName is empty
+offer SimpleName MethodInvocation SimpleName get offer
+assign SimpleName MethodInvocation SimpleName store provider
+assign SimpleName MethodInvocation MethodInvocation SimpleName offer
+assign SimpleName MethodInvocation MethodInvocation SimpleName get offer
+assign SimpleName MethodInvocation SimpleName task id
+store provider SimpleName MethodInvocation MethodInvocation SimpleName offer
+store provider SimpleName MethodInvocation MethodInvocation SimpleName get offer
+store provider SimpleName MethodInvocation SimpleName task id
+offer SimpleName MethodInvocation MethodInvocation SimpleName task id
+get offer SimpleName MethodInvocation MethodInvocation SimpleName task id
+task info SimpleName VariableDeclarationFragment MethodInvocation SimpleName assign
+task info SimpleName VariableDeclarationFragment MethodInvocation SimpleName store provider
+task info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName offer
+task info SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get offer
+task info SimpleName VariableDeclarationFragment MethodInvocation SimpleName task id
+task info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task info
+resource request SimpleName MethodInvocation SimpleName get job state
+offer SimpleName MethodInvocation SimpleName get attributes
+resource request SimpleName MethodInvocation MethodInvocation SimpleName update attribute aggregate
+get job state SimpleName MethodInvocation MethodInvocation SimpleName update attribute aggregate
+resource request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+resource request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attributes
+get job state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+get job state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attributes
+update attribute aggregate SimpleName MethodInvocation MethodInvocation SimpleName offer
+update attribute aggregate SimpleName MethodInvocation MethodInvocation SimpleName get attributes
+offer SimpleName MethodInvocation SimpleName get offer
+offer SimpleName MethodInvocation MethodInvocation SimpleName get id
+get offer SimpleName MethodInvocation MethodInvocation SimpleName get id
+offer manager SimpleName MethodInvocation SimpleName launch task
+offer manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+offer manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get offer
+offer manager SimpleName MethodInvocation MethodInvocation SimpleName get id
+offer manager SimpleName MethodInvocation SimpleName task info
+launch task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+launch task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get offer
+launch task SimpleName MethodInvocation MethodInvocation SimpleName get id
+launch task SimpleName MethodInvocation SimpleName task info
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task info
+get offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task info
+get id SimpleName MethodInvocation MethodInvocation SimpleName task info
+assignment result SimpleName MethodInvocation SimpleName add
+assignment result SimpleName MethodInvocation SimpleName task id
+add SimpleName MethodInvocation SimpleName task id
+remaining tasks SimpleName MethodInvocation SimpleName has next
+remaining tasks SimpleName MethodInvocation SimpleName next
+task id SimpleName Assignment MethodInvocation SimpleName remaining tasks
+task id SimpleName Assignment MethodInvocation SimpleName next
+offer managerlaunch exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation StringLiteral failed to launch task
+log SimpleName MethodInvocation SimpleName e
+warn SimpleName MethodInvocation StringLiteral failed to launch task
+warn SimpleName MethodInvocation SimpleName e
+failed to launch task StringLiteral MethodInvocation SimpleName e
+launch failures SimpleName MethodInvocation SimpleName increment and get
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName pending
+of SimpleName MethodInvocation SimpleName pending
+state manager SimpleName MethodInvocation SimpleName change state
+state manager SimpleName MethodInvocation SimpleName store provider
+state manager SimpleName MethodInvocation SimpleName task id
+state manager SimpleName MethodInvocation MethodInvocation SimpleName optional
+state manager SimpleName MethodInvocation MethodInvocation SimpleName of
+state manager SimpleName MethodInvocation MethodInvocation SimpleName pending
+state manager SimpleName MethodInvocation SimpleName lost
+change state SimpleName MethodInvocation SimpleName store provider
+change state SimpleName MethodInvocation SimpleName task id
+change state SimpleName MethodInvocation MethodInvocation SimpleName optional
+change state SimpleName MethodInvocation MethodInvocation SimpleName of
+change state SimpleName MethodInvocation MethodInvocation SimpleName pending
+change state SimpleName MethodInvocation SimpleName lost
+change state SimpleName MethodInvocation SimpleName launch failed msg
+store provider SimpleName MethodInvocation SimpleName task id
+store provider SimpleName MethodInvocation MethodInvocation SimpleName optional
+store provider SimpleName MethodInvocation MethodInvocation SimpleName of
+store provider SimpleName MethodInvocation MethodInvocation SimpleName pending
+store provider SimpleName MethodInvocation SimpleName lost
+store provider SimpleName MethodInvocation SimpleName launch failed msg
+task id SimpleName MethodInvocation MethodInvocation SimpleName optional
+task id SimpleName MethodInvocation MethodInvocation SimpleName of
+task id SimpleName MethodInvocation MethodInvocation SimpleName pending
+task id SimpleName MethodInvocation SimpleName lost
+task id SimpleName MethodInvocation SimpleName launch failed msg
+optional SimpleName MethodInvocation MethodInvocation SimpleName lost
+of SimpleName MethodInvocation MethodInvocation SimpleName lost
+pending SimpleName MethodInvocation MethodInvocation SimpleName lost
+optional SimpleName MethodInvocation MethodInvocation SimpleName launch failed msg
+of SimpleName MethodInvocation MethodInvocation SimpleName launch failed msg
+pending SimpleName MethodInvocation MethodInvocation SimpleName launch failed msg
+lost SimpleName MethodInvocation SimpleName launch failed msg
+veto SimpleName MethodInvocation SimpleName identify group
+veto SimpleName MethodInvocation SimpleName vetoes
+identify group SimpleName MethodInvocation SimpleName vetoes
+veto SimpleName MethodInvocation InfixExpression QualifiedName veto groupstatic
+identify group SimpleName MethodInvocation InfixExpression QualifiedName veto groupstatic
+vetoes SimpleName MethodInvocation InfixExpression QualifiedName veto groupstatic
+offer SimpleName MethodInvocation SimpleName get offer
+offer SimpleName MethodInvocation MethodInvocation SimpleName get id
+get offer SimpleName MethodInvocation MethodInvocation SimpleName get id
+offer manager SimpleName MethodInvocation SimpleName ban offer
+offer manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+offer manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get offer
+offer manager SimpleName MethodInvocation MethodInvocation SimpleName get id
+offer manager SimpleName MethodInvocation SimpleName group key
+ban offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+ban offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get offer
+ban offer SimpleName MethodInvocation MethodInvocation SimpleName get id
+ban offer SimpleName MethodInvocation SimpleName group key
+offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName group key
+get offer SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName group key
+get id SimpleName MethodInvocation MethodInvocation SimpleName group key
+offer SimpleName MethodInvocation SimpleName get offer
+offer SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+get offer SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+agent StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName offer
+agent StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get offer
+agent StringLiteral InfixExpression MethodInvocation SimpleName get hostname
+agent StringLiteral InfixExpression StringLiteral vetoed task
+agent StringLiteral InfixExpression SimpleName task id
+agent StringLiteral InfixExpression StringLiteral :
+agent StringLiteral InfixExpression SimpleName vetoes
+offer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral vetoed task
+get offer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral vetoed task
+get hostname SimpleName MethodInvocation InfixExpression StringLiteral vetoed task
+offer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName task id
+get offer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName task id
+get hostname SimpleName MethodInvocation InfixExpression SimpleName task id
+offer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get offer SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral :
+get hostname SimpleName MethodInvocation InfixExpression StringLiteral :
+offer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName vetoes
+get offer SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName vetoes
+get hostname SimpleName MethodInvocation InfixExpression SimpleName vetoes
+vetoed task StringLiteral InfixExpression SimpleName task id
+vetoed task StringLiteral InfixExpression StringLiteral :
+vetoed task StringLiteral InfixExpression SimpleName vetoes
+task id SimpleName InfixExpression StringLiteral :
+task id SimpleName InfixExpression SimpleName vetoes
+: StringLiteral InfixExpression SimpleName vetoes
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral agent
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get hostname
+log SimpleName MethodInvocation InfixExpression StringLiteral vetoed task
+log SimpleName MethodInvocation InfixExpression SimpleName task id
+log SimpleName MethodInvocation InfixExpression StringLiteral :
+log SimpleName MethodInvocation InfixExpression SimpleName vetoes
+debug SimpleName MethodInvocation InfixExpression StringLiteral agent
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get hostname
+debug SimpleName MethodInvocation InfixExpression StringLiteral vetoed task
+debug SimpleName MethodInvocation InfixExpression SimpleName task id
+debug SimpleName MethodInvocation InfixExpression StringLiteral :
+debug SimpleName MethodInvocation InfixExpression SimpleName vetoes
+offer SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName offer manager
+offer SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get offers
+offer SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName group key
+assignment result SimpleName MethodInvocation SimpleName build
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+assigner maybe assign StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+assigner maybe assign StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration SimpleName maybe assign
+assigner maybe assign StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName maybe assign
+timed SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+assigner maybe assign StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName maybe assign
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName resource request
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName maybe assign
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task group key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName group key
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName maybe assign
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName maybe assign
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName resource request
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource request
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task group key
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group key
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task ids
+maybe assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleName slave reservations
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource request
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave reservations
+resource request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+resource request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+resource request SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave reservations
+group key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+group key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave reservations
+task ids SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave reservations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral assigner maybe assign
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName maybe assign
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave reservations
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral assigner maybe assign
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName maybe assign
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store provider
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName slave reservations

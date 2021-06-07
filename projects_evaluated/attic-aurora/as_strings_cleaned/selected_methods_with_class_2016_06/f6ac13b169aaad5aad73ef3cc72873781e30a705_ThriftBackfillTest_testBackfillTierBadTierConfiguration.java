@@ -1,0 +1,57 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName illegal state exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set num cpus
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral .
+set num cpus SimpleName MethodInvocation NumberLiteral .
+set num cpus SimpleName MethodInvocation MethodInvocation SimpleName set ram mb
+. NumberLiteral MethodInvocation MethodInvocation SimpleName set ram mb
+set num cpus SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation NumberLiteral empty
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+set ram mb SimpleName MethodInvocation MethodInvocation SimpleName set disk mb
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set disk mb
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set disk mb SimpleName MethodInvocation NumberLiteral empty
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set ram mb
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName set disk mb
+config SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+tier manager SimpleName MethodInvocation SimpleName get tiers
+expect SimpleName MethodInvocation MethodInvocation SimpleName tier manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName get tiers
+immutable map SimpleName MethodInvocation SimpleName of
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get tiers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable map
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation SimpleName immutable map
+and return SimpleName MethodInvocation MethodInvocation SimpleName of
+control SimpleName MethodInvocation SimpleName replay
+thrift backfill SimpleName MethodInvocation SimpleName backfill task
+thrift backfill SimpleName MethodInvocation SimpleName config
+backfill task SimpleName MethodInvocation SimpleName config
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test backfill tier bad tier configuration
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test backfill tier bad tier configuration
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test backfill tier bad tier configuration
+void PrimitiveType MethodDeclaration SimpleName test backfill tier bad tier configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test backfill tier bad tier configuration
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test backfill tier bad tier configuration

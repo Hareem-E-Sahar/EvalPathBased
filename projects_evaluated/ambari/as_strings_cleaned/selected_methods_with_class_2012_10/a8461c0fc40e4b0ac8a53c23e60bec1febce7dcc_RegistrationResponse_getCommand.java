@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName status command
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName status command
+public Modifier MethodDeclaration SimpleName get command
+public Modifier MethodDeclaration Block ReturnStatement SimpleName commands
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get command
+status command SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get command
+get command SimpleName MethodDeclaration Block ReturnStatement SimpleName commands
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get command
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get command

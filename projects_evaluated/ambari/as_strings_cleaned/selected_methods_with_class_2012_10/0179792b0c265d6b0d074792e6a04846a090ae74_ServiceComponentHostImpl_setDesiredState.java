@@ -1,0 +1,28 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+write lock SimpleName MethodInvocation SimpleName lock
+desired state SimpleName FieldAccess Assignment SimpleName state
+write lock SimpleName MethodInvocation SimpleName unlock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set desired state
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set desired state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleName set desired state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+set desired state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set desired state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set desired state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set desired state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

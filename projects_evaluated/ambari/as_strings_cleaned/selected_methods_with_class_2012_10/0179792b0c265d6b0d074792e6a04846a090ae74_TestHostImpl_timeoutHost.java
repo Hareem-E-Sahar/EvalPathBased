@@ -1,0 +1,35 @@
+host impl SimpleName SimpleType SingleVariableDeclaration SimpleName host
+host SimpleName MethodInvocation SimpleName get host name
+host heartbeat lost event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName host
+host heartbeat lost event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get host name
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host heartbeat lost event
+e SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName host
+e SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get host name
+host heartbeat lost event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+host SimpleName MethodInvocation SimpleName handle event
+host SimpleName MethodInvocation SimpleName e
+handle event SimpleName MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName timeout host
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+private Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName timeout host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+timeout host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+timeout host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+timeout host SimpleName MethodDeclaration SimpleType SimpleName exception
+host SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName timeout host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName timeout host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

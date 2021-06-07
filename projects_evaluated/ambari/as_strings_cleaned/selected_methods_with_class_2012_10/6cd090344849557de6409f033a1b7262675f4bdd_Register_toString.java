@@ -1,0 +1,66 @@
+response id StringLiteral InfixExpression SimpleName response id
+response id StringLiteral InfixExpression StringLiteral empty
+response id StringLiteral InfixExpression StringLiteral timestamp
+response id StringLiteral InfixExpression SimpleName timestamp
+response id StringLiteral InfixExpression StringLiteral empty
+response id SimpleName InfixExpression StringLiteral empty
+response id SimpleName InfixExpression StringLiteral timestamp
+response id SimpleName InfixExpression SimpleName timestamp
+response id SimpleName InfixExpression StringLiteral empty
+response id SimpleName InfixExpression StringLiteral hostname
+empty StringLiteral InfixExpression StringLiteral timestamp
+empty StringLiteral InfixExpression SimpleName timestamp
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression StringLiteral hostname
+empty StringLiteral InfixExpression SimpleName hostname
+timestamp StringLiteral InfixExpression SimpleName timestamp
+timestamp StringLiteral InfixExpression StringLiteral empty
+timestamp StringLiteral InfixExpression StringLiteral hostname
+timestamp StringLiteral InfixExpression SimpleName hostname
+timestamp StringLiteral InfixExpression StringLiteral empty
+timestamp SimpleName InfixExpression StringLiteral empty
+timestamp SimpleName InfixExpression StringLiteral hostname
+timestamp SimpleName InfixExpression SimpleName hostname
+timestamp SimpleName InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression StringLiteral hostname
+empty StringLiteral InfixExpression SimpleName hostname
+empty StringLiteral InfixExpression StringLiteral empty
+hostname StringLiteral InfixExpression SimpleName hostname
+hostname StringLiteral InfixExpression StringLiteral empty
+hostname SimpleName InfixExpression StringLiteral empty
+ret SimpleName VariableDeclarationFragment InfixExpression StringLiteral response id
+ret SimpleName VariableDeclarationFragment InfixExpression SimpleName response id
+ret SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+ret SimpleName VariableDeclarationFragment InfixExpression StringLiteral timestamp
+ret SimpleName VariableDeclarationFragment InfixExpression SimpleName timestamp
+ret SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+ret SimpleName VariableDeclarationFragment InfixExpression StringLiteral hostname
+ret SimpleName VariableDeclarationFragment InfixExpression SimpleName hostname
+ret SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+hardware profile SimpleName FieldAccess MethodInvocation SimpleName to string
+ret SimpleName InfixExpression StringLiteral hardwareprofile
+ret SimpleName InfixExpression MethodInvocation FieldAccess SimpleName hardware profile
+ret SimpleName InfixExpression MethodInvocation SimpleName to string
+hardwareprofile StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName hardware profile
+hardwareprofile StringLiteral InfixExpression MethodInvocation SimpleName to string
+ret SimpleName Assignment InfixExpression SimpleName ret
+ret SimpleName Assignment InfixExpression StringLiteral hardwareprofile
+ret SimpleName Assignment InfixExpression MethodInvocation SimpleName to string
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

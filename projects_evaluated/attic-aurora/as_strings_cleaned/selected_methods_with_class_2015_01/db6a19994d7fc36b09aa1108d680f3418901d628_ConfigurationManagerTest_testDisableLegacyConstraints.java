@@ -1,0 +1,160 @@
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set is service
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+set is service SimpleName MethodInvocation BooleanLiteral true
+set is service SimpleName MethodInvocation MethodInvocation SimpleName set environment
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName set environment
+set is service SimpleName MethodInvocation MethodInvocation StringLiteral prod
+true BooleanLiteral MethodInvocation MethodInvocation StringLiteral prod
+set environment SimpleName MethodInvocation StringLiteral prod
+sets SimpleName MethodInvocation SimpleType SimpleName constraint
+sets SimpleName MethodInvocation SimpleName new hash set
+constraint SimpleName SimpleType MethodInvocation SimpleName new hash set
+set is service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set constraints
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set constraints
+set environment SimpleName MethodInvocation MethodInvocation SimpleName set constraints
+prod StringLiteral MethodInvocation MethodInvocation SimpleName set constraints
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sets
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new hash set
+prod StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sets
+prod StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName new hash set
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName sets
+set constraints SimpleName MethodInvocation MethodInvocation SimpleType SimpleName constraint
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName new hash set
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set production
+prod StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set production
+set constraints SimpleName MethodInvocation MethodInvocation SimpleName set production
+sets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set production
+new hash set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set production
+set environment SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+prod StringLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+set constraints SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+sets SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+new hash set SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+set production SimpleName MethodInvocation BooleanLiteral true
+task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set constraints
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName set production
+task SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+task SimpleName MethodInvocation SimpleName deep copy
+copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName task
+copy SimpleName VariableDeclarationFragment MethodInvocation SimpleName deep copy
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName copy
+configuration manager SimpleName MethodInvocation SimpleName apply defaults if unset
+configuration manager SimpleName MethodInvocation SimpleName task
+configuration manager SimpleName MethodInvocation BooleanLiteral false
+apply defaults if unset SimpleName MethodInvocation SimpleName task
+apply defaults if unset SimpleName MethodInvocation BooleanLiteral false
+task SimpleName MethodInvocation BooleanLiteral false
+task SimpleName Assignment MethodInvocation SimpleName configuration manager
+task SimpleName Assignment MethodInvocation SimpleName apply defaults if unset
+task SimpleName Assignment MethodInvocation SimpleName task
+task SimpleName Assignment MethodInvocation BooleanLiteral false
+task SimpleName MethodInvocation SimpleName get constraints
+has name SimpleName MethodInvocation SimpleName host constraint
+iterables SimpleName MethodInvocation SimpleName any
+iterables SimpleName MethodInvocation MethodInvocation SimpleName task
+iterables SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+iterables SimpleName MethodInvocation MethodInvocation SimpleName has name
+iterables SimpleName MethodInvocation MethodInvocation SimpleName host constraint
+any SimpleName MethodInvocation MethodInvocation SimpleName task
+any SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+any SimpleName MethodInvocation MethodInvocation SimpleName has name
+any SimpleName MethodInvocation MethodInvocation SimpleName host constraint
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host constraint
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host constraint
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iterables
+assert false SimpleName MethodInvocation MethodInvocation SimpleName any
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get constraints
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host constraint
+task SimpleName MethodInvocation SimpleName get constraints
+has name SimpleName MethodInvocation SimpleName rack constraint
+iterables SimpleName MethodInvocation SimpleName any
+iterables SimpleName MethodInvocation MethodInvocation SimpleName task
+iterables SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+iterables SimpleName MethodInvocation MethodInvocation SimpleName has name
+iterables SimpleName MethodInvocation MethodInvocation SimpleName rack constraint
+any SimpleName MethodInvocation MethodInvocation SimpleName task
+any SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+any SimpleName MethodInvocation MethodInvocation SimpleName has name
+any SimpleName MethodInvocation MethodInvocation SimpleName rack constraint
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rack constraint
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rack constraint
+assert false SimpleName MethodInvocation MethodInvocation SimpleName iterables
+assert false SimpleName MethodInvocation MethodInvocation SimpleName any
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get constraints
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+assert false SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rack constraint
+configuration manager SimpleName MethodInvocation SimpleName apply defaults if unset
+configuration manager SimpleName MethodInvocation SimpleName copy
+configuration manager SimpleName MethodInvocation BooleanLiteral true
+apply defaults if unset SimpleName MethodInvocation SimpleName copy
+apply defaults if unset SimpleName MethodInvocation BooleanLiteral true
+copy SimpleName MethodInvocation BooleanLiteral true
+copy SimpleName Assignment MethodInvocation SimpleName configuration manager
+copy SimpleName Assignment MethodInvocation SimpleName apply defaults if unset
+copy SimpleName Assignment MethodInvocation SimpleName copy
+copy SimpleName Assignment MethodInvocation BooleanLiteral true
+copy SimpleName MethodInvocation SimpleName get constraints
+has name SimpleName MethodInvocation SimpleName host constraint
+iterables SimpleName MethodInvocation SimpleName any
+iterables SimpleName MethodInvocation MethodInvocation SimpleName copy
+iterables SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+iterables SimpleName MethodInvocation MethodInvocation SimpleName has name
+iterables SimpleName MethodInvocation MethodInvocation SimpleName host constraint
+any SimpleName MethodInvocation MethodInvocation SimpleName copy
+any SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+any SimpleName MethodInvocation MethodInvocation SimpleName has name
+any SimpleName MethodInvocation MethodInvocation SimpleName host constraint
+copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host constraint
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host constraint
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iterables
+assert true SimpleName MethodInvocation MethodInvocation SimpleName any
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get constraints
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host constraint
+copy SimpleName MethodInvocation SimpleName get constraints
+has name SimpleName MethodInvocation SimpleName rack constraint
+iterables SimpleName MethodInvocation SimpleName any
+iterables SimpleName MethodInvocation MethodInvocation SimpleName copy
+iterables SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+iterables SimpleName MethodInvocation MethodInvocation SimpleName has name
+iterables SimpleName MethodInvocation MethodInvocation SimpleName rack constraint
+any SimpleName MethodInvocation MethodInvocation SimpleName copy
+any SimpleName MethodInvocation MethodInvocation SimpleName get constraints
+any SimpleName MethodInvocation MethodInvocation SimpleName has name
+any SimpleName MethodInvocation MethodInvocation SimpleName rack constraint
+copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rack constraint
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+get constraints SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rack constraint
+assert true SimpleName MethodInvocation MethodInvocation SimpleName iterables
+assert true SimpleName MethodInvocation MethodInvocation SimpleName any
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName copy
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get constraints
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName has name
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rack constraint
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test disable legacy constraints
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test disable legacy constraints
+void PrimitiveType MethodDeclaration SimpleName test disable legacy constraints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test disable legacy constraints
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test disable legacy constraints

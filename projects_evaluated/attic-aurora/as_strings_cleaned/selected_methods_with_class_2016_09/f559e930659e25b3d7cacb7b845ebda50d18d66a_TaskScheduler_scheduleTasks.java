@@ -1,0 +1,460 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+iterable SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable set SimpleName MethodInvocation SimpleName copy of
+immutable set SimpleName MethodInvocation SimpleName tasks
+copy of SimpleName MethodInvocation SimpleName tasks
+task ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable set
+task ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy of
+task ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation StringLiteral empty
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+empty StringLiteral MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation SimpleName task ids
+on SimpleName MethodInvocation MethodInvocation SimpleName task ids
+empty StringLiteral MethodInvocation MethodInvocation SimpleName task ids
+join SimpleName MethodInvocation SimpleName task ids
+task id values SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName joiner
+task id values SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName on
+task id values SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral empty
+task id values SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+task id values SimpleName VariableDeclarationFragment MethodInvocation SimpleName task ids
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id values
+attempting to schedule tasks StringLiteral InfixExpression SimpleName task id values
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression StringLiteral attempting to schedule tasks
+log SimpleName MethodInvocation InfixExpression SimpleName task id values
+debug SimpleName MethodInvocation InfixExpression StringLiteral attempting to schedule tasks
+debug SimpleName MethodInvocation InfixExpression SimpleName task id values
+immutable set SimpleName SimpleType ParameterizedType SimpleType SimpleName i assigned task
+store SimpleName MethodInvocation SimpleName get task store
+query SimpleName MethodInvocation SimpleName task scoped
+query SimpleName MethodInvocation SimpleName task ids
+task scoped SimpleName MethodInvocation SimpleName task ids
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+task ids SimpleName MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+task ids SimpleName MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+store SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+get task store SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+get task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+get task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task scoped
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task ids
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName by status
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName pending
+i scheduled task SimpleName ExpressionMethodReference SimpleName get assigned task
+iterables SimpleName MethodInvocation SimpleName transform
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task store
+iterables SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+iterables SimpleName MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+iterables SimpleName MethodInvocation ExpressionMethodReference SimpleName get assigned task
+transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store
+transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task store
+transform SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName get assigned task
+fetch tasks SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+fetch tasks SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get assigned task
+immutable set SimpleName MethodInvocation SimpleName copy of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName iterables
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName transform
+immutable set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch tasks
+immutable set SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+immutable set SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get assigned task
+copy of SimpleName MethodInvocation MethodInvocation SimpleName iterables
+copy of SimpleName MethodInvocation MethodInvocation SimpleName transform
+copy of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch tasks
+copy of SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+copy of SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get assigned task
+assigned tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable set
+assigned tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy of
+assigned tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterables
+assigned tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName transform
+iterables SimpleName MethodInvocation SimpleName is empty
+iterables SimpleName MethodInvocation SimpleName assigned tasks
+is empty SimpleName MethodInvocation SimpleName assigned tasks
+failed to look up all tasks in a scheduling round StringLiteral InfixExpression SimpleName task id values
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to look up all tasks in a scheduling round
+log SimpleName MethodInvocation InfixExpression SimpleName task id values
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to look up all tasks in a scheduling round
+warn SimpleName MethodInvocation InfixExpression SimpleName task id values
+assigned tasks SimpleName MethodInvocation SimpleName stream
+t SimpleName MethodInvocation SimpleName get task
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName t
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName get task
+collectors SimpleName MethodInvocation SimpleName grouping by
+collectors SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+collectors SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName t
+collectors SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get task
+grouping by SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+grouping by SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName t
+grouping by SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get task
+assigned tasks SimpleName MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation SimpleName collect
+assigned tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+assigned tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName grouping by
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collectors
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName grouping by
+collect SimpleName MethodInvocation MethodInvocation SimpleName collectors
+collect SimpleName MethodInvocation MethodInvocation SimpleName grouping by
+assigned tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+collect SimpleName MethodInvocation MethodInvocation SimpleName entry set
+collectors SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+grouping by SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry set
+collect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName size
+entry set SimpleName MethodInvocation MethodInvocation SimpleName size
+entry set SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+found multiple task groups for StringLiteral InfixExpression SimpleName task id values
+preconditions SimpleName MethodInvocation SimpleName check state
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+preconditions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+preconditions SimpleName MethodInvocation InfixExpression StringLiteral found multiple task groups for
+preconditions SimpleName MethodInvocation InfixExpression SimpleName task id values
+check state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+check state SimpleName MethodInvocation InfixExpression NumberLiteral empty
+check state SimpleName MethodInvocation InfixExpression StringLiteral found multiple task groups for
+check state SimpleName MethodInvocation InfixExpression SimpleName task id values
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral found multiple task groups for
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName task id values
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName i assigned task
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName i assigned task
+assigned tasks SimpleName MethodInvocation SimpleName stream
+t SimpleName MethodInvocation SimpleName get task id
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName t
+t SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName get task id
+t SimpleName VariableDeclarationFragment LambdaExpression SimpleName t
+to map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+to map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName t
+to map SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get task id
+to map SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName t
+to map SimpleName MethodInvocation LambdaExpression SimpleName t
+assigned tasks SimpleName MethodInvocation MethodInvocation SimpleName collect
+stream SimpleName MethodInvocation MethodInvocation SimpleName collect
+assigned tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to map
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to map
+collect SimpleName MethodInvocation MethodInvocation SimpleName to map
+collect SimpleName MethodInvocation MethodInvocation LambdaExpression SimpleName t
+assignable task map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assigned tasks
+assignable task map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName stream
+assignable task map SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+assignable task map SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to map
+task ids SimpleName MethodInvocation SimpleName size
+assigned tasks SimpleName MethodInvocation SimpleName size
+task ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assigned tasks
+task ids SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName assigned tasks
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation StringLiteral empty
+assignable task map SimpleName MethodInvocation SimpleName key set
+sets SimpleName MethodInvocation SimpleName difference
+sets SimpleName MethodInvocation SimpleName task ids
+sets SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+sets SimpleName MethodInvocation MethodInvocation SimpleName key set
+difference SimpleName MethodInvocation SimpleName task ids
+difference SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+difference SimpleName MethodInvocation MethodInvocation SimpleName key set
+task ids SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+task ids SimpleName MethodInvocation MethodInvocation SimpleName key set
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+empty StringLiteral MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sets
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName difference
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task ids
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sets
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName difference
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task ids
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName sets
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName difference
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName task ids
+join SimpleName MethodInvocation MethodInvocation SimpleName sets
+join SimpleName MethodInvocation MethodInvocation SimpleName difference
+join SimpleName MethodInvocation MethodInvocation SimpleName task ids
+join SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assignable task map
+join SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+failed to look up tasks StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName joiner
+failed to look up tasks StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName on
+failed to look up tasks StringLiteral InfixExpression MethodInvocation MethodInvocation StringLiteral empty
+failed to look up tasks StringLiteral InfixExpression MethodInvocation SimpleName join
+failed to look up tasks StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName sets
+failed to look up tasks StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName difference
+failed to look up tasks StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName task ids
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to look up tasks
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+warn SimpleName MethodInvocation InfixExpression StringLiteral failed to look up tasks
+warn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName join
+assigned tasks SimpleName MethodInvocation SimpleName stream
+assigned tasks SimpleName MethodInvocation MethodInvocation SimpleName find first
+stream SimpleName MethodInvocation MethodInvocation SimpleName find first
+assigned tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+find first SimpleName MethodInvocation MethodInvocation SimpleName get
+find first SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+get SimpleName MethodInvocation MethodInvocation SimpleName get task
+task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName get task
+i task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+task SimpleName MethodInvocation SimpleName get job
+attribute aggregate SimpleName MethodInvocation SimpleName get job active state
+attribute aggregate SimpleName MethodInvocation SimpleName store
+attribute aggregate SimpleName MethodInvocation MethodInvocation SimpleName task
+attribute aggregate SimpleName MethodInvocation MethodInvocation SimpleName get job
+get job active state SimpleName MethodInvocation SimpleName store
+get job active state SimpleName MethodInvocation MethodInvocation SimpleName task
+get job active state SimpleName MethodInvocation MethodInvocation SimpleName get job
+store SimpleName MethodInvocation MethodInvocation SimpleName task
+store SimpleName MethodInvocation MethodInvocation SimpleName get job
+aggregate SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute aggregate
+aggregate SimpleName VariableDeclarationFragment MethodInvocation SimpleName get job active state
+aggregate SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+aggregate SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task
+aggregate SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get job
+attribute aggregate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aggregate
+overhead SimpleName VariableDeclarationFragment QualifiedName resource bagempty
+resource bag SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName overhead
+resource bag SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName resource bagempty
+task SimpleName MethodInvocation SimpleName is set executor config
+task SimpleName MethodInvocation SimpleName get executor config
+task SimpleName MethodInvocation MethodInvocation SimpleName get name
+get executor config SimpleName MethodInvocation MethodInvocation SimpleName get name
+executor settings SimpleName MethodInvocation SimpleName get executor overhead
+executor settings SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+executor settings SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor config
+executor settings SimpleName MethodInvocation MethodInvocation SimpleName get name
+get executor overhead SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get executor overhead SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get executor config
+get executor overhead SimpleName MethodInvocation MethodInvocation SimpleName get name
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot find executor configuration
+executor settings SimpleName MethodInvocation MethodInvocation SimpleName or else throw
+get executor overhead SimpleName MethodInvocation MethodInvocation SimpleName or else throw
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName or else throw
+or else throw SimpleName MethodInvocation LambdaExpression ClassInstanceCreation StringLiteral cannot find executor configuration
+overhead SimpleName Assignment MethodInvocation MethodInvocation SimpleName executor settings
+overhead SimpleName Assignment MethodInvocation MethodInvocation SimpleName get executor overhead
+overhead SimpleName Assignment MethodInvocation SimpleName or else throw
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+task SimpleName MethodInvocation SimpleName get resources
+bag from resources SimpleName MethodInvocation MethodInvocation SimpleName task
+bag from resources SimpleName MethodInvocation MethodInvocation SimpleName get resources
+bag from resources SimpleName MethodInvocation MethodInvocation SimpleName add
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName add
+bag from resources SimpleName MethodInvocation MethodInvocation SimpleName overhead
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName overhead
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName overhead
+add SimpleName MethodInvocation SimpleName overhead
+resource request SimpleName SimpleType ClassInstanceCreation SimpleName task
+resource request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName add
+resource request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName overhead
+resource request SimpleName SimpleType ClassInstanceCreation SimpleName aggregate
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName bag from resources
+task SimpleName ClassInstanceCreation MethodInvocation SimpleName add
+task SimpleName ClassInstanceCreation MethodInvocation SimpleName overhead
+task SimpleName ClassInstanceCreation SimpleName aggregate
+bag from resources SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName aggregate
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName aggregate
+overhead SimpleName MethodInvocation ClassInstanceCreation SimpleName aggregate
+task group key SimpleName MethodInvocation SimpleName from
+task group key SimpleName MethodInvocation SimpleName task
+from SimpleName MethodInvocation SimpleName task
+assignable task map SimpleName MethodInvocation SimpleName key set
+reservations SimpleName MethodInvocation SimpleName as map
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName store
+assigner SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource request
+assigner SimpleName MethodInvocation ClassInstanceCreation SimpleName task
+assigner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName add
+assigner SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName overhead
+assigner SimpleName MethodInvocation ClassInstanceCreation SimpleName aggregate
+assigner SimpleName MethodInvocation MethodInvocation SimpleName task group key
+assigner SimpleName MethodInvocation MethodInvocation SimpleName from
+assigner SimpleName MethodInvocation MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+assigner SimpleName MethodInvocation MethodInvocation SimpleName key set
+maybe assign SimpleName MethodInvocation SimpleName store
+maybe assign SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource request
+maybe assign SimpleName MethodInvocation ClassInstanceCreation SimpleName task
+maybe assign SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName add
+maybe assign SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName overhead
+maybe assign SimpleName MethodInvocation ClassInstanceCreation SimpleName aggregate
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName task group key
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName from
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName key set
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName reservations
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName as map
+store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName resource request
+store SimpleName MethodInvocation ClassInstanceCreation SimpleName task
+store SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName add
+store SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName overhead
+store SimpleName MethodInvocation ClassInstanceCreation SimpleName aggregate
+store SimpleName MethodInvocation MethodInvocation SimpleName task group key
+store SimpleName MethodInvocation MethodInvocation SimpleName from
+store SimpleName MethodInvocation MethodInvocation SimpleName task
+store SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+store SimpleName MethodInvocation MethodInvocation SimpleName key set
+store SimpleName MethodInvocation MethodInvocation SimpleName reservations
+store SimpleName MethodInvocation MethodInvocation SimpleName as map
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName task group key
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName from
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName task
+aggregate SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName task group key
+aggregate SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName from
+aggregate SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName task
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName assignable task map
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName key set
+aggregate SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName assignable task map
+aggregate SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName key set
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName reservations
+task SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName as map
+aggregate SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName reservations
+aggregate SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName as map
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assignable task map
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assignable task map
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assignable task map
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reservations
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as map
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reservations
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as map
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reservations
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as map
+assignable task map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reservations
+assignable task map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as map
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reservations
+key set SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName as map
+launched SimpleName VariableDeclarationFragment MethodInvocation SimpleName assigner
+launched SimpleName VariableDeclarationFragment MethodInvocation SimpleName maybe assign
+launched SimpleName VariableDeclarationFragment MethodInvocation SimpleName store
+launched SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName task
+launched SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName aggregate
+launched SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task group key
+launched SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from
+launched SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task
+launched SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assignable task map
+launched SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+launched SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName reservations
+launched SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName as map
+assignable task map SimpleName MethodInvocation SimpleName size
+attempts fired SimpleName MethodInvocation SimpleName add and get
+attempts fired SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+attempts fired SimpleName MethodInvocation MethodInvocation SimpleName size
+add and get SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+add and get SimpleName MethodInvocation MethodInvocation SimpleName size
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+assignable task map SimpleName MethodInvocation SimpleName key set
+sets SimpleName MethodInvocation SimpleName difference
+sets SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+sets SimpleName MethodInvocation MethodInvocation SimpleName key set
+sets SimpleName MethodInvocation SimpleName launched
+difference SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+difference SimpleName MethodInvocation MethodInvocation SimpleName key set
+difference SimpleName MethodInvocation SimpleName launched
+assignable task map SimpleName MethodInvocation MethodInvocation SimpleName launched
+key set SimpleName MethodInvocation MethodInvocation SimpleName launched
+failed to launch SimpleName VariableDeclarationFragment MethodInvocation SimpleName sets
+failed to launch SimpleName VariableDeclarationFragment MethodInvocation SimpleName difference
+failed to launch SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName assignable task map
+failed to launch SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+failed to launch SimpleName VariableDeclarationFragment MethodInvocation SimpleName launched
+assignable task map SimpleName MethodInvocation SimpleName get
+assignable task map SimpleName MethodInvocation SimpleName task id
+get SimpleName MethodInvocation SimpleName task id
+maybe preempt for SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+maybe preempt for SimpleName MethodInvocation MethodInvocation SimpleName get
+maybe preempt for SimpleName MethodInvocation MethodInvocation SimpleName task id
+maybe preempt for SimpleName MethodInvocation SimpleName aggregate
+maybe preempt for SimpleName MethodInvocation SimpleName store
+assignable task map SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+get SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+task id SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+assignable task map SimpleName MethodInvocation MethodInvocation SimpleName store
+get SimpleName MethodInvocation MethodInvocation SimpleName store
+task id SimpleName MethodInvocation MethodInvocation SimpleName store
+aggregate SimpleName MethodInvocation SimpleName store
+failed to launch SimpleName MethodInvocation SimpleName for each
+failed to launch SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName task id
+for each SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName task id
+failed to launch SimpleName MethodInvocation SimpleName size
+attempts no match SimpleName MethodInvocation SimpleName add and get
+attempts no match SimpleName MethodInvocation MethodInvocation SimpleName failed to launch
+attempts no match SimpleName MethodInvocation MethodInvocation SimpleName size
+add and get SimpleName MethodInvocation MethodInvocation SimpleName failed to launch
+add and get SimpleName MethodInvocation MethodInvocation SimpleName size
+assignable task map SimpleName MethodInvocation SimpleName key set
+sets SimpleName MethodInvocation SimpleName difference
+sets SimpleName MethodInvocation SimpleName task ids
+sets SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+sets SimpleName MethodInvocation MethodInvocation SimpleName key set
+difference SimpleName MethodInvocation SimpleName task ids
+difference SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+difference SimpleName MethodInvocation MethodInvocation SimpleName key set
+task ids SimpleName MethodInvocation MethodInvocation SimpleName assignable task map
+task ids SimpleName MethodInvocation MethodInvocation SimpleName key set
+sets SimpleName MethodInvocation SimpleName union
+sets SimpleName MethodInvocation SimpleName launched
+sets SimpleName MethodInvocation MethodInvocation SimpleName sets
+sets SimpleName MethodInvocation MethodInvocation SimpleName difference
+sets SimpleName MethodInvocation MethodInvocation SimpleName task ids
+sets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assignable task map
+sets SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+union SimpleName MethodInvocation SimpleName launched
+union SimpleName MethodInvocation MethodInvocation SimpleName sets
+union SimpleName MethodInvocation MethodInvocation SimpleName difference
+union SimpleName MethodInvocation MethodInvocation SimpleName task ids
+union SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assignable task map
+union SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+launched SimpleName MethodInvocation MethodInvocation SimpleName sets
+launched SimpleName MethodInvocation MethodInvocation SimpleName difference
+launched SimpleName MethodInvocation MethodInvocation SimpleName task ids
+launched SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName assignable task map
+launched SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName schedule tasks
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName store
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tasks
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName schedule tasks
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName schedule tasks
+schedule tasks SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+schedule tasks SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store
+schedule tasks SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tasks
+store SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName schedule tasks
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName schedule tasks
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks

@@ -1,0 +1,30 @@
+resourcetype QualifiedName SimpleType SingleVariableDeclaration SimpleName type
+resource providers SimpleName MethodInvocation SimpleName get
+resource providers SimpleName MethodInvocation SimpleName type
+get SimpleName MethodInvocation SimpleName type
+resource providers SimpleName MethodInvocation MethodInvocation SimpleName get schema
+get SimpleName MethodInvocation MethodInvocation SimpleName get schema
+type SimpleName MethodInvocation MethodInvocation SimpleName get schema
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName schema
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get schema
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName schema
+public Modifier MethodDeclaration SimpleName get schema
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+schema SimpleName SimpleType MethodDeclaration SimpleName get schema
+schema SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+get schema SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName schema
+public Modifier TypeDeclaration MethodDeclaration SimpleName get schema
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName schema
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get schema
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

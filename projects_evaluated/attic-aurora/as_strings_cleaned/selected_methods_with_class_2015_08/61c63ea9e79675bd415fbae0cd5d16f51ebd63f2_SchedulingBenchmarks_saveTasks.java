@@ -1,0 +1,49 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName set
+final Modifier SingleVariableDeclaration ParameterizedType SimpleType SimpleName i scheduled task
+final Modifier SingleVariableDeclaration SimpleName tasks
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks
+i scheduled task SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName tasks
+storagemutable store provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get unsafe task store
+store provider SimpleName MethodInvocation MethodInvocation SimpleName save tasks
+get unsafe task store SimpleName MethodInvocation MethodInvocation SimpleName save tasks
+store provider SimpleName MethodInvocation MethodInvocation SimpleName tasks
+get unsafe task store SimpleName MethodInvocation MethodInvocation SimpleName tasks
+save tasks SimpleName MethodInvocation SimpleName tasks
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName write
+storage SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+write SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName storagemutate workno resultquiet
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName save tasks
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName tasks
+void PrimitiveType MethodDeclaration SimpleName save tasks
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tasks
+save tasks SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+save tasks SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tasks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName save tasks
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save tasks
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tasks

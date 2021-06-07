@@ -1,0 +1,15 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName cluster
+public Modifier MethodDeclaration SimpleName get clusters
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get clusters
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get clusters
+cluster SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get clusters
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get clusters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get clusters

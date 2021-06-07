@@ -1,0 +1,30 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+collections SimpleName MethodInvocation SimpleName unmodifiable map
+collections SimpleName MethodInvocation SimpleName desired configs
+unmodifiable map SimpleName MethodInvocation SimpleName desired configs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get desired configs
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName config
+public Modifier MethodDeclaration SimpleName get desired configs
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName config
+synchronized Modifier MethodDeclaration SimpleName get desired configs
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get desired configs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get desired configs
+config SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get desired configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get desired configs
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get desired configs

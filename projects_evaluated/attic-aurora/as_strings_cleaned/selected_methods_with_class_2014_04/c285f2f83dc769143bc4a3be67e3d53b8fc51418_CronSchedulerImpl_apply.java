@@ -1,0 +1,27 @@
+cron trigger SimpleName SimpleType SingleVariableDeclaration SimpleName trigger
+quartz SimpleName MethodInvocation SimpleName crontab entry
+quartz SimpleName MethodInvocation SimpleName trigger
+crontab entry SimpleName MethodInvocation SimpleName trigger
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName crontab entry
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName trigger
+public Modifier MethodDeclaration SimpleType SimpleName crontab entry
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cron trigger
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trigger
+crontab entry SimpleName SimpleType MethodDeclaration SimpleName apply
+crontab entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName trigger
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cron trigger
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trigger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName crontab entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trigger
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName crontab entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trigger

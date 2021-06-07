@@ -1,0 +1,18 @@
+service component request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName track action response
+public Modifier MethodDeclaration SimpleName delete components
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+track action response SimpleName SimpleType MethodDeclaration SimpleName delete components
+track action response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+delete components SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component request
+delete components SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete components
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete components
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request

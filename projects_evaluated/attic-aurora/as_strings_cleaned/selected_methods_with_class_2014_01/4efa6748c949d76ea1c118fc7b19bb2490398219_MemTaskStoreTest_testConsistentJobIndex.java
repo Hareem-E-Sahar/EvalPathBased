@@ -1,0 +1,488 @@
+make task SimpleName MethodInvocation StringLiteral a
+make task SimpleName MethodInvocation StringLiteral jim
+make task SimpleName MethodInvocation StringLiteral test
+make task SimpleName MethodInvocation StringLiteral job
+a StringLiteral MethodInvocation StringLiteral jim
+a StringLiteral MethodInvocation StringLiteral test
+a StringLiteral MethodInvocation StringLiteral job
+jim StringLiteral MethodInvocation StringLiteral test
+jim StringLiteral MethodInvocation StringLiteral job
+test StringLiteral MethodInvocation StringLiteral job
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral a
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jim
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+a SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName make task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral a
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral jim
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral test
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+make task SimpleName MethodInvocation StringLiteral b
+make task SimpleName MethodInvocation StringLiteral jim
+make task SimpleName MethodInvocation StringLiteral test
+make task SimpleName MethodInvocation StringLiteral job
+b StringLiteral MethodInvocation StringLiteral jim
+b StringLiteral MethodInvocation StringLiteral test
+b StringLiteral MethodInvocation StringLiteral job
+jim StringLiteral MethodInvocation StringLiteral test
+jim StringLiteral MethodInvocation StringLiteral job
+test StringLiteral MethodInvocation StringLiteral job
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral b
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jim
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+b SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName make task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral b
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral jim
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral test
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+make task SimpleName MethodInvocation StringLiteral c
+make task SimpleName MethodInvocation StringLiteral jim
+make task SimpleName MethodInvocation StringLiteral test
+make task SimpleName MethodInvocation StringLiteral job
+c StringLiteral MethodInvocation StringLiteral jim
+c StringLiteral MethodInvocation StringLiteral test
+c StringLiteral MethodInvocation StringLiteral job
+jim StringLiteral MethodInvocation StringLiteral test
+jim StringLiteral MethodInvocation StringLiteral job
+test StringLiteral MethodInvocation StringLiteral job
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral c
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jim
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+c SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName make task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral c
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral jim
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral test
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+make task SimpleName MethodInvocation StringLiteral d
+make task SimpleName MethodInvocation StringLiteral joe
+make task SimpleName MethodInvocation StringLiteral test
+make task SimpleName MethodInvocation StringLiteral job
+d StringLiteral MethodInvocation StringLiteral joe
+d StringLiteral MethodInvocation StringLiteral test
+d StringLiteral MethodInvocation StringLiteral job
+joe StringLiteral MethodInvocation StringLiteral test
+joe StringLiteral MethodInvocation StringLiteral job
+test StringLiteral MethodInvocation StringLiteral job
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+d SimpleName VariableDeclarationFragment MethodInvocation StringLiteral d
+d SimpleName VariableDeclarationFragment MethodInvocation StringLiteral joe
+d SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+d SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName make task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral d
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral joe
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral test
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+make task SimpleName MethodInvocation StringLiteral e
+make task SimpleName MethodInvocation StringLiteral jim
+make task SimpleName MethodInvocation StringLiteral prod
+make task SimpleName MethodInvocation StringLiteral job
+e StringLiteral MethodInvocation StringLiteral jim
+e StringLiteral MethodInvocation StringLiteral prod
+e StringLiteral MethodInvocation StringLiteral job
+jim StringLiteral MethodInvocation StringLiteral prod
+jim StringLiteral MethodInvocation StringLiteral job
+prod StringLiteral MethodInvocation StringLiteral job
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName make task
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral e
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral jim
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral prod
+e SimpleName VariableDeclarationFragment MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName make task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral e
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral jim
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral prod
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral job
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+job keys SimpleName MethodInvocation SimpleName from
+job keys SimpleName MethodInvocation StringLiteral jim
+job keys SimpleName MethodInvocation StringLiteral test
+job keys SimpleName MethodInvocation StringLiteral job
+from SimpleName MethodInvocation StringLiteral jim
+from SimpleName MethodInvocation StringLiteral test
+from SimpleName MethodInvocation StringLiteral job
+jim StringLiteral MethodInvocation StringLiteral test
+jim StringLiteral MethodInvocation StringLiteral job
+test StringLiteral MethodInvocation StringLiteral job
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName job keys
+query SimpleName MethodInvocation MethodInvocation SimpleName from
+query SimpleName MethodInvocation MethodInvocation StringLiteral jim
+query SimpleName MethodInvocation MethodInvocation StringLiteral test
+query SimpleName MethodInvocation MethodInvocation StringLiteral job
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName job keys
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName from
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral jim
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral test
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral job
+jims job SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+jims job SimpleName VariableDeclarationFragment MethodInvocation SimpleName job scoped
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job keys
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral jim
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral test
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType QualifiedName querybuilder
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName jims job
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName job scoped
+querybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jims job
+job keys SimpleName MethodInvocation SimpleName from
+job keys SimpleName MethodInvocation StringLiteral jim
+job keys SimpleName MethodInvocation StringLiteral test
+job keys SimpleName MethodInvocation StringLiteral job
+from SimpleName MethodInvocation StringLiteral jim
+from SimpleName MethodInvocation StringLiteral test
+from SimpleName MethodInvocation StringLiteral job
+jim StringLiteral MethodInvocation StringLiteral test
+jim StringLiteral MethodInvocation StringLiteral job
+test StringLiteral MethodInvocation StringLiteral job
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName job keys
+query SimpleName MethodInvocation MethodInvocation SimpleName from
+query SimpleName MethodInvocation MethodInvocation StringLiteral jim
+query SimpleName MethodInvocation MethodInvocation StringLiteral test
+query SimpleName MethodInvocation MethodInvocation StringLiteral job
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName job keys
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName from
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral jim
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral test
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral job
+jims job SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+jims job SimpleName VariableDeclarationFragment MethodInvocation SimpleName job scoped
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job keys
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral jim
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral test
+jims job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType QualifiedName querybuilder
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName jims job
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName job scoped
+querybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jims job
+job keys SimpleName MethodInvocation SimpleName from
+job keys SimpleName MethodInvocation StringLiteral joe
+job keys SimpleName MethodInvocation StringLiteral test
+job keys SimpleName MethodInvocation StringLiteral job
+from SimpleName MethodInvocation StringLiteral joe
+from SimpleName MethodInvocation StringLiteral test
+from SimpleName MethodInvocation StringLiteral job
+joe StringLiteral MethodInvocation StringLiteral test
+joe StringLiteral MethodInvocation StringLiteral job
+test StringLiteral MethodInvocation StringLiteral job
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName job keys
+query SimpleName MethodInvocation MethodInvocation SimpleName from
+query SimpleName MethodInvocation MethodInvocation StringLiteral joe
+query SimpleName MethodInvocation MethodInvocation StringLiteral test
+query SimpleName MethodInvocation MethodInvocation StringLiteral job
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName job keys
+job scoped SimpleName MethodInvocation MethodInvocation SimpleName from
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral joe
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral test
+job scoped SimpleName MethodInvocation MethodInvocation StringLiteral job
+joes job SimpleName VariableDeclarationFragment MethodInvocation SimpleName query
+joes job SimpleName VariableDeclarationFragment MethodInvocation SimpleName job scoped
+joes job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job keys
+joes job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from
+joes job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral joe
+joes job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral test
+joes job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral job
+final Modifier VariableDeclarationStatement SimpleType QualifiedName querybuilder
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName joes job
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName query
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName job scoped
+querybuilder QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName joes job
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName a
+immutable set SimpleName MethodInvocation SimpleName b
+immutable set SimpleName MethodInvocation SimpleName c
+immutable set SimpleName MethodInvocation SimpleName d
+of SimpleName MethodInvocation SimpleName a
+of SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName c
+of SimpleName MethodInvocation SimpleName d
+of SimpleName MethodInvocation SimpleName e
+a SimpleName MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName c
+a SimpleName MethodInvocation SimpleName d
+a SimpleName MethodInvocation SimpleName e
+b SimpleName MethodInvocation SimpleName c
+b SimpleName MethodInvocation SimpleName d
+b SimpleName MethodInvocation SimpleName e
+c SimpleName MethodInvocation SimpleName d
+c SimpleName MethodInvocation SimpleName e
+d SimpleName MethodInvocation SimpleName e
+store SimpleName MethodInvocation SimpleName save tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store SimpleName MethodInvocation MethodInvocation SimpleName of
+store SimpleName MethodInvocation MethodInvocation SimpleName a
+store SimpleName MethodInvocation MethodInvocation SimpleName b
+store SimpleName MethodInvocation MethodInvocation SimpleName c
+store SimpleName MethodInvocation MethodInvocation SimpleName d
+store SimpleName MethodInvocation MethodInvocation SimpleName e
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName a
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName b
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName c
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName d
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName e
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName a
+assert query results SimpleName MethodInvocation SimpleName b
+jims job SimpleName MethodInvocation SimpleName a
+jims job SimpleName MethodInvocation SimpleName b
+a SimpleName MethodInvocation SimpleName b
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName c
+jims job SimpleName MethodInvocation SimpleName c
+assert query results SimpleName MethodInvocation SimpleName joes job
+assert query results SimpleName MethodInvocation SimpleName d
+joes job SimpleName MethodInvocation SimpleName d
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName b
+id SimpleName MethodInvocation SimpleName b
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName tasks
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName id
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName b
+of SimpleName MethodInvocation MethodInvocation SimpleName tasks
+of SimpleName MethodInvocation MethodInvocation SimpleName id
+of SimpleName MethodInvocation MethodInvocation SimpleName b
+store SimpleName MethodInvocation SimpleName delete tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store SimpleName MethodInvocation MethodInvocation SimpleName of
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName b
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName a
+jims job SimpleName MethodInvocation SimpleName a
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName c
+jims job SimpleName MethodInvocation SimpleName c
+assert query results SimpleName MethodInvocation SimpleName joes job
+assert query results SimpleName MethodInvocation SimpleName d
+joes job SimpleName MethodInvocation SimpleName d
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+task SimpleName MethodInvocation SimpleName new builder
+task SimpleName MethodInvocation MethodInvocation SimpleName set status
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set status
+task SimpleName MethodInvocation MethodInvocation SimpleName running
+new builder SimpleName MethodInvocation MethodInvocation SimpleName running
+set status SimpleName MethodInvocation SimpleName running
+i scheduled task SimpleName MethodInvocation SimpleName build
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+i scheduled task SimpleName MethodInvocation MethodInvocation SimpleName set status
+i scheduled task SimpleName MethodInvocation MethodInvocation SimpleName running
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+build SimpleName MethodInvocation MethodInvocation SimpleName set status
+build SimpleName MethodInvocation MethodInvocation SimpleName running
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i scheduled task
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+i scheduled task SimpleName SimpleType MethodDeclaration SimpleName apply
+i scheduled task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName task
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+store SimpleName MethodInvocation SimpleName mutate tasks
+store SimpleName MethodInvocation SimpleName jims job
+store SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName task mutation
+mutate tasks SimpleName MethodInvocation SimpleName jims job
+mutate tasks SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName task mutation
+jims job SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName task mutation
+a SimpleName MethodInvocation SimpleName new builder
+a SimpleName MethodInvocation MethodInvocation SimpleName set status
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set status
+a SimpleName MethodInvocation MethodInvocation SimpleName running
+new builder SimpleName MethodInvocation MethodInvocation SimpleName running
+set status SimpleName MethodInvocation SimpleName running
+i scheduled task SimpleName MethodInvocation SimpleName build
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+i scheduled task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+i scheduled task SimpleName MethodInvocation MethodInvocation SimpleName set status
+i scheduled task SimpleName MethodInvocation MethodInvocation SimpleName running
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName a
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+build SimpleName MethodInvocation MethodInvocation SimpleName set status
+build SimpleName MethodInvocation MethodInvocation SimpleName running
+a running SimpleName VariableDeclarationFragment MethodInvocation SimpleName i scheduled task
+a running SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+a running SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set status
+a running SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName running
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a running
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName a running
+jims job SimpleName MethodInvocation SimpleName a running
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName c
+jims job SimpleName MethodInvocation SimpleName c
+assert query results SimpleName MethodInvocation SimpleName joes job
+assert query results SimpleName MethodInvocation SimpleName d
+joes job SimpleName MethodInvocation SimpleName d
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName d
+id SimpleName MethodInvocation SimpleName d
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName tasks
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName id
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName d
+of SimpleName MethodInvocation MethodInvocation SimpleName tasks
+of SimpleName MethodInvocation MethodInvocation SimpleName id
+of SimpleName MethodInvocation MethodInvocation SimpleName d
+store SimpleName MethodInvocation SimpleName delete tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store SimpleName MethodInvocation MethodInvocation SimpleName of
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName d
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName d
+assert query results SimpleName MethodInvocation SimpleName joes job
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName d
+id SimpleName MethodInvocation SimpleName d
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName tasks
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName id
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName d
+of SimpleName MethodInvocation MethodInvocation SimpleName tasks
+of SimpleName MethodInvocation MethodInvocation SimpleName id
+of SimpleName MethodInvocation MethodInvocation SimpleName d
+store SimpleName MethodInvocation SimpleName delete tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store SimpleName MethodInvocation MethodInvocation SimpleName of
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName d
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+delete tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+delete tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName d
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName a running
+jims job SimpleName MethodInvocation SimpleName a running
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName c
+jims job SimpleName MethodInvocation SimpleName c
+assert query results SimpleName MethodInvocation SimpleName joes job
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName b
+of SimpleName MethodInvocation SimpleName b
+store SimpleName MethodInvocation SimpleName save tasks
+store SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store SimpleName MethodInvocation MethodInvocation SimpleName of
+store SimpleName MethodInvocation MethodInvocation SimpleName b
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName of
+save tasks SimpleName MethodInvocation MethodInvocation SimpleName b
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName a running
+assert query results SimpleName MethodInvocation SimpleName b
+jims job SimpleName MethodInvocation SimpleName a running
+jims job SimpleName MethodInvocation SimpleName b
+a running SimpleName MethodInvocation SimpleName b
+assert query results SimpleName MethodInvocation SimpleName jims job
+assert query results SimpleName MethodInvocation SimpleName c
+jims job SimpleName MethodInvocation SimpleName c
+assert query results SimpleName MethodInvocation SimpleName joes job
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test consistent job index
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test consistent job index
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName test consistent job index
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+test consistent job index SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test consistent job index
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test consistent job index

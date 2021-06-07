@@ -1,0 +1,40 @@
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleType SimpleName cron collision policy
+nullable SimpleName MarkerAnnotation SingleVariableDeclaration SimpleName policy
+cron collision policy SimpleName SimpleType SingleVariableDeclaration SimpleName policy
+optional SimpleName MethodInvocation SimpleName from nullable
+optional SimpleName MethodInvocation SimpleName policy
+from nullable SimpleName MethodInvocation SimpleName policy
+optional SimpleName MethodInvocation MethodInvocation SimpleName or
+from nullable SimpleName MethodInvocation MethodInvocation SimpleName or
+policy SimpleName MethodInvocation MethodInvocation SimpleName or
+optional SimpleName MethodInvocation MethodInvocation QualifiedName cron collision policykill existing
+from nullable SimpleName MethodInvocation MethodInvocation QualifiedName cron collision policykill existing
+policy SimpleName MethodInvocation MethodInvocation QualifiedName cron collision policykill existing
+or SimpleName MethodInvocation QualifiedName cron collision policykill existing
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName cron collision policy
+public Modifier MethodDeclaration SimpleName or default
+public Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cron collision policy
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName policy
+static Modifier MethodDeclaration SimpleType SimpleName cron collision policy
+static Modifier MethodDeclaration SimpleName or default
+static Modifier MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cron collision policy
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName policy
+cron collision policy SimpleName SimpleType MethodDeclaration SimpleName or default
+cron collision policy SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName policy
+or default SimpleName MethodDeclaration SingleVariableDeclaration MarkerAnnotation SimpleName nullable
+or default SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cron collision policy
+or default SimpleName MethodDeclaration SingleVariableDeclaration SimpleName policy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron collision policy
+public Modifier TypeDeclaration MethodDeclaration SimpleName or default
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName policy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron collision policy
+test SimpleName TypeDeclaration MethodDeclaration SimpleName or default
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName policy

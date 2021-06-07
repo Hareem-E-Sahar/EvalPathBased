@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+get host action SimpleName MethodInvocation SimpleName hostname
+get host action SimpleName MethodInvocation MethodInvocation SimpleName increment attempt count
+hostname SimpleName MethodInvocation MethodInvocation SimpleName increment attempt count
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName increment attempt count
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SimpleName increment attempt count
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+increment attempt count SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+increment attempt count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName increment attempt count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName increment attempt count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

@@ -1,0 +1,29 @@
+binder SimpleName SimpleType SingleVariableDeclaration SimpleName binder
+pubsub event module SimpleName MethodInvocation SimpleName install for test
+pubsub event module SimpleName MethodInvocation SimpleName binder
+install for test SimpleName MethodInvocation SimpleName binder
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName install pubsub
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binder
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName binder
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName install pubsub
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binder
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName binder
+void PrimitiveType MethodDeclaration SimpleName install pubsub
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName binder
+install pubsub SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binder
+install pubsub SimpleName MethodDeclaration SingleVariableDeclaration SimpleName binder
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName install pubsub
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binder
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName install pubsub
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName binder

@@ -1,0 +1,48 @@
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName job class
+check not null SimpleName MethodInvocation SimpleName job key
+check not null SimpleName MethodInvocation SimpleName job class
+job builder SimpleName MethodInvocation SimpleName new job
+job builder SimpleName MethodInvocation SimpleName job class
+new job SimpleName MethodInvocation SimpleName job class
+job key SimpleName MethodInvocation SimpleName job key
+job builder SimpleName MethodInvocation MethodInvocation SimpleName with identity
+new job SimpleName MethodInvocation MethodInvocation SimpleName with identity
+job class SimpleName MethodInvocation MethodInvocation SimpleName with identity
+job builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+job builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+new job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+new job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+job class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+job class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName job key
+with identity SimpleName MethodInvocation MethodInvocation SimpleName job key
+with identity SimpleName MethodInvocation MethodInvocation SimpleName job key
+job builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+new job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+job class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+with identity SimpleName MethodInvocation MethodInvocation SimpleName build
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+job key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+static Modifier MethodDeclaration SimpleType SimpleName job detail
+static Modifier MethodDeclaration SimpleName job detail
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName job class
+job detail SimpleName SimpleType MethodDeclaration SimpleName job detail
+job detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName job key
+job detail SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName job class
+job detail SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+job detail SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+job detail SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job class
+job key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job class
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName job detail
+public Modifier TypeDeclaration MethodDeclaration SimpleName job detail
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job class
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName job detail
+test SimpleName TypeDeclaration MethodDeclaration SimpleName job detail
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job class

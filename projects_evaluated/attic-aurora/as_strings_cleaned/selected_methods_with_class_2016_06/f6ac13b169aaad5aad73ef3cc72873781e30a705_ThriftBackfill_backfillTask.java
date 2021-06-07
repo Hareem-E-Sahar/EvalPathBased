@@ -1,0 +1,193 @@
+task config SimpleName SimpleType SingleVariableDeclaration SimpleName config
+config SimpleName MethodInvocation SimpleName is set resources
+config SimpleName MethodInvocation SimpleName get resources
+config SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get resources SimpleName MethodInvocation MethodInvocation SimpleName is empty
+config SimpleName MethodInvocation SimpleName get num cpus
+resource SimpleName MethodInvocation SimpleName num cpus
+resource SimpleName MethodInvocation MethodInvocation SimpleName config
+resource SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+num cpus SimpleName MethodInvocation MethodInvocation SimpleName config
+num cpus SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+config SimpleName MethodInvocation SimpleName add to resources
+config SimpleName MethodInvocation MethodInvocation SimpleName resource
+config SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName resource
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+config SimpleName MethodInvocation SimpleName get ram mb
+resource SimpleName MethodInvocation SimpleName ram mb
+resource SimpleName MethodInvocation MethodInvocation SimpleName config
+resource SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+ram mb SimpleName MethodInvocation MethodInvocation SimpleName config
+ram mb SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+config SimpleName MethodInvocation SimpleName add to resources
+config SimpleName MethodInvocation MethodInvocation SimpleName resource
+config SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName resource
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+config SimpleName MethodInvocation SimpleName get disk mb
+resource SimpleName MethodInvocation SimpleName disk mb
+resource SimpleName MethodInvocation MethodInvocation SimpleName config
+resource SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+disk mb SimpleName MethodInvocation MethodInvocation SimpleName config
+disk mb SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+config SimpleName MethodInvocation SimpleName add to resources
+config SimpleName MethodInvocation MethodInvocation SimpleName resource
+config SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName resource
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName config
+add to resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+config SimpleName MethodInvocation SimpleName is set requested ports
+string SimpleName SimpleType SingleVariableDeclaration SimpleName port
+config SimpleName MethodInvocation SimpleName get requested ports
+resource SimpleName MethodInvocation SimpleName named port
+resource SimpleName MethodInvocation SimpleName port
+named port SimpleName MethodInvocation SimpleName port
+config SimpleName MethodInvocation SimpleName add to resources
+config SimpleName MethodInvocation MethodInvocation SimpleName resource
+config SimpleName MethodInvocation MethodInvocation SimpleName named port
+config SimpleName MethodInvocation MethodInvocation SimpleName port
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName resource
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName named port
+add to resources SimpleName MethodInvocation MethodInvocation SimpleName port
+port SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName config
+port SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get requested ports
+config SimpleName MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation MethodInvocation SimpleName config
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation SimpleName cpus
+config SimpleName MethodInvocation MethodInvocation SimpleName cpus
+get resources SimpleName MethodInvocation MethodInvocation SimpleName cpus
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get num cpus
+cpus SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+config SimpleName MethodInvocation SimpleName set num cpus
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cpus
+config SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName cpus
+set num cpus SimpleName MethodInvocation MethodInvocation SimpleName get num cpus
+config SimpleName MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation MethodInvocation SimpleName config
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation SimpleName ram mb
+config SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+get resources SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ram mb
+ram mb SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+config SimpleName MethodInvocation SimpleName set ram mb
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+config SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+set ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+set ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+set ram mb SimpleName MethodInvocation MethodInvocation SimpleName get ram mb
+config SimpleName MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation MethodInvocation SimpleName config
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get resources
+get resource SimpleName MethodInvocation SimpleName disk mb
+config SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+get resources SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+get resource SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get disk mb
+disk mb SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+config SimpleName MethodInvocation SimpleName set disk mb
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+config SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+set disk mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get resource
+set disk mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+set disk mb SimpleName MethodInvocation MethodInvocation SimpleName get disk mb
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+config SimpleName MethodInvocation SimpleName get resources
+config SimpleName MethodInvocation MethodInvocation SimpleName stream
+get resources SimpleName MethodInvocation MethodInvocation SimpleName stream
+i resource SimpleName MethodInvocation SimpleName build
+i resource SimpleName MethodInvocation SimpleName e
+build SimpleName MethodInvocation SimpleName e
+resource type SimpleName MethodInvocation SimpleName from resource
+resource type SimpleName MethodInvocation MethodInvocation SimpleName i resource
+resource type SimpleName MethodInvocation MethodInvocation SimpleName build
+resource type SimpleName MethodInvocation MethodInvocation SimpleName e
+from resource SimpleName MethodInvocation MethodInvocation SimpleName i resource
+from resource SimpleName MethodInvocation MethodInvocation SimpleName build
+from resource SimpleName MethodInvocation MethodInvocation SimpleName e
+resource type SimpleName MethodInvocation MethodInvocation SimpleName equals
+from resource SimpleName MethodInvocation MethodInvocation SimpleName equals
+i resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+resource type SimpleName MethodInvocation MethodInvocation SimpleName ports
+from resource SimpleName MethodInvocation MethodInvocation SimpleName ports
+i resource SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ports
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ports
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ports
+equals SimpleName MethodInvocation SimpleName ports
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName equals
+e SimpleName VariableDeclarationFragment LambdaExpression MethodInvocation SimpleName ports
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+get resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName filter
+stream SimpleName MethodInvocation MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation LambdaExpression VariableDeclarationFragment SimpleName e
+filter SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName equals
+filter SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName ports
+resource SimpleName ExpressionMethodReference SimpleName get named port
+stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map
+filter SimpleName MethodInvocation MethodInvocation SimpleName map
+filter SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName resource
+filter SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get named port
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName resource
+map SimpleName MethodInvocation ExpressionMethodReference SimpleName get named port
+guava utils SimpleName MethodInvocation SimpleName to immutable set
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation SimpleName collect
+resource SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName collect
+get named port SimpleName ExpressionMethodReference MethodInvocation MethodInvocation SimpleName collect
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName guava utils
+map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to immutable set
+collect SimpleName MethodInvocation MethodInvocation SimpleName guava utils
+collect SimpleName MethodInvocation MethodInvocation SimpleName to immutable set
+ports SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+ports SimpleName VariableDeclarationFragment MethodInvocation SimpleName collect
+ports SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName guava utils
+ports SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to immutable set
+ports SimpleName MethodInvocation SimpleName is empty
+config SimpleName MethodInvocation SimpleName set requested ports
+config SimpleName MethodInvocation SimpleName ports
+set requested ports SimpleName MethodInvocation SimpleName ports
+backfill tier SimpleName MethodInvocation SimpleName config
+public Modifier MethodDeclaration SimpleType SimpleName task config
+public Modifier MethodDeclaration SimpleName backfill task
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration Block ReturnStatement SimpleName config
+task config SimpleName SimpleType MethodDeclaration SimpleName backfill task
+task config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config
+backfill task SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+backfill task SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+backfill task SimpleName MethodDeclaration Block ReturnStatement SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName task config
+public Modifier TypeDeclaration MethodDeclaration SimpleName backfill task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName task config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName backfill task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

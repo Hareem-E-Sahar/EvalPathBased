@@ -1,0 +1,97 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+final Modifier SingleVariableDeclaration SimpleName cron job
+sanitized cron job SimpleName SimpleType SingleVariableDeclaration SimpleName cron job
+check not null SimpleName MethodInvocation SimpleName cron job
+check no run overlap SimpleName MethodInvocation SimpleName cron job
+cron job SimpleName MethodInvocation SimpleName get sanitized config
+cron job SimpleName MethodInvocation MethodInvocation SimpleName get job config
+get sanitized config SimpleName MethodInvocation MethodInvocation SimpleName get job config
+cron job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get sanitized config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key
+get job config SimpleName MethodInvocation MethodInvocation SimpleName get key
+job key SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get job config
+job key SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+final Modifier VariableDeclarationStatement SimpleType SimpleName i job key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName job key
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get key
+i job key SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName job key
+mutate workno result QualifiedName SimpleType ParameterizedType SimpleType SimpleName cron exception
+storagemutable store provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+check not exists SimpleName MethodInvocation SimpleName job key
+check not exists SimpleName MethodInvocation MethodInvocation SimpleName store provider
+check not exists SimpleName MethodInvocation MethodInvocation SimpleName get job store
+job key SimpleName MethodInvocation MethodInvocation SimpleName store provider
+job key SimpleName MethodInvocation MethodInvocation SimpleName get job store
+store provider SimpleName MethodInvocation SimpleName get job store
+save job SimpleName MethodInvocation SimpleName cron job
+save job SimpleName MethodInvocation MethodInvocation SimpleName store provider
+save job SimpleName MethodInvocation MethodInvocation SimpleName get job store
+cron job SimpleName MethodInvocation MethodInvocation SimpleName store provider
+cron job SimpleName MethodInvocation MethodInvocation SimpleName get job store
+cron job SimpleName MethodInvocation SimpleName get crontab entry
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName cron job
+schedule job SimpleName MethodInvocation MethodInvocation SimpleName get crontab entry
+schedule job SimpleName MethodInvocation SimpleName job key
+cron job SimpleName MethodInvocation MethodInvocation SimpleName job key
+get crontab entry SimpleName MethodInvocation MethodInvocation SimpleName job key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName execute
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cron exception
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName execute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+protected Modifier MethodDeclaration SimpleType SimpleName cron exception
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagemutable store provider
+execute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+execute SimpleName MethodDeclaration SimpleType SimpleName cron exception
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+storage SimpleName MethodInvocation SimpleName write
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName create job
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName cron job
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cron exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create job
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cron job
+public Modifier MethodDeclaration SimpleType SimpleName cron exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName create job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cron job
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+create job SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+create job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized cron job
+create job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cron job
+create job SimpleName MethodDeclaration SimpleType SimpleName cron exception
+create job SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+cron job SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cron job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cron job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

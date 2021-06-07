@@ -1,0 +1,74 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName to
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName from
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName from
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName from
+property id SimpleName SimpleType SingleVariableDeclaration SimpleName property ids
+property id SimpleName SimpleType SingleVariableDeclaration SimpleName property id
+from SimpleName MethodInvocation SimpleName contains key
+from SimpleName MethodInvocation SimpleName property id
+contains key SimpleName MethodInvocation SimpleName property id
+from SimpleName MethodInvocation SimpleName get
+from SimpleName MethodInvocation SimpleName property id
+get SimpleName MethodInvocation SimpleName property id
+to SimpleName MethodInvocation SimpleName put
+to SimpleName MethodInvocation SimpleName property id
+to SimpleName MethodInvocation MethodInvocation SimpleName from
+to SimpleName MethodInvocation MethodInvocation SimpleName get
+to SimpleName MethodInvocation MethodInvocation SimpleName property id
+put SimpleName MethodInvocation SimpleName property id
+put SimpleName MethodInvocation MethodInvocation SimpleName from
+put SimpleName MethodInvocation MethodInvocation SimpleName get
+put SimpleName MethodInvocation MethodInvocation SimpleName property id
+property id SimpleName MethodInvocation MethodInvocation SimpleName from
+property id SimpleName MethodInvocation MethodInvocation SimpleName get
+property id SimpleName MethodInvocation MethodInvocation SimpleName property id
+property id SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName property ids
+property id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName property ids
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName set properties
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName to
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName from
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set properties
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName to
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName from
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName property ids
+void PrimitiveType MethodDeclaration SimpleName set properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName from
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property ids
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName property ids
+set properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to
+set properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from
+set properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property id
+set properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property ids
+set properties SimpleName MethodDeclaration Block EnhancedForStatement SimpleName property ids
+to SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from
+to SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids
+from SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property ids

@@ -1,0 +1,50 @@
+register SimpleName SimpleType SingleVariableDeclaration SimpleName register
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+register SimpleName MethodInvocation SimpleName get hostname
+cluster fsm SimpleName MethodInvocation SimpleName get host components
+cluster fsm SimpleName MethodInvocation MethodInvocation SimpleName register
+cluster fsm SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+get host components SimpleName MethodInvocation MethodInvocation SimpleName register
+get host components SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+roles SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster fsm
+roles SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host components
+roles SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName register
+roles SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hostname
+register SimpleName MethodInvocation SimpleName get hostname
+cluster fsm SimpleName MethodInvocation SimpleName handle registration
+cluster fsm SimpleName MethodInvocation MethodInvocation SimpleName register
+cluster fsm SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+handle registration SimpleName MethodInvocation MethodInvocation SimpleName register
+handle registration SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+register SimpleName MethodInvocation SimpleName get hostname
+cluster fsm SimpleName MethodInvocation SimpleName update status
+cluster fsm SimpleName MethodInvocation MethodInvocation SimpleName register
+cluster fsm SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+cluster fsm SimpleName MethodInvocation StringLiteral go to status check
+update status SimpleName MethodInvocation MethodInvocation SimpleName register
+update status SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+update status SimpleName MethodInvocation StringLiteral go to status check
+register SimpleName MethodInvocation MethodInvocation StringLiteral go to status check
+get hostname SimpleName MethodInvocation MethodInvocation StringLiteral go to status check
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName registration response
+registration response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+public Modifier MethodDeclaration SimpleType SimpleName registration response
+public Modifier MethodDeclaration SimpleName handle registration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName register
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName register
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+registration response SimpleName SimpleType MethodDeclaration SimpleName handle registration
+registration response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName register
+handle registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName register
+handle registration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName register
+handle registration SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName registration response
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle registration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName register
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName registration response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle registration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName register

@@ -1,0 +1,77 @@
+storage util SimpleName MethodInvocation SimpleName expect operations
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task a
+id SimpleName MethodInvocation SimpleName task a
+query SimpleName MethodInvocation SimpleName task scoped
+query SimpleName MethodInvocation MethodInvocation SimpleName tasks
+query SimpleName MethodInvocation MethodInvocation SimpleName id
+query SimpleName MethodInvocation MethodInvocation SimpleName task a
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName tasks
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName id
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName task a
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+task a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+immutable set SimpleName MethodInvocation SimpleName of
+storage util SimpleName MethodInvocation SimpleName expect task fetch
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+storage util SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task scoped
+storage util SimpleName MethodInvocation MethodInvocation SimpleName by status
+storage util SimpleName MethodInvocation MethodInvocation SimpleName pending
+storage util SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+storage util SimpleName MethodInvocation MethodInvocation SimpleName of
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+expect task fetch SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task scoped
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName by status
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName pending
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+expect task fetch SimpleName MethodInvocation MethodInvocation SimpleName of
+by status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+by status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+pending SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+control SimpleName MethodInvocation SimpleName replay
+scheduler SimpleName MethodInvocation SimpleName schedule
+scheduler SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+scheduler SimpleName MethodInvocation SimpleName single task
+schedule SimpleName MethodInvocation QualifiedName storage utilmutable store provider
+schedule SimpleName MethodInvocation SimpleName single task
+storage utilmutable store provider QualifiedName MethodInvocation SimpleName single task
+assert equals SimpleName MethodInvocation SimpleName scheduled result
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName schedule
+assert equals SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName single task
+scheduled result SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+scheduled result SimpleName MethodInvocation MethodInvocation SimpleName schedule
+scheduled result SimpleName MethodInvocation MethodInvocation QualifiedName storage utilmutable store provider
+scheduled result SimpleName MethodInvocation MethodInvocation SimpleName single task
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test schedule no task
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test schedule no task
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test schedule no task
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test schedule no task SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test schedule no task
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test schedule no task
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

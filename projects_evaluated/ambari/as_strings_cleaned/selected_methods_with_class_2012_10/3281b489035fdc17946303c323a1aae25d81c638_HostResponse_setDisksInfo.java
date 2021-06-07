@@ -1,0 +1,19 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk info
+list SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName disks info
+disk info SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName disks info
+disks info SimpleName FieldAccess Assignment SimpleName disks info
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set disks info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName disks info
+void PrimitiveType MethodDeclaration SimpleName set disks info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName disks info
+set disks info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName disks info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set disks info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName disks info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set disks info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName disks info

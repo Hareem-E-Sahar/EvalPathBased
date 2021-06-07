@@ -1,0 +1,24 @@
+cron trigger SimpleName SimpleType SingleVariableDeclaration SimpleName cron trigger
+cron trigger SimpleName MethodInvocation SimpleName get description
+crontab entry SimpleName MethodInvocation SimpleName parse
+crontab entry SimpleName MethodInvocation MethodInvocation SimpleName cron trigger
+crontab entry SimpleName MethodInvocation MethodInvocation SimpleName get description
+parse SimpleName MethodInvocation MethodInvocation SimpleName cron trigger
+parse SimpleName MethodInvocation MethodInvocation SimpleName get description
+static Modifier MethodDeclaration SimpleType SimpleName crontab entry
+static Modifier MethodDeclaration SimpleName crontab entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cron trigger
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName cron trigger
+crontab entry SimpleName SimpleType MethodDeclaration SimpleName crontab entry
+crontab entry SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cron trigger
+crontab entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cron trigger
+crontab entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cron trigger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName crontab entry
+public Modifier TypeDeclaration MethodDeclaration SimpleName crontab entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cron trigger
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName crontab entry
+test SimpleName TypeDeclaration MethodDeclaration SimpleName crontab entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cron trigger

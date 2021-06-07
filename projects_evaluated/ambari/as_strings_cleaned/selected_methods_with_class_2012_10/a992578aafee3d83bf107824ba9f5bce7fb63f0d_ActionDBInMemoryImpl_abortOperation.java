@@ -1,0 +1,66 @@
+long PrimitiveType SingleVariableDeclaration SimpleName request id
+stage SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName get request id
+s SimpleName MethodInvocation InfixExpression SimpleName request id
+get request id SimpleName MethodInvocation InfixExpression SimpleName request id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+s SimpleName MethodInvocation SimpleName get host actions
+s SimpleName MethodInvocation MethodInvocation SimpleName key set
+get host actions SimpleName MethodInvocation MethodInvocation SimpleName key set
+host role command SimpleName SimpleType SingleVariableDeclaration SimpleName role
+s SimpleName MethodInvocation SimpleName get host actions
+s SimpleName MethodInvocation MethodInvocation SimpleName get
+get host actions SimpleName MethodInvocation MethodInvocation SimpleName get
+s SimpleName MethodInvocation MethodInvocation SimpleName host
+get host actions SimpleName MethodInvocation MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+get host actions SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get role commands
+get SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+host SimpleName MethodInvocation MethodInvocation SimpleName get role commands
+role SimpleName MethodInvocation SimpleName set status
+role SimpleName MethodInvocation QualifiedName host role statusaborted
+set status SimpleName MethodInvocation QualifiedName host role statusaborted
+role SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get role commands
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+stage SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stage list
+s SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stage list
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName abort operation
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName abort operation
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName stage list
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName abort operation
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+synchronized Modifier MethodDeclaration Block EnhancedForStatement SimpleName stage list
+void PrimitiveType MethodDeclaration SimpleName abort operation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName request id
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName stage list
+abort operation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+abort operation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request id
+abort operation SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stage list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName abort operation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName abort operation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id

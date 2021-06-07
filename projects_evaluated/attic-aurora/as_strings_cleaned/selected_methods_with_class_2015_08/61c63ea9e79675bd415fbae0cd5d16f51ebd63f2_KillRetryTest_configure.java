@@ -1,0 +1,52 @@
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName driver
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName driver
+to instance SimpleName MethodInvocation SimpleName driver
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName storage
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation QualifiedName storage utilstorage
+to instance SimpleName MethodInvocation QualifiedName storage utilstorage
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName delay executor
+bind SimpleName MethodInvocation MethodInvocation SimpleName annotated with
+annotated with SimpleName MethodInvocation TypeLiteral SimpleType SimpleName async executor
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to instance
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName executor mock
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName executor mock
+to instance SimpleName MethodInvocation SimpleName executor mock
+pubsub event module SimpleName MethodInvocation SimpleName bind subscriber
+pubsub event module SimpleName MethodInvocation MethodInvocation SimpleName binder
+pubsub event module SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kill retry
+bind subscriber SimpleName MethodInvocation MethodInvocation SimpleName binder
+bind subscriber SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kill retry
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName kill retry
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName backoff strategy
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName backoff strategy
+to instance SimpleName MethodInvocation SimpleName backoff strategy
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName stats provider
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName stats provider
+to instance SimpleName MethodInvocation SimpleName stats provider
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName uncaught exception handler
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName uncaught exception handler
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create mock
+to instance SimpleName MethodInvocation MethodInvocation SimpleName create mock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

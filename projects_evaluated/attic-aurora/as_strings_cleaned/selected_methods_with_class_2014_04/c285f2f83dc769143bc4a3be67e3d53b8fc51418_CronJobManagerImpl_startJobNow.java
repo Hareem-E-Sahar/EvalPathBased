@@ -1,0 +1,71 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName i job key
+final Modifier SingleVariableDeclaration SimpleName job key
+i job key SimpleName SimpleType SingleVariableDeclaration SimpleName job key
+check not null SimpleName MethodInvocation SimpleName job key
+work SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+work SimpleName SimpleType ParameterizedType SimpleType SimpleName cron exception
+void SimpleName SimpleType ParameterizedType SimpleType SimpleName cron exception
+storagestore provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+check cron exists SimpleName MethodInvocation SimpleName job key
+check cron exists SimpleName MethodInvocation MethodInvocation SimpleName store provider
+check cron exists SimpleName MethodInvocation MethodInvocation SimpleName get job store
+job key SimpleName MethodInvocation MethodInvocation SimpleName store provider
+job key SimpleName MethodInvocation MethodInvocation SimpleName get job store
+trigger job SimpleName MethodInvocation SimpleName job key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cron exception
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration SimpleType SimpleName cron exception
+void SimpleName SimpleType MethodDeclaration SimpleName apply
+void SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName store provider
+void SimpleName SimpleType MethodDeclaration SimpleType SimpleName cron exception
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+apply SimpleName MethodDeclaration SimpleType SimpleName cron exception
+store provider SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+storage SimpleName MethodInvocation SimpleName weakly consistent read
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start job now
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration Modifier final
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName job key
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cron exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start job now
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier MethodDeclaration SimpleType SimpleName cron exception
+void PrimitiveType MethodDeclaration SimpleName start job now
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job key
+void PrimitiveType MethodDeclaration SimpleType SimpleName cron exception
+start job now SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+start job now SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job key
+start job now SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job key
+start job now SimpleName MethodDeclaration SimpleType SimpleName cron exception
+final Modifier SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+job key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start job now
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start job now
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

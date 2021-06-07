@@ -1,0 +1,37 @@
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName i job configuration
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName i job configuration
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName i job configuration
+storagestore provider QualifiedName SimpleType SingleVariableDeclaration SimpleName store provider
+store provider SimpleName MethodInvocation SimpleName get job store
+store provider SimpleName MethodInvocation MethodInvocation SimpleName fetch jobs
+get job store SimpleName MethodInvocation MethodInvocation SimpleName fetch jobs
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+get job store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get manager key
+fetch jobs SimpleName MethodInvocation MethodInvocation SimpleName get manager key
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store provider
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i job configuration
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store provider
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+i job configuration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName apply
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName storagestore provider
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store provider
+storage SimpleName MethodInvocation SimpleName consistent read
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get jobs
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i job configuration
+public Modifier MethodDeclaration SimpleName get jobs
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get jobs
+i job configuration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get jobs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get jobs
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get jobs

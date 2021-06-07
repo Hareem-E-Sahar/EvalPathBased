@@ -1,0 +1,22 @@
+no such element exception SimpleName SimpleType ClassInstanceCreation StringLiteral iterator has no more elements
+current resource SimpleName VariableDeclarationFragment SimpleName next resource
+resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current resource
+resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next resource
+next resource SimpleName FieldAccess Assignment MethodInvocation SimpleName get next resource
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName resource
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName resource
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName current resource
+resource SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName current resource
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

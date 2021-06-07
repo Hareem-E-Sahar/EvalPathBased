@@ -1,0 +1,29 @@
+sanitized configuration SimpleName SimpleType SingleVariableDeclaration SimpleName config
+config SimpleName MethodInvocation SimpleName get job config
+config SimpleName MethodInvocation MethodInvocation SimpleName is set cron schedule
+get job config SimpleName MethodInvocation MethodInvocation SimpleName is set cron schedule
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is cron
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is cron
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+boolean PrimitiveType MethodDeclaration SimpleName is cron
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized configuration
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName config
+is cron SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized configuration
+is cron SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is cron
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is cron
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config

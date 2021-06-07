@@ -1,0 +1,112 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName service component response
+service component request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get cluster name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+request SimpleName MethodInvocation SimpleName get service name
+request SimpleName MethodInvocation SimpleName get service name
+request SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get service name SimpleName MethodInvocation MethodInvocation SimpleName is empty
+ambari exception SimpleName SimpleType ClassInstanceCreation StringLiteral invalid arguments
+request SimpleName MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+cluster SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+cluster SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+final Modifier VariableDeclarationStatement SimpleType SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName clusters
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get cluster
+cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster
+request SimpleName MethodInvocation SimpleName get service name
+cluster SimpleName MethodInvocation SimpleName get service
+cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+cluster SimpleName MethodInvocation MethodInvocation SimpleName get service name
+get service SimpleName MethodInvocation MethodInvocation SimpleName request
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get service name
+final Modifier VariableDeclarationStatement SimpleType SimpleName service
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cluster
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get service
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName service component response
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName service component response
+request SimpleName MethodInvocation SimpleName get component name
+request SimpleName MethodInvocation SimpleName get component name
+s SimpleName MethodInvocation SimpleName get service component
+s SimpleName MethodInvocation MethodInvocation SimpleName request
+s SimpleName MethodInvocation MethodInvocation SimpleName get component name
+get service component SimpleName MethodInvocation MethodInvocation SimpleName request
+get service component SimpleName MethodInvocation MethodInvocation SimpleName get component name
+sc SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+sc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service component
+sc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+sc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get component name
+service component SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sc
+sc SimpleName MethodInvocation SimpleName convert to response
+response SimpleName MethodInvocation SimpleName add
+response SimpleName MethodInvocation MethodInvocation SimpleName sc
+response SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+add SimpleName MethodInvocation MethodInvocation SimpleName sc
+add SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName service component
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName service component
+s SimpleName MethodInvocation SimpleName get service components
+all svc comps SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+all svc comps SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service components
+service component SimpleName SimpleType SingleVariableDeclaration SimpleName sc
+all svc comps SimpleName MethodInvocation SimpleName values
+sc SimpleName MethodInvocation SimpleName convert to response
+response SimpleName MethodInvocation SimpleName add
+response SimpleName MethodInvocation MethodInvocation SimpleName sc
+response SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+add SimpleName MethodInvocation MethodInvocation SimpleName sc
+add SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+sc SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName all svc comps
+sc SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName response
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get components
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName service component response
+public Modifier MethodDeclaration SimpleName get components
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get components
+service component response SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get components
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service component request
+get components SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get components SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+get components SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get components SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+get components SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get components
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get components
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

@@ -1,0 +1,114 @@
+expected prediction SimpleName SimpleType SingleVariableDeclaration SimpleName expected prediction
+expected prediction SimpleName MethodInvocation SimpleName get all
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName date
+lists SimpleName MethodInvocation SimpleName new array list
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName lists
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName new array list
+clock SimpleName MethodInvocation SimpleName set now millis
+clock SimpleName MethodInvocation NumberLiteral empty
+set now millis SimpleName MethodInvocation NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+expected prediction SimpleName MethodInvocation SimpleName get trigger times
+expected prediction SimpleName MethodInvocation MethodInvocation SimpleName size
+get trigger times SimpleName MethodInvocation MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName expected prediction
+i SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get trigger times
+i SimpleName InfixExpression MethodInvocation SimpleName size
+expected prediction SimpleName MethodInvocation SimpleName parse crontab entry
+cron predictor SimpleName MethodInvocation SimpleName predict next run
+cron predictor SimpleName MethodInvocation MethodInvocation SimpleName expected prediction
+cron predictor SimpleName MethodInvocation MethodInvocation SimpleName parse crontab entry
+predict next run SimpleName MethodInvocation MethodInvocation SimpleName expected prediction
+predict next run SimpleName MethodInvocation MethodInvocation SimpleName parse crontab entry
+next trigger time SimpleName VariableDeclarationFragment MethodInvocation SimpleName cron predictor
+next trigger time SimpleName VariableDeclarationFragment MethodInvocation SimpleName predict next run
+next trigger time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName expected prediction
+next trigger time SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName parse crontab entry
+date SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next trigger time
+results SimpleName MethodInvocation SimpleName add
+results SimpleName MethodInvocation SimpleName next trigger time
+add SimpleName MethodInvocation SimpleName next trigger time
+next trigger time SimpleName MethodInvocation SimpleName get time
+clock SimpleName MethodInvocation SimpleName set now millis
+clock SimpleName MethodInvocation MethodInvocation SimpleName next trigger time
+clock SimpleName MethodInvocation MethodInvocation SimpleName get time
+set now millis SimpleName MethodInvocation MethodInvocation SimpleName next trigger time
+set now millis SimpleName MethodInvocation MethodInvocation SimpleName get time
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+expected prediction SimpleName MethodInvocation SimpleName get schedule
+cron schedule StringLiteral InfixExpression MethodInvocation SimpleName expected prediction
+cron schedule StringLiteral InfixExpression MethodInvocation SimpleName get schedule
+cron schedule StringLiteral InfixExpression StringLiteral made unexpected predictions
+expected prediction SimpleName MethodInvocation InfixExpression StringLiteral made unexpected predictions
+get schedule SimpleName MethodInvocation InfixExpression StringLiteral made unexpected predictions
+expected prediction SimpleName MethodInvocation SimpleName get trigger times
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+function SimpleName SimpleType ParameterizedType SimpleType SimpleName date
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName date
+long SimpleName SimpleType SingleVariableDeclaration SimpleName time
+date SimpleName SimpleType ClassInstanceCreation SimpleName time
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName date
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier MethodDeclaration SimpleType SimpleName date
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+date SimpleName SimpleType MethodDeclaration SimpleName apply
+date SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName time
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+lists SimpleName MethodInvocation SimpleName transform
+lists SimpleName MethodInvocation MethodInvocation SimpleName expected prediction
+lists SimpleName MethodInvocation MethodInvocation SimpleName get trigger times
+transform SimpleName MethodInvocation MethodInvocation SimpleName expected prediction
+transform SimpleName MethodInvocation MethodInvocation SimpleName get trigger times
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral cron schedule
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName expected prediction
+assert equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get schedule
+assert equals SimpleName MethodInvocation InfixExpression StringLiteral made unexpected predictions
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName lists
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName transform
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected prediction
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get trigger times
+assert equals SimpleName MethodInvocation SimpleName results
+cron schedule StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName lists
+cron schedule StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName transform
+made unexpected predictions StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName lists
+made unexpected predictions StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName transform
+cron schedule StringLiteral InfixExpression MethodInvocation SimpleName results
+expected prediction SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName results
+get schedule SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName results
+made unexpected predictions StringLiteral InfixExpression MethodInvocation SimpleName results
+lists SimpleName MethodInvocation MethodInvocation SimpleName results
+transform SimpleName MethodInvocation MethodInvocation SimpleName results
+expected prediction SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+get trigger times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName results
+expected prediction SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName expected prediction
+expected prediction SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get all
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cron predictor conforms
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cron predictor conforms
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test cron predictor conforms
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test cron predictor conforms SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cron predictor conforms
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cron predictor conforms
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

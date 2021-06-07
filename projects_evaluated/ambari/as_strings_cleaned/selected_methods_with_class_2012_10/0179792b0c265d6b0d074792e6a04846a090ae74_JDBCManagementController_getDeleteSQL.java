@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+predicate SimpleName SimpleType SingleVariableDeclaration SimpleName predicate
+where clause SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName where clause
+predicate SimpleName InstanceofExpression SimpleType SimpleName base predicate
+base predicate SimpleName SimpleType CastExpression SimpleName predicate
+base predicate SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName base predicate
+base predicate SimpleName VariableDeclarationFragment CastExpression SimpleName predicate
+base predicate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base predicate
+visitor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sql predicate visitor
+sql predicate visitor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName visitor
+base predicate SimpleName MethodInvocation SimpleName accept
+base predicate SimpleName MethodInvocation SimpleName visitor
+accept SimpleName MethodInvocation SimpleName visitor
+visitor SimpleName MethodInvocation SimpleName get sql
+where clause SimpleName MethodInvocation SimpleName append
+where clause SimpleName MethodInvocation MethodInvocation SimpleName visitor
+where clause SimpleName MethodInvocation MethodInvocation SimpleName get sql
+append SimpleName MethodInvocation MethodInvocation SimpleName visitor
+append SimpleName MethodInvocation MethodInvocation SimpleName get sql
+delete from StringLiteral InfixExpression SimpleName table
+delete from StringLiteral InfixExpression StringLiteral where
+delete from StringLiteral InfixExpression SimpleName where clause
+table SimpleName InfixExpression StringLiteral where
+table SimpleName InfixExpression SimpleName where clause
+where StringLiteral InfixExpression SimpleName where clause
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral cant generate sql
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get delete sql
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+string SimpleName SimpleType MethodDeclaration SimpleName get delete sql
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName predicate
+get delete sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get delete sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+get delete sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+get delete sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get delete sql
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get delete sql
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate

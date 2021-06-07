@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName cluster
+public Modifier MethodDeclaration SimpleName get cluster
+cluster SimpleName SimpleType MethodDeclaration SimpleName get cluster
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cluster
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cluster
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cluster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cluster

@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+reservations SimpleName MethodInvocation SimpleName as map
+reservations SimpleName MethodInvocation MethodInvocation SimpleName contains value
+as map SimpleName MethodInvocation MethodInvocation SimpleName contains value
+reservations SimpleName MethodInvocation MethodInvocation SimpleName task id
+as map SimpleName MethodInvocation MethodInvocation SimpleName task id
+contains value SimpleName MethodInvocation SimpleName task id
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName has reservation for task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+synchronized Modifier MethodDeclaration PrimitiveType boolean
+synchronized Modifier MethodDeclaration SimpleName has reservation for task
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+boolean PrimitiveType MethodDeclaration SimpleName has reservation for task
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task id
+has reservation for task SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has reservation for task SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has reservation for task
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has reservation for task
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id

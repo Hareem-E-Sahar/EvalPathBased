@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+long PrimitiveType SingleVariableDeclaration SimpleName t
+get host action SimpleName MethodInvocation SimpleName hostname
+get host action SimpleName MethodInvocation MethodInvocation SimpleName set last attempt time
+hostname SimpleName MethodInvocation MethodInvocation SimpleName set last attempt time
+get host action SimpleName MethodInvocation MethodInvocation SimpleName t
+hostname SimpleName MethodInvocation MethodInvocation SimpleName t
+set last attempt time SimpleName MethodInvocation SimpleName t
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set last attempt time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SimpleName set last attempt time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+set last attempt time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set last attempt time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+set last attempt time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set last attempt time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+hostname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set last attempt time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set last attempt time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

@@ -1,0 +1,104 @@
+clock SimpleName MethodInvocation SimpleName now millis
+group SimpleName MethodInvocation SimpleName is ready
+group SimpleName MethodInvocation MethodInvocation SimpleName clock
+group SimpleName MethodInvocation MethodInvocation SimpleName now millis
+is ready SimpleName MethodInvocation MethodInvocation SimpleName clock
+is ready SimpleName MethodInvocation MethodInvocation SimpleName now millis
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+state SimpleName VariableDeclarationFragment MethodInvocation SimpleName is ready
+state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName clock
+state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName now millis
+group state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName state
+maybe invalidate SimpleName MethodInvocation SimpleName group
+group SimpleName MethodInvocation SimpleName pop
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName group
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName pop
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+task scheduler SimpleName MethodInvocation SimpleName schedule
+task scheduler SimpleName MethodInvocation SimpleName id
+schedule SimpleName MethodInvocation SimpleName id
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName task scheduler
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName schedule
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task schedulertask scheduler result QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+maybe invalidate SimpleName MethodInvocation SimpleName group
+group SimpleName MethodInvocation SimpleName reset penalty and get
+executor SimpleName MethodInvocation SimpleName schedule
+executor SimpleName MethodInvocation MethodInvocation SimpleName group
+executor SimpleName MethodInvocation MethodInvocation SimpleName reset penalty and get
+executor SimpleName MethodInvocation QualifiedName time unitmilliseconds
+schedule SimpleName MethodInvocation MethodInvocation SimpleName group
+schedule SimpleName MethodInvocation MethodInvocation SimpleName reset penalty and get
+schedule SimpleName MethodInvocation QualifiedName time unitmilliseconds
+group SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+reset penalty and get SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+clock SimpleName MethodInvocation SimpleName now millis
+group SimpleName MethodInvocation SimpleName push
+group SimpleName MethodInvocation SimpleName id
+group SimpleName MethodInvocation MethodInvocation SimpleName clock
+group SimpleName MethodInvocation MethodInvocation SimpleName now millis
+push SimpleName MethodInvocation SimpleName id
+push SimpleName MethodInvocation MethodInvocation SimpleName clock
+push SimpleName MethodInvocation MethodInvocation SimpleName now millis
+id SimpleName MethodInvocation MethodInvocation SimpleName clock
+id SimpleName MethodInvocation MethodInvocation SimpleName now millis
+group SimpleName MethodInvocation SimpleName penalize and get
+executor SimpleName MethodInvocation SimpleName schedule
+executor SimpleName MethodInvocation MethodInvocation SimpleName group
+executor SimpleName MethodInvocation MethodInvocation SimpleName penalize and get
+executor SimpleName MethodInvocation QualifiedName time unitmilliseconds
+schedule SimpleName MethodInvocation MethodInvocation SimpleName group
+schedule SimpleName MethodInvocation MethodInvocation SimpleName penalize and get
+schedule SimpleName MethodInvocation QualifiedName time unitmilliseconds
+group SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+penalize and get SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+unknown task scheduler result StringLiteral InfixExpression SimpleName result
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown task scheduler result
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName result
+result SimpleName SwitchStatement SwitchCase SimpleName success
+result SimpleName SwitchStatement SwitchCase SimpleName try again
+result SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName group
+result SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName push
+result SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName id
+success SimpleName SwitchCase SwitchStatement SwitchCase SimpleName try again
+group SimpleName MethodInvocation SimpleName get penalty ms
+executor SimpleName MethodInvocation SimpleName schedule
+executor SimpleName MethodInvocation MethodInvocation SimpleName group
+executor SimpleName MethodInvocation MethodInvocation SimpleName get penalty ms
+executor SimpleName MethodInvocation QualifiedName time unitmilliseconds
+schedule SimpleName MethodInvocation MethodInvocation SimpleName group
+schedule SimpleName MethodInvocation MethodInvocation SimpleName get penalty ms
+schedule SimpleName MethodInvocation QualifiedName time unitmilliseconds
+group SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+get penalty ms SimpleName MethodInvocation MethodInvocation QualifiedName time unitmilliseconds
+unknown group state StringLiteral InfixExpression SimpleName state
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown group state
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName state
+state SimpleName SwitchStatement SwitchCase SimpleName empty
+state SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName maybe invalidate
+state SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName group
+state SimpleName SwitchStatement SwitchCase SimpleName ready
+state SimpleName SwitchStatement VariableDeclarationStatement SimpleType SimpleName string
+state SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+empty SimpleName SwitchCase SwitchStatement SwitchCase SimpleName ready
+ready SimpleName SwitchCase SwitchStatement SwitchStatement SimpleName result
+ready SimpleName SwitchCase SwitchStatement SwitchCase SimpleName not ready
+result SimpleName SwitchStatement SwitchStatement SwitchCase SimpleName not ready
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName run
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block SwitchStatement SimpleName state
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName state
+run SimpleName MethodDeclaration Block SwitchStatement SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

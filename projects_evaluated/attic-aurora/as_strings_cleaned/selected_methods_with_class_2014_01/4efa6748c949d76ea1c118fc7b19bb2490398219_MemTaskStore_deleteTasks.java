@@ -1,0 +1,76 @@
+timed SimpleName SingleMemberAnnotation StringLiteral mem storage delete tasks
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName task ids
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName task ids
+check not null SimpleName MethodInvocation SimpleName task ids
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+tasks SimpleName MethodInvocation SimpleName remove
+tasks SimpleName MethodInvocation SimpleName id
+remove SimpleName MethodInvocation SimpleName id
+removed SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+removed SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+removed SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName removed
+secondary index SimpleName SimpleType ParameterizedType WildcardType ?
+secondary index SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName index
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName index
+index SimpleName MethodInvocation SimpleName remove
+index SimpleName MethodInvocation SimpleName removed
+remove SimpleName MethodInvocation SimpleName removed
+? WildcardType ParameterizedType SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+index SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+removedtask QualifiedName MethodInvocation SimpleName get assigned task
+removedtask QualifiedName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+removedtask QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+get task SimpleName MethodInvocation MethodInvocation SimpleName new builder
+config interner SimpleName MethodInvocation SimpleName remove association
+config interner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+config interner SimpleName MethodInvocation MethodInvocation SimpleName new builder
+config interner SimpleName MethodInvocation SimpleName id
+remove association SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+remove association SimpleName MethodInvocation MethodInvocation SimpleName new builder
+remove association SimpleName MethodInvocation SimpleName id
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+new builder SimpleName MethodInvocation MethodInvocation SimpleName id
+string SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName task ids
+id SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName task ids
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+mem storage delete tasks StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+mem storage delete tasks StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+mem storage delete tasks StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+timed SimpleName SingleMemberAnnotation MethodDeclaration SimpleName delete tasks
+mem storage delete tasks StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName delete tasks
+timed SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task ids
+mem storage delete tasks StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task ids
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName delete tasks
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task ids
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName delete tasks
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task ids
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName task ids
+void PrimitiveType MethodDeclaration SimpleName delete tasks
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task ids
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName task ids
+delete tasks SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task ids
+delete tasks SimpleName MethodDeclaration Block EnhancedForStatement SimpleName task ids
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage delete tasks
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete tasks
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage delete tasks
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete tasks
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task ids

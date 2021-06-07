@@ -1,0 +1,34 @@
+boot strap dir SimpleName MethodInvocation SimpleName exists
+boot strap dir SimpleName MethodInvocation SimpleName mkdirs
+mkdirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName boot strap dir
+mkdirs SimpleName VariableDeclarationFragment MethodInvocation SimpleName mkdirs
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mkdirs
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName boot strap dir
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mkdirs
+unable to make directory for StringLiteral InfixExpression StringLiteral bootstrap
+unable to make directory for StringLiteral InfixExpression SimpleName boot strap dir
+bootstrap StringLiteral InfixExpression SimpleName boot strap dir
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unable to make directory for
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bootstrap
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName boot strap dir
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName init
+synchronized Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+init SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

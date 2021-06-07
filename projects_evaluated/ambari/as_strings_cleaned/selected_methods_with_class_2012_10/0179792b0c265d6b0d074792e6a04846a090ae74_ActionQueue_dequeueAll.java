@@ -1,0 +1,46 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+dequeue all elements for hostname StringLiteral InfixExpression SimpleName hostname
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral dequeue all elements for hostname
+log SimpleName MethodInvocation InfixExpression SimpleName hostname
+info SimpleName MethodInvocation InfixExpression StringLiteral dequeue all elements for hostname
+info SimpleName MethodInvocation InfixExpression SimpleName hostname
+queue SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+get queue SimpleName MethodInvocation SimpleName hostname
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName get queue
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+no queue for host StringLiteral InfixExpression SimpleName hostname
+log SimpleName MethodInvocation SimpleName warn
+log SimpleName MethodInvocation InfixExpression StringLiteral no queue for host
+log SimpleName MethodInvocation InfixExpression SimpleName hostname
+warn SimpleName MethodInvocation InfixExpression StringLiteral no queue for host
+warn SimpleName MethodInvocation InfixExpression SimpleName hostname
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+q SimpleName MethodInvocation SimpleName remove
+l SimpleName MethodInvocation SimpleName add
+l SimpleName MethodInvocation MethodInvocation SimpleName q
+l SimpleName MethodInvocation MethodInvocation SimpleName remove
+add SimpleName MethodInvocation MethodInvocation SimpleName q
+add SimpleName MethodInvocation MethodInvocation SimpleName remove
+no such element exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+q SimpleName SynchronizedStatement Block WhileStatement BooleanLiteral true
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName agent command
+public Modifier MethodDeclaration SimpleName dequeue all
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName q
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName dequeue all
+agent command SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName dequeue all
+dequeue all SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dequeue all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+dequeue all SimpleName MethodDeclaration Block SynchronizedStatement SimpleName q
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName dequeue all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dequeue all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

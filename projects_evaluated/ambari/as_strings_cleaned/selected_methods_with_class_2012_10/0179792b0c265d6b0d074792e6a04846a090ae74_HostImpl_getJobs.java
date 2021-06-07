@@ -1,0 +1,15 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName job
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get jobs
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName job
+public Modifier MethodDeclaration SimpleName get jobs
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get jobs
+job SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get jobs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get jobs
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get jobs

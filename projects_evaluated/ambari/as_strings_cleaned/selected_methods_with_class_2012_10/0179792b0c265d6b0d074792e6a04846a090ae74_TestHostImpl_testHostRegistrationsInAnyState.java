@@ -1,0 +1,61 @@
+host impl SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+host SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host impl
+host SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+host impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host
+counter SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName counter
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+register host SimpleName MethodInvocation SimpleName host
+ensure host updates received SimpleName MethodInvocation SimpleName host
+register host SimpleName MethodInvocation SimpleName host
+ensure host updates received SimpleName MethodInvocation SimpleName host
+send healthy heartbeat SimpleName MethodInvocation SimpleName host
+send healthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host statehealthy
+host SimpleName MethodInvocation QualifiedName host statehealthy
+register host SimpleName MethodInvocation SimpleName host
+ensure host updates received SimpleName MethodInvocation SimpleName host
+send unhealthy heartbeat SimpleName MethodInvocation SimpleName host
+send unhealthy heartbeat SimpleName MethodInvocation PrefixExpression SimpleName counter
+host SimpleName MethodInvocation PrefixExpression SimpleName counter
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateunhealthy
+host SimpleName MethodInvocation QualifiedName host stateunhealthy
+register host SimpleName MethodInvocation SimpleName host
+ensure host updates received SimpleName MethodInvocation SimpleName host
+timeout host SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation SimpleName host
+verify host state SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+host SimpleName MethodInvocation QualifiedName host stateheartbeat lost
+register host SimpleName MethodInvocation SimpleName host
+ensure host updates received SimpleName MethodInvocation SimpleName host
+host SimpleName MethodInvocation SimpleName set state
+host SimpleName MethodInvocation QualifiedName host stateinit
+set state SimpleName MethodInvocation QualifiedName host stateinit
+register host SimpleName MethodInvocation SimpleName host
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test host registrations in any state
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test host registrations in any state
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName test host registrations in any state
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+test host registrations in any state SimpleName MethodDeclaration SimpleType SimpleName exception
+test host registrations in any state SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test host registrations in any state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test host registrations in any state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

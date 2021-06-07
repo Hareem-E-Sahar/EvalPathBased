@@ -1,0 +1,104 @@
+timed SimpleName SingleMemberAnnotation StringLiteral mem storage unsafe modify in place
+string SimpleName SimpleType SingleVariableDeclaration SimpleName task id
+i task config SimpleName SimpleType SingleVariableDeclaration SimpleName task configuration
+more preconditions SimpleName MethodInvocation SimpleName check not blank
+more preconditions SimpleName MethodInvocation SimpleName task id
+check not blank SimpleName MethodInvocation SimpleName task id
+check not null SimpleName MethodInvocation SimpleName task configuration
+tasks SimpleName MethodInvocation SimpleName get
+tasks SimpleName MethodInvocation SimpleName task id
+get SimpleName MethodInvocation SimpleName task id
+stored SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+stored SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+stored SimpleName VariableDeclarationFragment MethodInvocation SimpleName task id
+task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stored
+storedtask QualifiedName MethodInvocation SimpleName new builder
+updated SimpleName VariableDeclarationFragment MethodInvocation QualifiedName storedtask
+updated SimpleName VariableDeclarationFragment MethodInvocation SimpleName new builder
+scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated
+updated SimpleName MethodInvocation SimpleName get assigned task
+task configuration SimpleName MethodInvocation SimpleName new builder
+updated SimpleName MethodInvocation MethodInvocation SimpleName set task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName set task
+updated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task configuration
+updated SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task configuration
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+set task SimpleName MethodInvocation MethodInvocation SimpleName task configuration
+set task SimpleName MethodInvocation MethodInvocation SimpleName new builder
+i scheduled task SimpleName MethodInvocation SimpleName build
+i scheduled task SimpleName MethodInvocation SimpleName updated
+build SimpleName MethodInvocation SimpleName updated
+to task SimpleName MethodInvocation SimpleName apply
+to task SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+to task SimpleName MethodInvocation MethodInvocation SimpleName build
+to task SimpleName MethodInvocation MethodInvocation SimpleName updated
+apply SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+apply SimpleName MethodInvocation MethodInvocation SimpleName build
+apply SimpleName MethodInvocation MethodInvocation SimpleName updated
+tasks SimpleName MethodInvocation SimpleName put
+tasks SimpleName MethodInvocation SimpleName task id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName to task
+tasks SimpleName MethodInvocation MethodInvocation SimpleName apply
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i scheduled task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName updated
+put SimpleName MethodInvocation SimpleName task id
+put SimpleName MethodInvocation MethodInvocation SimpleName to task
+put SimpleName MethodInvocation MethodInvocation SimpleName apply
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i scheduled task
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+put SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName updated
+task id SimpleName MethodInvocation MethodInvocation SimpleName to task
+task id SimpleName MethodInvocation MethodInvocation SimpleName apply
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i scheduled task
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName updated
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+mem storage unsafe modify in place StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+mem storage unsafe modify in place StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType boolean
+mem storage unsafe modify in place StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType boolean
+timed SimpleName SingleMemberAnnotation MethodDeclaration SimpleName unsafe modify in place
+mem storage unsafe modify in place StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName unsafe modify in place
+timed SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task id
+mem storage unsafe modify in place StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task id
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType boolean
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName unsafe modify in place
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task id
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task configuration
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName unsafe modify in place
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task configuration
+boolean PrimitiveType MethodDeclaration SimpleName unsafe modify in place
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task id
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task configuration
+unsafe modify in place SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+unsafe modify in place SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task id
+unsafe modify in place SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+unsafe modify in place SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task configuration
+task id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task configuration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage unsafe modify in place
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName unsafe modify in place
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task configuration
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage unsafe modify in place
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unsafe modify in place
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task configuration

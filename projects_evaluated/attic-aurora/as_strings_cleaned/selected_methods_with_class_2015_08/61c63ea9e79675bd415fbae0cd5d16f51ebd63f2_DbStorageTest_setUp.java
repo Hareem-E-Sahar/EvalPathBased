@@ -1,0 +1,85 @@
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sql session factory
+session factory SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName sql session
+session SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName enum value mapper
+enum mapper SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName flushable work queue
+flusher SimpleName Assignment MethodInvocation SimpleName create mock
+workquiet QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+read work SimpleName Assignment MethodInvocation SimpleName create mock
+clazz SimpleName SimpleType ParameterizedType SimpleType QualifiedName mutate workno resultquiet
+write work SimpleName Assignment MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName cron job storemutable
+create mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task storemutable
+create mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName scheduler storemutable
+create mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName attribute storemutable
+create mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName lock storemutable
+create mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName quota storemutable
+create mock SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName job update storemutable
+db storage SimpleName SimpleType ClassInstanceCreation SimpleName session factory
+db storage SimpleName SimpleType ClassInstanceCreation SimpleName enum mapper
+db storage SimpleName SimpleType ClassInstanceCreation SimpleName flusher
+db storage SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create mock
+db storage SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create mock
+session factory SimpleName ClassInstanceCreation SimpleName enum mapper
+session factory SimpleName ClassInstanceCreation SimpleName flusher
+session factory SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+session factory SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+session factory SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+enum mapper SimpleName ClassInstanceCreation SimpleName flusher
+enum mapper SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+enum mapper SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+enum mapper SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+enum mapper SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+flusher SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+flusher SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+flusher SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+flusher SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+flusher SimpleName ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+create mock SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create mock
+storage SimpleName Assignment ClassInstanceCreation SimpleType SimpleName db storage
+storage SimpleName Assignment ClassInstanceCreation SimpleName session factory
+storage SimpleName Assignment ClassInstanceCreation SimpleName enum mapper
+storage SimpleName Assignment ClassInstanceCreation SimpleName flusher
+storage SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create mock
+storage SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create mock
+storage SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create mock
+storage SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create mock
+storage SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create mock
+storage SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create mock
+storage SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create mock
+before SimpleName MarkerAnnotation MethodDeclaration Modifier public
+before SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+before SimpleName MarkerAnnotation MethodDeclaration SimpleName set up
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set up
+void PrimitiveType MethodDeclaration SimpleName set up
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set up
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName before
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set up

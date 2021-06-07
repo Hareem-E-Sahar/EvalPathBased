@@ -1,0 +1,134 @@
+service SimpleName SimpleType SingleVariableDeclaration SimpleName service
+log SimpleName MethodInvocation SimpleName is debug enabled
+adding a new service StringLiteral InfixExpression StringLiteral cluster name
+service SimpleName MethodInvocation SimpleName get name
+adding a new service StringLiteral InfixExpression InfixExpression SimpleName cluster name
+cluster name StringLiteral InfixExpression InfixExpression SimpleName cluster name
+adding a new service StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+adding a new service StringLiteral InfixExpression InfixExpression SimpleName cluster id
+cluster name StringLiteral InfixExpression InfixExpression SimpleName cluster id
+adding a new service StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+adding a new service StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName service
+adding a new service StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName service
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name SimpleName InfixExpression StringLiteral cluster id
+cluster name SimpleName InfixExpression SimpleName cluster id
+cluster name SimpleName InfixExpression StringLiteral service name
+cluster name SimpleName InfixExpression MethodInvocation SimpleName service
+cluster name SimpleName InfixExpression MethodInvocation SimpleName get name
+cluster id StringLiteral InfixExpression SimpleName cluster id
+cluster id StringLiteral InfixExpression StringLiteral service name
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName service
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName get name
+cluster id SimpleName InfixExpression StringLiteral service name
+cluster id SimpleName InfixExpression MethodInvocation SimpleName service
+cluster id SimpleName InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression MethodInvocation SimpleName service
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+log SimpleName MethodInvocation SimpleName debug
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral adding a new service
+log SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+log SimpleName MethodInvocation InfixExpression SimpleName cluster name
+log SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+log SimpleName MethodInvocation InfixExpression SimpleName cluster id
+log SimpleName MethodInvocation InfixExpression StringLiteral service name
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName service
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral adding a new service
+debug SimpleName MethodInvocation InfixExpression InfixExpression StringLiteral cluster name
+debug SimpleName MethodInvocation InfixExpression SimpleName cluster name
+debug SimpleName MethodInvocation InfixExpression StringLiteral cluster id
+debug SimpleName MethodInvocation InfixExpression SimpleName cluster id
+debug SimpleName MethodInvocation InfixExpression StringLiteral service name
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName service
+debug SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+service SimpleName MethodInvocation SimpleName get name
+services SimpleName MethodInvocation SimpleName contains key
+services SimpleName MethodInvocation MethodInvocation SimpleName service
+services SimpleName MethodInvocation MethodInvocation SimpleName get name
+contains key SimpleName MethodInvocation MethodInvocation SimpleName service
+contains key SimpleName MethodInvocation MethodInvocation SimpleName get name
+service already exists StringLiteral InfixExpression StringLiteral cluster name
+service SimpleName MethodInvocation SimpleName get name
+service already exists StringLiteral InfixExpression InfixExpression SimpleName cluster name
+cluster name StringLiteral InfixExpression InfixExpression SimpleName cluster name
+service already exists StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral cluster id
+service already exists StringLiteral InfixExpression InfixExpression SimpleName cluster id
+cluster name StringLiteral InfixExpression InfixExpression SimpleName cluster id
+service already exists StringLiteral InfixExpression InfixExpression StringLiteral service name
+cluster name StringLiteral InfixExpression InfixExpression StringLiteral service name
+service already exists StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName service
+service already exists StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName service
+cluster name StringLiteral InfixExpression InfixExpression MethodInvocation SimpleName get name
+cluster name SimpleName InfixExpression StringLiteral cluster id
+cluster name SimpleName InfixExpression SimpleName cluster id
+cluster name SimpleName InfixExpression StringLiteral service name
+cluster name SimpleName InfixExpression MethodInvocation SimpleName service
+cluster name SimpleName InfixExpression MethodInvocation SimpleName get name
+cluster id StringLiteral InfixExpression SimpleName cluster id
+cluster id StringLiteral InfixExpression StringLiteral service name
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName service
+cluster id StringLiteral InfixExpression MethodInvocation SimpleName get name
+cluster id SimpleName InfixExpression StringLiteral service name
+cluster id SimpleName InfixExpression MethodInvocation SimpleName service
+cluster id SimpleName InfixExpression MethodInvocation SimpleName get name
+service name StringLiteral InfixExpression MethodInvocation SimpleName service
+service name StringLiteral InfixExpression MethodInvocation SimpleName get name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cluster name
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cluster id
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName cluster id
+ambari exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral service name
+service SimpleName MethodInvocation SimpleName get name
+services SimpleName FieldAccess MethodInvocation SimpleName put
+services SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName service
+services SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName get name
+services SimpleName FieldAccess MethodInvocation SimpleName service
+put SimpleName MethodInvocation MethodInvocation SimpleName service
+put SimpleName MethodInvocation MethodInvocation SimpleName get name
+put SimpleName MethodInvocation SimpleName service
+service SimpleName MethodInvocation MethodInvocation SimpleName service
+get name SimpleName MethodInvocation MethodInvocation SimpleName service
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName add service
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add service
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName service
+synchronized Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName add service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName service
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+add service SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName service
+add service SimpleName MethodDeclaration SingleVariableDeclaration SimpleName service
+add service SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+service SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add service
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add service
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

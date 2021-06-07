@@ -1,0 +1,15 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName service component host
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName service component host
+public Modifier MethodDeclaration SimpleName get service component hosts
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get service component hosts
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get service component hosts
+service component host SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get service component hosts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get service component hosts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get service component hosts

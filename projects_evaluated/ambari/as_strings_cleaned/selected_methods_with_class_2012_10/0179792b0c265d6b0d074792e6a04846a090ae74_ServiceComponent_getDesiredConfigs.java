@@ -1,0 +1,15 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName config
+public Modifier MethodDeclaration SimpleName get desired configs
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get desired configs
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get desired configs
+config SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get desired configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get desired configs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get desired configs

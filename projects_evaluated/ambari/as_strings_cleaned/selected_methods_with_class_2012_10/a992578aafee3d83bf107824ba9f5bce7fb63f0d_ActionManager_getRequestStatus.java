@@ -1,0 +1,23 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+long PrimitiveType SingleVariableDeclaration SimpleName request id
+db SimpleName MethodInvocation SimpleName get all stages
+db SimpleName MethodInvocation SimpleName request id
+get all stages SimpleName MethodInvocation SimpleName request id
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName stage
+public Modifier MethodDeclaration SimpleName get request status
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get request status
+stage SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get request status
+get request status SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+get request status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id

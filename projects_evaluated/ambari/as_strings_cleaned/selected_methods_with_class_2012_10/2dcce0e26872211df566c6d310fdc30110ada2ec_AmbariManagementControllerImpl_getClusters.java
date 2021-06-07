@@ -1,0 +1,67 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster response
+cluster request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster response
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster response
+request SimpleName MethodInvocation SimpleName get cluster name
+request SimpleName MethodInvocation SimpleName get cluster name
+clusters SimpleName MethodInvocation SimpleName get cluster
+clusters SimpleName MethodInvocation MethodInvocation SimpleName request
+clusters SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName request
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cluster
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName request
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get cluster name
+cluster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName convert to response
+response SimpleName MethodInvocation SimpleName add
+response SimpleName MethodInvocation MethodInvocation SimpleName c
+response SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+add SimpleName MethodInvocation MethodInvocation SimpleName c
+add SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster
+clusters SimpleName MethodInvocation SimpleName get clusters
+all clusters SimpleName VariableDeclarationFragment MethodInvocation SimpleName clusters
+all clusters SimpleName VariableDeclarationFragment MethodInvocation SimpleName get clusters
+cluster SimpleName SimpleType SingleVariableDeclaration SimpleName c
+all clusters SimpleName MethodInvocation SimpleName values
+c SimpleName MethodInvocation SimpleName convert to response
+response SimpleName MethodInvocation SimpleName add
+response SimpleName MethodInvocation MethodInvocation SimpleName c
+response SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+add SimpleName MethodInvocation MethodInvocation SimpleName c
+add SimpleName MethodInvocation MethodInvocation SimpleName convert to response
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName all clusters
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get clusters
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName request
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName cluster response
+public Modifier MethodDeclaration SimpleName get clusters
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get clusters
+cluster response SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get clusters
+get clusters SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster request
+get clusters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+get clusters SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+get clusters SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get clusters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get clusters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

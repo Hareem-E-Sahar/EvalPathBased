@@ -1,0 +1,56 @@
+cluster SimpleName SimpleType SingleVariableDeclaration SimpleName cluster
+long PrimitiveType SingleVariableDeclaration SimpleName request id
+base log dir SimpleName InfixExpression StringLiteral /
+base log dir SimpleName InfixExpression SimpleName request id
+/ StringLiteral InfixExpression SimpleName request id
+log dir SimpleName VariableDeclarationFragment InfixExpression SimpleName base log dir
+log dir SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+log dir SimpleName VariableDeclarationFragment InfixExpression SimpleName request id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName log dir
+cluster SimpleName MethodInvocation SimpleName get cluster name
+stage SimpleName SimpleType ClassInstanceCreation SimpleName request id
+stage SimpleName SimpleType ClassInstanceCreation SimpleName log dir
+stage SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cluster
+stage SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get cluster name
+request id SimpleName ClassInstanceCreation SimpleName log dir
+request id SimpleName ClassInstanceCreation MethodInvocation SimpleName cluster
+request id SimpleName ClassInstanceCreation MethodInvocation SimpleName get cluster name
+log dir SimpleName ClassInstanceCreation MethodInvocation SimpleName cluster
+log dir SimpleName ClassInstanceCreation MethodInvocation SimpleName get cluster name
+stage SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName stage
+stage SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName request id
+stage SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName log dir
+stage SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName cluster
+stage SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get cluster name
+stage SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stage
+private Modifier MethodDeclaration SimpleType SimpleName stage
+private Modifier MethodDeclaration SimpleName create new stage
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName request id
+private Modifier MethodDeclaration Block ReturnStatement SimpleName stage
+stage SimpleName SimpleType MethodDeclaration SimpleName create new stage
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cluster
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request id
+create new stage SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cluster
+create new stage SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster
+create new stage SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+create new stage SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request id
+create new stage SimpleName MethodDeclaration Block ReturnStatement SimpleName stage
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+cluster SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+public Modifier TypeDeclaration MethodDeclaration SimpleName create new stage
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create new stage
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request id

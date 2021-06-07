@@ -1,0 +1,33 @@
+sanitized configuration SimpleName SimpleType SingleVariableDeclaration SimpleName config
+sanitized cron job SimpleName SimpleType ClassInstanceCreation SimpleName config
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName sanitized cron job
+public Modifier MethodDeclaration SimpleName from
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier MethodDeclaration SimpleType SimpleName cron exception
+static Modifier MethodDeclaration SimpleType SimpleName sanitized cron job
+static Modifier MethodDeclaration SimpleName from
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName config
+static Modifier MethodDeclaration SimpleType SimpleName cron exception
+sanitized cron job SimpleName SimpleType MethodDeclaration SimpleName from
+sanitized cron job SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config
+sanitized cron job SimpleName SimpleType MethodDeclaration SimpleType SimpleName cron exception
+from SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sanitized configuration
+from SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config
+from SimpleName MethodDeclaration SimpleType SimpleName cron exception
+config SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sanitized cron job
+public Modifier TypeDeclaration MethodDeclaration SimpleName from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sanitized cron job
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception

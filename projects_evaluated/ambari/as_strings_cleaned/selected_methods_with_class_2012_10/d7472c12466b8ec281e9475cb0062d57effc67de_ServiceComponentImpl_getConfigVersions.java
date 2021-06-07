@@ -1,0 +1,50 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+config SimpleName SimpleType SingleVariableDeclaration SimpleName c
+configs SimpleName MethodInvocation SimpleName values
+c SimpleName MethodInvocation SimpleName get type
+c SimpleName MethodInvocation SimpleName get version tag
+config versions SimpleName MethodInvocation SimpleName put
+config versions SimpleName MethodInvocation MethodInvocation SimpleName c
+config versions SimpleName MethodInvocation MethodInvocation SimpleName get type
+config versions SimpleName MethodInvocation MethodInvocation SimpleName c
+config versions SimpleName MethodInvocation MethodInvocation SimpleName get version tag
+put SimpleName MethodInvocation MethodInvocation SimpleName c
+put SimpleName MethodInvocation MethodInvocation SimpleName get type
+put SimpleName MethodInvocation MethodInvocation SimpleName c
+put SimpleName MethodInvocation MethodInvocation SimpleName get version tag
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+c SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version tag
+get type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName c
+get type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get version tag
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName configs
+c SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName values
+private Modifier MethodDeclaration Modifier synchronized
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get config versions
+private Modifier MethodDeclaration Block ReturnStatement SimpleName config versions
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+synchronized Modifier MethodDeclaration SimpleName get config versions
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName config versions
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get config versions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get config versions
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get config versions
+get config versions SimpleName MethodDeclaration Block ReturnStatement SimpleName config versions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleName get config versions
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get config versions

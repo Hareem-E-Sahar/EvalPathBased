@@ -1,0 +1,7 @@
+cluster controller helper SimpleName MethodInvocation SimpleName get cluster controller
+cluster controller SimpleName SimpleType MethodDeclaration SimpleName get cluster controller
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cluster controller
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cluster controller
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cluster controller
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cluster controller

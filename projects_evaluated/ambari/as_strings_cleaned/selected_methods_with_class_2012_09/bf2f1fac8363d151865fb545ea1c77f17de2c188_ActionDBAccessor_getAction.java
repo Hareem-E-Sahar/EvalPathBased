@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName action id
+public Modifier MethodDeclaration SimpleType SimpleName stage
+public Modifier MethodDeclaration SimpleName get action
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName action id
+stage SimpleName SimpleType MethodDeclaration SimpleName get action
+stage SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName action id
+get action SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get action SimpleName MethodDeclaration SingleVariableDeclaration SimpleName action id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+public Modifier TypeDeclaration MethodDeclaration SimpleName get action
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName stage
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get action
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName action id

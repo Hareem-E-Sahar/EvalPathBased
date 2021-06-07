@@ -1,0 +1,52 @@
+control SimpleName MethodInvocation SimpleName replay
+injector SimpleName MethodInvocation SimpleName get instance
+injector SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scheduler
+get instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scheduler
+scheduler SimpleName VariableDeclarationFragment MethodInvocation SimpleName injector
+scheduler SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+scheduler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scheduler
+scheduler SimpleName MethodInvocation SimpleName is started
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName scheduler
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is started
+injector SimpleName MethodInvocation SimpleName get instance
+injector SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron lifecycle
+get instance SimpleName MethodInvocation TypeLiteral SimpleType SimpleName cron lifecycle
+cron lifecycle SimpleName VariableDeclarationFragment MethodInvocation SimpleName injector
+cron lifecycle SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cron lifecycle
+cron lifecycle SimpleName MethodInvocation SimpleName is running
+assert true SimpleName MethodInvocation MethodInvocation SimpleName cron lifecycle
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is running
+scheduler SimpleName MethodInvocation SimpleName is started
+assert true SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is started
+shutdown SimpleName MethodInvocation SimpleName get value
+shutdown SimpleName MethodInvocation MethodInvocation SimpleName execute
+get value SimpleName MethodInvocation MethodInvocation SimpleName execute
+cron lifecycle SimpleName MethodInvocation SimpleName is running
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName cron lifecycle
+assert true SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is running
+scheduler SimpleName MethodInvocation SimpleName is shutdown
+assert true SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is shutdown
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test cron scheduler lifecycle
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test cron scheduler lifecycle
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test cron scheduler lifecycle
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test cron scheduler lifecycle SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test cron scheduler lifecycle
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test cron scheduler lifecycle
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

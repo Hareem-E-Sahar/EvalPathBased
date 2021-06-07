@@ -1,0 +1,65 @@
+task config SimpleName SimpleType SingleVariableDeclaration SimpleName task
+task SimpleName MethodInvocation SimpleName get task links size
+task SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get task links size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+immutable mapbuilder QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+immutable mapbuilder QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable map SimpleName MethodInvocation SimpleName builder
+links SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable map
+links SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+task SimpleName MethodInvocation SimpleName get requested ports
+task SimpleName MethodInvocation MethodInvocation SimpleName contains
+get requested ports SimpleName MethodInvocation MethodInvocation SimpleName contains
+task SimpleName MethodInvocation MethodInvocation StringLiteral health
+get requested ports SimpleName MethodInvocation MethodInvocation StringLiteral health
+contains SimpleName MethodInvocation StringLiteral health
+links SimpleName MethodInvocation SimpleName put
+links SimpleName MethodInvocation StringLiteral health
+links SimpleName MethodInvocation StringLiteral httphostporthealth
+put SimpleName MethodInvocation StringLiteral health
+put SimpleName MethodInvocation StringLiteral httphostporthealth
+health StringLiteral MethodInvocation StringLiteral httphostporthealth
+task SimpleName MethodInvocation SimpleName get requested ports
+task SimpleName MethodInvocation MethodInvocation SimpleName contains
+get requested ports SimpleName MethodInvocation MethodInvocation SimpleName contains
+task SimpleName MethodInvocation MethodInvocation StringLiteral http
+get requested ports SimpleName MethodInvocation MethodInvocation StringLiteral http
+contains SimpleName MethodInvocation StringLiteral http
+links SimpleName MethodInvocation SimpleName put
+links SimpleName MethodInvocation StringLiteral http
+links SimpleName MethodInvocation StringLiteral httphostporthttp
+put SimpleName MethodInvocation StringLiteral http
+put SimpleName MethodInvocation StringLiteral httphostporthttp
+http StringLiteral MethodInvocation StringLiteral httphostporthttp
+links SimpleName MethodInvocation SimpleName build
+task SimpleName MethodInvocation SimpleName set task links
+task SimpleName MethodInvocation MethodInvocation SimpleName links
+task SimpleName MethodInvocation MethodInvocation SimpleName build
+set task links SimpleName MethodInvocation MethodInvocation SimpleName links
+set task links SimpleName MethodInvocation MethodInvocation SimpleName build
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName maybe fill links
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName maybe fill links
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+void PrimitiveType MethodDeclaration SimpleName maybe fill links
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+maybe fill links SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task config
+maybe fill links SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName maybe fill links
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName maybe fill links
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

@@ -1,0 +1,90 @@
+scheduled future SimpleName SimpleType ParameterizedType WildcardType ?
+easy mock SimpleName MethodInvocation SimpleName get current arguments
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName easy mock
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current arguments
+args SimpleName ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+runnable SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+work SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName runnable
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work
+args SimpleName ArrayAccess NumberLiteral empty
+long SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+long SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+initial delay SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName long
+initial delay SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+initial delay SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName initial delay
+args SimpleName ArrayAccess NumberLiteral empty
+long SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+long SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+period SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName long
+period SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+period SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName period
+args SimpleName ArrayAccess NumberLiteral empty
+time unit SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+time unit SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+unit SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName time unit
+unit SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+unit SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+time unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName unit
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName work count
+to millis SimpleName MethodInvocation SimpleName initial delay
+to millis SimpleName MethodInvocation SimpleName unit
+initial delay SimpleName MethodInvocation SimpleName unit
+to millis SimpleName MethodInvocation SimpleName period
+to millis SimpleName MethodInvocation SimpleName unit
+period SimpleName MethodInvocation SimpleName unit
+i SimpleName InfixExpression MethodInvocation SimpleName to millis
+i SimpleName InfixExpression MethodInvocation SimpleName period
+i SimpleName InfixExpression MethodInvocation SimpleName unit
+to millis SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+initial delay SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+unit SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+add delayed work SimpleName MethodInvocation SimpleName executor
+add delayed work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to millis
+add delayed work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName initial delay
+add delayed work SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+add delayed work SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+add delayed work SimpleName MethodInvocation SimpleName work
+executor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to millis
+executor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName initial delay
+executor SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+executor SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+executor SimpleName MethodInvocation SimpleName work
+to millis SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work
+initial delay SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName work
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName work
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName work count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+work count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration ParameterizedType WildcardType ?
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName scheduled future
+public Modifier MethodDeclaration ParameterizedType WildcardType ?
+public Modifier MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+scheduled future SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer
+? WildcardType ParameterizedType MethodDeclaration SimpleName answer
+answer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+answer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+public Modifier TypeDeclaration MethodDeclaration SimpleName answer
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ParameterizedType WildcardType ?
+test SimpleName TypeDeclaration MethodDeclaration SimpleName answer

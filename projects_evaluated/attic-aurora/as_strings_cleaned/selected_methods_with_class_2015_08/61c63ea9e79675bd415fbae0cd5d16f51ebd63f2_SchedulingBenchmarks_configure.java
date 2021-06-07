@@ -1,0 +1,96 @@
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+bind SimpleName MethodInvocation MethodInvocation SimpleName annotated with
+annotated with SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reservation duration
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to instance
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName delay forever
+annotated with SimpleName MethodInvocation MethodInvocation SimpleName delay forever
+to instance SimpleName MethodInvocation SimpleName delay forever
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName task id generator
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName task id generatortask id generator impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scheduling filter
+bind SimpleName MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scheduling filter impl
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scheduling filter impl
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName executor settings
+executor settings SimpleName MethodInvocation SimpleName new builder
+executor settings SimpleName MethodInvocation MethodInvocation SimpleName set executor path
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set executor path
+executor settings SimpleName MethodInvocation MethodInvocation StringLiteral executorthermos
+new builder SimpleName MethodInvocation MethodInvocation StringLiteral executorthermos
+set executor path SimpleName MethodInvocation StringLiteral executorthermos
+executor settings SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set thermos observer root
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set thermos observer root
+set executor path SimpleName MethodInvocation MethodInvocation SimpleName set thermos observer root
+executorthermos StringLiteral MethodInvocation MethodInvocation SimpleName set thermos observer root
+executor settings SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral varrunthermos
+new builder SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral varrunthermos
+set executor path SimpleName MethodInvocation MethodInvocation StringLiteral varrunthermos
+executorthermos StringLiteral MethodInvocation MethodInvocation StringLiteral varrunthermos
+set thermos observer root SimpleName MethodInvocation StringLiteral varrunthermos
+set executor path SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+executorthermos StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName build
+set thermos observer root SimpleName MethodInvocation MethodInvocation SimpleName build
+varrunthermos StringLiteral MethodInvocation MethodInvocation SimpleName build
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+to instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set thermos observer root
+to instance SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral varrunthermos
+to instance SimpleName MethodInvocation MethodInvocation SimpleName build
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName storage
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName storage
+to instance SimpleName MethodInvocation SimpleName storage
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName driver
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName fake driver
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName reschedule calculator
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName fake reschedule calculator
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clock
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation SimpleName clock
+to instance SimpleName MethodInvocation SimpleName clock
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName stats provider
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName fake stats provider
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName event sink
+pubsub event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event bus SimpleName MethodInvocation SimpleName post
+event bus SimpleName MethodInvocation SimpleName event
+post SimpleName MethodInvocation SimpleName event
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName post
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName post
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pubsub event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName post
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pubsub event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+post SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pubsub event
+post SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+to instance SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName event sink
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

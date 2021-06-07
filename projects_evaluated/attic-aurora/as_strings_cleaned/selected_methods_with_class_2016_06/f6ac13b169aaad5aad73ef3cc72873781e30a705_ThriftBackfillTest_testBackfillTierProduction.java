@@ -1,0 +1,137 @@
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName set num cpus
+task config SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral .
+set num cpus SimpleName MethodInvocation NumberLiteral .
+set num cpus SimpleName MethodInvocation MethodInvocation SimpleName set ram mb
+. NumberLiteral MethodInvocation MethodInvocation SimpleName set ram mb
+set num cpus SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation NumberLiteral empty
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set disk mb
+set ram mb SimpleName MethodInvocation MethodInvocation SimpleName set disk mb
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set disk mb
+set num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+set disk mb SimpleName MethodInvocation NumberLiteral empty
+set ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set production
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set production
+set disk mb SimpleName MethodInvocation MethodInvocation SimpleName set production
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set production
+set ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+set disk mb SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral true
+set production SimpleName MethodInvocation BooleanLiteral true
+set disk mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set tier
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set tier
+set production SimpleName MethodInvocation MethodInvocation SimpleName set tier
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName set tier
+set disk mb SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral tier name
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral tier name
+set production SimpleName MethodInvocation MethodInvocation StringLiteral tier name
+true BooleanLiteral MethodInvocation MethodInvocation StringLiteral tier name
+set tier SimpleName MethodInvocation StringLiteral tier name
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName set production
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation BooleanLiteral true
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName set tier
+config SimpleName VariableDeclarationFragment MethodInvocation StringLiteral tier name
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+config SimpleName MethodInvocation SimpleName deep copy
+num cpus SimpleName MethodInvocation NumberLiteral .
+ram mb SimpleName MethodInvocation NumberLiteral empty
+disk mb SimpleName MethodInvocation NumberLiteral empty
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+immutable set SimpleName MethodInvocation MethodInvocation NumberLiteral .
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+immutable set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+immutable set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation MethodInvocation SimpleName num cpus
+of SimpleName MethodInvocation MethodInvocation NumberLiteral .
+of SimpleName MethodInvocation MethodInvocation SimpleName ram mb
+of SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation MethodInvocation SimpleName disk mb
+of SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+num cpus SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+ram mb SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+config SimpleName MethodInvocation MethodInvocation SimpleName set resources
+deep copy SimpleName MethodInvocation MethodInvocation SimpleName set resources
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+config SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+deep copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+deep copy SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+set resources SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+set resources SimpleName MethodInvocation MethodInvocation SimpleName of
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName num cpus
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral .
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ram mb
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName disk mb
+set resources SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName config
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName deep copy
+expected SimpleName VariableDeclarationFragment MethodInvocation SimpleName set resources
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+expected SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+i task config SimpleName MethodInvocation SimpleName build
+i task config SimpleName MethodInvocation SimpleName expected
+build SimpleName MethodInvocation SimpleName expected
+tier manager SimpleName MethodInvocation SimpleName get tier
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName i task config
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName build
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName expected
+get tier SimpleName MethodInvocation MethodInvocation SimpleName i task config
+get tier SimpleName MethodInvocation MethodInvocation SimpleName build
+get tier SimpleName MethodInvocation MethodInvocation SimpleName expected
+expect SimpleName MethodInvocation MethodInvocation SimpleName tier manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName get tier
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i task config
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName expected
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation QualifiedName task test utilpreferred tier
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName task test utilpreferred tier
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName task test utilpreferred tier
+and return SimpleName MethodInvocation QualifiedName task test utilpreferred tier
+control SimpleName MethodInvocation SimpleName replay
+thrift backfill SimpleName MethodInvocation SimpleName backfill task
+thrift backfill SimpleName MethodInvocation SimpleName config
+backfill task SimpleName MethodInvocation SimpleName config
+assert equals SimpleName MethodInvocation SimpleName expected
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName thrift backfill
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName backfill task
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName config
+expected SimpleName MethodInvocation MethodInvocation SimpleName thrift backfill
+expected SimpleName MethodInvocation MethodInvocation SimpleName backfill task
+expected SimpleName MethodInvocation MethodInvocation SimpleName config
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test backfill tier production
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test backfill tier production
+void PrimitiveType MethodDeclaration SimpleName test backfill tier production
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test backfill tier production
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test backfill tier production

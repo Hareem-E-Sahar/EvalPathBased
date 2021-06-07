@@ -1,0 +1,62 @@
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+amount SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName time
+amount SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName period
+long SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName period
+time SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName period
+advance SimpleName SuperMethodInvocation SimpleName period
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+deferred work SimpleName MethodInvocation SimpleName iterator
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName deferred work
+entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+lists SimpleName MethodInvocation SimpleName new array list
+to execute SimpleName VariableDeclarationFragment MethodInvocation SimpleName lists
+to execute SimpleName VariableDeclarationFragment MethodInvocation SimpleName new array list
+entries SimpleName MethodInvocation SimpleName has next
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName long
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+long SimpleName SimpleType ParameterizedType SimpleType SimpleName runnable
+entries SimpleName MethodInvocation SimpleName next
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName entries
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+next SimpleName MethodInvocation SimpleName get first
+next SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName now millis
+get first SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName now millis
+entries SimpleName MethodInvocation SimpleName remove
+next SimpleName MethodInvocation SimpleName get second
+to execute SimpleName MethodInvocation SimpleName add
+to execute SimpleName MethodInvocation MethodInvocation SimpleName next
+to execute SimpleName MethodInvocation MethodInvocation SimpleName get second
+add SimpleName MethodInvocation MethodInvocation SimpleName next
+add SimpleName MethodInvocation MethodInvocation SimpleName get second
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName work
+work SimpleName MethodInvocation SimpleName run
+runnable SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName to execute
+work SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName to execute
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName advance
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName period
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName advance
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName period
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName to execute
+void PrimitiveType MethodDeclaration SimpleName advance
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName period
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName to execute
+advance SimpleName MethodDeclaration SingleVariableDeclaration SimpleName period
+advance SimpleName MethodDeclaration Block EnhancedForStatement SimpleName to execute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName advance
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName period
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName advance
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName period

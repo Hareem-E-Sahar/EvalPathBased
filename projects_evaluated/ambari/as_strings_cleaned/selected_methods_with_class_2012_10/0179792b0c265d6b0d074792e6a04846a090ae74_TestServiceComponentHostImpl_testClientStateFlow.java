@@ -1,0 +1,137 @@
+create new service component host SimpleName MethodInvocation NumberLiteral empty
+create new service component host SimpleName MethodInvocation StringLiteral svc
+create new service component host SimpleName MethodInvocation StringLiteral svc comp
+create new service component host SimpleName MethodInvocation StringLiteral h
+create new service component host SimpleName MethodInvocation BooleanLiteral true
+empty NumberLiteral MethodInvocation StringLiteral svc
+empty NumberLiteral MethodInvocation StringLiteral svc comp
+empty NumberLiteral MethodInvocation StringLiteral h
+empty NumberLiteral MethodInvocation BooleanLiteral true
+svc StringLiteral MethodInvocation StringLiteral svc comp
+svc StringLiteral MethodInvocation StringLiteral h
+svc StringLiteral MethodInvocation BooleanLiteral true
+svc comp StringLiteral MethodInvocation StringLiteral h
+svc comp StringLiteral MethodInvocation BooleanLiteral true
+h StringLiteral MethodInvocation BooleanLiteral true
+impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName create new service component host
+impl SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+impl SimpleName VariableDeclarationFragment MethodInvocation StringLiteral svc
+impl SimpleName VariableDeclarationFragment MethodInvocation StringLiteral svc comp
+impl SimpleName VariableDeclarationFragment MethodInvocation StringLiteral h
+impl SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+service component host impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+run state changes SimpleName MethodInvocation SimpleName impl
+run state changes SimpleName MethodInvocation QualifiedName service component host event typehost svccomp install
+run state changes SimpleName MethodInvocation QualifiedName stateinit
+run state changes SimpleName MethodInvocation QualifiedName stateinstalling
+run state changes SimpleName MethodInvocation QualifiedName stateinstall failed
+impl SimpleName MethodInvocation QualifiedName service component host event typehost svccomp install
+impl SimpleName MethodInvocation QualifiedName stateinit
+impl SimpleName MethodInvocation QualifiedName stateinstalling
+impl SimpleName MethodInvocation QualifiedName stateinstall failed
+impl SimpleName MethodInvocation QualifiedName stateinstalled
+service component host event typehost svccomp install QualifiedName MethodInvocation QualifiedName stateinit
+service component host event typehost svccomp install QualifiedName MethodInvocation QualifiedName stateinstalling
+service component host event typehost svccomp install QualifiedName MethodInvocation QualifiedName stateinstall failed
+service component host event typehost svccomp install QualifiedName MethodInvocation QualifiedName stateinstalled
+stateinit QualifiedName MethodInvocation QualifiedName stateinstalling
+stateinit QualifiedName MethodInvocation QualifiedName stateinstall failed
+stateinit QualifiedName MethodInvocation QualifiedName stateinstalled
+stateinstalling QualifiedName MethodInvocation QualifiedName stateinstall failed
+stateinstalling QualifiedName MethodInvocation QualifiedName stateinstalled
+stateinstall failed QualifiedName MethodInvocation QualifiedName stateinstalled
+exception thrown SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName exception thrown
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+run state changes SimpleName MethodInvocation SimpleName impl
+run state changes SimpleName MethodInvocation QualifiedName service component host event typehost svccomp start
+run state changes SimpleName MethodInvocation QualifiedName stateinstalled
+run state changes SimpleName MethodInvocation QualifiedName statestarting
+run state changes SimpleName MethodInvocation QualifiedName statestart failed
+impl SimpleName MethodInvocation QualifiedName service component host event typehost svccomp start
+impl SimpleName MethodInvocation QualifiedName stateinstalled
+impl SimpleName MethodInvocation QualifiedName statestarting
+impl SimpleName MethodInvocation QualifiedName statestart failed
+impl SimpleName MethodInvocation QualifiedName statestarted
+service component host event typehost svccomp start QualifiedName MethodInvocation QualifiedName stateinstalled
+service component host event typehost svccomp start QualifiedName MethodInvocation QualifiedName statestarting
+service component host event typehost svccomp start QualifiedName MethodInvocation QualifiedName statestart failed
+service component host event typehost svccomp start QualifiedName MethodInvocation QualifiedName statestarted
+stateinstalled QualifiedName MethodInvocation QualifiedName statestarting
+stateinstalled QualifiedName MethodInvocation QualifiedName statestart failed
+stateinstalled QualifiedName MethodInvocation QualifiedName statestarted
+statestarting QualifiedName MethodInvocation QualifiedName statestart failed
+statestarting QualifiedName MethodInvocation QualifiedName statestarted
+statestart failed QualifiedName MethodInvocation QualifiedName statestarted
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception thrown SimpleName Assignment BooleanLiteral true
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation StringLiteral exception not thrown on invalid event
+assert SimpleName MethodInvocation SimpleName exception thrown
+assert true SimpleName MethodInvocation StringLiteral exception not thrown on invalid event
+assert true SimpleName MethodInvocation SimpleName exception thrown
+exception not thrown on invalid event StringLiteral MethodInvocation SimpleName exception thrown
+run state changes SimpleName MethodInvocation SimpleName impl
+run state changes SimpleName MethodInvocation QualifiedName service component host event typehost svccomp uninstall
+run state changes SimpleName MethodInvocation QualifiedName stateinstalled
+run state changes SimpleName MethodInvocation QualifiedName stateuninstalling
+run state changes SimpleName MethodInvocation QualifiedName stateuninstall failed
+impl SimpleName MethodInvocation QualifiedName service component host event typehost svccomp uninstall
+impl SimpleName MethodInvocation QualifiedName stateinstalled
+impl SimpleName MethodInvocation QualifiedName stateuninstalling
+impl SimpleName MethodInvocation QualifiedName stateuninstall failed
+impl SimpleName MethodInvocation QualifiedName stateuninstalled
+service component host event typehost svccomp uninstall QualifiedName MethodInvocation QualifiedName stateinstalled
+service component host event typehost svccomp uninstall QualifiedName MethodInvocation QualifiedName stateuninstalling
+service component host event typehost svccomp uninstall QualifiedName MethodInvocation QualifiedName stateuninstall failed
+service component host event typehost svccomp uninstall QualifiedName MethodInvocation QualifiedName stateuninstalled
+stateinstalled QualifiedName MethodInvocation QualifiedName stateuninstalling
+stateinstalled QualifiedName MethodInvocation QualifiedName stateuninstall failed
+stateinstalled QualifiedName MethodInvocation QualifiedName stateuninstalled
+stateuninstalling QualifiedName MethodInvocation QualifiedName stateuninstall failed
+stateuninstalling QualifiedName MethodInvocation QualifiedName stateuninstalled
+stateuninstall failed QualifiedName MethodInvocation QualifiedName stateuninstalled
+run state changes SimpleName MethodInvocation SimpleName impl
+run state changes SimpleName MethodInvocation QualifiedName service component host event typehost svccomp wipeout
+run state changes SimpleName MethodInvocation QualifiedName stateuninstalled
+run state changes SimpleName MethodInvocation QualifiedName statewiping out
+run state changes SimpleName MethodInvocation QualifiedName statewipeout failed
+impl SimpleName MethodInvocation QualifiedName service component host event typehost svccomp wipeout
+impl SimpleName MethodInvocation QualifiedName stateuninstalled
+impl SimpleName MethodInvocation QualifiedName statewiping out
+impl SimpleName MethodInvocation QualifiedName statewipeout failed
+impl SimpleName MethodInvocation QualifiedName stateinit
+service component host event typehost svccomp wipeout QualifiedName MethodInvocation QualifiedName stateuninstalled
+service component host event typehost svccomp wipeout QualifiedName MethodInvocation QualifiedName statewiping out
+service component host event typehost svccomp wipeout QualifiedName MethodInvocation QualifiedName statewipeout failed
+service component host event typehost svccomp wipeout QualifiedName MethodInvocation QualifiedName stateinit
+stateuninstalled QualifiedName MethodInvocation QualifiedName statewiping out
+stateuninstalled QualifiedName MethodInvocation QualifiedName statewipeout failed
+stateuninstalled QualifiedName MethodInvocation QualifiedName stateinit
+statewiping out QualifiedName MethodInvocation QualifiedName statewipeout failed
+statewiping out QualifiedName MethodInvocation QualifiedName stateinit
+statewipeout failed QualifiedName MethodInvocation QualifiedName stateinit
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test client state flow
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test client state flow
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName test client state flow
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+test client state flow SimpleName MethodDeclaration SimpleType SimpleName exception
+test client state flow SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test client state flow
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test client state flow
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

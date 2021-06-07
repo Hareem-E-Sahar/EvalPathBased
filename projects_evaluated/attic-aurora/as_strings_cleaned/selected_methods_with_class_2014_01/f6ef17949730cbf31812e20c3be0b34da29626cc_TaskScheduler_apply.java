@@ -1,0 +1,169 @@
+mutable store provider SimpleName SimpleType SingleVariableDeclaration SimpleName store
+attempting to schedule task StringLiteral InfixExpression SimpleName task id
+log SimpleName MethodInvocation SimpleName fine
+log SimpleName MethodInvocation InfixExpression StringLiteral attempting to schedule task
+log SimpleName MethodInvocation InfixExpression SimpleName task id
+fine SimpleName MethodInvocation InfixExpression StringLiteral attempting to schedule task
+fine SimpleName MethodInvocation InfixExpression SimpleName task id
+store SimpleName MethodInvocation SimpleName get task store
+query SimpleName MethodInvocation SimpleName task scoped
+query SimpleName MethodInvocation SimpleName task id
+task scoped SimpleName MethodInvocation SimpleName task id
+query SimpleName MethodInvocation MethodInvocation SimpleName by status
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName by status
+task id SimpleName MethodInvocation MethodInvocation SimpleName by status
+query SimpleName MethodInvocation MethodInvocation SimpleName pending
+task scoped SimpleName MethodInvocation MethodInvocation SimpleName pending
+task id SimpleName MethodInvocation MethodInvocation SimpleName pending
+by status SimpleName MethodInvocation SimpleName pending
+store SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+get task store SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+get task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+get task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task scoped
+fetch tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task id
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName by status
+fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName pending
+iterables SimpleName MethodInvocation SimpleName get only element
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task store
+iterables SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+iterables SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+get only element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName store
+get only element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task store
+get only element SimpleName MethodInvocation MethodInvocation SimpleName fetch tasks
+get only element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName by status
+get only element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterables
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName get only element
+task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName fetch tasks
+final Modifier VariableDeclarationStatement SimpleType SimpleName i scheduled task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName iterables
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get only element
+i scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+failed to look up task StringLiteral InfixExpression SimpleName task id
+failed to look up task StringLiteral InfixExpression StringLiteral it may have been deleted
+task id SimpleName InfixExpression StringLiteral it may have been deleted
+log SimpleName MethodInvocation SimpleName warning
+log SimpleName MethodInvocation InfixExpression StringLiteral failed to look up task
+log SimpleName MethodInvocation InfixExpression SimpleName task id
+log SimpleName MethodInvocation InfixExpression StringLiteral it may have been deleted
+warning SimpleName MethodInvocation InfixExpression StringLiteral failed to look up task
+warning SimpleName MethodInvocation InfixExpression SimpleName task id
+warning SimpleName MethodInvocation InfixExpression StringLiteral it may have been deleted
+store SimpleName MethodInvocation SimpleName get task store
+tasksscheduled to job key QualifiedName MethodInvocation SimpleName apply
+tasksscheduled to job key QualifiedName MethodInvocation SimpleName task
+apply SimpleName MethodInvocation SimpleName task
+get job state SimpleName MethodInvocation MethodInvocation SimpleName store
+get job state SimpleName MethodInvocation MethodInvocation SimpleName get task store
+get job state SimpleName MethodInvocation MethodInvocation QualifiedName tasksscheduled to job key
+get job state SimpleName MethodInvocation MethodInvocation SimpleName apply
+get job state SimpleName MethodInvocation MethodInvocation SimpleName task
+store SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to job key
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply
+store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get task store SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName tasksscheduled to job key
+get task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName apply
+get task store SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+cached job state SimpleName VariableDeclarationFragment MethodInvocation SimpleName get job state
+cached job state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName store
+cached job state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get task store
+cached job state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName tasksscheduled to job key
+cached job state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName apply
+cached job state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task
+final Modifier VariableDeclarationStatement SimpleType SimpleName cached job state
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName cached job state
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get job state
+cached job state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cached job state
+get assigner function SimpleName MethodInvocation SimpleName cached job state
+get assigner function SimpleName MethodInvocation SimpleName task id
+get assigner function SimpleName MethodInvocation SimpleName task
+cached job state SimpleName MethodInvocation SimpleName task id
+cached job state SimpleName MethodInvocation SimpleName task
+task id SimpleName MethodInvocation SimpleName task
+offer queue SimpleName MethodInvocation SimpleName launch first
+offer queue SimpleName MethodInvocation MethodInvocation SimpleName get assigner function
+offer queue SimpleName MethodInvocation MethodInvocation SimpleName cached job state
+offer queue SimpleName MethodInvocation MethodInvocation SimpleName task id
+offer queue SimpleName MethodInvocation MethodInvocation SimpleName task
+launch first SimpleName MethodInvocation MethodInvocation SimpleName get assigner function
+launch first SimpleName MethodInvocation MethodInvocation SimpleName cached job state
+launch first SimpleName MethodInvocation MethodInvocation SimpleName task id
+launch first SimpleName MethodInvocation MethodInvocation SimpleName task
+maybe preempt for SimpleName MethodInvocation SimpleName task id
+maybe preempt for SimpleName MethodInvocation SimpleName cached job state
+task id SimpleName MethodInvocation SimpleName cached job state
+offer queuelaunch exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+log SimpleName MethodInvocation SimpleName log
+log SimpleName MethodInvocation QualifiedName levelwarning
+log SimpleName MethodInvocation StringLiteral failed to launch task
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation QualifiedName levelwarning
+log SimpleName MethodInvocation StringLiteral failed to launch task
+log SimpleName MethodInvocation SimpleName e
+levelwarning QualifiedName MethodInvocation StringLiteral failed to launch task
+levelwarning QualifiedName MethodInvocation SimpleName e
+failed to launch task StringLiteral MethodInvocation SimpleName e
+schedule attempts failed SimpleName MethodInvocation SimpleName increment and get
+optional SimpleName MethodInvocation SimpleName of
+optional SimpleName MethodInvocation SimpleName pending
+of SimpleName MethodInvocation SimpleName pending
+state manager SimpleName MethodInvocation SimpleName change state
+state manager SimpleName MethodInvocation SimpleName task id
+state manager SimpleName MethodInvocation MethodInvocation SimpleName optional
+state manager SimpleName MethodInvocation MethodInvocation SimpleName of
+state manager SimpleName MethodInvocation MethodInvocation SimpleName pending
+state manager SimpleName MethodInvocation SimpleName lost
+state manager SimpleName MethodInvocation SimpleName launch failed msg
+change state SimpleName MethodInvocation SimpleName task id
+change state SimpleName MethodInvocation MethodInvocation SimpleName optional
+change state SimpleName MethodInvocation MethodInvocation SimpleName of
+change state SimpleName MethodInvocation MethodInvocation SimpleName pending
+change state SimpleName MethodInvocation SimpleName lost
+change state SimpleName MethodInvocation SimpleName launch failed msg
+task id SimpleName MethodInvocation MethodInvocation SimpleName optional
+task id SimpleName MethodInvocation MethodInvocation SimpleName of
+task id SimpleName MethodInvocation MethodInvocation SimpleName pending
+task id SimpleName MethodInvocation SimpleName lost
+task id SimpleName MethodInvocation SimpleName launch failed msg
+optional SimpleName MethodInvocation MethodInvocation SimpleName lost
+of SimpleName MethodInvocation MethodInvocation SimpleName lost
+pending SimpleName MethodInvocation MethodInvocation SimpleName lost
+optional SimpleName MethodInvocation MethodInvocation SimpleName launch failed msg
+of SimpleName MethodInvocation MethodInvocation SimpleName launch failed msg
+pending SimpleName MethodInvocation MethodInvocation SimpleName launch failed msg
+lost SimpleName MethodInvocation SimpleName launch failed msg
+final Modifier VariableDeclarationStatement Block ReturnStatement QualifiedName task scheduler resultsuccess
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName task scheduler result
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName store
+public Modifier MethodDeclaration SimpleType SimpleName task scheduler result
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName store
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName task scheduler resultsuccess
+task scheduler result SimpleName SimpleType MethodDeclaration SimpleName apply
+task scheduler result SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName store
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutable store provider
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName store
+apply SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+apply SimpleName MethodDeclaration Block ReturnStatement QualifiedName task scheduler resultsuccess
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName task scheduler result
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName task scheduler result
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName store

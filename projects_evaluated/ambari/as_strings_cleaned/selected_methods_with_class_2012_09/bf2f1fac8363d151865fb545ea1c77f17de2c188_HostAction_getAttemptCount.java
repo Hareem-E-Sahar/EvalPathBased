@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get attempt count
+short PrimitiveType MethodDeclaration SimpleName get attempt count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attempt count
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attempt count

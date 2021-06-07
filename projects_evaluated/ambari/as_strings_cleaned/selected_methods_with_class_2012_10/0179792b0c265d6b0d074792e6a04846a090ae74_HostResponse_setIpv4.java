@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ipv
+ipv SimpleName FieldAccess Assignment SimpleName ipv
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set ipv
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ipv
+void PrimitiveType MethodDeclaration SimpleName set ipv
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ipv
+set ipv SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set ipv SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ipv
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set ipv
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ipv
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set ipv
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ipv

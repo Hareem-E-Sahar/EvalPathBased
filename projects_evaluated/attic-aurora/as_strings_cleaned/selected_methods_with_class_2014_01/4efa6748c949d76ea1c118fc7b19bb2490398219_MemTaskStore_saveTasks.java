@@ -1,0 +1,98 @@
+timed SimpleName SingleMemberAnnotation StringLiteral mem storage save tasks
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+set SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new tasks
+i scheduled task SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName new tasks
+check not null SimpleName MethodInvocation SimpleName new tasks
+tasks SimpleName MethodInvocation SimpleName ids
+tasks SimpleName MethodInvocation SimpleName new tasks
+ids SimpleName MethodInvocation SimpleName new tasks
+tasks SimpleName MethodInvocation MethodInvocation SimpleName size
+ids SimpleName MethodInvocation MethodInvocation SimpleName size
+new tasks SimpleName MethodInvocation MethodInvocation SimpleName size
+new tasks SimpleName MethodInvocation SimpleName size
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new tasks
+size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+preconditions SimpleName MethodInvocation SimpleName check state
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new tasks
+preconditions SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+preconditions SimpleName MethodInvocation StringLiteral proposed new tasks would create task id collision
+check state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+check state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName new tasks
+check state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+check state SimpleName MethodInvocation StringLiteral proposed new tasks would create task id collision
+size SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral proposed new tasks would create task id collision
+new tasks SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral proposed new tasks would create task id collision
+size SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral proposed new tasks would create task id collision
+iterable SimpleName SimpleType ParameterizedType SimpleType SimpleName task
+iterables SimpleName MethodInvocation SimpleName transform
+iterables SimpleName MethodInvocation SimpleName new tasks
+iterables SimpleName MethodInvocation SimpleName to task
+transform SimpleName MethodInvocation SimpleName new tasks
+transform SimpleName MethodInvocation SimpleName to task
+new tasks SimpleName MethodInvocation SimpleName to task
+canonicalized SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterables
+canonicalized SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+canonicalized SimpleName VariableDeclarationFragment MethodInvocation SimpleName new tasks
+canonicalized SimpleName VariableDeclarationFragment MethodInvocation SimpleName to task
+maps SimpleName MethodInvocation SimpleName unique index
+maps SimpleName MethodInvocation SimpleName canonicalized
+maps SimpleName MethodInvocation SimpleName to id
+unique index SimpleName MethodInvocation SimpleName canonicalized
+unique index SimpleName MethodInvocation SimpleName to id
+canonicalized SimpleName MethodInvocation SimpleName to id
+tasks SimpleName MethodInvocation SimpleName put all
+tasks SimpleName MethodInvocation MethodInvocation SimpleName maps
+tasks SimpleName MethodInvocation MethodInvocation SimpleName unique index
+tasks SimpleName MethodInvocation MethodInvocation SimpleName canonicalized
+tasks SimpleName MethodInvocation MethodInvocation SimpleName to id
+put all SimpleName MethodInvocation MethodInvocation SimpleName maps
+put all SimpleName MethodInvocation MethodInvocation SimpleName unique index
+put all SimpleName MethodInvocation MethodInvocation SimpleName canonicalized
+put all SimpleName MethodInvocation MethodInvocation SimpleName to id
+secondary index SimpleName SimpleType ParameterizedType WildcardType ?
+secondary index SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName index
+? WildcardType ParameterizedType SingleVariableDeclaration SimpleName index
+index SimpleName MethodInvocation SimpleName insert
+index SimpleName MethodInvocation SimpleName canonicalized
+insert SimpleName MethodInvocation SimpleName canonicalized
+? WildcardType ParameterizedType SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+index SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName secondary indices
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+mem storage save tasks StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+mem storage save tasks StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+mem storage save tasks StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+timed SimpleName SingleMemberAnnotation MethodDeclaration SimpleName save tasks
+mem storage save tasks StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName save tasks
+timed SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new tasks
+mem storage save tasks StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new tasks
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName save tasks
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName new tasks
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName save tasks
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new tasks
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName secondary indices
+void PrimitiveType MethodDeclaration SimpleName save tasks
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new tasks
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName secondary indices
+save tasks SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new tasks
+save tasks SimpleName MethodDeclaration Block EnhancedForStatement SimpleName secondary indices
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage save tasks
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName save tasks
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new tasks
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral mem storage save tasks
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName save tasks
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new tasks

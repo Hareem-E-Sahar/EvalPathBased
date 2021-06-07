@@ -1,0 +1,51 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component cluster name property id
+get SimpleName MethodInvocation SimpleName host component cluster name property id
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName host component cluster name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component service name property id
+get SimpleName MethodInvocation SimpleName host component service name property id
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName host component service name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component component name property id
+get SimpleName MethodInvocation SimpleName host component component name property id
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName host component component name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component host name property id
+get SimpleName MethodInvocation SimpleName host component host name property id
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName host component host name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component state property id
+get SimpleName MethodInvocation SimpleName host component state property id
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName host component state property id
+private Modifier MethodDeclaration SimpleType SimpleName service component host request
+private Modifier MethodDeclaration SimpleName get request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties
+service component host request SimpleName SimpleType MethodDeclaration SimpleName get request
+service component host request SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName properties
+get request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service component host request
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service component host request
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties

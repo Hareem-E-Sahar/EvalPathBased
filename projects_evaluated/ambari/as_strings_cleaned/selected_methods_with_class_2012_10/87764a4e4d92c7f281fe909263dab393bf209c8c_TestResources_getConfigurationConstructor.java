@@ -1,0 +1,17 @@
+constructor SimpleName SimpleType ParameterizedType SimpleType SimpleName configuration
+configuration SimpleName SimpleType TypeLiteral MethodInvocation SimpleName get constructor
+get constructor SimpleName MethodInvocation TypeLiteral SimpleType SimpleName properties
+no such method exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral expected constructor not found in configurationjava
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+expected constructor not found in configurationjava StringLiteral ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName constructor
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName configuration
+protected Modifier MethodDeclaration SimpleName get configuration constructor
+constructor SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configuration constructor
+configuration SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configuration constructor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configuration constructor
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configuration constructor

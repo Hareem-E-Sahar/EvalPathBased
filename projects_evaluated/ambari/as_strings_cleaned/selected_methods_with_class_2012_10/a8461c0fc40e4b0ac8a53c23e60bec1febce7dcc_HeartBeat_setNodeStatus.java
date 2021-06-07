@@ -1,0 +1,20 @@
+host status SimpleName SimpleType SingleVariableDeclaration SimpleName node status
+node status SimpleName FieldAccess Assignment SimpleName node status
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set node status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host status
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node status
+void PrimitiveType MethodDeclaration SimpleName set node status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host status
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node status
+set node status SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host status
+set node status SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node status
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set node status
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node status
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set node status
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node status

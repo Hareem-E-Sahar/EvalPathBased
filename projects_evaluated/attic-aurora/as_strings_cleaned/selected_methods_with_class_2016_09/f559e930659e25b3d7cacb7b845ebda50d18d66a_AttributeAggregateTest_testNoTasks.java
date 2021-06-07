@@ -1,0 +1,47 @@
+control SimpleName MethodInvocation SimpleName replay
+aggregate SimpleName VariableDeclarationFragment MethodInvocation SimpleName aggregate
+attribute aggregate SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aggregate
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable multiset SimpleName MethodInvocation ParameterizedType SimpleType SimpleName pair
+immutable multiset SimpleName MethodInvocation ParameterizedType SimpleType SimpleName string
+immutable multiset SimpleName MethodInvocation ParameterizedType SimpleType SimpleName string
+immutable multiset SimpleName MethodInvocation SimpleName of
+pair SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+string SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+string SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+aggregate SimpleName MethodInvocation SimpleName get aggregates
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName immutable multiset
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName of
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName aggregate
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get aggregates
+immutable multiset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+immutable multiset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+assert aggregate SimpleName MethodInvocation SimpleName aggregate
+assert aggregate SimpleName MethodInvocation StringLiteral none
+assert aggregate SimpleName MethodInvocation StringLiteral also none
+assert aggregate SimpleName MethodInvocation NumberLiteral empty
+aggregate SimpleName MethodInvocation StringLiteral none
+aggregate SimpleName MethodInvocation StringLiteral also none
+aggregate SimpleName MethodInvocation NumberLiteral empty
+none StringLiteral MethodInvocation StringLiteral also none
+none StringLiteral MethodInvocation NumberLiteral empty
+also none StringLiteral MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no tasks
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no tasks
+void PrimitiveType MethodDeclaration SimpleName test no tasks
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no tasks
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no tasks

@@ -1,0 +1,40 @@
+i job configuration SimpleName SimpleType SingleVariableDeclaration SimpleName unsanitized
+sanitized cron job SimpleName SimpleType ClassInstanceCreation SimpleName unsanitized
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName sanitized cron job
+public Modifier MethodDeclaration SimpleName from unsanitized
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unsanitized
+public Modifier MethodDeclaration SimpleType SimpleName cron exception
+static Modifier MethodDeclaration SimpleType SimpleName sanitized cron job
+static Modifier MethodDeclaration SimpleName from unsanitized
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName unsanitized
+static Modifier MethodDeclaration SimpleType SimpleName cron exception
+static Modifier MethodDeclaration SimpleType QualifiedName configuration managertask description exception
+sanitized cron job SimpleName SimpleType MethodDeclaration SimpleName from unsanitized
+sanitized cron job SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unsanitized
+sanitized cron job SimpleName SimpleType MethodDeclaration SimpleType SimpleName cron exception
+sanitized cron job SimpleName SimpleType MethodDeclaration SimpleType QualifiedName configuration managertask description exception
+from unsanitized SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+from unsanitized SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unsanitized
+from unsanitized SimpleName MethodDeclaration SimpleType SimpleName cron exception
+from unsanitized SimpleName MethodDeclaration SimpleType QualifiedName configuration managertask description exception
+unsanitized SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName cron exception
+unsanitized SimpleName SingleVariableDeclaration MethodDeclaration SimpleType QualifiedName configuration managertask description exception
+cron exception SimpleName SimpleType MethodDeclaration SimpleType QualifiedName configuration managertask description exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sanitized cron job
+public Modifier TypeDeclaration MethodDeclaration SimpleName from unsanitized
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unsanitized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName configuration managertask description exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sanitized cron job
+test SimpleName TypeDeclaration MethodDeclaration SimpleName from unsanitized
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unsanitized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName configuration managertask description exception

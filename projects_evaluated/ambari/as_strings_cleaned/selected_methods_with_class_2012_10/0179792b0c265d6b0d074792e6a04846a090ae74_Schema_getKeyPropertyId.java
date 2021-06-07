@@ -1,0 +1,18 @@
+resourcetype QualifiedName SimpleType SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName property id
+public Modifier MethodDeclaration SimpleName get key property id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+property id SimpleName SimpleType MethodDeclaration SimpleName get key property id
+property id SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get key property id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName resourcetype
+get key property id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName property id
+public Modifier TypeDeclaration MethodDeclaration SimpleName get key property id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName property id
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get key property id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

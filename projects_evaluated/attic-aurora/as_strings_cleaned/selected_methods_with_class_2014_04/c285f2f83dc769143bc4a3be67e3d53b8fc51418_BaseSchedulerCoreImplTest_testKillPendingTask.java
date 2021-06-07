@@ -1,0 +1,106 @@
+expect no cron job SimpleName MethodInvocation SimpleName key a
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert task count SimpleName MethodInvocation NumberLiteral empty
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName i scheduled task
+query SimpleName MethodInvocation SimpleName job scoped
+query SimpleName MethodInvocation SimpleName key a
+job scoped SimpleName MethodInvocation SimpleName key a
+storageutil QualifiedName MethodInvocation SimpleName consistent fetch tasks
+storageutil QualifiedName MethodInvocation SimpleName storage
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName query
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName job scoped
+storageutil QualifiedName MethodInvocation MethodInvocation SimpleName key a
+consistent fetch tasks SimpleName MethodInvocation SimpleName storage
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName job scoped
+consistent fetch tasks SimpleName MethodInvocation MethodInvocation SimpleName key a
+storage SimpleName MethodInvocation MethodInvocation SimpleName query
+storage SimpleName MethodInvocation MethodInvocation SimpleName job scoped
+storage SimpleName MethodInvocation MethodInvocation SimpleName key a
+tasks SimpleName VariableDeclarationFragment MethodInvocation QualifiedName storageutil
+tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName consistent fetch tasks
+tasks SimpleName VariableDeclarationFragment MethodInvocation SimpleName storage
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName query
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName job scoped
+tasks SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key a
+tasks SimpleName MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName tasks
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName tasks
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+iterables SimpleName MethodInvocation SimpleName get
+iterables SimpleName MethodInvocation SimpleName tasks
+iterables SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation SimpleName tasks
+get SimpleName MethodInvocation NumberLiteral empty
+tasks SimpleName MethodInvocation NumberLiteral empty
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName iterables
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get
+tasks SimpleName MethodInvocation MethodInvocation SimpleName tasks
+tasks SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+id SimpleName MethodInvocation MethodInvocation SimpleName iterables
+id SimpleName MethodInvocation MethodInvocation SimpleName get
+id SimpleName MethodInvocation MethodInvocation SimpleName tasks
+id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName iterables
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+query SimpleName MethodInvocation SimpleName task scoped
+query SimpleName MethodInvocation SimpleName task id
+task scoped SimpleName MethodInvocation SimpleName task id
+owner a SimpleName MethodInvocation SimpleName get user
+scheduler SimpleName MethodInvocation SimpleName kill tasks
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName query
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName task scoped
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName task id
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName owner a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName get user
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName query
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName task scoped
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName task id
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName owner a
+kill tasks SimpleName MethodInvocation MethodInvocation SimpleName get user
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+query SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+task scoped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+task scoped SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName owner a
+task id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user
+assert task count SimpleName MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test kill pending task
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test kill pending task
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test kill pending task
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test kill pending task SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test kill pending task
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test kill pending task
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

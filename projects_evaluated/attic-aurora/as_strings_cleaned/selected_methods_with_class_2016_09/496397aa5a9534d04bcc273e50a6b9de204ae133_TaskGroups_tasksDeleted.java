@@ -1,0 +1,77 @@
+tasks deleted SimpleName SimpleType SingleVariableDeclaration SimpleName deleted
+i assigned task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+deleted SimpleName MethodInvocation SimpleName get tasks
+i scheduled task SimpleName ExpressionMethodReference SimpleName get assigned task
+iterables SimpleName MethodInvocation SimpleName transform
+iterables SimpleName MethodInvocation MethodInvocation SimpleName deleted
+iterables SimpleName MethodInvocation MethodInvocation SimpleName get tasks
+iterables SimpleName MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+iterables SimpleName MethodInvocation ExpressionMethodReference SimpleName get assigned task
+transform SimpleName MethodInvocation MethodInvocation SimpleName deleted
+transform SimpleName MethodInvocation MethodInvocation SimpleName get tasks
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+transform SimpleName MethodInvocation ExpressionMethodReference SimpleName get assigned task
+deleted SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+deleted SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get assigned task
+get tasks SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName i scheduled task
+get tasks SimpleName MethodInvocation MethodInvocation ExpressionMethodReference SimpleName get assigned task
+task SimpleName MethodInvocation SimpleName get task
+task group key SimpleName MethodInvocation SimpleName from
+task group key SimpleName MethodInvocation MethodInvocation SimpleName task
+task group key SimpleName MethodInvocation MethodInvocation SimpleName get task
+from SimpleName MethodInvocation MethodInvocation SimpleName task
+from SimpleName MethodInvocation MethodInvocation SimpleName get task
+groups SimpleName MethodInvocation SimpleName get
+groups SimpleName MethodInvocation MethodInvocation SimpleName task group key
+groups SimpleName MethodInvocation MethodInvocation SimpleName from
+groups SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+groups SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+get SimpleName MethodInvocation MethodInvocation SimpleName task group key
+get SimpleName MethodInvocation MethodInvocation SimpleName from
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName groups
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task group key
+group SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName from
+task group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group
+task SimpleName MethodInvocation SimpleName get task id
+group SimpleName MethodInvocation SimpleName remove
+group SimpleName MethodInvocation MethodInvocation SimpleName task
+group SimpleName MethodInvocation MethodInvocation SimpleName get task id
+remove SimpleName MethodInvocation MethodInvocation SimpleName task
+remove SimpleName MethodInvocation MethodInvocation SimpleName get task id
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName iterables
+task SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName transform
+subscribe SimpleName MarkerAnnotation MethodDeclaration Modifier public
+subscribe SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+subscribe SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+subscribe SimpleName MarkerAnnotation MethodDeclaration SimpleName tasks deleted
+subscribe SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName deleted
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName tasks deleted
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tasks deleted
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName deleted
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName tasks deleted
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tasks deleted
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName deleted
+void PrimitiveType MethodDeclaration SimpleName tasks deleted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tasks deleted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName deleted
+tasks deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tasks deleted
+tasks deleted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deleted
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName tasks deleted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tasks deleted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deleted

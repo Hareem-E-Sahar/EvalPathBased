@@ -1,0 +1,104 @@
+timed SimpleName SingleMemberAnnotation StringLiteral db storage write operation
+e SimpleName TypeParameter SimpleType SimpleName exception
+mutate work SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+mutate work SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+t SimpleName SimpleType ParameterizedType SimpleType SimpleName e
+mutate work SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName work
+t SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName work
+e SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName work
+t SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+session factory SimpleName MethodInvocation SimpleName open session
+session factory SimpleName MethodInvocation BooleanLiteral false
+open session SimpleName MethodInvocation BooleanLiteral false
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName session factory
+session SimpleName VariableDeclarationFragment MethodInvocation SimpleName open session
+session SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+sql session SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName session
+work SimpleName MethodInvocation SimpleName apply
+work SimpleName MethodInvocation SimpleName store provider
+apply SimpleName MethodInvocation SimpleName store provider
+result SimpleName Assignment MethodInvocation SimpleName work
+result SimpleName Assignment MethodInvocation SimpleName apply
+result SimpleName Assignment MethodInvocation SimpleName store provider
+session SimpleName MethodInvocation SimpleName commit
+persistence exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+storage exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+storage exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+storage exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get message SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+post transaction work SimpleName MethodInvocation SimpleName flush
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+db storage write operation StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName override
+timed SimpleName SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName transactional
+db storage write operation StringLiteral SingleMemberAnnotation MethodDeclaration MarkerAnnotation SimpleName transactional
+timed SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+db storage write operation StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+timed SimpleName SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName t
+db storage write operation StringLiteral SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName t
+timed SimpleName SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName e
+db storage write operation StringLiteral SingleMemberAnnotation MethodDeclaration TypeParameter SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration MarkerAnnotation SimpleName transactional
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName e
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+transactional SimpleName MarkerAnnotation MethodDeclaration Modifier public
+transactional SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName t
+transactional SimpleName MarkerAnnotation MethodDeclaration TypeParameter SimpleName e
+transactional SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName t
+transactional SimpleName MarkerAnnotation MethodDeclaration SimpleName write
+public Modifier MethodDeclaration TypeParameter SimpleName t
+public Modifier MethodDeclaration TypeParameter SimpleName e
+public Modifier MethodDeclaration TypeParameter SimpleType SimpleName exception
+public Modifier MethodDeclaration SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName write
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName work
+t SimpleName TypeParameter MethodDeclaration TypeParameter SimpleName e
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+t SimpleName TypeParameter MethodDeclaration SimpleName write
+t SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName work
+t SimpleName TypeParameter MethodDeclaration SimpleType SimpleName storage exception
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName t
+e SimpleName TypeParameter MethodDeclaration SimpleName write
+exception SimpleName SimpleType TypeParameter MethodDeclaration SimpleName write
+e SimpleName TypeParameter MethodDeclaration SingleVariableDeclaration SimpleName work
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName storage exception
+e SimpleName TypeParameter MethodDeclaration SimpleType SimpleName e
+t SimpleName SimpleType MethodDeclaration SimpleName write
+t SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName work
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName storage exception
+t SimpleName SimpleType MethodDeclaration SimpleType SimpleName e
+write SimpleName MethodDeclaration SingleVariableDeclaration SimpleName work
+write SimpleName MethodDeclaration SimpleType SimpleName storage exception
+write SimpleName MethodDeclaration SimpleType SimpleName e
+write SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+work SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName storage exception
+work SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName e
+storage exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral db storage write operation
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName transactional
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+public Modifier TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SimpleName write
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName storage exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName timed
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral db storage write operation
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName transactional
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration TypeParameter SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName work
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName storage exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName e

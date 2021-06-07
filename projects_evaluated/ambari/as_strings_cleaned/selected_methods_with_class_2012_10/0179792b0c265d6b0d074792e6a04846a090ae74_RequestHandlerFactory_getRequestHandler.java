@@ -1,0 +1,31 @@
+requesttype QualifiedName SimpleType SingleVariableDeclaration SimpleName request type
+unsupported request type StringLiteral InfixExpression SimpleName request type
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unsupported request type
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName request type
+request type SimpleName SwitchStatement SwitchCase SimpleName get
+request type SimpleName SwitchStatement SwitchCase SimpleName put
+request type SimpleName SwitchStatement SwitchCase SimpleName post
+get SimpleName SwitchCase SwitchStatement SwitchCase SimpleName put
+get SimpleName SwitchCase SwitchStatement SwitchCase SimpleName post
+put SimpleName SwitchCase SwitchStatement SwitchCase SimpleName post
+put SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete
+post SimpleName SwitchCase SwitchStatement SwitchCase SimpleName delete
+public Modifier MethodDeclaration SimpleType SimpleName request handler
+public Modifier MethodDeclaration SimpleName get request handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName requesttype
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request type
+public Modifier MethodDeclaration Block SwitchStatement SimpleName request type
+request handler SimpleName SimpleType MethodDeclaration SimpleName get request handler
+request handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request type
+get request handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName requesttype
+get request handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request type
+get request handler SimpleName MethodDeclaration Block SwitchStatement SimpleName request type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName request handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName request handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request type

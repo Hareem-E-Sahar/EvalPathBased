@@ -1,0 +1,70 @@
+properties SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName properties
+properties SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation SimpleName ambari conf var
+get property SimpleName MethodInvocation SimpleName ambari conf var
+conf dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+conf dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+conf dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName ambari conf var
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName conf dir
+system SimpleName MethodInvocation SimpleName getenv
+system SimpleName MethodInvocation SimpleName ambari conf var
+getenv SimpleName MethodInvocation SimpleName ambari conf var
+conf dir SimpleName Assignment MethodInvocation SimpleName system
+conf dir SimpleName Assignment MethodInvocation SimpleName getenv
+conf dir SimpleName Assignment MethodInvocation SimpleName ambari conf var
+conf dir SimpleName Assignment StringLiteral etcambari
+conf dir SimpleName InfixExpression StringLiteral /
+conf dir SimpleName InfixExpression SimpleName config file
+/ StringLiteral InfixExpression SimpleName config file
+filename SimpleName VariableDeclarationFragment InfixExpression SimpleName conf dir
+filename SimpleName VariableDeclarationFragment InfixExpression StringLiteral /
+filename SimpleName VariableDeclarationFragment InfixExpression SimpleName config file
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filename
+file input stream SimpleName SimpleType ClassInstanceCreation SimpleName filename
+properties SimpleName MethodInvocation SimpleName load
+properties SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file input stream
+properties SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+load SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName file input stream
+load SimpleName MethodInvocation ClassInstanceCreation SimpleName filename
+file not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName fnf
+no configuration file StringLiteral InfixExpression SimpleName filename
+no configuration file StringLiteral InfixExpression StringLiteral found
+filename SimpleName InfixExpression StringLiteral found
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral no configuration file
+log SimpleName MethodInvocation InfixExpression SimpleName filename
+log SimpleName MethodInvocation InfixExpression StringLiteral found
+log SimpleName MethodInvocation SimpleName fnf
+info SimpleName MethodInvocation InfixExpression StringLiteral no configuration file
+info SimpleName MethodInvocation InfixExpression SimpleName filename
+info SimpleName MethodInvocation InfixExpression StringLiteral found
+info SimpleName MethodInvocation SimpleName fnf
+no configuration file StringLiteral InfixExpression MethodInvocation SimpleName fnf
+filename SimpleName InfixExpression MethodInvocation SimpleName fnf
+found StringLiteral InfixExpression MethodInvocation SimpleName fnf
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ie
+cant read configuration file StringLiteral InfixExpression SimpleName filename
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cant read configuration file
+illegal argument exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName filename
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName ie
+cant read configuration file StringLiteral InfixExpression ClassInstanceCreation SimpleName ie
+filename SimpleName InfixExpression ClassInstanceCreation SimpleName ie
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName properties
+private Modifier MethodDeclaration SimpleName read config file
+private Modifier MethodDeclaration Block ReturnStatement SimpleName properties
+static Modifier MethodDeclaration SimpleType SimpleName properties
+static Modifier MethodDeclaration SimpleName read config file
+static Modifier MethodDeclaration Block ReturnStatement SimpleName properties
+properties SimpleName SimpleType MethodDeclaration SimpleName read config file
+read config file SimpleName MethodDeclaration Block ReturnStatement SimpleName properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+public Modifier TypeDeclaration MethodDeclaration SimpleName read config file
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read config file

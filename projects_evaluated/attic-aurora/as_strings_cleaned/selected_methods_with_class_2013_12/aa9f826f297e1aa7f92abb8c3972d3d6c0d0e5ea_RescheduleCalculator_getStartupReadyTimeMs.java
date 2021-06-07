@@ -1,0 +1,40 @@
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+settingsmax startup reschedule delay QualifiedName MethodInvocation SimpleName as
+settingsmax startup reschedule delay QualifiedName MethodInvocation QualifiedName timemilliseconds
+as SimpleName MethodInvocation QualifiedName timemilliseconds
+random SimpleName MethodInvocation SimpleName next int
+random SimpleName MethodInvocation MethodInvocation QualifiedName settingsmax startup reschedule delay
+random SimpleName MethodInvocation MethodInvocation SimpleName as
+random SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+next int SimpleName MethodInvocation MethodInvocation QualifiedName settingsmax startup reschedule delay
+next int SimpleName MethodInvocation MethodInvocation SimpleName as
+next int SimpleName MethodInvocation MethodInvocation QualifiedName timemilliseconds
+get task ready timestamp SimpleName MethodInvocation SimpleName task
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get task ready timestamp
+random SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName task
+next int SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get task ready timestamp
+next int SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName task
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType long
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get startup ready time ms
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get startup ready time ms
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+long PrimitiveType MethodDeclaration SimpleName get startup ready time ms
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName task
+get startup ready time ms SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+get startup ready time ms SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get startup ready time ms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get startup ready time ms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

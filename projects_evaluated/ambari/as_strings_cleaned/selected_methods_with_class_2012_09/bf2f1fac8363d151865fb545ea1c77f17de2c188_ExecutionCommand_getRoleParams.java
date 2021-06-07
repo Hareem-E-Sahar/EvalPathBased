@@ -1,0 +1,17 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get role params
+public Modifier MethodDeclaration Block ReturnStatement SimpleName role params
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get role params
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get role params
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get role params
+get role params SimpleName MethodDeclaration Block ReturnStatement SimpleName role params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get role params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get role params

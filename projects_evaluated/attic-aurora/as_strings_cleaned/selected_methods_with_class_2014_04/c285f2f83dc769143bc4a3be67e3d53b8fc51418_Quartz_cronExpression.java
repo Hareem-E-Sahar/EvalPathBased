@@ -1,0 +1,181 @@
+crontab entry SimpleName SimpleType SingleVariableDeclaration SimpleName entry
+time zone SimpleName SimpleType SingleVariableDeclaration SimpleName time zone
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName day of month
+entry SimpleName MethodInvocation SimpleName has wildcard day of month
+day of month SimpleName Assignment StringLiteral ?
+entry SimpleName MethodInvocation SimpleName get day of month as string
+day of month SimpleName Assignment MethodInvocation SimpleName entry
+day of month SimpleName Assignment MethodInvocation SimpleName get day of month as string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName day of week
+entry SimpleName MethodInvocation SimpleName has wildcard day of week
+entry SimpleName MethodInvocation SimpleName has wildcard day of month
+day of week SimpleName Assignment StringLiteral ?
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+lists SimpleName MethodInvocation SimpleName new array list
+days of week SimpleName VariableDeclarationFragment MethodInvocation SimpleName lists
+days of week SimpleName VariableDeclarationFragment MethodInvocation SimpleName new array list
+range SimpleName SimpleType ParameterizedType SimpleType SimpleName integer
+range SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName range
+integer SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName range
+entry SimpleName MethodInvocation SimpleName get day of week
+entry SimpleName MethodInvocation MethodInvocation SimpleName as ranges
+get day of week SimpleName MethodInvocation MethodInvocation SimpleName as ranges
+int PrimitiveType SingleVariableDeclaration SimpleName i
+discrete domain SimpleName MethodInvocation SimpleName integers
+contiguous set SimpleName MethodInvocation SimpleName create
+contiguous set SimpleName MethodInvocation SimpleName range
+contiguous set SimpleName MethodInvocation MethodInvocation SimpleName discrete domain
+contiguous set SimpleName MethodInvocation MethodInvocation SimpleName integers
+create SimpleName MethodInvocation SimpleName range
+create SimpleName MethodInvocation MethodInvocation SimpleName discrete domain
+create SimpleName MethodInvocation MethodInvocation SimpleName integers
+range SimpleName MethodInvocation MethodInvocation SimpleName discrete domain
+range SimpleName MethodInvocation MethodInvocation SimpleName integers
+i SimpleName InfixExpression NumberLiteral empty
+days of week SimpleName MethodInvocation SimpleName add
+days of week SimpleName MethodInvocation InfixExpression SimpleName i
+days of week SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add SimpleName MethodInvocation InfixExpression SimpleName i
+add SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName contiguous set
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName create
+int PrimitiveType SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName range
+i SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName contiguous set
+i SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName create
+i SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName range
+range SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName as ranges
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation StringLiteral empty
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+empty StringLiteral MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation SimpleName days of week
+on SimpleName MethodInvocation MethodInvocation SimpleName days of week
+empty StringLiteral MethodInvocation MethodInvocation SimpleName days of week
+join SimpleName MethodInvocation SimpleName days of week
+day of week SimpleName Assignment MethodInvocation MethodInvocation SimpleName joiner
+day of week SimpleName Assignment MethodInvocation MethodInvocation SimpleName on
+day of week SimpleName Assignment MethodInvocation MethodInvocation StringLiteral empty
+day of week SimpleName Assignment MethodInvocation SimpleName join
+day of week SimpleName Assignment MethodInvocation SimpleName days of week
+joiner SimpleName MethodInvocation SimpleName on
+joiner SimpleName MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation StringLiteral empty
+entry SimpleName MethodInvocation SimpleName get minute as string
+entry SimpleName MethodInvocation SimpleName get hour as string
+entry SimpleName MethodInvocation SimpleName get month as string
+joiner SimpleName MethodInvocation MethodInvocation SimpleName join
+on SimpleName MethodInvocation MethodInvocation SimpleName join
+empty StringLiteral MethodInvocation MethodInvocation SimpleName join
+joiner SimpleName MethodInvocation MethodInvocation StringLiteral empty
+on SimpleName MethodInvocation MethodInvocation StringLiteral empty
+empty StringLiteral MethodInvocation MethodInvocation StringLiteral empty
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get minute as string
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get minute as string
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get minute as string
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+joiner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hour as string
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+on SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hour as string
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get hour as string
+joiner SimpleName MethodInvocation MethodInvocation SimpleName day of month
+on SimpleName MethodInvocation MethodInvocation SimpleName day of month
+empty StringLiteral MethodInvocation MethodInvocation SimpleName day of month
+join SimpleName MethodInvocation StringLiteral empty
+join SimpleName MethodInvocation MethodInvocation SimpleName entry
+join SimpleName MethodInvocation MethodInvocation SimpleName get minute as string
+join SimpleName MethodInvocation MethodInvocation SimpleName entry
+join SimpleName MethodInvocation MethodInvocation SimpleName get hour as string
+join SimpleName MethodInvocation SimpleName day of month
+join SimpleName MethodInvocation MethodInvocation SimpleName entry
+join SimpleName MethodInvocation MethodInvocation SimpleName get month as string
+empty StringLiteral MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get minute as string
+empty StringLiteral MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get hour as string
+empty StringLiteral MethodInvocation SimpleName day of month
+empty StringLiteral MethodInvocation MethodInvocation SimpleName entry
+empty StringLiteral MethodInvocation MethodInvocation SimpleName get month as string
+empty StringLiteral MethodInvocation SimpleName day of week
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hour as string
+get minute as string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get minute as string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get hour as string
+entry SimpleName MethodInvocation MethodInvocation SimpleName day of month
+get minute as string SimpleName MethodInvocation MethodInvocation SimpleName day of month
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get month as string
+get minute as string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get minute as string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get month as string
+entry SimpleName MethodInvocation MethodInvocation SimpleName day of week
+get minute as string SimpleName MethodInvocation MethodInvocation SimpleName day of week
+entry SimpleName MethodInvocation MethodInvocation SimpleName day of month
+get hour as string SimpleName MethodInvocation MethodInvocation SimpleName day of month
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+entry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get month as string
+get hour as string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName entry
+get hour as string SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get month as string
+entry SimpleName MethodInvocation MethodInvocation SimpleName day of week
+get hour as string SimpleName MethodInvocation MethodInvocation SimpleName day of week
+day of month SimpleName MethodInvocation MethodInvocation SimpleName entry
+day of month SimpleName MethodInvocation MethodInvocation SimpleName get month as string
+day of month SimpleName MethodInvocation SimpleName day of week
+entry SimpleName MethodInvocation MethodInvocation SimpleName day of week
+get month as string SimpleName MethodInvocation MethodInvocation SimpleName day of week
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName joiner
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName on
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral empty
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation SimpleName join
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get minute as string
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hour as string
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation SimpleName day of month
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get month as string
+raw cron expresion SimpleName VariableDeclarationFragment MethodInvocation SimpleName day of week
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName raw cron expresion
+cron expression SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cron expression
+cron expression SimpleName SimpleType ClassInstanceCreation SimpleName raw cron expresion
+cron expression SimpleName Assignment ClassInstanceCreation SimpleType SimpleName cron expression
+cron expression SimpleName Assignment ClassInstanceCreation SimpleName raw cron expresion
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+throwables SimpleName MethodInvocation SimpleName propagate
+throwables SimpleName MethodInvocation SimpleName e
+propagate SimpleName MethodInvocation SimpleName e
+cron expression SimpleName MethodInvocation SimpleName set time zone
+cron expression SimpleName MethodInvocation SimpleName time zone
+set time zone SimpleName MethodInvocation SimpleName time zone
+static Modifier MethodDeclaration SimpleType SimpleName cron expression
+static Modifier MethodDeclaration SimpleName cron expression
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crontab entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName entry
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time zone
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName time zone
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cron expression
+cron expression SimpleName SimpleType MethodDeclaration SimpleName cron expression
+cron expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName entry
+cron expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName time zone
+cron expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName crontab entry
+cron expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName entry
+cron expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName time zone
+cron expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time zone
+cron expression SimpleName MethodDeclaration Block ReturnStatement SimpleName cron expression
+entry SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time zone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cron expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName cron expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time zone
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cron expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cron expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time zone

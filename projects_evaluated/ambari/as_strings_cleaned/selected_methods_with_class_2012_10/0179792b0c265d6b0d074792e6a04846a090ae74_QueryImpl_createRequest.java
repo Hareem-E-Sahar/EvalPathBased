@@ -1,0 +1,39 @@
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName string
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+m map query properties SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+group SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+entry SimpleName MethodInvocation SimpleName get value
+property id impl SimpleName SimpleType ClassInstanceCreation SimpleName property
+property id impl SimpleName SimpleType ClassInstanceCreation SimpleName group
+property id impl SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+property SimpleName ClassInstanceCreation SimpleName group
+property SimpleName ClassInstanceCreation BooleanLiteral false
+group SimpleName ClassInstanceCreation BooleanLiteral false
+set properties SimpleName MethodInvocation SimpleName add
+set properties SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName property id impl
+set properties SimpleName MethodInvocation ClassInstanceCreation SimpleName property
+set properties SimpleName MethodInvocation ClassInstanceCreation SimpleName group
+set properties SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName property id impl
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName property
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName group
+add SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry
+property SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName m map query properties
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+request impl SimpleName SimpleType ClassInstanceCreation SimpleName set properties
+request SimpleName SimpleType MethodDeclaration SimpleName create request
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleName create request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create request

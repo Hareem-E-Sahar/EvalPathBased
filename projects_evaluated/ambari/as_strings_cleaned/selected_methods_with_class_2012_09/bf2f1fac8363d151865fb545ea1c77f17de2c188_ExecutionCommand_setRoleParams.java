@@ -1,0 +1,22 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName role params
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName role params
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName role params
+role params SimpleName FieldAccess Assignment SimpleName role params
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set role params
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName role params
+void PrimitiveType MethodDeclaration SimpleName set role params
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName role params
+set role params SimpleName MethodDeclaration SingleVariableDeclaration SimpleName role params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set role params
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set role params
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName role params

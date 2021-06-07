@@ -1,0 +1,138 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component cluster name property id
+get SimpleName MethodInvocation SimpleName host component cluster name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component service name property id
+get SimpleName MethodInvocation SimpleName host component service name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component component name property id
+get SimpleName MethodInvocation SimpleName host component component name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component host name property id
+get SimpleName MethodInvocation SimpleName host component host name property id
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName host component state property id
+get SimpleName MethodInvocation SimpleName host component state property id
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName properties
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName host component cluster name property id
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName properties
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName host component service name property id
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName properties
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName host component component name property id
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName properties
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get
+service component host request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component service name property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component service name property id
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component service name property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component component name property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component component name property id
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component component name property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component cluster name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component component name property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component component name property id
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component component name property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component service name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+host component component name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component component name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component component name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component host name property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+host component component name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component component name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component component name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+properties SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+get SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+host component host name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName properties
+host component host name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get
+host component host name property id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName host component state property id
+private Modifier MethodDeclaration SimpleType SimpleName service component host request
+private Modifier MethodDeclaration SimpleName get request
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties
+service component host request SimpleName SimpleType MethodDeclaration SimpleName get request
+service component host request SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName properties
+get request SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName service component host request
+public Modifier TypeDeclaration MethodDeclaration SimpleName get request
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName service component host request
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get request
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties

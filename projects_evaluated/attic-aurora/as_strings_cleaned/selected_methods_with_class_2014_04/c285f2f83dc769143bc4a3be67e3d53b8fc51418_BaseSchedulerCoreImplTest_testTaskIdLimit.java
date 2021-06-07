@@ -1,0 +1,64 @@
+i task config SimpleName SimpleType SingleVariableDeclaration SimpleName input
+int PrimitiveType SingleVariableDeclaration SimpleName instance count
+strings SimpleName MethodInvocation SimpleName repeat
+strings SimpleName MethodInvocation StringLiteral a
+strings SimpleName MethodInvocation QualifiedName scheduler core implmax task id length
+repeat SimpleName MethodInvocation StringLiteral a
+repeat SimpleName MethodInvocation QualifiedName scheduler core implmax task id length
+a StringLiteral MethodInvocation QualifiedName scheduler core implmax task id length
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName string
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName generate
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName input
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration PrimitiveType int
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName instance count
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName generate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName instance count
+string SimpleName SimpleType MethodDeclaration SimpleName generate
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName input
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName instance count
+generate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i task config
+generate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+generate SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+generate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance count
+input SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+input SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance count
+task id generator SimpleName Assignment ClassInstanceCreation SimpleType SimpleName task id generator
+expect no cron job SimpleName MethodInvocation SimpleName key a
+control SimpleName MethodInvocation SimpleName replay
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test task id limit
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test task id limit
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test task id limit
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test task id limit SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test task id limit
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test task id limit
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

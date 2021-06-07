@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName per service component host response
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName per service component host response
+public Modifier MethodDeclaration SimpleName get host components
+public Modifier MethodDeclaration Block ReturnStatement SimpleName host components
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get host components
+per service component host response SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get host components
+get host components SimpleName MethodDeclaration Block ReturnStatement SimpleName host components
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get host components
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get host components

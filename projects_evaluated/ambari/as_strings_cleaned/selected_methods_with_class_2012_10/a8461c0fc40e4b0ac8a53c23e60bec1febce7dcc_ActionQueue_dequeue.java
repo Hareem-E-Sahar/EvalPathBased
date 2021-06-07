@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName hostname
+queue SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+get queue SimpleName MethodInvocation SimpleName hostname
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName get queue
+q SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+q SimpleName MethodInvocation SimpleName remove
+public Modifier MethodDeclaration SimpleType SimpleName agent command
+public Modifier MethodDeclaration SimpleName dequeue
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hostname
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName q
+agent command SimpleName SimpleType MethodDeclaration SimpleName dequeue
+agent command SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hostname
+dequeue SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dequeue SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hostname
+dequeue SimpleName MethodDeclaration Block SynchronizedStatement SimpleName q
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName agent command
+public Modifier TypeDeclaration MethodDeclaration SimpleName dequeue
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName agent command
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dequeue
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hostname

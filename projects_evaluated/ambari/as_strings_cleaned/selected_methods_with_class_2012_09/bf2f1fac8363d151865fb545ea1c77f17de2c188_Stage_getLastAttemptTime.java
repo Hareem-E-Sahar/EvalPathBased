@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+get host action SimpleName MethodInvocation SimpleName host
+get host action SimpleName MethodInvocation MethodInvocation SimpleName get last attempt time
+host SimpleName MethodInvocation MethodInvocation SimpleName get last attempt time
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get last attempt time
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+long PrimitiveType MethodDeclaration SimpleName get last attempt time
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+long PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+get last attempt time SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get last attempt time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get last attempt time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get last attempt time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host

@@ -1,0 +1,109 @@
+service name SimpleName VariableDeclarationFragment StringLiteral s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral s
+service impl SimpleName SimpleType ClassInstanceCreation SimpleName cluster
+service impl SimpleName SimpleType ClassInstanceCreation SimpleName service name
+cluster SimpleName ClassInstanceCreation SimpleName service name
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service impl
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service name
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+cluster SimpleName MethodInvocation SimpleName add service
+cluster SimpleName MethodInvocation SimpleName s
+add service SimpleName MethodInvocation SimpleName s
+cluster SimpleName MethodInvocation SimpleName get service
+cluster SimpleName MethodInvocation SimpleName service name
+get service SimpleName MethodInvocation SimpleName service name
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+service SimpleName VariableDeclarationFragment MethodInvocation SimpleName service name
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service
+assert SimpleName MethodInvocation SimpleName assert not null
+assert SimpleName MethodInvocation SimpleName service
+assert not null SimpleName MethodInvocation SimpleName service
+service SimpleName MethodInvocation SimpleName get name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName service name
+assert SimpleName MethodInvocation MethodInvocation SimpleName service
+assert SimpleName MethodInvocation MethodInvocation SimpleName get name
+assert equals SimpleName MethodInvocation SimpleName service name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName service
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get name
+service name SimpleName MethodInvocation MethodInvocation SimpleName service
+service name SimpleName MethodInvocation MethodInvocation SimpleName get name
+cluster SimpleName MethodInvocation SimpleName get cluster id
+service SimpleName MethodInvocation SimpleName get cluster
+service SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName cluster
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cluster
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cluster id
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster id
+get cluster id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster id
+cluster SimpleName MethodInvocation SimpleName get cluster name
+service SimpleName MethodInvocation SimpleName get cluster
+service SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation MethodInvocation SimpleName cluster
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName cluster
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName service
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get cluster name
+cluster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster name
+get cluster name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get cluster name
+service SimpleName MethodInvocation SimpleName get desired state
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation QualifiedName stateinit
+assert SimpleName MethodInvocation MethodInvocation SimpleName service
+assert SimpleName MethodInvocation MethodInvocation SimpleName get desired state
+assert equals SimpleName MethodInvocation QualifiedName stateinit
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName service
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get desired state
+stateinit QualifiedName MethodInvocation MethodInvocation SimpleName service
+stateinit QualifiedName MethodInvocation MethodInvocation SimpleName get desired state
+service SimpleName MethodInvocation SimpleName get desired stack version
+service SimpleName MethodInvocation MethodInvocation SimpleName get stack version
+get desired stack version SimpleName MethodInvocation MethodInvocation SimpleName get stack version
+service SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+get desired stack version SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is empty
+get stack version SimpleName MethodInvocation MethodInvocation SimpleName is empty
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get stack version
+assert SimpleName MethodInvocation MethodInvocation SimpleName is empty
+assert true SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get stack version
+assert true SimpleName MethodInvocation MethodInvocation SimpleName is empty
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test create service
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create service
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration SimpleName test create service
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+test create service SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

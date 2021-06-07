@@ -1,0 +1,54 @@
+task state change SimpleName SimpleType SingleVariableDeclaration SimpleName state change
+state change SimpleName MethodInvocation SimpleName get new state
+state change SimpleName MethodInvocation InfixExpression SimpleName pending
+get new state SimpleName MethodInvocation InfixExpression SimpleName pending
+state change SimpleName MethodInvocation SimpleName get task
+state change SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+get task SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+state change SimpleName MethodInvocation SimpleName get task
+reschedule calculator SimpleName MethodInvocation SimpleName get ready time ms
+reschedule calculator SimpleName MethodInvocation MethodInvocation SimpleName state change
+reschedule calculator SimpleName MethodInvocation MethodInvocation SimpleName get task
+get ready time ms SimpleName MethodInvocation MethodInvocation SimpleName state change
+get ready time ms SimpleName MethodInvocation MethodInvocation SimpleName get task
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state change
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+add SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+add SimpleName MethodInvocation MethodInvocation SimpleName reschedule calculator
+add SimpleName MethodInvocation MethodInvocation SimpleName get ready time ms
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName state change
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName reschedule calculator
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get ready time ms
+subscribe SimpleName MarkerAnnotation MethodDeclaration Modifier public
+subscribe SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+subscribe SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+subscribe SimpleName MarkerAnnotation MethodDeclaration SimpleName task changed state
+subscribe SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName state change
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName task changed state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task state change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state change
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName task changed state
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task state change
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName state change
+void PrimitiveType MethodDeclaration SimpleName task changed state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task state change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state change
+task changed state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName task state change
+task changed state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state change
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName task changed state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state change
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName subscribe
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName task changed state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state change

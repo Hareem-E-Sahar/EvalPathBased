@@ -1,0 +1,171 @@
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName clusters
+fsm SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+clusters SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsm
+aq SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName action queue
+action queue SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aq
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName action manager
+am SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+action manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName am
+hs SimpleName VariableDeclarationFragment QualifiedName host statewaiting for host status updates
+host state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hs
+host state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName host statewaiting for host status updates
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName host
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName host
+mock SimpleName MethodInvocation TypeLiteral SimpleType SimpleName host
+host obj SimpleName VariableDeclarationFragment MethodInvocation SimpleName mock
+host SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host obj
+all hosts SimpleName MethodInvocation SimpleName add
+all hosts SimpleName MethodInvocation SimpleName host obj
+add SimpleName MethodInvocation SimpleName host obj
+fsm SimpleName MethodInvocation SimpleName get hosts
+when SimpleName MethodInvocation MethodInvocation SimpleName fsm
+when SimpleName MethodInvocation MethodInvocation SimpleName get hosts
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName all hosts
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all hosts
+get hosts SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName all hosts
+then return SimpleName MethodInvocation SimpleName all hosts
+fsm SimpleName MethodInvocation SimpleName get host
+fsm SimpleName MethodInvocation StringLiteral host
+get host SimpleName MethodInvocation StringLiteral host
+when SimpleName MethodInvocation MethodInvocation SimpleName fsm
+when SimpleName MethodInvocation MethodInvocation SimpleName get host
+when SimpleName MethodInvocation MethodInvocation StringLiteral host
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+host StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName host obj
+fsm SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host obj
+get host SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName host obj
+host StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName host obj
+then return SimpleName MethodInvocation SimpleName host obj
+host obj SimpleName MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName host obj
+when SimpleName MethodInvocation MethodInvocation SimpleName get state
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+host obj SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation SimpleName hs
+host obj SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hs
+get state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName hs
+then return SimpleName MethodInvocation SimpleName hs
+host obj SimpleName MethodInvocation SimpleName get host name
+when SimpleName MethodInvocation MethodInvocation SimpleName host obj
+when SimpleName MethodInvocation MethodInvocation SimpleName get host name
+when SimpleName MethodInvocation MethodInvocation SimpleName then return
+host obj SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName then return
+when SimpleName MethodInvocation MethodInvocation StringLiteral host
+host obj SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral host
+get host name SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral host
+then return SimpleName MethodInvocation StringLiteral host
+aq SimpleName MethodInvocation SimpleName enqueue
+aq SimpleName MethodInvocation StringLiteral host
+aq SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName execution command
+enqueue SimpleName MethodInvocation StringLiteral host
+enqueue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName execution command
+host StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName execution command
+heartbeat monitor SimpleName SimpleType ClassInstanceCreation SimpleName fsm
+heartbeat monitor SimpleName SimpleType ClassInstanceCreation SimpleName aq
+heartbeat monitor SimpleName SimpleType ClassInstanceCreation SimpleName am
+heartbeat monitor SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+fsm SimpleName ClassInstanceCreation SimpleName aq
+fsm SimpleName ClassInstanceCreation SimpleName am
+fsm SimpleName ClassInstanceCreation NumberLiteral empty
+aq SimpleName ClassInstanceCreation SimpleName am
+aq SimpleName ClassInstanceCreation NumberLiteral empty
+am SimpleName ClassInstanceCreation NumberLiteral empty
+hm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName heartbeat monitor
+hm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName fsm
+hm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName aq
+hm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName am
+hm SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+heartbeat monitor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hm
+hm SimpleName MethodInvocation SimpleName start
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation NumberLiteral empty
+sleep SimpleName MethodInvocation NumberLiteral empty
+aq SimpleName MethodInvocation SimpleName dequeue all
+aq SimpleName MethodInvocation StringLiteral host
+dequeue all SimpleName MethodInvocation StringLiteral host
+aq SimpleName MethodInvocation MethodInvocation SimpleName size
+dequeue all SimpleName MethodInvocation MethodInvocation SimpleName size
+host StringLiteral MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aq
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dequeue all
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName aq
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName dequeue all
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral host
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName am
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+am SimpleName MethodInvocation MethodInvocation SimpleName times
+am SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName handle lost host
+am SimpleName MethodInvocation MethodInvocation SimpleName handle lost host
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handle lost host
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName handle lost host
+verify SimpleName MethodInvocation MethodInvocation StringLiteral host
+am SimpleName MethodInvocation MethodInvocation StringLiteral host
+times SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral host
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral host
+handle lost host SimpleName MethodInvocation StringLiteral host
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName host obj
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+host obj SimpleName MethodInvocation MethodInvocation SimpleName times
+host obj SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+any SimpleName MethodInvocation TypeLiteral SimpleType SimpleName host event
+verify SimpleName MethodInvocation MethodInvocation SimpleName handle event
+host obj SimpleName MethodInvocation MethodInvocation SimpleName handle event
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName handle event
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName handle event
+verify SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+host obj SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any
+handle event SimpleName MethodInvocation MethodInvocation SimpleName any
+times SimpleName MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation SimpleName host obj
+verify SimpleName MethodInvocation MethodInvocation SimpleName times
+verify SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+host obj SimpleName MethodInvocation MethodInvocation SimpleName times
+host obj SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+verify SimpleName MethodInvocation MethodInvocation SimpleName set state
+host obj SimpleName MethodInvocation MethodInvocation SimpleName set state
+times SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set state
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName set state
+verify SimpleName MethodInvocation MethodInvocation QualifiedName host stateinit
+host obj SimpleName MethodInvocation MethodInvocation QualifiedName host stateinit
+times SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName host stateinit
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName host stateinit
+set state SimpleName MethodInvocation QualifiedName host stateinit
+hm SimpleName MethodInvocation SimpleName shutdown
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test heartbeat expiry
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test heartbeat expiry
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test heartbeat expiry
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test heartbeat expiry SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test heartbeat expiry
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test heartbeat expiry
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

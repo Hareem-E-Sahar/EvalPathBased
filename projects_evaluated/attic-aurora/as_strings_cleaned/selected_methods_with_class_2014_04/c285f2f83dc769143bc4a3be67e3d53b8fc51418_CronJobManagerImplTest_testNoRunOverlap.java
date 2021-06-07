@@ -1,0 +1,68 @@
+quartz test utiljob QualifiedName MethodInvocation SimpleName new builder
+quartz test utiljob QualifiedName MethodInvocation MethodInvocation SimpleName set cron collision policy
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set cron collision policy
+quartz test utiljob QualifiedName MethodInvocation MethodInvocation QualifiedName cron collision policyrun overlap
+new builder SimpleName MethodInvocation MethodInvocation QualifiedName cron collision policyrun overlap
+set cron collision policy SimpleName MethodInvocation QualifiedName cron collision policyrun overlap
+i job configuration SimpleName MethodInvocation SimpleName build
+i job configuration SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName quartz test utiljob
+i job configuration SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+i job configuration SimpleName MethodInvocation MethodInvocation SimpleName set cron collision policy
+i job configuration SimpleName MethodInvocation MethodInvocation QualifiedName cron collision policyrun overlap
+build SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName quartz test utiljob
+build SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new builder
+build SimpleName MethodInvocation MethodInvocation SimpleName set cron collision policy
+build SimpleName MethodInvocation MethodInvocation QualifiedName cron collision policyrun overlap
+sanitized cron job SimpleName MethodInvocation SimpleName from unsanitized
+sanitized cron job SimpleName MethodInvocation MethodInvocation SimpleName i job configuration
+sanitized cron job SimpleName MethodInvocation MethodInvocation SimpleName build
+sanitized cron job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set cron collision policy
+sanitized cron job SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName cron collision policyrun overlap
+from unsanitized SimpleName MethodInvocation MethodInvocation SimpleName i job configuration
+from unsanitized SimpleName MethodInvocation MethodInvocation SimpleName build
+from unsanitized SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName set cron collision policy
+from unsanitized SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName cron collision policyrun overlap
+run overlap job SimpleName VariableDeclarationFragment MethodInvocation SimpleName sanitized cron job
+run overlap job SimpleName VariableDeclarationFragment MethodInvocation SimpleName from unsanitized
+run overlap job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i job configuration
+run overlap job SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName build
+sanitized cron job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName run overlap job
+control SimpleName MethodInvocation SimpleName replay
+cron job manager SimpleName MethodInvocation SimpleName create job
+cron job manager SimpleName MethodInvocation SimpleName run overlap job
+create job SimpleName MethodInvocation SimpleName run overlap job
+cron exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+cron job manager SimpleName MethodInvocation SimpleName update job
+cron job manager SimpleName MethodInvocation SimpleName run overlap job
+update job SimpleName MethodInvocation SimpleName run overlap job
+cron exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+optional SimpleName MethodInvocation SimpleType SimpleName i job configuration
+optional SimpleName MethodInvocation SimpleName absent
+i job configuration SimpleName SimpleType MethodInvocation SimpleName absent
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName optional
+assert equals SimpleName MethodInvocation MethodInvocation SimpleType SimpleName i job configuration
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName absent
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName fetch from storage
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch from storage
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch from storage
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no run overlap
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no run overlap
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test no run overlap
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test no run overlap SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no run overlap
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no run overlap
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

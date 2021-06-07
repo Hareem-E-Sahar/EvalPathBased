@@ -1,0 +1,123 @@
+cluster name SimpleName VariableDeclarationFragment StringLiteral foo
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cluster name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral foo
+service name SimpleName VariableDeclarationFragment StringLiteral hdfs
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName service name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral hdfs
+stateinstalled QualifiedName MethodInvocation SimpleName to string
+service request SimpleName SimpleType ClassInstanceCreation SimpleName cluster name
+service request SimpleName SimpleType ClassInstanceCreation SimpleName service name
+service request SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName stateinstalled
+service request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+cluster name SimpleName ClassInstanceCreation SimpleName service name
+cluster name SimpleName ClassInstanceCreation MethodInvocation QualifiedName stateinstalled
+cluster name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+service name SimpleName ClassInstanceCreation MethodInvocation QualifiedName stateinstalled
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service request
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName stateinstalled
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+service request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+controller SimpleName MethodInvocation SimpleName update service
+controller SimpleName MethodInvocation SimpleName r
+update service SimpleName MethodInvocation SimpleName r
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName stage
+db SimpleName MethodInvocation SimpleName get all stages
+db SimpleName MethodInvocation NumberLiteral empty
+get all stages SimpleName MethodInvocation NumberLiteral empty
+stages SimpleName VariableDeclarationFragment MethodInvocation SimpleName db
+stages SimpleName VariableDeclarationFragment MethodInvocation SimpleName get all stages
+stages SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+stages SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName stages
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stages
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName stages
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+stage SimpleName SimpleType SingleVariableDeclaration SimpleName stage
+stage details for install service StringLiteral InfixExpression SimpleName stage
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral stage details for install service
+log SimpleName MethodInvocation InfixExpression SimpleName stage
+info SimpleName MethodInvocation InfixExpression StringLiteral stage details for install service
+info SimpleName MethodInvocation InfixExpression SimpleName stage
+stage SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stages
+stage SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stages
+statestarted QualifiedName MethodInvocation SimpleName to string
+service request SimpleName SimpleType ClassInstanceCreation SimpleName cluster name
+service request SimpleName SimpleType ClassInstanceCreation SimpleName service name
+service request SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName statestarted
+service request SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+cluster name SimpleName ClassInstanceCreation SimpleName service name
+cluster name SimpleName ClassInstanceCreation MethodInvocation QualifiedName statestarted
+cluster name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+service name SimpleName ClassInstanceCreation MethodInvocation QualifiedName statestarted
+service name SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName service request
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName service name
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation QualifiedName statestarted
+r SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+service request SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+controller SimpleName MethodInvocation SimpleName update service
+controller SimpleName MethodInvocation SimpleName r
+update service SimpleName MethodInvocation SimpleName r
+db SimpleName MethodInvocation SimpleName get all stages
+db SimpleName MethodInvocation NumberLiteral empty
+get all stages SimpleName MethodInvocation NumberLiteral empty
+stages SimpleName Assignment MethodInvocation SimpleName db
+stages SimpleName Assignment MethodInvocation SimpleName get all stages
+stages SimpleName Assignment MethodInvocation NumberLiteral empty
+stages SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName stages
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName stages
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName stages
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+stage SimpleName SimpleType SingleVariableDeclaration SimpleName stage
+stage details for start service StringLiteral InfixExpression SimpleName stage
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral stage details for start service
+log SimpleName MethodInvocation InfixExpression SimpleName stage
+info SimpleName MethodInvocation InfixExpression StringLiteral stage details for start service
+info SimpleName MethodInvocation InfixExpression SimpleName stage
+stage SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName stages
+stage SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName stages
+stages SimpleName EnhancedForStatement Block EnhancedForStatement SimpleName stages
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test install and start service
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test install and start service
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName stages
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName stages
+void PrimitiveType MethodDeclaration SimpleName test install and start service
+void PrimitiveType MethodDeclaration SimpleType SimpleName ambari exception
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName stages
+void PrimitiveType MethodDeclaration Block EnhancedForStatement SimpleName stages
+test install and start service SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+test install and start service SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stages
+test install and start service SimpleName MethodDeclaration Block EnhancedForStatement SimpleName stages
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test install and start service
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test install and start service
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

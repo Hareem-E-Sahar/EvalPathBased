@@ -1,0 +1,41 @@
+user entity SimpleName SimpleType SingleVariableDeclaration SimpleName user
+user SimpleName MethodInvocation SimpleName get user name
+user SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get user name SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+user SimpleName MethodInvocation SimpleName set user name
+user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+user SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user name
+user SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+set user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName user
+set user name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get user name
+set user name SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+entity manager provider SimpleName MethodInvocation SimpleName get
+entity manager provider SimpleName MethodInvocation MethodInvocation SimpleName persist
+get SimpleName MethodInvocation MethodInvocation SimpleName persist
+entity manager provider SimpleName MethodInvocation MethodInvocation SimpleName user
+get SimpleName MethodInvocation MethodInvocation SimpleName user
+persist SimpleName MethodInvocation SimpleName user
+transactional SimpleName MarkerAnnotation MethodDeclaration Modifier public
+transactional SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+transactional SimpleName MarkerAnnotation MethodDeclaration SimpleName create
+transactional SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName user
+void PrimitiveType MethodDeclaration SimpleName create
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user entity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user entity
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName transactional
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName transactional
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user

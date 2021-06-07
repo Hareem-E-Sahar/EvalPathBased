@@ -1,0 +1,124 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName request property map
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName request property map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName request property map
+predicate SimpleName SimpleType SingleVariableDeclaration SimpleName predicate
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+pk property ids SimpleName VariableDeclarationFragment MethodInvocation SimpleName get pk property ids
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+predicate helper SimpleName MethodInvocation SimpleName get property ids
+predicate helper SimpleName MethodInvocation SimpleName predicate
+get property ids SimpleName MethodInvocation SimpleName predicate
+pk property ids SimpleName MethodInvocation SimpleName equals
+pk property ids SimpleName MethodInvocation MethodInvocation SimpleName predicate helper
+pk property ids SimpleName MethodInvocation MethodInvocation SimpleName get property ids
+pk property ids SimpleName MethodInvocation MethodInvocation SimpleName predicate
+equals SimpleName MethodInvocation MethodInvocation SimpleName predicate helper
+equals SimpleName MethodInvocation MethodInvocation SimpleName get property ids
+equals SimpleName MethodInvocation MethodInvocation SimpleName predicate
+predicate SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pk property ids
+predicate SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+get properties SimpleName MethodInvocation SimpleName predicate
+predicate properties SimpleName MethodInvocation SimpleName add
+predicate properties SimpleName MethodInvocation MethodInvocation SimpleName get properties
+predicate properties SimpleName MethodInvocation MethodInvocation SimpleName predicate
+add SimpleName MethodInvocation MethodInvocation SimpleName get properties
+add SimpleName MethodInvocation MethodInvocation SimpleName predicate
+resource SimpleName SimpleType SingleVariableDeclaration SimpleName resource
+property helper SimpleName MethodInvocation SimpleName get read request
+property helper SimpleName MethodInvocation SimpleName pk property ids
+get read request SimpleName MethodInvocation SimpleName pk property ids
+get resources SimpleName MethodInvocation MethodInvocation SimpleName property helper
+get resources SimpleName MethodInvocation MethodInvocation SimpleName get read request
+get resources SimpleName MethodInvocation MethodInvocation SimpleName pk property ids
+get resources SimpleName MethodInvocation SimpleName predicate
+property helper SimpleName MethodInvocation MethodInvocation SimpleName predicate
+get read request SimpleName MethodInvocation MethodInvocation SimpleName predicate
+pk property ids SimpleName MethodInvocation MethodInvocation SimpleName predicate
+property helper SimpleName MethodInvocation SimpleName get properties
+property helper SimpleName MethodInvocation SimpleName resource
+get properties SimpleName MethodInvocation SimpleName resource
+predicate properties SimpleName MethodInvocation SimpleName add
+predicate properties SimpleName MethodInvocation MethodInvocation SimpleName property helper
+predicate properties SimpleName MethodInvocation MethodInvocation SimpleName get properties
+predicate properties SimpleName MethodInvocation MethodInvocation SimpleName resource
+add SimpleName MethodInvocation MethodInvocation SimpleName property helper
+add SimpleName MethodInvocation MethodInvocation SimpleName get properties
+add SimpleName MethodInvocation MethodInvocation SimpleName resource
+resource SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get resources
+resource SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName predicate
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName predicate property map
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName predicate property map
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName predicate property map
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+hash map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+hash map SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName request property map
+property id SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName request property map
+string SimpleName SimpleType ParameterizedType ClassInstanceCreation SimpleName request property map
+request property map SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName request property map
+property map SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName request property map
+property map SimpleName VariableDeclarationFragment ConditionalExpression ClassInstanceCreation SimpleName request property map
+set properties SimpleName MethodInvocation SimpleName property map
+set properties SimpleName MethodInvocation SimpleName predicate property map
+set properties SimpleName MethodInvocation SimpleName pk property ids
+property map SimpleName MethodInvocation SimpleName predicate property map
+property map SimpleName MethodInvocation SimpleName pk property ids
+predicate property map SimpleName MethodInvocation SimpleName pk property ids
+properties SimpleName MethodInvocation SimpleName add
+properties SimpleName MethodInvocation SimpleName property map
+add SimpleName MethodInvocation SimpleName property map
+predicate property map SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName predicate properties
+predicate properties SimpleName EnhancedForStatement Block ReturnStatement SimpleName properties
+protected Modifier MethodDeclaration ParameterizedType SimpleType SimpleName set
+protected Modifier MethodDeclaration SimpleName get property maps
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName request property map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName predicate
+protected Modifier MethodDeclaration SimpleType SimpleName ambari exception
+set SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get property maps
+get property maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request property map
+get property maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName predicate
+get property maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleName predicate
+get property maps SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+get property maps SimpleName MethodDeclaration Block EnhancedForStatement SimpleName predicate properties
+get property maps SimpleName MethodDeclaration Block ReturnStatement SimpleName properties
+request property map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+request property map SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+predicate SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property maps
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request property map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property maps
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request property map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName predicate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

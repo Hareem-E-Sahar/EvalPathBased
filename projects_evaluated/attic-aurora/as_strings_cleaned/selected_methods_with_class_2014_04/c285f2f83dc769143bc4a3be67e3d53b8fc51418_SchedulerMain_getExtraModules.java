@@ -1,0 +1,53 @@
+builder SimpleName SimpleType ParameterizedType SimpleType SimpleName module
+immutable list SimpleName MethodInvocation SimpleName builder
+modules SimpleName VariableDeclarationFragment MethodInvocation SimpleName immutable list
+modules SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+auth module SimpleName MethodInvocation SimpleName get
+modules SimpleName MethodInvocation SimpleName wrap in private module
+modules SimpleName MethodInvocation MethodInvocation SimpleName auth module
+modules SimpleName MethodInvocation MethodInvocation SimpleName get
+modules SimpleName MethodInvocation SimpleName auth module classes
+wrap in private module SimpleName MethodInvocation MethodInvocation SimpleName auth module
+wrap in private module SimpleName MethodInvocation MethodInvocation SimpleName get
+wrap in private module SimpleName MethodInvocation SimpleName auth module classes
+auth module SimpleName MethodInvocation MethodInvocation SimpleName auth module classes
+get SimpleName MethodInvocation MethodInvocation SimpleName auth module classes
+modules SimpleName MethodInvocation SimpleName add
+modules SimpleName MethodInvocation MethodInvocation SimpleName modules
+modules SimpleName MethodInvocation MethodInvocation SimpleName wrap in private module
+modules SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auth module
+modules SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+modules SimpleName MethodInvocation MethodInvocation SimpleName auth module classes
+add SimpleName MethodInvocation MethodInvocation SimpleName modules
+add SimpleName MethodInvocation MethodInvocation SimpleName wrap in private module
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName auth module
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+add SimpleName MethodInvocation MethodInvocation SimpleName auth module classes
+class SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName module class
+extra modules SimpleName MethodInvocation SimpleName get
+modules SimpleName MethodInvocation SimpleName get module
+modules SimpleName MethodInvocation SimpleName module class
+get module SimpleName MethodInvocation SimpleName module class
+modules SimpleName MethodInvocation SimpleName add
+modules SimpleName MethodInvocation MethodInvocation SimpleName modules
+modules SimpleName MethodInvocation MethodInvocation SimpleName get module
+modules SimpleName MethodInvocation MethodInvocation SimpleName module class
+add SimpleName MethodInvocation MethodInvocation SimpleName modules
+add SimpleName MethodInvocation MethodInvocation SimpleName get module
+add SimpleName MethodInvocation MethodInvocation SimpleName module class
+module class SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName extra modules
+module class SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get
+modules SimpleName MethodInvocation SimpleName build
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+private Modifier MethodDeclaration SimpleName get extra modules
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName iterable
+static Modifier MethodDeclaration SimpleName get extra modules
+iterable SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get extra modules
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get extra modules
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get extra modules

@@ -1,0 +1,24 @@
+long PrimitiveType SingleVariableDeclaration SimpleName completion time
+write lock SimpleName MethodInvocation SimpleName lock
+completion time SimpleName FieldAccess Assignment SimpleName completion time
+write lock SimpleName MethodInvocation SimpleName unlock
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set completion time
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName completion time
+void PrimitiveType MethodDeclaration SimpleName set completion time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName completion time
+set completion time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set completion time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName completion time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set completion time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName completion time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set completion time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName completion time

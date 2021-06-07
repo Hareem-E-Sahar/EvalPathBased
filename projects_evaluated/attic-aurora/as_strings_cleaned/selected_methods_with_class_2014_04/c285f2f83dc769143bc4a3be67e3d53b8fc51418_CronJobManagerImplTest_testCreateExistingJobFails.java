@@ -1,0 +1,34 @@
+expected SimpleName MemberValuePair TypeLiteral SimpleType SimpleName cron exception
+test SimpleName NormalAnnotation MemberValuePair SimpleName expected
+quartz test util SimpleName MethodInvocation SimpleName make sanitized cron job
+sanitized cron job SimpleName VariableDeclarationFragment MethodInvocation SimpleName quartz test util
+sanitized cron job SimpleName VariableDeclarationFragment MethodInvocation SimpleName make sanitized cron job
+sanitized cron job SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sanitized cron job
+control SimpleName MethodInvocation SimpleName replay
+cron job manager SimpleName MethodInvocation SimpleName create job
+cron job manager SimpleName MethodInvocation SimpleName sanitized cron job
+create job SimpleName MethodInvocation SimpleName sanitized cron job
+test SimpleName NormalAnnotation MethodDeclaration Modifier public
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration Modifier public
+test SimpleName NormalAnnotation MethodDeclaration PrimitiveType void
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration PrimitiveType void
+test SimpleName NormalAnnotation MethodDeclaration SimpleName test create existing job fails
+expected SimpleName MemberValuePair NormalAnnotation MethodDeclaration SimpleName test create existing job fails
+test SimpleName NormalAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test create existing job fails
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test create existing job fails
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test create existing job fails SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test create existing job fails
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration NormalAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test create existing job fails
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

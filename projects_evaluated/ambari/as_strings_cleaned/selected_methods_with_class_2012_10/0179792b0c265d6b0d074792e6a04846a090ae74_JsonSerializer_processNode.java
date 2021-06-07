@@ -1,0 +1,54 @@
+tree node SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+tree node SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName node
+resource SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName node
+node SimpleName MethodInvocation SimpleName get name
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+node SimpleName MethodInvocation SimpleName get object
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get object
+resource SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+node SimpleName MethodInvocation SimpleName get parent
+m generator SimpleName MethodInvocation SimpleName write start object
+write href SimpleName MethodInvocation SimpleName node
+m generator SimpleName MethodInvocation SimpleName write array field start
+m generator SimpleName MethodInvocation SimpleName name
+write array field start SimpleName MethodInvocation SimpleName name
+m generator SimpleName MethodInvocation SimpleName write start object
+write href SimpleName MethodInvocation SimpleName node
+r SimpleName MethodInvocation SimpleName get categories
+handle resource properties SimpleName MethodInvocation MethodInvocation SimpleName r
+handle resource properties SimpleName MethodInvocation MethodInvocation SimpleName get categories
+tree node SimpleName SimpleType ParameterizedType SimpleType SimpleName resource
+tree node SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName child
+resource SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName child
+node SimpleName MethodInvocation SimpleName get children
+process node SimpleName MethodInvocation SimpleName child
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName node
+child SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName get children
+m generator SimpleName MethodInvocation SimpleName write end array
+node SimpleName MethodInvocation SimpleName get parent
+m generator SimpleName MethodInvocation SimpleName write end object
+m generator SimpleName MethodInvocation SimpleName write end object
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName process node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName process node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+process node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+process node SimpleName MethodDeclaration SimpleType SimpleName io exception
+node SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

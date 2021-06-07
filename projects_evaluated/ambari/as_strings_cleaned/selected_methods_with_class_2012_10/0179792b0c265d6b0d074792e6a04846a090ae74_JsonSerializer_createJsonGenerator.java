@@ -1,0 +1,57 @@
+byte array output stream SimpleName SimpleType SingleVariableDeclaration SimpleName baos
+charset SimpleName MethodInvocation SimpleName for name
+charset SimpleName MethodInvocation StringLiteral utf
+for name SimpleName MethodInvocation StringLiteral utf
+charset SimpleName MethodInvocation MethodInvocation SimpleName new encoder
+for name SimpleName MethodInvocation MethodInvocation SimpleName new encoder
+utf StringLiteral MethodInvocation MethodInvocation SimpleName new encoder
+output stream writer SimpleName SimpleType ClassInstanceCreation SimpleName baos
+output stream writer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName new encoder
+baos SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName charset
+baos SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName for name
+baos SimpleName ClassInstanceCreation MethodInvocation MethodInvocation StringLiteral utf
+baos SimpleName ClassInstanceCreation MethodInvocation SimpleName new encoder
+m factory SimpleName MethodInvocation SimpleName create json generator
+m factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName output stream writer
+m factory SimpleName MethodInvocation ClassInstanceCreation SimpleName baos
+m factory SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName new encoder
+create json generator SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName output stream writer
+create json generator SimpleName MethodInvocation ClassInstanceCreation SimpleName baos
+create json generator SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName new encoder
+generator SimpleName VariableDeclarationFragment MethodInvocation SimpleName m factory
+generator SimpleName VariableDeclarationFragment MethodInvocation SimpleName create json generator
+generator SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName baos
+json generator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName generator
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default pretty printer
+default pretty printer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName indent arrays with
+p SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName default pretty printerlf spaces indenter
+indent arrays with SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName default pretty printerlf spaces indenter
+generator SimpleName MethodInvocation SimpleName set pretty printer
+generator SimpleName MethodInvocation SimpleName p
+set pretty printer SimpleName MethodInvocation SimpleName p
+private Modifier MethodDeclaration SimpleType SimpleName json generator
+private Modifier MethodDeclaration SimpleName create json generator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte array output stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName baos
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block ReturnStatement SimpleName generator
+json generator SimpleName SimpleType MethodDeclaration SimpleName create json generator
+json generator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName baos
+json generator SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create json generator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName byte array output stream
+create json generator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName baos
+create json generator SimpleName MethodDeclaration SimpleType SimpleName io exception
+create json generator SimpleName MethodDeclaration Block ReturnStatement SimpleName generator
+baos SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName json generator
+public Modifier TypeDeclaration MethodDeclaration SimpleName create json generator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName baos
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName json generator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create json generator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName baos
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

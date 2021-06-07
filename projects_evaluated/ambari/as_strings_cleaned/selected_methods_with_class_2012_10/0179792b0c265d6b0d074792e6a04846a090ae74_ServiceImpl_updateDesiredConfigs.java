@@ -1,0 +1,37 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName config
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+config SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName configs
+desired configs SimpleName FieldAccess MethodInvocation SimpleName put all
+desired configs SimpleName FieldAccess MethodInvocation SimpleName configs
+put all SimpleName MethodInvocation SimpleName configs
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName update desired configs
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName configs
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update desired configs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName configs
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName update desired configs
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName configs
+void PrimitiveType MethodDeclaration SimpleName update desired configs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName configs
+update desired configs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName configs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update desired configs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configs
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update desired configs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName configs

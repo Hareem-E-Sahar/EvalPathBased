@@ -1,0 +1,270 @@
+heart beat SimpleName SimpleType SingleVariableDeclaration SimpleName heartbeat
+response SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName heart beat response
+heart beat response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName response
+response SimpleName MethodInvocation SimpleName set response id
+response SimpleName MethodInvocation NumberLiteral l
+set response id SimpleName MethodInvocation NumberLiteral l
+heartbeat SimpleName MethodInvocation SimpleName get hostname
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName heartbeat
+hostname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hostname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hostname
+action queue reference = StringLiteral InfixExpression SimpleName action queue
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral action queue reference =
+log SimpleName MethodInvocation InfixExpression SimpleName action queue
+info SimpleName MethodInvocation InfixExpression StringLiteral action queue reference =
+info SimpleName MethodInvocation InfixExpression SimpleName action queue
+heartbeat SimpleName MethodInvocation SimpleName get hostname
+heartbeat SimpleName MethodInvocation SimpleName get response id
+heartbeat received from host StringLiteral InfixExpression MethodInvocation SimpleName heartbeat
+heartbeat received from host StringLiteral InfixExpression MethodInvocation SimpleName get hostname
+heartbeat received from host StringLiteral InfixExpression StringLiteral response id
+heartbeat received from host StringLiteral InfixExpression MethodInvocation SimpleName heartbeat
+heartbeat received from host StringLiteral InfixExpression MethodInvocation SimpleName get response id
+heartbeat SimpleName MethodInvocation InfixExpression StringLiteral response id
+get hostname SimpleName MethodInvocation InfixExpression StringLiteral response id
+heartbeat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName heartbeat
+heartbeat SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get response id
+get hostname SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName heartbeat
+get hostname SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get response id
+response id StringLiteral InfixExpression MethodInvocation SimpleName heartbeat
+response id StringLiteral InfixExpression MethodInvocation SimpleName get response id
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral heartbeat received from host
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName heartbeat
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get hostname
+log SimpleName MethodInvocation InfixExpression StringLiteral response id
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName heartbeat
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get response id
+info SimpleName MethodInvocation InfixExpression StringLiteral heartbeat received from host
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName heartbeat
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get hostname
+info SimpleName MethodInvocation InfixExpression StringLiteral response id
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName heartbeat
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get response id
+cluster fsm SimpleName MethodInvocation SimpleName get host
+cluster fsm SimpleName MethodInvocation SimpleName hostname
+get host SimpleName MethodInvocation SimpleName hostname
+host object SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster fsm
+host object SimpleName VariableDeclarationFragment MethodInvocation SimpleName get host
+host object SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+host SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName host object
+system SimpleName MethodInvocation SimpleName current time millis
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+now SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName now
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+heartbeat SimpleName MethodInvocation SimpleName get node status
+heartbeat SimpleName MethodInvocation MethodInvocation SimpleName get status
+get node status SimpleName MethodInvocation MethodInvocation SimpleName get status
+heartbeat SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get node status SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName equals
+get status SimpleName MethodInvocation MethodInvocation SimpleName equals
+heartbeat SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName host statusstatushealthy
+get node status SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName host statusstatushealthy
+get status SimpleName MethodInvocation MethodInvocation QualifiedName host statusstatushealthy
+equals SimpleName MethodInvocation QualifiedName host statusstatushealthy
+host healthy heartbeat event SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+host healthy heartbeat event SimpleName SimpleType ClassInstanceCreation SimpleName now
+hostname SimpleName ClassInstanceCreation SimpleName now
+host object SimpleName MethodInvocation SimpleName handle event
+host object SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host healthy heartbeat event
+host object SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+host object SimpleName MethodInvocation ClassInstanceCreation SimpleName now
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host healthy heartbeat event
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName now
+host unhealthy heartbeat event SimpleName SimpleType ClassInstanceCreation SimpleName hostname
+host unhealthy heartbeat event SimpleName SimpleType ClassInstanceCreation SimpleName now
+hostname SimpleName ClassInstanceCreation SimpleName now
+host object SimpleName MethodInvocation SimpleName handle event
+host object SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host unhealthy heartbeat event
+host object SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+host object SimpleName MethodInvocation ClassInstanceCreation SimpleName now
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName host unhealthy heartbeat event
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName hostname
+handle event SimpleName MethodInvocation ClassInstanceCreation SimpleName now
+invalid state transiton exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+host object SimpleName MethodInvocation SimpleName set state
+host object SimpleName MethodInvocation QualifiedName host stateinit
+set state SimpleName MethodInvocation QualifiedName host stateinit
+reg cmd SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName registration command
+registration command SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reg cmd
+response SimpleName MethodInvocation SimpleName set registration command
+response SimpleName MethodInvocation SimpleName reg cmd
+set registration command SimpleName MethodInvocation SimpleName reg cmd
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName command report
+heartbeat SimpleName MethodInvocation SimpleName get reports
+reports SimpleName VariableDeclarationFragment MethodInvocation SimpleName heartbeat
+reports SimpleName VariableDeclarationFragment MethodInvocation SimpleName get reports
+action manager SimpleName MethodInvocation SimpleName action response
+action manager SimpleName MethodInvocation SimpleName hostname
+action manager SimpleName MethodInvocation SimpleName reports
+action response SimpleName MethodInvocation SimpleName hostname
+action response SimpleName MethodInvocation SimpleName reports
+hostname SimpleName MethodInvocation SimpleName reports
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName cluster
+cluster fsm SimpleName MethodInvocation SimpleName get clusters for host
+cluster fsm SimpleName MethodInvocation SimpleName hostname
+get clusters for host SimpleName MethodInvocation SimpleName hostname
+clusters SimpleName VariableDeclarationFragment MethodInvocation SimpleName cluster fsm
+clusters SimpleName VariableDeclarationFragment MethodInvocation SimpleName get clusters for host
+clusters SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+cluster SimpleName SimpleType SingleVariableDeclaration SimpleName cl
+component status SimpleName SimpleType SingleVariableDeclaration SimpleName status
+status SimpleName MethodInvocation SimpleName get cluster name
+cl SimpleName MethodInvocation SimpleName get cluster name
+status SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cl
+status SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName cl
+get cluster name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get cluster name
+status SimpleName MethodInvocation SimpleName get service name
+cl SimpleName MethodInvocation SimpleName get service
+cl SimpleName MethodInvocation MethodInvocation SimpleName status
+cl SimpleName MethodInvocation MethodInvocation SimpleName get service name
+get service SimpleName MethodInvocation MethodInvocation SimpleName status
+get service SimpleName MethodInvocation MethodInvocation SimpleName get service name
+svc SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+svc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service
+svc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName status
+svc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get service name
+service SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svc
+status SimpleName MethodInvocation SimpleName get component name
+svc SimpleName MethodInvocation SimpleName get service component
+svc SimpleName MethodInvocation MethodInvocation SimpleName status
+svc SimpleName MethodInvocation MethodInvocation SimpleName get component name
+get service component SimpleName MethodInvocation MethodInvocation SimpleName status
+get service component SimpleName MethodInvocation MethodInvocation SimpleName get component name
+svc comp SimpleName VariableDeclarationFragment MethodInvocation SimpleName svc
+svc comp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service component
+svc comp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName status
+svc comp SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get component name
+service component SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svc comp
+svc comp SimpleName MethodInvocation SimpleName get service component host
+svc comp SimpleName MethodInvocation SimpleName hostname
+get service component host SimpleName MethodInvocation SimpleName hostname
+sc host SimpleName VariableDeclarationFragment MethodInvocation SimpleName svc comp
+sc host SimpleName VariableDeclarationFragment MethodInvocation SimpleName get service component host
+sc host SimpleName VariableDeclarationFragment MethodInvocation SimpleName hostname
+service component host SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sc host
+status SimpleName MethodInvocation SimpleName get status
+state SimpleName MethodInvocation SimpleName value of
+state SimpleName MethodInvocation TypeLiteral SimpleType SimpleName state
+state SimpleName MethodInvocation MethodInvocation SimpleName status
+state SimpleName MethodInvocation MethodInvocation SimpleName get status
+value of SimpleName MethodInvocation TypeLiteral SimpleType SimpleName state
+value of SimpleName MethodInvocation MethodInvocation SimpleName status
+value of SimpleName MethodInvocation MethodInvocation SimpleName get status
+live state SimpleName VariableDeclarationFragment MethodInvocation SimpleName state
+live state SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+live state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName status
+live state SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get status
+state SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName live state
+sc host SimpleName MethodInvocation SimpleName set state
+sc host SimpleName MethodInvocation SimpleName live state
+set state SimpleName MethodInvocation SimpleName live state
+component status SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement QualifiedName heartbeatcomponent status
+status SimpleName SingleVariableDeclaration EnhancedForStatement QualifiedName heartbeatcomponent status
+cluster SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName clusters
+cl SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName clusters
+clusters SimpleName EnhancedForStatement Block EnhancedForStatement QualifiedName heartbeatcomponent status
+host object SimpleName MethodInvocation SimpleName get state
+host state = StringLiteral InfixExpression MethodInvocation SimpleName host object
+host state = StringLiteral InfixExpression MethodInvocation SimpleName get state
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral host state =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host object
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+info SimpleName MethodInvocation InfixExpression StringLiteral host state =
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName host object
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get state
+host object SimpleName MethodInvocation SimpleName get state
+host object SimpleName MethodInvocation MethodInvocation SimpleName equals
+get state SimpleName MethodInvocation MethodInvocation SimpleName equals
+host object SimpleName MethodInvocation MethodInvocation QualifiedName host statehealthy
+get state SimpleName MethodInvocation MethodInvocation QualifiedName host statehealthy
+equals SimpleName MethodInvocation QualifiedName host statehealthy
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName agent command
+heartbeat SimpleName MethodInvocation SimpleName get hostname
+action queue SimpleName MethodInvocation SimpleName dequeue all
+action queue SimpleName MethodInvocation MethodInvocation SimpleName heartbeat
+action queue SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+dequeue all SimpleName MethodInvocation MethodInvocation SimpleName heartbeat
+dequeue all SimpleName MethodInvocation MethodInvocation SimpleName get hostname
+cmds SimpleName VariableDeclarationFragment MethodInvocation SimpleName action queue
+cmds SimpleName VariableDeclarationFragment MethodInvocation SimpleName dequeue all
+cmds SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName heartbeat
+cmds SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hostname
+cmds SimpleName MethodInvocation SimpleName is empty
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral sending commands
+info SimpleName MethodInvocation StringLiteral sending commands
+agent command SimpleName SimpleType SingleVariableDeclaration SimpleName ac
+stage utils SimpleName MethodInvocation SimpleName jaxb to string
+stage utils SimpleName MethodInvocation SimpleName ac
+jaxb to string SimpleName MethodInvocation SimpleName ac
+command string = StringLiteral InfixExpression MethodInvocation SimpleName stage utils
+command string = StringLiteral InfixExpression MethodInvocation SimpleName jaxb to string
+command string = StringLiteral InfixExpression MethodInvocation SimpleName ac
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation InfixExpression StringLiteral command string =
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage utils
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName jaxb to string
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ac
+info SimpleName MethodInvocation InfixExpression StringLiteral command string =
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName stage utils
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName jaxb to string
+info SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ac
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ambari exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not get jaxb string for command
+ambari exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+could not get jaxb string for command StringLiteral ClassInstanceCreation SimpleName e
+ac SimpleName MethodInvocation SimpleName get command type
+ac SimpleName MethodInvocation MethodInvocation SimpleName equals
+get command type SimpleName MethodInvocation MethodInvocation SimpleName equals
+ac SimpleName MethodInvocation MethodInvocation QualifiedName agent command typeexecution command
+get command type SimpleName MethodInvocation MethodInvocation QualifiedName agent command typeexecution command
+equals SimpleName MethodInvocation QualifiedName agent command typeexecution command
+execution command SimpleName SimpleType CastExpression SimpleName ac
+response SimpleName MethodInvocation SimpleName add execution command
+response SimpleName MethodInvocation CastExpression SimpleType SimpleName execution command
+response SimpleName MethodInvocation CastExpression SimpleName ac
+add execution command SimpleName MethodInvocation CastExpression SimpleType SimpleName execution command
+add execution command SimpleName MethodInvocation CastExpression SimpleName ac
+agent command SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName cmds
+ac SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName cmds
+log SimpleName MethodInvocation SimpleName info
+log SimpleName MethodInvocation StringLiteral no commands to send
+info SimpleName MethodInvocation StringLiteral no commands to send
+long PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName clusters
+clusters SimpleName EnhancedForStatement Block ReturnStatement SimpleName response
+public Modifier MethodDeclaration SimpleType SimpleName heart beat response
+public Modifier MethodDeclaration SimpleName handle heart beat
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName heart beat
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName heartbeat
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName clusters
+public Modifier MethodDeclaration Block ReturnStatement SimpleName response
+heart beat response SimpleName SimpleType MethodDeclaration SimpleName handle heart beat
+heart beat response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName heartbeat
+heart beat response SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+handle heart beat SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName heart beat
+handle heart beat SimpleName MethodDeclaration SingleVariableDeclaration SimpleName heartbeat
+handle heart beat SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+handle heart beat SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+handle heart beat SimpleName MethodDeclaration Block EnhancedForStatement SimpleName clusters
+handle heart beat SimpleName MethodDeclaration Block ReturnStatement SimpleName response
+heartbeat SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName heart beat response
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle heart beat
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName heartbeat
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName heart beat response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle heart beat
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName heartbeat
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

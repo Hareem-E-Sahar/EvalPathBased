@@ -1,0 +1,79 @@
+session factory SimpleName MethodInvocation SimpleName open session
+session factory SimpleName MethodInvocation BooleanLiteral false
+open session SimpleName MethodInvocation BooleanLiteral false
+expect SimpleName MethodInvocation MethodInvocation SimpleName session factory
+expect SimpleName MethodInvocation MethodInvocation SimpleName open session
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+session factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+open session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName session
+session factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName session
+open session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName session
+false BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName session
+and return SimpleName MethodInvocation SimpleName session
+session SimpleName MethodInvocation SimpleName update
+session SimpleName MethodInvocation QualifiedName db storagedisable undo log
+update SimpleName MethodInvocation QualifiedName db storagedisable undo log
+expect SimpleName MethodInvocation MethodInvocation SimpleName session
+expect SimpleName MethodInvocation MethodInvocation SimpleName update
+expect SimpleName MethodInvocation MethodInvocation QualifiedName db storagedisable undo log
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+db storagedisable undo log QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+session SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+update SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+db storagedisable undo log QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+and return SimpleName MethodInvocation NumberLiteral empty
+easy mock SimpleName MethodInvocation SimpleName any object
+write work SimpleName MethodInvocation SimpleName apply
+write work SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+write work SimpleName MethodInvocation MethodInvocation SimpleName any object
+apply SimpleName MethodInvocation MethodInvocation SimpleName easy mock
+apply SimpleName MethodInvocation MethodInvocation SimpleName any object
+expect SimpleName MethodInvocation MethodInvocation SimpleName write work
+expect SimpleName MethodInvocation MethodInvocation SimpleName apply
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName easy mock
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName any object
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+write work SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+apply SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+session SimpleName MethodInvocation SimpleName close
+session SimpleName MethodInvocation SimpleName update
+session SimpleName MethodInvocation QualifiedName db storageenable undo log
+update SimpleName MethodInvocation QualifiedName db storageenable undo log
+expect SimpleName MethodInvocation MethodInvocation SimpleName session
+expect SimpleName MethodInvocation MethodInvocation SimpleName update
+expect SimpleName MethodInvocation MethodInvocation QualifiedName db storageenable undo log
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+session SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+update SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+db storageenable undo log QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+session SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+update SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+db storageenable undo log QualifiedName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+and return SimpleName MethodInvocation NumberLiteral empty
+flusher SimpleName MethodInvocation SimpleName flush
+control SimpleName MethodInvocation SimpleName replay
+storage SimpleName MethodInvocation SimpleName bulk load
+storage SimpleName MethodInvocation SimpleName write work
+bulk load SimpleName MethodInvocation SimpleName write work
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test bulk load
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test bulk load
+void PrimitiveType MethodDeclaration SimpleName test bulk load
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test bulk load
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test bulk load

@@ -1,0 +1,47 @@
+long PrimitiveType SingleVariableDeclaration SimpleName stage id
+stage id SimpleName FieldAccess InfixExpression PrefixExpression NumberLiteral empty
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral attempt to set stage id again not allowed
+stage id SimpleName FieldAccess Assignment SimpleName stage id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName host
+host actions SimpleName FieldAccess MethodInvocation SimpleName key set
+host actions SimpleName FieldAccess MethodInvocation SimpleName get
+host actions SimpleName FieldAccess MethodInvocation SimpleName host
+get SimpleName MethodInvocation SimpleName host
+host actions SimpleName FieldAccess MethodInvocation MethodInvocation SimpleName set command id
+get SimpleName MethodInvocation MethodInvocation SimpleName set command id
+host SimpleName MethodInvocation MethodInvocation SimpleName set command id
+get SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName request id
+host SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName request id
+get SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stage id
+host SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName stage id
+set command id SimpleName MethodInvocation FieldAccess SimpleName request id
+set command id SimpleName MethodInvocation FieldAccess SimpleName stage id
+request id SimpleName FieldAccess MethodInvocation FieldAccess SimpleName stage id
+host SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName key set
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set stage id
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stage id
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set stage id
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName stage id
+void PrimitiveType MethodDeclaration SimpleName set stage id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stage id
+set stage id SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set stage id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stage id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set stage id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set stage id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stage id

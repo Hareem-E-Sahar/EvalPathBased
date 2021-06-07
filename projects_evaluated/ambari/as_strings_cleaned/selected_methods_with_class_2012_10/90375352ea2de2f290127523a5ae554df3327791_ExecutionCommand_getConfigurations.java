@@ -1,0 +1,16 @@
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName map
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get configurations
+public Modifier MethodDeclaration Block ReturnStatement SimpleName configurations
+map SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configurations
+string SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get configurations
+get configurations SimpleName MethodDeclaration Block ReturnStatement SimpleName configurations
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get configurations
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get configurations

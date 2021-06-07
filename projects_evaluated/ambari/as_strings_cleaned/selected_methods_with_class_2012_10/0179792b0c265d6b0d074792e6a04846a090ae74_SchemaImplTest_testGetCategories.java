@@ -1,0 +1,222 @@
+schema impl SimpleName SimpleType ClassInstanceCreation SimpleName resource provider
+schema impl SimpleName SimpleType ClassInstanceCreation SimpleName key property ids
+resource provider SimpleName ClassInstanceCreation SimpleName key property ids
+schema SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName schema impl
+schema SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName resource provider
+schema SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName key property ids
+schema SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName schema
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+schema SimpleName MethodInvocation SimpleName get categories
+categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName schema
+categories SimpleName VariableDeclarationFragment MethodInvocation SimpleName get categories
+categories SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName categories
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+categories SimpleName MethodInvocation SimpleName contains key
+categories SimpleName MethodInvocation StringLiteral c
+contains key SimpleName MethodInvocation StringLiteral c
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert SimpleName MethodInvocation MethodInvocation StringLiteral c
+assert true SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral c
+categories SimpleName MethodInvocation SimpleName contains key
+categories SimpleName MethodInvocation StringLiteral c
+contains key SimpleName MethodInvocation StringLiteral c
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert SimpleName MethodInvocation MethodInvocation StringLiteral c
+assert true SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral c
+categories SimpleName MethodInvocation SimpleName contains key
+categories SimpleName MethodInvocation StringLiteral c
+contains key SimpleName MethodInvocation StringLiteral c
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert SimpleName MethodInvocation MethodInvocation StringLiteral c
+assert true SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral c
+categories SimpleName MethodInvocation SimpleName contains key
+categories SimpleName MethodInvocation StringLiteral c
+contains key SimpleName MethodInvocation StringLiteral c
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert SimpleName MethodInvocation MethodInvocation StringLiteral c
+assert true SimpleName MethodInvocation MethodInvocation SimpleName categories
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains key
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral c
+set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+categories SimpleName MethodInvocation SimpleName get
+categories SimpleName MethodInvocation StringLiteral c
+get SimpleName MethodInvocation StringLiteral c
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName categories
+properties SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+properties SimpleName VariableDeclarationFragment MethodInvocation StringLiteral c
+properties SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName properties
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+categories SimpleName MethodInvocation SimpleName get
+categories SimpleName MethodInvocation StringLiteral c
+get SimpleName MethodInvocation StringLiteral c
+properties SimpleName Assignment MethodInvocation SimpleName categories
+properties SimpleName Assignment MethodInvocation SimpleName get
+properties SimpleName Assignment MethodInvocation StringLiteral c
+properties SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName properties
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+categories SimpleName MethodInvocation SimpleName get
+categories SimpleName MethodInvocation StringLiteral c
+get SimpleName MethodInvocation StringLiteral c
+properties SimpleName Assignment MethodInvocation SimpleName categories
+properties SimpleName Assignment MethodInvocation SimpleName get
+properties SimpleName Assignment MethodInvocation StringLiteral c
+properties SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName properties
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+categories SimpleName MethodInvocation SimpleName get
+categories SimpleName MethodInvocation StringLiteral c
+get SimpleName MethodInvocation StringLiteral c
+properties SimpleName Assignment MethodInvocation SimpleName categories
+properties SimpleName Assignment MethodInvocation SimpleName get
+properties SimpleName Assignment MethodInvocation StringLiteral c
+properties SimpleName MethodInvocation SimpleName size
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation NumberLiteral empty
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName size
+assert equals SimpleName MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName properties
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName size
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+properties SimpleName MethodInvocation SimpleName contains
+properties SimpleName MethodInvocation StringLiteral p
+contains SimpleName MethodInvocation StringLiteral p
+assert SimpleName MethodInvocation SimpleName assert true
+assert SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert SimpleName MethodInvocation MethodInvocation StringLiteral p
+assert true SimpleName MethodInvocation MethodInvocation SimpleName properties
+assert true SimpleName MethodInvocation MethodInvocation SimpleName contains
+assert true SimpleName MethodInvocation MethodInvocation StringLiteral p
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test get categories
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test get categories
+void PrimitiveType MethodDeclaration SimpleName test get categories
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test get categories
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test get categories

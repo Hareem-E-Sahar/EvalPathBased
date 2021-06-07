@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rack info
+rack info SimpleName FieldAccess Assignment SimpleName rack info
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set rack info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rack info
+void PrimitiveType MethodDeclaration SimpleName set rack info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rack info
+set rack info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set rack info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rack info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set rack info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rack info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set rack info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rack info

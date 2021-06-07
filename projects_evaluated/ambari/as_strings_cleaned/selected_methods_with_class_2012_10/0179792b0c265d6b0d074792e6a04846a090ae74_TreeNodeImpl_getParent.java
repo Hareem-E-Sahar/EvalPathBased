@@ -1,0 +1,17 @@
+tree node SimpleName SimpleType ParameterizedType SimpleType SimpleName t
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName get parent
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName tree node
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName t
+public Modifier MethodDeclaration SimpleName get parent
+public Modifier MethodDeclaration Block ReturnStatement SimpleName m parent
+tree node SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parent
+t SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get parent
+get parent SimpleName MethodDeclaration Block ReturnStatement SimpleName m parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent

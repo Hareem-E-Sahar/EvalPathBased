@@ -1,0 +1,13 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName per host response
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName per host response
+public Modifier MethodDeclaration SimpleName get hosts
+public Modifier MethodDeclaration Block ReturnStatement SimpleName hosts
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get hosts
+per host response SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get hosts
+get hosts SimpleName MethodDeclaration Block ReturnStatement SimpleName hosts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get hosts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get hosts

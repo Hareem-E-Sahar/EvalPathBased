@@ -1,0 +1,62 @@
+scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName pending task
+preemptor impl SimpleName SimpleType ClassInstanceCreation QualifiedName storage utilstorage
+preemptor impl SimpleName SimpleType ClassInstanceCreation SimpleName state manager
+preemptor impl SimpleName SimpleType ClassInstanceCreation SimpleName offer queue
+preemptor impl SimpleName SimpleType ClassInstanceCreation SimpleName scheduling filter
+preemptor impl SimpleName SimpleType ClassInstanceCreation SimpleName preemption delay
+storage utilstorage QualifiedName ClassInstanceCreation SimpleName state manager
+storage utilstorage QualifiedName ClassInstanceCreation SimpleName offer queue
+storage utilstorage QualifiedName ClassInstanceCreation SimpleName scheduling filter
+storage utilstorage QualifiedName ClassInstanceCreation SimpleName preemption delay
+storage utilstorage QualifiedName ClassInstanceCreation SimpleName clock
+state manager SimpleName ClassInstanceCreation SimpleName offer queue
+state manager SimpleName ClassInstanceCreation SimpleName scheduling filter
+state manager SimpleName ClassInstanceCreation SimpleName preemption delay
+state manager SimpleName ClassInstanceCreation SimpleName clock
+offer queue SimpleName ClassInstanceCreation SimpleName scheduling filter
+offer queue SimpleName ClassInstanceCreation SimpleName preemption delay
+offer queue SimpleName ClassInstanceCreation SimpleName clock
+scheduling filter SimpleName ClassInstanceCreation SimpleName preemption delay
+scheduling filter SimpleName ClassInstanceCreation SimpleName clock
+preemption delay SimpleName ClassInstanceCreation SimpleName clock
+preemptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName preemptor impl
+preemptor SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName storage utilstorage
+preemptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName state manager
+preemptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName offer queue
+preemptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName scheduling filter
+preemptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName preemption delay
+preemptor SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName clock
+preemptor impl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName preemptor
+pending task SimpleName MethodInvocation SimpleName get assigned task
+pending task SimpleName MethodInvocation MethodInvocation SimpleName get task id
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task id
+preemptor SimpleName MethodInvocation SimpleName find preemption slot for
+preemptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending task
+preemptor SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+preemptor SimpleName MethodInvocation MethodInvocation SimpleName get task id
+preemptor SimpleName MethodInvocation SimpleName empty job
+find preemption slot for SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName pending task
+find preemption slot for SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+find preemption slot for SimpleName MethodInvocation MethodInvocation SimpleName get task id
+find preemption slot for SimpleName MethodInvocation SimpleName empty job
+pending task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty job
+get assigned task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName empty job
+get task id SimpleName MethodInvocation MethodInvocation SimpleName empty job
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName run preemptor
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduled task
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pending task
+void PrimitiveType MethodDeclaration SimpleName run preemptor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduled task
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pending task
+run preemptor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduled task
+run preemptor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pending task
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run preemptor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pending task
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run preemptor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pending task

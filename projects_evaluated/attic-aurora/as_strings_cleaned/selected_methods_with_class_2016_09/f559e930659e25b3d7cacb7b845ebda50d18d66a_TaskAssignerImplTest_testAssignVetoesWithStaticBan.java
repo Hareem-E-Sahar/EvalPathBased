@@ -1,0 +1,195 @@
+offer manager SimpleName MethodInvocation SimpleName get offers
+offer manager SimpleName MethodInvocation SimpleName group key
+get offers SimpleName MethodInvocation SimpleName group key
+expect SimpleName MethodInvocation MethodInvocation SimpleName offer manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName get offers
+expect SimpleName MethodInvocation MethodInvocation SimpleName group key
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation SimpleName offer
+of SimpleName MethodInvocation SimpleName offer
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+offer manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get offers SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName offer
+and return SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+and return SimpleName MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation SimpleName offer
+mesos offer SimpleName MethodInvocation SimpleName get id
+offer manager SimpleName MethodInvocation SimpleName ban offer
+offer manager SimpleName MethodInvocation MethodInvocation SimpleName mesos offer
+offer manager SimpleName MethodInvocation MethodInvocation SimpleName get id
+offer manager SimpleName MethodInvocation SimpleName group key
+ban offer SimpleName MethodInvocation MethodInvocation SimpleName mesos offer
+ban offer SimpleName MethodInvocation MethodInvocation SimpleName get id
+ban offer SimpleName MethodInvocation SimpleName group key
+mesos offer SimpleName MethodInvocation MethodInvocation SimpleName group key
+get id SimpleName MethodInvocation MethodInvocation SimpleName group key
+task SimpleName MethodInvocation SimpleName get assigned task
+task SimpleName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+tier manager SimpleName MethodInvocation SimpleName get tier
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+tier manager SimpleName MethodInvocation MethodInvocation SimpleName get task
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+get tier SimpleName MethodInvocation MethodInvocation SimpleName get task
+expect SimpleName MethodInvocation MethodInvocation SimpleName tier manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName get tier
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation SimpleName dev tier
+tier manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dev tier
+get tier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dev tier
+and return SimpleName MethodInvocation SimpleName dev tier
+filter SimpleName MethodInvocation SimpleName filter
+filter SimpleName MethodInvocation SimpleName unused
+filter SimpleName MethodInvocation SimpleName resource request
+filter SimpleName MethodInvocation SimpleName unused
+filter SimpleName MethodInvocation SimpleName resource request
+unused SimpleName MethodInvocation SimpleName resource request
+expect SimpleName MethodInvocation MethodInvocation SimpleName filter
+expect SimpleName MethodInvocation MethodInvocation SimpleName filter
+expect SimpleName MethodInvocation MethodInvocation SimpleName unused
+expect SimpleName MethodInvocation MethodInvocation SimpleName resource request
+veto SimpleName MethodInvocation SimpleName constraint mismatch
+veto SimpleName MethodInvocation StringLiteral denied
+constraint mismatch SimpleName MethodInvocation StringLiteral denied
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName veto
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName constraint mismatch
+immutable set SimpleName MethodInvocation MethodInvocation StringLiteral denied
+of SimpleName MethodInvocation MethodInvocation SimpleName veto
+of SimpleName MethodInvocation MethodInvocation SimpleName constraint mismatch
+of SimpleName MethodInvocation MethodInvocation StringLiteral denied
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+filter SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+unused SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+resource request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+expect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+and return SimpleName MethodInvocation MethodInvocation SimpleName of
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName veto
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName constraint mismatch
+and return SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral denied
+control SimpleName MethodInvocation SimpleName replay
+task SimpleName MethodInvocation SimpleName get assigned task
+task SimpleName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+task group key SimpleName MethodInvocation SimpleName from
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+task group key SimpleName MethodInvocation MethodInvocation SimpleName get task
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+from SimpleName MethodInvocation MethodInvocation SimpleName get task
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation SimpleName task
+id SimpleName MethodInvocation SimpleName task
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName tasks
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName id
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName task
+of SimpleName MethodInvocation MethodInvocation SimpleName tasks
+of SimpleName MethodInvocation MethodInvocation SimpleName id
+of SimpleName MethodInvocation MethodInvocation SimpleName task
+assigner SimpleName MethodInvocation SimpleName maybe assign
+assigner SimpleName MethodInvocation SimpleName store provider
+assigner SimpleName MethodInvocation SimpleName resource request
+assigner SimpleName MethodInvocation MethodInvocation SimpleName task group key
+assigner SimpleName MethodInvocation MethodInvocation SimpleName from
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+assigner SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+assigner SimpleName MethodInvocation MethodInvocation SimpleName of
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+assigner SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName store provider
+maybe assign SimpleName MethodInvocation SimpleName resource request
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName task group key
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName from
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+maybe assign SimpleName MethodInvocation MethodInvocation SimpleName of
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+maybe assign SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+maybe assign SimpleName MethodInvocation SimpleName no reservation
+store provider SimpleName MethodInvocation SimpleName resource request
+store provider SimpleName MethodInvocation MethodInvocation SimpleName task group key
+store provider SimpleName MethodInvocation MethodInvocation SimpleName from
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+store provider SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+store provider SimpleName MethodInvocation MethodInvocation SimpleName of
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+store provider SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+store provider SimpleName MethodInvocation SimpleName no reservation
+resource request SimpleName MethodInvocation MethodInvocation SimpleName task group key
+resource request SimpleName MethodInvocation MethodInvocation SimpleName from
+resource request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+resource request SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+resource request SimpleName MethodInvocation MethodInvocation SimpleName of
+resource request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName tasks
+resource request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName id
+resource request SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+resource request SimpleName MethodInvocation SimpleName no reservation
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+task group key SimpleName MethodInvocation MethodInvocation SimpleName no reservation
+from SimpleName MethodInvocation MethodInvocation SimpleName no reservation
+get task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no reservation
+immutable set SimpleName MethodInvocation MethodInvocation SimpleName no reservation
+of SimpleName MethodInvocation MethodInvocation SimpleName no reservation
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no reservation
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no reservation
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName no reservation
+assert equals SimpleName MethodInvocation SimpleName no assignment
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName assigner
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName maybe assign
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName store provider
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName resource request
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task group key
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName no reservation
+no assignment SimpleName MethodInvocation MethodInvocation SimpleName assigner
+no assignment SimpleName MethodInvocation MethodInvocation SimpleName maybe assign
+no assignment SimpleName MethodInvocation MethodInvocation SimpleName store provider
+no assignment SimpleName MethodInvocation MethodInvocation SimpleName resource request
+no assignment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task group key
+no assignment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName from
+no assignment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+no assignment SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+no assignment SimpleName MethodInvocation MethodInvocation SimpleName no reservation
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test assign vetoes with static ban
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test assign vetoes with static ban
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test assign vetoes with static ban
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test assign vetoes with static ban SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test assign vetoes with static ban
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test assign vetoes with static ban
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

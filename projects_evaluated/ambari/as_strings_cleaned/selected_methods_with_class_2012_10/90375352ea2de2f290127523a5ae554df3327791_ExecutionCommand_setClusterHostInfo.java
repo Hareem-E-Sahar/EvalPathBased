@@ -1,0 +1,20 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cluster host info
+string SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName cluster host info
+cluster host info SimpleName FieldAccess Assignment SimpleName cluster host info
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set cluster host info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster host info
+void PrimitiveType MethodDeclaration SimpleName set cluster host info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cluster host info
+set cluster host info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster host info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set cluster host info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster host info
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set cluster host info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster host info

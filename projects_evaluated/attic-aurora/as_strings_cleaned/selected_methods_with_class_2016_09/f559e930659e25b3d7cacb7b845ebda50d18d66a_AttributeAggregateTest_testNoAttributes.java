@@ -1,0 +1,43 @@
+expect get attributes SimpleName MethodInvocation StringLiteral host a
+control SimpleName MethodInvocation SimpleName replay
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+pair SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+string SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+immutable multiset SimpleName MethodInvocation ParameterizedType SimpleType SimpleName pair
+immutable multiset SimpleName MethodInvocation ParameterizedType SimpleType SimpleName string
+immutable multiset SimpleName MethodInvocation ParameterizedType SimpleType SimpleName string
+immutable multiset SimpleName MethodInvocation SimpleName of
+pair SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+string SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+string SimpleName SimpleType ParameterizedType MethodInvocation SimpleName of
+task SimpleName MethodInvocation StringLiteral empty
+task SimpleName MethodInvocation StringLiteral host a
+empty StringLiteral MethodInvocation StringLiteral host a
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName task
+aggregate SimpleName MethodInvocation MethodInvocation StringLiteral empty
+aggregate SimpleName MethodInvocation MethodInvocation StringLiteral host a
+aggregate SimpleName MethodInvocation MethodInvocation SimpleName get aggregates
+task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+empty StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+host a StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName immutable multiset
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName of
+assert equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aggregate
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get aggregates
+immutable multiset SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get aggregates
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test no attributes
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test no attributes
+void PrimitiveType MethodDeclaration SimpleName test no attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test no attributes
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test no attributes

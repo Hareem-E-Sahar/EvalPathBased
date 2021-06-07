@@ -1,0 +1,37 @@
+hash set SimpleName SimpleType ParameterizedType SimpleType SimpleName string
+service component hosts by host SimpleName MethodInvocation SimpleName key set
+cluster response SimpleName SimpleType ClassInstanceCreation SimpleName cluster id
+cluster response SimpleName SimpleType ClassInstanceCreation SimpleName cluster name
+cluster id SimpleName ClassInstanceCreation SimpleName cluster name
+cluster id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName service component hosts by host
+cluster id SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName key set
+cluster name SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName service component hosts by host
+cluster name SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName key set
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cluster response
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster id
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cluster name
+cluster response SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration Modifier synchronized
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName cluster response
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName convert to response
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName cluster response
+public Modifier MethodDeclaration SimpleName convert to response
+public Modifier MethodDeclaration Block ReturnStatement SimpleName r
+synchronized Modifier MethodDeclaration SimpleType SimpleName cluster response
+synchronized Modifier MethodDeclaration SimpleName convert to response
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName r
+cluster response SimpleName SimpleType MethodDeclaration SimpleName convert to response
+convert to response SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cluster response
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert to response
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cluster response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert to response

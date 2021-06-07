@@ -1,0 +1,127 @@
+host impl SimpleName SimpleType SingleVariableDeclaration SimpleName host
+info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host info
+host info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+info SimpleName MethodInvocation SimpleName set memory size
+info SimpleName MethodInvocation NumberLiteral empty
+set memory size SimpleName MethodInvocation NumberLiteral empty
+info SimpleName MethodInvocation SimpleName set processor count
+info SimpleName MethodInvocation NumberLiteral empty
+set processor count SimpleName MethodInvocation NumberLiteral empty
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk info
+array list SimpleName SimpleType ParameterizedType SimpleType SimpleName disk info
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral devsda
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral mntdisk
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+disk info SimpleName SimpleType ClassInstanceCreation StringLiteral %
+devsda StringLiteral ClassInstanceCreation StringLiteral mntdisk
+devsda StringLiteral ClassInstanceCreation StringLiteral empty
+devsda StringLiteral ClassInstanceCreation StringLiteral empty
+devsda StringLiteral ClassInstanceCreation StringLiteral %
+devsda StringLiteral ClassInstanceCreation StringLiteral size
+mntdisk StringLiteral ClassInstanceCreation StringLiteral empty
+mntdisk StringLiteral ClassInstanceCreation StringLiteral empty
+mntdisk StringLiteral ClassInstanceCreation StringLiteral %
+mntdisk StringLiteral ClassInstanceCreation StringLiteral size
+empty StringLiteral ClassInstanceCreation StringLiteral empty
+empty StringLiteral ClassInstanceCreation StringLiteral %
+empty StringLiteral ClassInstanceCreation StringLiteral size
+empty StringLiteral ClassInstanceCreation StringLiteral %
+empty StringLiteral ClassInstanceCreation StringLiteral size
+% StringLiteral ClassInstanceCreation StringLiteral size
+mounts SimpleName MethodInvocation SimpleName add
+mounts SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName disk info
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral devsda
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral mntdisk
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral %
+mounts SimpleName MethodInvocation ClassInstanceCreation StringLiteral size
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName disk info
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral devsda
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral mntdisk
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral empty
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral %
+add SimpleName MethodInvocation ClassInstanceCreation StringLiteral size
+info SimpleName MethodInvocation SimpleName set mounts
+info SimpleName MethodInvocation SimpleName mounts
+set mounts SimpleName MethodInvocation SimpleName mounts
+info SimpleName MethodInvocation SimpleName set host name
+info SimpleName MethodInvocation StringLiteral foo
+set host name SimpleName MethodInvocation StringLiteral foo
+info SimpleName MethodInvocation SimpleName set interfaces
+info SimpleName MethodInvocation StringLiteral fip
+set interfaces SimpleName MethodInvocation StringLiteral fip
+info SimpleName MethodInvocation SimpleName set architecture
+info SimpleName MethodInvocation StringLiteral os arch
+set architecture SimpleName MethodInvocation StringLiteral os arch
+info SimpleName MethodInvocation SimpleName set os
+info SimpleName MethodInvocation StringLiteral os type
+set os SimpleName MethodInvocation StringLiteral os type
+info SimpleName MethodInvocation SimpleName set memory total
+info SimpleName MethodInvocation NumberLiteral empty
+set memory total SimpleName MethodInvocation NumberLiteral empty
+agent version SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName agent version
+system SimpleName MethodInvocation SimpleName current time millis
+current time SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+current time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current time
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+host registration request event SimpleName SimpleType ClassInstanceCreation StringLiteral foo
+host registration request event SimpleName SimpleType ClassInstanceCreation SimpleName agent version
+host registration request event SimpleName SimpleType ClassInstanceCreation SimpleName current time
+host registration request event SimpleName SimpleType ClassInstanceCreation SimpleName info
+foo StringLiteral ClassInstanceCreation SimpleName agent version
+foo StringLiteral ClassInstanceCreation SimpleName current time
+foo StringLiteral ClassInstanceCreation SimpleName info
+agent version SimpleName ClassInstanceCreation SimpleName current time
+agent version SimpleName ClassInstanceCreation SimpleName info
+current time SimpleName ClassInstanceCreation SimpleName info
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName host registration request event
+e SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral foo
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName agent version
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName current time
+e SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName info
+host registration request event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+host SimpleName MethodInvocation SimpleName handle event
+host SimpleName MethodInvocation SimpleName e
+handle event SimpleName MethodInvocation SimpleName e
+host SimpleName MethodInvocation SimpleName get last registration time
+assert SimpleName MethodInvocation SimpleName assert equals
+assert SimpleName MethodInvocation SimpleName current time
+assert SimpleName MethodInvocation MethodInvocation SimpleName host
+assert SimpleName MethodInvocation MethodInvocation SimpleName get last registration time
+assert equals SimpleName MethodInvocation SimpleName current time
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName host
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get last registration time
+current time SimpleName MethodInvocation MethodInvocation SimpleName host
+current time SimpleName MethodInvocation MethodInvocation SimpleName get last registration time
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName register host
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName host
+private Modifier MethodDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName register host
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName host
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+register host SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host impl
+register host SimpleName MethodDeclaration SingleVariableDeclaration SimpleName host
+register host SimpleName MethodDeclaration SimpleType SimpleName exception
+register host SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+host SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register host
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register host
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName host
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,45 @@
+i job configuration SimpleName SimpleType SingleVariableDeclaration SimpleName job
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+launch failures SimpleName MethodInvocation SimpleName increment and get
+scheduling failed for recovered job StringLiteral InfixExpression SimpleName job
+log SimpleName MethodInvocation SimpleName log
+log SimpleName MethodInvocation QualifiedName levelsevere
+log SimpleName MethodInvocation InfixExpression StringLiteral scheduling failed for recovered job
+log SimpleName MethodInvocation InfixExpression SimpleName job
+log SimpleName MethodInvocation SimpleName e
+log SimpleName MethodInvocation QualifiedName levelsevere
+log SimpleName MethodInvocation InfixExpression StringLiteral scheduling failed for recovered job
+log SimpleName MethodInvocation InfixExpression SimpleName job
+log SimpleName MethodInvocation SimpleName e
+levelsevere QualifiedName MethodInvocation InfixExpression StringLiteral scheduling failed for recovered job
+levelsevere QualifiedName MethodInvocation InfixExpression SimpleName job
+levelsevere QualifiedName MethodInvocation SimpleName e
+scheduling failed for recovered job StringLiteral InfixExpression MethodInvocation SimpleName e
+job SimpleName InfixExpression MethodInvocation SimpleName e
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName log launch failure
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName job
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName log launch failure
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName job
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+log launch failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i job configuration
+log launch failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName job
+log launch failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+log launch failure SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+job SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName log launch failure
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName log launch failure
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

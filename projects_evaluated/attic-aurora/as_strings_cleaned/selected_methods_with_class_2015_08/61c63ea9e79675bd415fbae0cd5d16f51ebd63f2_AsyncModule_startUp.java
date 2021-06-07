@@ -1,0 +1,44 @@
+executor SimpleName MethodInvocation SimpleName get queue
+executor SimpleName MethodInvocation MethodInvocation SimpleName size
+get queue SimpleName MethodInvocation MethodInvocation SimpleName size
+stats provider SimpleName MethodInvocation SimpleName make gauge
+stats provider SimpleName MethodInvocation SimpleName timeout queue gauge
+stats provider SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName size
+make gauge SimpleName MethodInvocation SimpleName timeout queue gauge
+make gauge SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName size
+timeout queue gauge SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName size
+executor SimpleName ExpressionMethodReference SimpleName get completed task count
+stats provider SimpleName MethodInvocation SimpleName make gauge
+stats provider SimpleName MethodInvocation SimpleName async tasks gauge
+stats provider SimpleName MethodInvocation ExpressionMethodReference SimpleName executor
+stats provider SimpleName MethodInvocation ExpressionMethodReference SimpleName get completed task count
+make gauge SimpleName MethodInvocation SimpleName async tasks gauge
+make gauge SimpleName MethodInvocation ExpressionMethodReference SimpleName executor
+make gauge SimpleName MethodInvocation ExpressionMethodReference SimpleName get completed task count
+async tasks gauge SimpleName MethodInvocation ExpressionMethodReference SimpleName executor
+async tasks gauge SimpleName MethodInvocation ExpressionMethodReference SimpleName get completed task count
+delay executor SimpleName MethodInvocation SimpleName get queue size
+stats provider SimpleName MethodInvocation SimpleName make gauge
+stats provider SimpleName MethodInvocation SimpleName delay queue gauge
+stats provider SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName delay executor
+stats provider SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get queue size
+make gauge SimpleName MethodInvocation SimpleName delay queue gauge
+make gauge SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName delay executor
+make gauge SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get queue size
+delay queue gauge SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName delay executor
+delay queue gauge SimpleName MethodInvocation LambdaExpression MethodInvocation SimpleName get queue size
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName start up
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName start up
+void PrimitiveType MethodDeclaration SimpleName start up
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start up
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start up

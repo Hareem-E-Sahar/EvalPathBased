@@ -1,0 +1,89 @@
+task a SimpleName MethodInvocation SimpleName get assigned task
+task a SimpleName MethodInvocation MethodInvocation SimpleName get task
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName get task
+task group key SimpleName MethodInvocation SimpleName from
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task a
+task group key SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+task group key SimpleName MethodInvocation MethodInvocation SimpleName get task
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task a
+from SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned task
+from SimpleName MethodInvocation MethodInvocation SimpleName get task
+reservations SimpleName MethodInvocation SimpleName remove
+reservations SimpleName MethodInvocation SimpleName slave id
+reservations SimpleName MethodInvocation MethodInvocation SimpleName task group key
+reservations SimpleName MethodInvocation MethodInvocation SimpleName from
+reservations SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+remove SimpleName MethodInvocation SimpleName slave id
+remove SimpleName MethodInvocation MethodInvocation SimpleName task group key
+remove SimpleName MethodInvocation MethodInvocation SimpleName from
+remove SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+slave id SimpleName MethodInvocation MethodInvocation SimpleName task group key
+slave id SimpleName MethodInvocation MethodInvocation SimpleName from
+slave id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get task
+control SimpleName MethodInvocation SimpleName replay
+task a SimpleName MethodInvocation SimpleName new builder
+task a SimpleName MethodInvocation MethodInvocation SimpleName set status
+new builder SimpleName MethodInvocation MethodInvocation SimpleName set status
+task a SimpleName MethodInvocation MethodInvocation SimpleName pending
+new builder SimpleName MethodInvocation MethodInvocation SimpleName pending
+set status SimpleName MethodInvocation SimpleName pending
+task builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName task a
+task builder SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName new builder
+task builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName set status
+task builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName pending
+scheduled task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task builder
+task builder SimpleName MethodInvocation SimpleName get assigned task
+task builder SimpleName MethodInvocation MethodInvocation SimpleName set slave id
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName set slave id
+task builder SimpleName MethodInvocation MethodInvocation SimpleName slave id
+get assigned task SimpleName MethodInvocation MethodInvocation SimpleName slave id
+set slave id SimpleName MethodInvocation SimpleName slave id
+i scheduled task SimpleName MethodInvocation SimpleName build
+i scheduled task SimpleName MethodInvocation SimpleName task builder
+build SimpleName MethodInvocation SimpleName task builder
+task state change SimpleName MethodInvocation SimpleName transition
+task state change SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+task state change SimpleName MethodInvocation MethodInvocation SimpleName build
+task state change SimpleName MethodInvocation MethodInvocation SimpleName task builder
+task state change SimpleName MethodInvocation SimpleName pending
+transition SimpleName MethodInvocation MethodInvocation SimpleName i scheduled task
+transition SimpleName MethodInvocation MethodInvocation SimpleName build
+transition SimpleName MethodInvocation MethodInvocation SimpleName task builder
+transition SimpleName MethodInvocation SimpleName pending
+i scheduled task SimpleName MethodInvocation MethodInvocation SimpleName pending
+build SimpleName MethodInvocation MethodInvocation SimpleName pending
+task builder SimpleName MethodInvocation MethodInvocation SimpleName pending
+event sink SimpleName MethodInvocation SimpleName post
+event sink SimpleName MethodInvocation MethodInvocation SimpleName task state change
+event sink SimpleName MethodInvocation MethodInvocation SimpleName transition
+event sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i scheduled task
+event sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+event sink SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task builder
+event sink SimpleName MethodInvocation MethodInvocation SimpleName pending
+post SimpleName MethodInvocation MethodInvocation SimpleName task state change
+post SimpleName MethodInvocation MethodInvocation SimpleName transition
+post SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i scheduled task
+post SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName build
+post SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task builder
+post SimpleName MethodInvocation MethodInvocation SimpleName pending
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test pending deleted handled
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test pending deleted handled
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test pending deleted handled
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test pending deleted handled SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test pending deleted handled
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test pending deleted handled
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

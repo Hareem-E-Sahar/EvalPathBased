@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName config type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName version tag
+public Modifier MethodDeclaration SimpleType SimpleName config
+public Modifier MethodDeclaration SimpleName get config
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName config type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName version tag
+config SimpleName SimpleType MethodDeclaration SimpleName get config
+config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName config type
+config SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName version tag
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName config type
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get config SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version tag
+config type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName config
+public Modifier TypeDeclaration MethodDeclaration SimpleName get config
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName config
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get config
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName config type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag

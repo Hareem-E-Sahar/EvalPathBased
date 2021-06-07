@@ -1,0 +1,33 @@
+json property SimpleName SingleMemberAnnotation StringLiteral size
+string SimpleName SimpleType SingleVariableDeclaration SimpleName size
+size SimpleName FieldAccess Assignment SimpleName size
+json property SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+size StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+json property SimpleName SingleMemberAnnotation MethodDeclaration PrimitiveType void
+size StringLiteral SingleMemberAnnotation MethodDeclaration PrimitiveType void
+json property SimpleName SingleMemberAnnotation MethodDeclaration SimpleName set size
+size StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName set size
+json property SimpleName SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName size
+size StringLiteral SingleMemberAnnotation MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+void PrimitiveType MethodDeclaration SimpleName set size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName size
+set size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral size
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size

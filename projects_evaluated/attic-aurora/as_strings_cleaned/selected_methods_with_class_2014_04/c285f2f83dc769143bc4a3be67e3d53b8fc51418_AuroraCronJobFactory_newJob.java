@@ -1,0 +1,60 @@
+trigger fired bundle SimpleName SimpleType SingleVariableDeclaration SimpleName bundle
+scheduler SimpleName SimpleType SingleVariableDeclaration SimpleName scheduler
+bundle SimpleName MethodInvocation SimpleName get job detail
+bundle SimpleName MethodInvocation MethodInvocation SimpleName get job class
+get job detail SimpleName MethodInvocation MethodInvocation SimpleName get job class
+aurora cron job SimpleName SimpleType TypeLiteral MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bundle
+equals SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get job detail
+equals SimpleName MethodInvocation MethodInvocation SimpleName get job class
+bundle SimpleName MethodInvocation SimpleName get job detail
+bundle SimpleName MethodInvocation MethodInvocation SimpleName get job class
+get job detail SimpleName MethodInvocation MethodInvocation SimpleName get job class
+quartz tried to run a type of job we dont know about StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName bundle
+quartz tried to run a type of job we dont know about StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get job detail
+quartz tried to run a type of job we dont know about StringLiteral InfixExpression MethodInvocation SimpleName get job class
+check state SimpleName MethodInvocation MethodInvocation SimpleName equals
+check state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get job class
+check state SimpleName MethodInvocation InfixExpression StringLiteral quartz tried to run a type of job we dont know about
+check state SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get job class
+equals SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral quartz tried to run a type of job we dont know about
+aurora cron job provider SimpleName MethodInvocation SimpleName get
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName job
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName new job
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName bundle
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName scheduler
+public Modifier MethodDeclaration SimpleType SimpleName job
+public Modifier MethodDeclaration SimpleName new job
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName trigger fired bundle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bundle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scheduler
+public Modifier MethodDeclaration SimpleType SimpleName scheduler exception
+job SimpleName SimpleType MethodDeclaration SimpleName new job
+job SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName bundle
+job SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scheduler
+job SimpleName SimpleType MethodDeclaration SimpleType SimpleName scheduler exception
+new job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName trigger fired bundle
+new job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bundle
+new job SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scheduler
+new job SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scheduler
+new job SimpleName MethodDeclaration SimpleType SimpleName scheduler exception
+bundle SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scheduler
+bundle SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName scheduler exception
+scheduler SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName scheduler exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName job
+public Modifier TypeDeclaration MethodDeclaration SimpleName new job
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bundle
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scheduler
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scheduler exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName job
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new job
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bundle
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scheduler
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scheduler exception

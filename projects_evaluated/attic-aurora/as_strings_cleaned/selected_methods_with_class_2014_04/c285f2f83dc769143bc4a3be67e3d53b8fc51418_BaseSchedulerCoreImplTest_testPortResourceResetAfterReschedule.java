@@ -1,0 +1,190 @@
+expect kill task SimpleName MethodInvocation NumberLiteral empty
+cron job manager SimpleName MethodInvocation SimpleName has job
+cron job manager SimpleName MethodInvocation SimpleName key a
+has job SimpleName MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+expect SimpleName MethodInvocation MethodInvocation SimpleName has job
+expect SimpleName MethodInvocation MethodInvocation SimpleName key a
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+cron job manager SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+has job SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+key a SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral false
+and return SimpleName MethodInvocation BooleanLiteral false
+control SimpleName MethodInvocation SimpleName replay
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation StringLiteral one
+of SimpleName MethodInvocation StringLiteral one
+production task SimpleName MethodInvocation MethodInvocation SimpleName set requested ports
+production task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName immutable set
+production task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName of
+production task SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral one
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+set requested ports SimpleName MethodInvocation MethodInvocation SimpleName of
+set requested ports SimpleName MethodInvocation MethodInvocation StringLiteral one
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName production task
+config SimpleName VariableDeclarationFragment MethodInvocation SimpleName set requested ports
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName immutable set
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName of
+config SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation StringLiteral one
+task config SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName config
+make job SimpleName MethodInvocation SimpleName key a
+make job SimpleName MethodInvocation SimpleName config
+make job SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation SimpleName config
+key a SimpleName MethodInvocation NumberLiteral empty
+config SimpleName MethodInvocation NumberLiteral empty
+scheduler SimpleName MethodInvocation SimpleName create job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName make job
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName key a
+scheduler SimpleName MethodInvocation MethodInvocation SimpleName config
+scheduler SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+create job SimpleName MethodInvocation MethodInvocation SimpleName make job
+create job SimpleName MethodInvocation MethodInvocation SimpleName key a
+create job SimpleName MethodInvocation MethodInvocation SimpleName config
+create job SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation SimpleName instance scoped
+query SimpleName MethodInvocation SimpleName key a
+query SimpleName MethodInvocation NumberLiteral empty
+instance scoped SimpleName MethodInvocation SimpleName key a
+instance scoped SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation MethodInvocation SimpleName active
+instance scoped SimpleName MethodInvocation MethodInvocation SimpleName active
+key a SimpleName MethodInvocation MethodInvocation SimpleName active
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName active
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance scoped
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get only task SimpleName MethodInvocation MethodInvocation SimpleName active
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task id
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation NumberLiteral empty
+assign task SimpleName MethodInvocation SimpleName task id
+assign task SimpleName MethodInvocation SimpleName slave id
+assign task SimpleName MethodInvocation SimpleName slave host
+assign task SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+assign task SimpleName MethodInvocation MethodInvocation SimpleName of
+assign task SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+task id SimpleName MethodInvocation SimpleName slave id
+task id SimpleName MethodInvocation SimpleName slave host
+task id SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+task id SimpleName MethodInvocation MethodInvocation SimpleName of
+task id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+slave id SimpleName MethodInvocation SimpleName slave host
+slave id SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+slave id SimpleName MethodInvocation MethodInvocation SimpleName of
+slave id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+slave host SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+slave host SimpleName MethodInvocation MethodInvocation SimpleName of
+slave host SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+change status SimpleName MethodInvocation SimpleName task id
+change status SimpleName MethodInvocation SimpleName lost
+task id SimpleName MethodInvocation SimpleName lost
+query SimpleName MethodInvocation SimpleName instance scoped
+query SimpleName MethodInvocation SimpleName key a
+query SimpleName MethodInvocation NumberLiteral empty
+instance scoped SimpleName MethodInvocation SimpleName key a
+instance scoped SimpleName MethodInvocation NumberLiteral empty
+key a SimpleName MethodInvocation NumberLiteral empty
+query SimpleName MethodInvocation MethodInvocation SimpleName active
+instance scoped SimpleName MethodInvocation MethodInvocation SimpleName active
+key a SimpleName MethodInvocation MethodInvocation SimpleName active
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName active
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName query
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName instance scoped
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key a
+get only task SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+get only task SimpleName MethodInvocation MethodInvocation SimpleName active
+tasks SimpleName MethodInvocation SimpleName id
+tasks SimpleName MethodInvocation MethodInvocation SimpleName get only task
+tasks SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+id SimpleName MethodInvocation MethodInvocation SimpleName get only task
+id SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName active
+new task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName tasks
+new task id SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+new task id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get only task
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new task id
+immutable set SimpleName MethodInvocation SimpleName of
+immutable set SimpleName MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation NumberLiteral empty
+assign task SimpleName MethodInvocation SimpleName new task id
+assign task SimpleName MethodInvocation SimpleName slave id
+assign task SimpleName MethodInvocation SimpleName slave host
+assign task SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+assign task SimpleName MethodInvocation MethodInvocation SimpleName of
+assign task SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+new task id SimpleName MethodInvocation SimpleName slave id
+new task id SimpleName MethodInvocation SimpleName slave host
+new task id SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+new task id SimpleName MethodInvocation MethodInvocation SimpleName of
+new task id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+slave id SimpleName MethodInvocation SimpleName slave host
+slave id SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+slave id SimpleName MethodInvocation MethodInvocation SimpleName of
+slave id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+slave host SimpleName MethodInvocation MethodInvocation SimpleName immutable set
+slave host SimpleName MethodInvocation MethodInvocation SimpleName of
+slave host SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get task SimpleName MethodInvocation SimpleName new task id
+get task SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+new task id SimpleName MethodInvocation MethodInvocation SimpleName get assigned task
+task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get task
+task SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName new task id
+task SimpleName VariableDeclarationFragment MethodInvocation SimpleName get assigned task
+i assigned task SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName task
+immutable map SimpleName MethodInvocation SimpleName of
+immutable map SimpleName MethodInvocation StringLiteral one
+immutable map SimpleName MethodInvocation NumberLiteral empty
+of SimpleName MethodInvocation StringLiteral one
+of SimpleName MethodInvocation NumberLiteral empty
+one StringLiteral MethodInvocation NumberLiteral empty
+task SimpleName MethodInvocation SimpleName get assigned ports
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName immutable map
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName of
+assert equals SimpleName MethodInvocation MethodInvocation StringLiteral one
+assert equals SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName task
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName get assigned ports
+immutable map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+immutable map SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned ports
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName task
+of SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned ports
+one StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName task
+one StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned ports
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName task
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get assigned ports
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test port resource reset after reschedule
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test port resource reset after reschedule
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test port resource reset after reschedule
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test port resource reset after reschedule SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test port resource reset after reschedule
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test port resource reset after reschedule
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

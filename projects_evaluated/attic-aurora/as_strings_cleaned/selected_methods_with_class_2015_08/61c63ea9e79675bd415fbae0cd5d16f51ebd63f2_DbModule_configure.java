@@ -1,0 +1,71 @@
+bind SimpleName MethodInvocation TypeLiteral SimpleType SimpleName row garbage collector
+bind SimpleName MethodInvocation MethodInvocation SimpleName in
+in SimpleName MethodInvocation TypeLiteral SimpleType SimpleName singleton
+bind SimpleName MethodInvocation TypeLiteral SimpleType QualifiedName abstract scheduled servicescheduler
+db row gc interval SimpleName MethodInvocation SimpleName get
+db row gc interval SimpleName MethodInvocation MethodInvocation SimpleName get value
+get SimpleName MethodInvocation MethodInvocation SimpleName get value
+db row gc interval SimpleName MethodInvocation SimpleName get
+db row gc interval SimpleName MethodInvocation MethodInvocation SimpleName get unit
+get SimpleName MethodInvocation MethodInvocation SimpleName get unit
+db row gc interval SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get time unit
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get time unit
+get unit SimpleName MethodInvocation MethodInvocation SimpleName get time unit
+abstract scheduled servicescheduler QualifiedName MethodInvocation SimpleName new fixed rate schedule
+abstract scheduled servicescheduler QualifiedName MethodInvocation NumberLiteral l
+abstract scheduled servicescheduler QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName db row gc interval
+abstract scheduled servicescheduler QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+abstract scheduled servicescheduler QualifiedName MethodInvocation MethodInvocation SimpleName get value
+abstract scheduled servicescheduler QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get unit
+abstract scheduled servicescheduler QualifiedName MethodInvocation MethodInvocation SimpleName get time unit
+new fixed rate schedule SimpleName MethodInvocation NumberLiteral l
+new fixed rate schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName db row gc interval
+new fixed rate schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get
+new fixed rate schedule SimpleName MethodInvocation MethodInvocation SimpleName get value
+new fixed rate schedule SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get unit
+new fixed rate schedule SimpleName MethodInvocation MethodInvocation SimpleName get time unit
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName db row gc interval
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get value
+l NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get unit
+l NumberLiteral MethodInvocation MethodInvocation SimpleName get time unit
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get time unit
+bind SimpleName MethodInvocation MethodInvocation SimpleName to instance
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName abstract scheduled servicescheduler
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName new fixed rate schedule
+bind SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral l
+to instance SimpleName MethodInvocation MethodInvocation QualifiedName abstract scheduled servicescheduler
+to instance SimpleName MethodInvocation MethodInvocation SimpleName new fixed rate schedule
+to instance SimpleName MethodInvocation MethodInvocation NumberLiteral l
+to instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+to instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get time unit
+expose SimpleName MethodInvocation TypeLiteral SimpleType SimpleName row garbage collector
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+install SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName private module
+scheduler services module SimpleName MethodInvocation SimpleName add scheduler active service binding
+scheduler services module SimpleName MethodInvocation MethodInvocation SimpleName binder
+add scheduler active service binding SimpleName MethodInvocation MethodInvocation SimpleName binder
+scheduler services module SimpleName MethodInvocation MethodInvocation SimpleName to
+add scheduler active service binding SimpleName MethodInvocation MethodInvocation SimpleName to
+binder SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to
+to SimpleName MethodInvocation TypeLiteral SimpleType SimpleName row garbage collector
+override SimpleName MarkerAnnotation MethodDeclaration Modifier protected
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName configure
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName configure
+void PrimitiveType MethodDeclaration SimpleName configure
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName configure
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName configure

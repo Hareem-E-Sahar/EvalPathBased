@@ -1,0 +1,24 @@
+host request SimpleName SimpleType SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName track action response
+public Modifier MethodDeclaration SimpleName create hosts
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host request
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier MethodDeclaration SimpleType SimpleName ambari exception
+track action response SimpleName SimpleType MethodDeclaration SimpleName create hosts
+track action response SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName request
+track action response SimpleName SimpleType MethodDeclaration SimpleType SimpleName ambari exception
+create hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName host request
+create hosts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName request
+create hosts SimpleName MethodDeclaration SimpleType SimpleName ambari exception
+request SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+public Modifier TypeDeclaration MethodDeclaration SimpleName create hosts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName track action response
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create hosts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName request
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName ambari exception

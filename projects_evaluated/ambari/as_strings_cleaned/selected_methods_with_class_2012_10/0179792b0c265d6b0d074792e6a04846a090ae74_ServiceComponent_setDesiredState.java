@@ -1,0 +1,19 @@
+state SimpleName SimpleType SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set desired state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleName set desired state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+set desired state SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName state
+set desired state SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set desired state
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set desired state
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

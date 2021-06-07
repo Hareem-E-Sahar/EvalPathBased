@@ -1,0 +1,29 @@
+i scheduled task SimpleName SimpleType SingleVariableDeclaration SimpleName task
+assert equals SimpleName MethodInvocation SimpleName a
+assert equals SimpleName MethodInvocation SimpleName task
+a SimpleName MethodInvocation SimpleName task
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName i scheduled task
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName apply
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SimpleName apply
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName task
+public Modifier MethodDeclaration Block ReturnStatement SimpleName b
+i scheduled task SimpleName SimpleType MethodDeclaration SimpleName apply
+i scheduled task SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName task
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName i scheduled task
+apply SimpleName MethodDeclaration SingleVariableDeclaration SimpleName task
+apply SimpleName MethodDeclaration Block ReturnStatement SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName i scheduled task
+public Modifier TypeDeclaration MethodDeclaration SimpleName apply
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName i scheduled task
+test SimpleName TypeDeclaration MethodDeclaration SimpleName apply
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName task

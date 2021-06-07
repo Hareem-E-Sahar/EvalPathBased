@@ -1,0 +1,28 @@
+stack version SimpleName SimpleType SingleVariableDeclaration SimpleName stack version
+write lock SimpleName MethodInvocation SimpleName lock
+stack version SimpleName FieldAccess Assignment SimpleName stack version
+write lock SimpleName MethodInvocation SimpleName unlock
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName set stack version
+override SimpleName MarkerAnnotation MethodDeclaration SingleVariableDeclaration SimpleName stack version
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set stack version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stack version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName stack version
+void PrimitiveType MethodDeclaration SimpleName set stack version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stack version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stack version
+set stack version SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName stack version
+set stack version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stack version
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set stack version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stack version
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName override
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set stack version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stack version

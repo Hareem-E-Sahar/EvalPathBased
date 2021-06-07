@@ -1,0 +1,20 @@
+long SimpleName SimpleType SingleVariableDeclaration SimpleName cluster id
+cluster id SimpleName FieldAccess Assignment SimpleName cluster id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set cluster id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cluster id
+void PrimitiveType MethodDeclaration SimpleName set cluster id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cluster id
+set cluster id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName long
+set cluster id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cluster id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set cluster id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set cluster id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cluster id

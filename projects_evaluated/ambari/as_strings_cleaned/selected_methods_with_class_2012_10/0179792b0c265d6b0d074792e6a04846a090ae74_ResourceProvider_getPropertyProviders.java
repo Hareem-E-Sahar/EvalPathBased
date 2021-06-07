@@ -1,0 +1,11 @@
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName property provider
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName property provider
+public Modifier MethodDeclaration SimpleName get property providers
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get property providers
+property provider SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get property providers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property providers
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property providers

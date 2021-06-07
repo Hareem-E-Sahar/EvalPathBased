@@ -1,0 +1,58 @@
+scheduler SimpleName MethodInvocation SimpleName delete job
+scheduler SimpleName MethodInvocation QualifiedName quartz test utilquartz job key
+delete job SimpleName MethodInvocation QualifiedName quartz test utilquartz job key
+expect SimpleName MethodInvocation MethodInvocation SimpleName scheduler
+expect SimpleName MethodInvocation MethodInvocation SimpleName delete job
+expect SimpleName MethodInvocation MethodInvocation QualifiedName quartz test utilquartz job key
+expect SimpleName MethodInvocation MethodInvocation SimpleName and return
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+delete job SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+quartz test utilquartz job key QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName and return
+expect SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+scheduler SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+delete job SimpleName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+quartz test utilquartz job key QualifiedName MethodInvocation MethodInvocation MethodInvocation BooleanLiteral true
+and return SimpleName MethodInvocation BooleanLiteral true
+control SimpleName MethodInvocation SimpleName replay
+cron job manager SimpleName MethodInvocation SimpleName delete job
+cron job manager SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+delete job SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+assert false SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+assert false SimpleName MethodInvocation MethodInvocation SimpleName delete job
+assert false SimpleName MethodInvocation MethodInvocation QualifiedName quartz test utilaurora job key
+cron job manager SimpleName MethodInvocation SimpleName delete job
+cron job manager SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+delete job SimpleName MethodInvocation QualifiedName quartz test utilaurora job key
+assert true SimpleName MethodInvocation MethodInvocation SimpleName cron job manager
+assert true SimpleName MethodInvocation MethodInvocation SimpleName delete job
+assert true SimpleName MethodInvocation MethodInvocation QualifiedName quartz test utilaurora job key
+optional SimpleName MethodInvocation SimpleType SimpleName i job configuration
+optional SimpleName MethodInvocation SimpleName absent
+i job configuration SimpleName SimpleType MethodInvocation SimpleName absent
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName optional
+assert equals SimpleName MethodInvocation MethodInvocation SimpleType SimpleName i job configuration
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName absent
+assert equals SimpleName MethodInvocation MethodInvocation SimpleName fetch from storage
+optional SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch from storage
+absent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName fetch from storage
+test SimpleName MarkerAnnotation MethodDeclaration Modifier public
+test SimpleName MarkerAnnotation MethodDeclaration PrimitiveType void
+test SimpleName MarkerAnnotation MethodDeclaration SimpleName test delete job
+test SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName test delete job
+public Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName test delete job
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+test delete job SimpleName MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName test delete job
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration MarkerAnnotation SimpleName test
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test delete job
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

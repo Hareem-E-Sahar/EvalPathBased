@@ -1,0 +1,102 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName table
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName property id
+map SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+map SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName properties
+columns SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName columns
+values SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string builder
+string builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName values
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName property id
+mapentry QualifiedName SimpleType ParameterizedType SimpleType SimpleName object
+property id SimpleName SimpleType ParameterizedType SimpleType SimpleName object
+mapentry QualifiedName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+property id SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+object SimpleName SimpleType ParameterizedType SingleVariableDeclaration SimpleName entry
+properties SimpleName MethodInvocation SimpleName entry set
+entry SimpleName MethodInvocation SimpleName get key
+property id SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+property id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get key
+property id SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property id
+entry SimpleName MethodInvocation SimpleName get value
+property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName entry
+property value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName property value
+columns SimpleName MethodInvocation SimpleName length
+columns SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+columns SimpleName MethodInvocation SimpleName append
+columns SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+property id SimpleName MethodInvocation SimpleName get name
+columns SimpleName MethodInvocation SimpleName append
+columns SimpleName MethodInvocation MethodInvocation SimpleName property id
+columns SimpleName MethodInvocation MethodInvocation SimpleName get name
+append SimpleName MethodInvocation MethodInvocation SimpleName property id
+append SimpleName MethodInvocation MethodInvocation SimpleName get name
+values SimpleName MethodInvocation SimpleName length
+values SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+values SimpleName MethodInvocation SimpleName append
+values SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+property value SimpleName InstanceofExpression SimpleType SimpleName string
+values SimpleName MethodInvocation SimpleName append
+values SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+values SimpleName MethodInvocation SimpleName append
+values SimpleName MethodInvocation SimpleName property value
+append SimpleName MethodInvocation SimpleName property value
+values SimpleName MethodInvocation SimpleName append
+values SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+values SimpleName MethodInvocation SimpleName append
+values SimpleName MethodInvocation SimpleName property value
+append SimpleName MethodInvocation SimpleName property value
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName properties
+entry SimpleName SingleVariableDeclaration EnhancedForStatement MethodInvocation SimpleName entry set
+insert into StringLiteral InfixExpression SimpleName table
+insert into StringLiteral InfixExpression StringLiteral (
+insert into StringLiteral InfixExpression SimpleName columns
+insert into StringLiteral InfixExpression StringLiteral ) values (
+insert into StringLiteral InfixExpression SimpleName values
+table SimpleName InfixExpression StringLiteral (
+table SimpleName InfixExpression SimpleName columns
+table SimpleName InfixExpression StringLiteral ) values (
+table SimpleName InfixExpression SimpleName values
+table SimpleName InfixExpression StringLiteral )
+( StringLiteral InfixExpression SimpleName columns
+( StringLiteral InfixExpression StringLiteral ) values (
+( StringLiteral InfixExpression SimpleName values
+( StringLiteral InfixExpression StringLiteral )
+columns SimpleName InfixExpression StringLiteral ) values (
+columns SimpleName InfixExpression SimpleName values
+columns SimpleName InfixExpression StringLiteral )
+) values ( StringLiteral InfixExpression SimpleName values
+) values ( StringLiteral InfixExpression StringLiteral )
+values SimpleName InfixExpression StringLiteral )
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get insert sql
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName table
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName properties
+string SimpleName SimpleType MethodDeclaration SimpleName get insert sql
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName table
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName properties
+get insert sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get insert sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleName table
+get insert sql SimpleName MethodDeclaration SingleVariableDeclaration SimpleName properties
+table SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get insert sql
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get insert sql
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName properties

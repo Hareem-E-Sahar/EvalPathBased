@@ -1,0 +1,22 @@
+json property SimpleName SingleMemberAnnotation StringLiteral execution commands
+list SimpleName SimpleType ParameterizedType SimpleType SimpleName execution command
+json property SimpleName SingleMemberAnnotation MethodDeclaration Modifier public
+execution commands StringLiteral SingleMemberAnnotation MethodDeclaration Modifier public
+json property SimpleName SingleMemberAnnotation MethodDeclaration SimpleName get execution commands
+execution commands StringLiteral SingleMemberAnnotation MethodDeclaration SimpleName get execution commands
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName list
+public Modifier MethodDeclaration ParameterizedType SimpleType SimpleName execution command
+public Modifier MethodDeclaration SimpleName get execution commands
+public Modifier MethodDeclaration Block ReturnStatement SimpleName execution commands
+list SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get execution commands
+execution command SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName get execution commands
+get execution commands SimpleName MethodDeclaration Block ReturnStatement SimpleName execution commands
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+public Modifier TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral execution commands
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get execution commands
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation SimpleName json property
+test SimpleName TypeDeclaration MethodDeclaration SingleMemberAnnotation StringLiteral execution commands
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get execution commands

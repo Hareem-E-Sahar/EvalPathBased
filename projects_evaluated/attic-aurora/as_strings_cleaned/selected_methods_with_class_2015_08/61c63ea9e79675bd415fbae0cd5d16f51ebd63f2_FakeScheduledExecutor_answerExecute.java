@@ -1,0 +1,39 @@
+i answer SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+i answer SimpleName SimpleType ParameterizedType SimpleType SimpleName void
+easy mock SimpleName MethodInvocation SimpleName get current arguments
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName easy mock
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current arguments
+args SimpleName ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+runnable SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+work SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName runnable
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName args
+work SimpleName VariableDeclarationFragment CastExpression ArrayAccess NumberLiteral empty
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName work
+work SimpleName MethodInvocation SimpleName run
+override SimpleName MarkerAnnotation MethodDeclaration Modifier public
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName void
+override SimpleName MarkerAnnotation MethodDeclaration SimpleName answer
+override SimpleName MarkerAnnotation MethodDeclaration SimpleType SimpleName throwable
+public Modifier MethodDeclaration SimpleType SimpleName void
+public Modifier MethodDeclaration SimpleName answer
+public Modifier MethodDeclaration SimpleType SimpleName throwable
+void SimpleName SimpleType MethodDeclaration SimpleName answer
+void SimpleName SimpleType MethodDeclaration SimpleType SimpleName throwable
+answer SimpleName MethodDeclaration SimpleType SimpleName throwable
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i answer
+private Modifier MethodDeclaration ParameterizedType SimpleType SimpleName void
+private Modifier MethodDeclaration SimpleName answer execute
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName i answer
+static Modifier MethodDeclaration ParameterizedType SimpleType SimpleName void
+static Modifier MethodDeclaration SimpleName answer execute
+i answer SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer execute
+void SimpleName SimpleType ParameterizedType MethodDeclaration SimpleName answer execute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName answer execute
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName answer execute

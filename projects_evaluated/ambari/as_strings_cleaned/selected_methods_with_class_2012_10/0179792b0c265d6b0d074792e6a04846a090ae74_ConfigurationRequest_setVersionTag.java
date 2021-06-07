@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName version tag
+version tag SimpleName FieldAccess Assignment SimpleName version tag
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set version tag
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName version tag
+void PrimitiveType MethodDeclaration SimpleName set version tag
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName version tag
+set version tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set version tag SimpleName MethodDeclaration SingleVariableDeclaration SimpleName version tag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set version tag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set version tag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName version tag
